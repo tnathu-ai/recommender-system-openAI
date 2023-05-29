@@ -4,8 +4,6 @@
 
 # Repository Structure
 
-## Repository Contents
-
 - `LICENSE`: This file contains the licensing details, which describes how the project can be used or shared.
 - `README.md`: This file contains a general description of the project, setup instructions, examples of use, and other important details.
 
