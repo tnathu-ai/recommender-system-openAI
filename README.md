@@ -1,6 +1,12 @@
 # recommender-system
 
-![image](https://github.com/tnathu-ai/recommender-system/assets/72063833/4108543a-7b27-46d9-9257-5072e6967255)
+![image](https://github.com/tnathu-ai/recommender-system/assets/72063833/45f92fdc-32f4-425c-bcd4-dfdb331ca5f4)
+
+<iframe
+  src="https://carbon.now.sh/embed/50e7aRNkhLDw6CkW4BzS"
+  style="width: 1018px; height: 875px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 
 # Repository Structure
 
