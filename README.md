@@ -16,6 +16,5 @@
   - `notebook`: This directory includes a Jupyter notebook `SVD.ipynb` which contains the code for the SVD implementation.
 
 - `resources`: This directory contains additional resources related to SVD.
-  - `coursera`: This directory includes resources from a Coursera course, such as the `svd-assignment.zip` file which might contain assignment-related data or solutions, and `svd-description.pdf` providing a detailed description of SVD.
 
 For further details about the implementation, please refer to the Jupyter notebook under the `SVD/notebook` directory.
