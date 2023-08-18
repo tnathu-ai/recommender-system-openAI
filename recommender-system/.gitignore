@@ -1,0 +1,14 @@
+# Ignore .env files
+**/.env
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore Python compiled files and cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Ignore Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
