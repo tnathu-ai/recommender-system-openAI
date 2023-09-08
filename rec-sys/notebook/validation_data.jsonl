@@ -1,695 +1,200 @@
-{"prompt": "Title: Toy Story (1995), Genres: Adventure|Animation|Children|Comedy|Fantasy, Tag: pixar", "completion": "4.0"}
-{"prompt": "Title: Jumanji (1995), Genres: Adventure|Children|Fantasy, Tag: magic board game", "completion": "4.0"}
-{"prompt": "Title: Sabrina (1995), Genres: Comedy|Romance, Tag: remake", "completion": "3.0"}
-{"prompt": "Title: Casino (1995), Genres: Crime|Drama, Tag: Mafia", "completion": "4.0"}
-{"prompt": "Title: Copycat (1995), Genres: Crime|Drama|Horror|Mystery|Thriller, Tag: serial killer", "completion": "3.0"}
-{"prompt": "Title: Othello (1995), Genres: Drama, Tag: Shakespeare", "completion": "3.5"}
-{"prompt": "Title: Twelve Monkeys (a.k.a. 12 Monkeys) (1995), Genres: Mystery|Sci-Fi|Thriller, Tag: remake", "completion": "4.5"}
-{"prompt": "Title: Twelve Monkeys (a.k.a. 12 Monkeys) (1995), Genres: Mystery|Sci-Fi|Thriller, Tag: time travel", "completion": "4.5"}
-{"prompt": "Title: Twelve Monkeys (a.k.a. 12 Monkeys) (1995), Genres: Mystery|Sci-Fi|Thriller, Tag: twist ending", "completion": "4.5"}
-{"prompt": "Title: Babe (1995), Genres: Children|Drama, Tag: pigs", "completion": "4.5"}
-{"prompt": "Title: Clueless (1995), Genres: Comedy|Romance, Tag: quotable", "completion": "4.5"}
-{"prompt": "Title: Richard III (1995), Genres: Drama|War, Tag: Shakespeare", "completion": "3.5"}
-{"prompt": "Title: Mighty Aphrodite (1995), Genres: Comedy|Drama|Romance, Tag: prostitution", "completion": "4.0"}
-{"prompt": "Title: Muppet Treasure Island (1996), Genres: Adventure|Children|Comedy|Musical, Tag: muppets", "completion": "3.0"}
-{"prompt": "Title: Up Close and Personal (1996), Genres: Drama|Romance, Tag: journalism", "completion": "2.5"}
-{"prompt": "Title: Basketball Diaries, The (1995), Genres: Drama, Tag: addiction", "completion": "3.5"}
-{"prompt": "Title: Apollo 13 (1995), Genres: Adventure|Drama|IMAX, Tag: NASA", "completion": "4.5"}
-{"prompt": "Title: Congo (1995), Genres: Action|Adventure|Mystery|Sci-Fi, Tag: Michael Crichton", "completion": "1.0"}
-{"prompt": "Title: Kids (1995), Genres: Drama, Tag: Nudity (Full Frontal)", "completion": "4.5"}
-{"prompt": "Title: Clerks (1994), Genres: Comedy, Tag: quirky", "completion": "3.5"}
-{"prompt": "Title: Clerks (1994), Genres: Comedy, Tag: generation X", "completion": "3.5"}
-{"prompt": "Title: Dolores Claiborne (1995), Genres: Drama|Thriller, Tag: Stephen King", "completion": "3.5"}
-{"prompt": "Title: Forget Paris (1995), Genres: Comedy|Romance, Tag: basketball", "completion": "3.5"}
-{"prompt": "Title: Immortal Beloved (1994), Genres: Drama|Romance, Tag: Beethoven", "completion": "4.0"}
-{"prompt": "Title: Star Wars: Episode IV - A New Hope (1977), Genres: Action|Adventure|Sci-Fi, Tag: classic", "completion": "5.0"}
-{"prompt": "Title: Star Wars: Episode IV - A New Hope (1977), Genres: Action|Adventure|Sci-Fi, Tag: sci-fi", "completion": "4.5"}
-{"prompt": "Title: Star Wars: Episode IV - A New Hope (1977), Genres: Action|Adventure|Sci-Fi, Tag: luke skywalker", "completion": "4.0"}
-{"prompt": "Title: Madness of King George, The (1994), Genres: Comedy|Drama, Tag: mental illness", "completion": "3.5"}
-{"prompt": "Title: Miracle on 34th Street (1994), Genres: Drama, Tag: Christmas", "completion": "2.0"}
-{"prompt": "Title: Natural Born Killers (1994), Genres: Action|Crime|Thriller, Tag: dark comedy", "completion": "4.0"}
-{"prompt": "Title: Natural Born Killers (1994), Genres: Action|Crime|Thriller, Tag: psychedelic", "completion": "4.0"}
-{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: corruption", "completion": "5.0"}
-{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: Guns", "completion": "5.0"}
-{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: Lolita theme", "completion": "5.0"}
-{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: Luc Besson", "completion": "5.0"}
-{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: Natalie Portman", "completion": "5.0"}
-{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: touching", "completion": "5.0"}
+{"prompt": "Title: Natural, The (1984), Genres: Drama, Tag: baseball", "completion": "3.5"}
+{"prompt": "Title: Margin Call (2011), Genres: Drama|Thriller, Tag: big corporations", "completion": "5.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: drugs", "completion": "4.5"}
+{"prompt": "Title: Hustler, The (1961), Genres: Drama, Tag: pool", "completion": "3.5"}
+{"prompt": "Title: The Shape of Water (2017), Genres: Adventure|Drama|Fantasy, Tag: atmospheric", "completion": "4.0"}
+{"prompt": "Title: Grapes of Wrath, The (1940), Genres: Drama, Tag: dust bowl", "completion": "4.5"}
+{"prompt": "Title: Guardians of the Galaxy (2014), Genres: Action|Adventure|Sci-Fi, Tag: funny", "completion": "3.5"}
+{"prompt": "Title: Friday the 13th Part IV: The Final Chapter (1984), Genres: Horror, Tag: Jason", "completion": "1.5"}
+{"prompt": "Title: Europa Europa (Hitlerjunge Salomon) (1990), Genres: Drama|War, Tag: Holocaust", "completion": "3.5"}
+{"prompt": "Title: Dangerous Minds (1995), Genres: Drama, Tag: teacher", "completion": "3.0"}
+{"prompt": "Title: Upstream Color (2013), Genres: Romance|Sci-Fi|Thriller, Tag: existentialism", "completion": "3.5"}
+{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: Palahnuik", "completion": "5.0"}
+{"prompt": "Title: Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964), Genres: Comedy|War, Tag: Slim Pickens", "completion": "5.0"}
+{"prompt": "Title: Rosencrantz and Guildenstern Are Dead (1990), Genres: Comedy|Drama, Tag: Shakespeare sort of", "completion": "4.0"}
+{"prompt": "Title: Blade (1998), Genres: Action|Horror|Thriller, Tag: vampires", "completion": "2.0"}
+{"prompt": "Title: Star Wars: Episode IV - A New Hope (1977), Genres: Action|Adventure|Sci-Fi, Tag: classic sci-fi", "completion": "5.0"}
+{"prompt": "Title: More (1998), Genres: Animation|Drama|Sci-Fi|IMAX, Tag: no dialogue", "completion": "5.0"}
+{"prompt": "Title: Donnie Darko (2001), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: mindfuck", "completion": "3.5"}
+{"prompt": "Title: Movie 43 (2013), Genres: Comedy, Tag: offensive", "completion": "5.0"}
+{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: psychology", "completion": "4.5"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: blood splatters", "completion": "5.0"}
+{"prompt": "Title: Safety Last! (1923), Genres: Action|Comedy|Romance, Tag: Clock", "completion": "5.0"}
+{"prompt": "Title: Lara Croft Tomb Raider: The Cradle of Life (2003), Genres: Action|Adventure|Comedy|Romance|Thriller, Tag: adventure", "completion": "3.5"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: notable soundtrack", "completion": "5.0"}
+{"prompt": "Title: Avatar (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: James Cameron", "completion": "4.0"}
+{"prompt": "Title: (500) Days of Summer (2009), Genres: Comedy|Drama|Romance, Tag: quirky", "completion": "5.0"}
+{"prompt": "Title: The Hateful Eight (2015), Genres: Western, Tag: Dialogue", "completion": "5.0"}
+{"prompt": "Title: Killing Fields, The (1984), Genres: Drama|War, Tag: Vietnam", "completion": "3.5"}
+{"prompt": "Title: Kingdom of Heaven (2005), Genres: Action|Drama|Romance|War, Tag: Liam Neeson", "completion": "4.0"}
+{"prompt": "Title: Grosse Pointe Blank (1997), Genres: Comedy|Crime|Romance, Tag: hit men", "completion": "4.0"}
+{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: assassins", "completion": "5.0"}
+{"prompt": "Title: Anchorman 2: The Legend Continues (2013), Genres: Comedy, Tag: Steve Carell", "completion": "4.0"}
+{"prompt": "Title: Village, The (2004), Genres: Drama|Mystery|Thriller, Tag: good soundtrack", "completion": "4.5"}
+{"prompt": "Title: Oh, God! Book II (1980), Genres: Comedy, Tag: religion", "completion": "1.5"}
+{"prompt": "Title: 12 Angry Men (1957), Genres: Drama, Tag: gritty", "completion": "4.5"}
+{"prompt": "Title: Twelve Monkeys (a.k.a. 12 Monkeys) (1995), Genres: Mystery|Sci-Fi|Thriller, Tag: post-apocalyptic", "completion": "4.5"}
+{"prompt": "Title: Avatar (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: beautiful scenery", "completion": "5.0"}
+{"prompt": "Title: Avatar (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: futuristic", "completion": "4.0"}
+{"prompt": "Title: Dallas Buyers Club (2013), Genres: Drama, Tag: Jared Leto", "completion": "4.0"}
+{"prompt": "Title: Scott Pilgrim vs. the World (2010), Genres: Action|Comedy|Fantasy|Musical|Romance, Tag: video games", "completion": "5.0"}
+{"prompt": "Title: Farewell to Arms, A (1932), Genres: Romance|War, Tag: Hemingway", "completion": "3.0"}
+{"prompt": "Title: Cape Fear (1991), Genres: Thriller, Tag: Martin Scorsese", "completion": "4.5"}
+{"prompt": "Title: In the Mood For Love (Fa yeung nin wa) (2000), Genres: Drama|Romance, Tag: melancholic", "completion": "4.5"}
+{"prompt": "Title: Up (2009), Genres: Adventure|Animation|Children|Drama, Tag: cartoon", "completion": "4.0"}
+{"prompt": "Title: Punch-Drunk Love (2002), Genres: Comedy|Drama|Romance, Tag: surreal", "completion": "3.5"}
+{"prompt": "Title: Big Top Pee-Wee (1988), Genres: Adventure|Children|Comedy, Tag: circus", "completion": "1.0"}
+{"prompt": "Title: My Left Foot (1989), Genres: Drama, Tag: In Netflix queue", "completion": "4.0"}
+{"prompt": "Title: Lord of the Rings: The Return of the King, The (2003), Genres: Action|Adventure|Drama|Fantasy, Tag: Tolkien", "completion": "5.0"}
+{"prompt": "Title: All the President's Men (1976), Genres: Drama|Thriller, Tag: journalism", "completion": "4.0"}
+{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: hit men", "completion": "3.5"}
+{"prompt": "Title: A Story of Children and Film (2013), Genres: Documentary, Tag: representation of children", "completion": "3.5"}
+{"prompt": "Title: Fantastic Four (2005), Genres: Action|Adventure|Sci-Fi, Tag: Jessica Alba", "completion": "3.0"}
+{"prompt": "Title: Official Story, The (La historia oficial) (1985), Genres: Drama, Tag: missing children", "completion": "4.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: coke", "completion": "5.0"}
+{"prompt": "Title: Hard-Boiled (Lat sau san taam) (1992), Genres: Action|Crime|Drama|Thriller, Tag: heroic bloodshed", "completion": "5.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: comedy", "completion": "5.0"}
+{"prompt": "Title: Friends with Benefits (2011), Genres: Comedy|Romance, Tag: Justin Timberlake", "completion": "3.5"}
+{"prompt": "Title: Pretty in Pink (1986), Genres: Comedy|Drama|Romance, Tag: high school", "completion": "4.0"}
+{"prompt": "Title: Eraserhead (1977), Genres: Drama|Horror, Tag: Insane", "completion": "5.0"}
+{"prompt": "Title: Volunteers (1985), Genres: Comedy, Tag: Peace Corp", "completion": "2.0"}
+{"prompt": "Title: Suicide Squad (2016), Genres: Action|Crime|Sci-Fi, Tag: superhero", "completion": "4.0"}
+{"prompt": "Title: Batman v Superman: Dawn of Justice (2016), Genres: Action|Adventure|Fantasy|Sci-Fi, Tag: Gal Gadot", "completion": "4.0"}
+{"prompt": "Title: Django Unchained (2012), Genres: Action|Drama|Western, Tag: western", "completion": "5.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: nonlinear", "completion": "5.0"}
+{"prompt": "Title: Full Metal Jacket (1987), Genres: Drama|War, Tag: Vietnam", "completion": "4.0"}
+{"prompt": "Title: Fargo (1996), Genres: Comedy|Crime|Drama|Thriller, Tag: based on a true story", "completion": "3.5"}
+{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: mind-blowing", "completion": "5.0"}
+{"prompt": "Title: Suicide Squad (2016), Genres: Action|Crime|Sci-Fi, Tag: Poor story", "completion": "4.0"}
+{"prompt": "Title: Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2) (2002), Genres: Action|Comedy|Sci-Fi, Tag: first was much better", "completion": "3.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: exciting", "completion": "5.0"}
+{"prompt": "Title: Kind Hearts and Coronets (1949), Genres: Comedy|Drama, Tag: family", "completion": "4.0"}
+{"prompt": "Title: M (1931), Genres: Crime|Film-Noir|Thriller, Tag: chilly", "completion": "4.0"}
+{"prompt": "Title: Forget Paris (1995), Genres: Comedy|Romance, Tag: infertility", "completion": "3.5"}
+{"prompt": "Title: Dark Knight Rises, The (2012), Genres: Action|Adventure|Crime|IMAX, Tag: Christopher Nolan", "completion": "4.5"}
+{"prompt": "Title: K-PAX (2001), Genres: Drama|Fantasy|Mystery|Sci-Fi, Tag: aliens", "completion": "2.5"}
+{"prompt": "Title: Deadpool 2 (2018), Genres: Action|Comedy|Sci-Fi, Tag: sarcasm", "completion": "4.0"}
+{"prompt": "Title: American History X (1998), Genres: Crime|Drama, Tag: thought-provoking", "completion": "4.0"}
+{"prompt": "Title: Boomerang (1992), Genres: Comedy|Romance, Tag: dating", "completion": "1.0"}
+{"prompt": "Title: Iron Giant, The (1999), Genres: Adventure|Animation|Children|Drama|Sci-Fi, Tag: robots", "completion": "4.0"}
+{"prompt": "Title: Rare Exports: A Christmas Tale (Rare Exports) (2010), Genres: Action|Comedy, Tag: male nudity", "completion": "5.0"}
+{"prompt": "Title: Blade Runner (1982), Genres: Action|Sci-Fi|Thriller, Tag: dreamlike", "completion": "3.5"}
 {"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: great soundtrack", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: non-linear", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: cult film", "completion": "4.5"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: hit men", "completion": "4.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: atmospheric", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: Black comedy", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: character development", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: cool", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: cult", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: dialogue", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: ensemble cast", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: entirely dialogue", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: fast-paced", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: gritty", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: iconic", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: interwoven storylines", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: neo-noir", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: original plot", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: pop culture references", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: pulp", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: satire", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: thriller", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: violent", "completion": "5.0"}
-{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: witty", "completion": "5.0"}
-{"prompt": "Title: What's Eating Gilbert Grape (1993), Genres: Drama, Tag: mental illness", "completion": "4.0"}
-{"prompt": "Title: Virtuosity (1995), Genres: Action|Sci-Fi|Thriller, Tag: serial killer", "completion": "3.0"}
-{"prompt": "Title: Muriel's Wedding (1994), Genres: Comedy, Tag: weddings", "completion": "3.5"}
-{"prompt": "Title: Adventures of Priscilla, Queen of the Desert, The (1994), Genres: Comedy|Drama, Tag: cross dressing", "completion": "3.5"}
-{"prompt": "Title: Adventures of Priscilla, Queen of the Desert, The (1994), Genres: Comedy|Drama, Tag: men in drag", "completion": "3.5"}
-{"prompt": "Title: Clear and Present Danger (1994), Genres: Action|Crime|Drama|Thriller, Tag: Tom Clancy", "completion": "3.0"}
-{"prompt": "Title: Client, The (1994), Genres: Drama|Mystery|Thriller, Tag: John Grisham", "completion": "3.0"}
-{"prompt": "Title: Forrest Gump (1994), Genres: Comedy|Drama|Romance|War, Tag: Vietnam", "completion": "3.0"}
-{"prompt": "Title: It Could Happen to You (1994), Genres: Comedy|Drama|Romance, Tag: gambling", "completion": "3.5"}
-{"prompt": "Title: Lion King, The (1994), Genres: Adventure|Animation|Children|Drama|Musical|IMAX, Tag: Disney", "completion": "4.5"}
-{"prompt": "Title: Paper, The (1994), Genres: Comedy|Drama, Tag: journalism", "completion": "3.0"}
-{"prompt": "Title: Remains of the Day, The (1993), Genres: Drama|Romance, Tag: Butler", "completion": "5.0"}
-{"prompt": "Title: Romper Stomper (1992), Genres: Action|Drama, Tag: Australia", "completion": "3.5"}
-{"prompt": "Title: Schindler's List (1993), Genres: Drama|War, Tag: Holocaust", "completion": "5.0"}
-{"prompt": "Title: Short Cuts (1993), Genres: Drama, Tag: large cast", "completion": "4.0"}
-{"prompt": "Title: Blade Runner (1982), Genres: Action|Sci-Fi|Thriller, Tag: robots", "completion": "3.0"}
-{"prompt": "Title: Blade Runner (1982), Genres: Action|Sci-Fi|Thriller, Tag: future", "completion": "5.0"}
-{"prompt": "Title: Home Alone (1990), Genres: Children|Comedy, Tag: christmas", "completion": "2.0"}
-{"prompt": "Title: Ghost (1990), Genres: Comedy|Drama|Fantasy|Romance|Thriller, Tag: overrated", "completion": "3.0"}
-{"prompt": "Title: Terminator 2: Judgment Day (1991), Genres: Action|Sci-Fi, Tag: nuclear war", "completion": "2.0"}
-{"prompt": "Title: Terminator 2: Judgment Day (1991), Genres: Action|Sci-Fi, Tag: robots", "completion": "4.0"}
-{"prompt": "Title: Dances with Wolves (1990), Genres: Adventure|Drama|Western, Tag: Native Americans", "completion": "3.5"}
-{"prompt": "Title: Silence of the Lambs, The (1991), Genres: Crime|Horror|Thriller, Tag: disturbing", "completion": "5.0"}
-{"prompt": "Title: Silence of the Lambs, The (1991), Genres: Crime|Horror|Thriller, Tag: gothic", "completion": "5.0"}
-{"prompt": "Title: Pretty Woman (1990), Genres: Comedy|Romance, Tag: prostitution", "completion": "4.0"}
-{"prompt": "Title: Fargo (1996), Genres: Comedy|Crime|Drama|Thriller, Tag: dark comedy", "completion": "3.5"}
-{"prompt": "Title: Fargo (1996), Genres: Comedy|Crime|Drama|Thriller, Tag: Coen Brothers", "completion": "4.0"}
-{"prompt": "Title: Courage Under Fire (1996), Genres: Action|Crime|Drama|War, Tag: Gulf War", "completion": "3.0"}
-{"prompt": "Title: Wallace & Gromit: A Close Shave (1995), Genres: Animation|Children|Comedy, Tag: Aardman", "completion": "4.0"}
-{"prompt": "Title: Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964), Genres: Comedy|War, Tag: black comedy", "completion": "5.0"}
-{"prompt": "Title: Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964), Genres: Comedy|War, Tag: dark comedy", "completion": "3.0"}
-{"prompt": "Title: Trainspotting (1996), Genres: Comedy|Crime|Drama, Tag: narrated", "completion": "4.0"}
-{"prompt": "Title: Ransom (1996), Genres: Crime|Thriller, Tag: Mel Gibson", "completion": "3.0"}
-{"prompt": "Title: Tin Cup (1996), Genres: Comedy|Drama|Romance, Tag: golf", "completion": "2.0"}
-{"prompt": "Title: Godfather, The (1972), Genres: Crime|Drama, Tag: Mafia", "completion": "5.0"}
-{"prompt": "Title: Vertigo (1958), Genres: Drama|Mystery|Romance|Thriller, Tag: falling", "completion": "4.5"}
-{"prompt": "Title: Rear Window (1954), Genres: Mystery|Thriller, Tag: voyeurism", "completion": "4.0"}
-{"prompt": "Title: It Happened One Night (1934), Genres: Comedy|Romance, Tag: Screwball", "completion": "5.0"}
-{"prompt": "Title: Apartment, The (1960), Genres: Comedy|Drama|Romance, Tag: adultery", "completion": "4.0"}
-{"prompt": "Title: Meet Me in St. Louis (1944), Genres: Musical, Tag: 1900s", "completion": "3.5"}
-{"prompt": "Title: Sunset Blvd. (a.k.a. Sunset Boulevard) (1950), Genres: Drama|Film-Noir|Romance, Tag: movies", "completion": "4.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: aliens", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: Arthur C. Clarke", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: Dull", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: mystery", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: overrated", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: relaxing", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: slow paced", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: space", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: superb soundtrack", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: surreal", "completion": "5.0"}
-{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: technology", "completion": "5.0"}
-{"prompt": "Title: Women, The (1939), Genres: Comedy, Tag: divorce", "completion": "4.0"}
-{"prompt": "Title: Foreign Correspondent (1940), Genres: Drama|Film-Noir|Mystery|Thriller, Tag: Europe", "completion": "3.5"}
-{"prompt": "Title: Spellbound (1945), Genres: Mystery|Romance|Thriller, Tag: amnesia", "completion": "3.5"}
-{"prompt": "Title: Gigi (1958), Genres: Musical, Tag: prostitution", "completion": "2.5"}
-{"prompt": "Title: Mark of Zorro, The (1940), Genres: Adventure, Tag: swashbuckler", "completion": "3.5"}
-{"prompt": "Title: Ghost and Mrs. Muir, The (1947), Genres: Drama|Fantasy|Romance, Tag: ghosts", "completion": "3.5"}
-{"prompt": "Title: My Man Godfrey (1936), Genres: Comedy|Romance, Tag: homeless", "completion": "3.5"}
-{"prompt": "Title: Night of the Living Dead (1968), Genres: Horror|Sci-Fi|Thriller, Tag: zombies", "completion": "4.0"}
-{"prompt": "Title: Fly Away Home (1996), Genres: Adventure|Children, Tag: Animal movie", "completion": "4.0"}
-{"prompt": "Title: Big Night (1996), Genres: Comedy|Drama, Tag: food", "completion": "3.5"}
-{"prompt": "Title: Chamber, The (1996), Genres: Drama, Tag: death penalty", "completion": "3.5"}
-{"prompt": "Title: Sound of Music, The (1965), Genres: Musical|Romance, Tag: Rogers and Hammerstein", "completion": "5.0"}
-{"prompt": "Title: Secrets & Lies (1996), Genres: Drama, Tag: In Netflix queue", "completion": "4.5"}
-{"prompt": "Title: William Shakespeare's Romeo + Juliet (1996), Genres: Drama|Romance, Tag: Leonardo DiCaprio", "completion": "4.5"}
-{"prompt": "Title: William Shakespeare's Romeo + Juliet (1996), Genres: Drama|Romance, Tag: shakespeare", "completion": "4.5"}
-{"prompt": "Title: Monty Python's Life of Brian (1979), Genres: Comedy, Tag: Bible", "completion": "3.0"}
-{"prompt": "Title: Candidate, The (1972), Genres: Drama, Tag: politics", "completion": "3.5"}
-{"prompt": "Title: Dirty Dancing (1987), Genres: Drama|Musical|Romance, Tag: music", "completion": "3.5"}
-{"prompt": "Title: Reservoir Dogs (1992), Genres: Crime|Mystery|Thriller, Tag: Tarantino", "completion": "4.0"}
-{"prompt": "Title: Doors, The (1991), Genres: Drama, Tag: music", "completion": "3.0"}
-{"prompt": "Title: People vs. Larry Flynt, The (1996), Genres: Comedy|Drama, Tag: freedom of expression", "completion": "3.5"}
-{"prompt": "Title: When We Were Kings (1996), Genres: Documentary, Tag: In Netflix queue", "completion": "3.0"}
-{"prompt": "Title: Enchanted April (1992), Genres: Drama|Romance, Tag: Italy", "completion": "5.0"}
-{"prompt": "Title: Grifters, The (1990), Genres: Crime|Drama|Film-Noir, Tag: crime", "completion": "3.5"}
-{"prompt": "Title: One Flew Over the Cuckoo's Nest (1975), Genres: Drama, Tag: mental illness", "completion": "3.5"}
-{"prompt": "Title: Star Wars: Episode V - The Empire Strikes Back (1980), Genres: Action|Adventure|Sci-Fi, Tag: space opera", "completion": "5.0"}
-{"prompt": "Title: Star Wars: Episode V - The Empire Strikes Back (1980), Genres: Action|Adventure|Sci-Fi, Tag: Harrison Ford", "completion": "5.0"}
-{"prompt": "Title: Star Wars: Episode V - The Empire Strikes Back (1980), Genres: Action|Adventure|Sci-Fi, Tag: sequel", "completion": "5.0"}
-{"prompt": "Title: Princess Bride, The (1987), Genres: Action|Adventure|Comedy|Fantasy|Romance, Tag: six-fingered man", "completion": "4.5"}
-{"prompt": "Title: Aliens (1986), Genres: Action|Adventure|Horror|Sci-Fi, Tag: space", "completion": "3.5"}
-{"prompt": "Title: 12 Angry Men (1957), Genres: Drama, Tag: earnest", "completion": "4.5"}
-{"prompt": "Title: Clockwork Orange, A (1971), Genres: Crime|Drama|Sci-Fi|Thriller, Tag: brainwashing", "completion": "3.5"}
-{"prompt": "Title: Once Upon a Time in the West (C'era una volta il West) (1968), Genres: Action|Drama|Western, Tag: spaghetti western", "completion": "3.5"}
-{"prompt": "Title: Star Wars: Episode VI - Return of the Jedi (1983), Genres: Action|Adventure|Sci-Fi, Tag: luke skywalker", "completion": "4.0"}
-{"prompt": "Title: Ran (1985), Genres: Drama|War, Tag: samurai", "completion": "4.0"}
-{"prompt": "Title: Godfather: Part II, The (1974), Genres: Crime|Drama, Tag: Al Pacino", "completion": "5.0"}
-{"prompt": "Title: Amadeus (1984), Genres: Drama, Tag: Salieri", "completion": "4.5"}
-{"prompt": "Title: Annie Hall (1977), Genres: Comedy|Romance, Tag: New York", "completion": "4.0"}
-{"prompt": "Title: Boot, Das (Boat, The) (1981), Genres: Action|Drama|War, Tag: submarine", "completion": "3.5"}
-{"prompt": "Title: Harold and Maude (1971), Genres: Comedy|Drama|Romance, Tag: May-December romance", "completion": "4.0"}
-{"prompt": "Title: Seventh Seal, The (Sjunde inseglet, Det) (1957), Genres: Drama, Tag: atmospheric", "completion": "3.5"}
-{"prompt": "Title: Seventh Seal, The (Sjunde inseglet, Det) (1957), Genres: Drama, Tag: existentialism", "completion": "3.5"}
-{"prompt": "Title: Seventh Seal, The (Sjunde inseglet, Det) (1957), Genres: Drama, Tag: reflective", "completion": "3.5"}
-{"prompt": "Title: Treasure of the Sierra Madre, The (1948), Genres: Action|Adventure|Drama|Western, Tag: Cold", "completion": "4.5"}
-{"prompt": "Title: Better Off Dead... (1985), Genres: Comedy|Romance, Tag: skiing", "completion": "3.0"}
-{"prompt": "Title: Shining, The (1980), Genres: Horror, Tag: disturbing", "completion": "4.5"}
-{"prompt": "Title: Shining, The (1980), Genres: Horror, Tag: Horror", "completion": "4.5"}
-{"prompt": "Title: Shining, The (1980), Genres: Horror, Tag: Stephen King", "completion": "4.0"}
-{"prompt": "Title: M (1931), Genres: Crime|Film-Noir|Thriller, Tag: atmospheric", "completion": "4.0"}
-{"prompt": "Title: Deer Hunter, The (1978), Genres: Drama|War, Tag: Vietnam", "completion": "3.0"}
-{"prompt": "Title: Manchurian Candidate, The (1962), Genres: Crime|Thriller|War, Tag: assassination", "completion": "4.0"}
-{"prompt": "Title: Patton (1970), Genres: Drama|War, Tag: World War II", "completion": "4.0"}
-{"prompt": "Title: Akira (1988), Genres: Action|Adventure|Animation|Sci-Fi, Tag: animation", "completion": "5.0"}
-{"prompt": "Title: Akira (1988), Genres: Action|Adventure|Animation|Sci-Fi, Tag: anime", "completion": "5.0"}
-{"prompt": "Title: Cool Hand Luke (1967), Genres: Drama, Tag: prison", "completion": "3.5"}
-{"prompt": "Title: High Noon (1952), Genres: Drama|Western, Tag: gunfight", "completion": "3.5"}
-{"prompt": "Title: Gandhi (1982), Genres: Drama, Tag: India", "completion": "4.0"}
-{"prompt": "Title: Room with a View, A (1986), Genres: Drama|Romance, Tag: E. M. Forster", "completion": "4.0"}
-{"prompt": "Title: Killing Fields, The (1984), Genres: Drama|War, Tag: Cambodia", "completion": "3.5"}
-{"prompt": "Title: Sling Blade (1996), Genres: Drama, Tag: ex-con", "completion": "4.5"}
-{"prompt": "Title: Batman Returns (1992), Genres: Action|Crime, Tag: superhero", "completion": "2.0"}
-{"prompt": "Title: Jerry Maguire (1996), Genres: Drama|Romance, Tag: sports", "completion": "4.5"}
-{"prompt": "Title: Grosse Pointe Blank (1997), Genres: Comedy|Crime|Romance, Tag: reunion", "completion": "4.0"}
-{"prompt": "Title: Romy and Michele's High School Reunion (1997), Genres: Comedy, Tag: reunion", "completion": "3.0"}
-{"prompt": "Title: Shall We Dance? (Shall We Dansu?) (1996), Genres: Comedy|Drama|Romance, Tag: ballroom dance", "completion": "4.0"}
-{"prompt": "Title: Lost World: Jurassic Park, The (1997), Genres: Action|Adventure|Sci-Fi|Thriller, Tag: dinosaurs", "completion": "1.0"}
-{"prompt": "Title: Ponette (1996), Genres: Drama, Tag: death", "completion": "4.0"}
-{"prompt": "Title: Face/Off (1997), Genres: Action|Crime|Drama|Thriller, Tag: transplants", "completion": "4.5"}
-{"prompt": "Title: Men in Black (a.k.a. MIB) (1997), Genres: Action|Comedy|Sci-Fi, Tag: aliens", "completion": "4.5"}
-{"prompt": "Title: Game, The (1997), Genres: Drama|Mystery|Thriller, Tag: twist ending", "completion": "4.0"}
-{"prompt": "Title: Ice Storm, The (1997), Genres: Drama, Tag: 1970s", "completion": "4.0"}
-{"prompt": "Title: The Devil's Advocate (1997), Genres: Drama|Mystery|Thriller, Tag: lawyers", "completion": "2.0"}
-{"prompt": "Title: Gattaca (1997), Genres: Drama|Sci-Fi|Thriller, Tag: future", "completion": "4.5"}
-{"prompt": "Title: Stripes (1981), Genres: Comedy|War, Tag: military", "completion": "3.0"}
-{"prompt": "Title: Scream 2 (1997), Genres: Comedy|Horror|Mystery|Thriller, Tag: spoof", "completion": "4.0"}
-{"prompt": "Title: Sweet Hereafter, The (1997), Genres: Drama, Tag: Canada", "completion": "4.0"}
-{"prompt": "Title: Titanic (1997), Genres: Drama|Romance, Tag: romance", "completion": "3.0"}
-{"prompt": "Title: Postman, The (1997), Genres: Action|Adventure|Drama|Sci-Fi, Tag: Kevin Costner", "completion": "4.5"}
-{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: deadpan", "completion": "5.0"}
-{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: great soundtrack", "completion": "5.0"}
-{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: Jeff Bridges", "completion": "5.0"}
-{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: John Goodman", "completion": "5.0"}
-{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: Nudity (Full Frontal)", "completion": "5.0"}
-{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: off-beat comedy", "completion": "5.0"}
-{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: Steve Buscemi", "completion": "5.0"}
-{"prompt": "Title: Dream for an Insomniac (1996), Genres: Drama|Romance, Tag: generation X", "completion": "4.0"}
-{"prompt": "Title: Buffalo '66 (a.k.a. Buffalo 66) (1998), Genres: Drama|Romance, Tag: quirky", "completion": "5.0"}
-{"prompt": "Title: Pi (1998), Genres: Drama|Sci-Fi|Thriller, Tag: paranoid", "completion": "3.5"}
-{"prompt": "Title: Pi (1998), Genres: Drama|Sci-Fi|Thriller, Tag: insanity", "completion": "3.0"}
-{"prompt": "Title: Pi (1998), Genres: Drama|Sci-Fi|Thriller, Tag: paranoia", "completion": "3.0"}
-{"prompt": "Title: Pi (1998), Genres: Drama|Sci-Fi|Thriller, Tag: surreal", "completion": "3.0"}
-{"prompt": "Title: There's Something About Mary (1998), Genres: Comedy|Romance, Tag: Ben Stiller", "completion": "5.0"}
-{"prompt": "Title: There's Something About Mary (1998), Genres: Comedy|Romance, Tag: Ben Stiller", "completion": "3.5"}
-{"prompt": "Title: Mutiny on the Bounty (1935), Genres: Adventure|Drama, Tag: ships", "completion": "4.0"}
-{"prompt": "Title: On the Waterfront (1954), Genres: Crime|Drama, Tag: boxing", "completion": "4.0"}
-{"prompt": "Title: On the Waterfront (1954), Genres: Crime|Drama, Tag: coulda been a contender", "completion": "4.0"}
-{"prompt": "Title: Oliver! (1968), Genres: Drama|Musical, Tag: Dickens", "completion": "4.0"}
-{"prompt": "Title: Midnight Cowboy (1969), Genres: Drama, Tag: prostitution", "completion": "4.0"}
-{"prompt": "Title: Last Emperor, The (1987), Genres: Drama, Tag: China", "completion": "4.0"}
-{"prompt": "Title: Friday the 13th Part 2 (1981), Genres: Horror, Tag: Jason", "completion": "2.0"}
-{"prompt": "Title: Godfather: Part III, The (1990), Genres: Crime|Drama|Mystery|Thriller, Tag: mafia", "completion": "5.0"}
-{"prompt": "Title: Parent Trap, The (1998), Genres: Children|Comedy|Romance, Tag: twins", "completion": "2.0"}
-{"prompt": "Title: Out of the Past (1947), Genres: Film-Noir, Tag: memory", "completion": "4.0"}
-{"prompt": "Title: Jungle Book, The (1967), Genres: Animation|Children|Comedy|Musical, Tag: Disney", "completion": "4.0"}
-{"prompt": "Title: Something Wicked This Way Comes (1983), Genres: Children|Drama|Fantasy|Mystery|Thriller, Tag: carnival", "completion": "3.5"}
-{"prompt": "Title: Something Wicked This Way Comes (1983), Genres: Children|Drama|Fantasy|Mystery|Thriller, Tag: Ray Bradbury", "completion": "3.5"}
-{"prompt": "Title: Dead Zone, The (1983), Genres: Thriller, Tag: Stephen King", "completion": "4.0"}
-{"prompt": "Title: Addams Family, The (1991), Genres: Children|Comedy|Fantasy, Tag: black comedy", "completion": "5.0"}
-{"prompt": "Title: Addams Family, The (1991), Genres: Children|Comedy|Fantasy, Tag: Christina Ricci", "completion": "5.0"}
-{"prompt": "Title: Addams Family, The (1991), Genres: Children|Comedy|Fantasy, Tag: Christopher Lloyd", "completion": "5.0"}
-{"prompt": "Title: Secret of NIMH, The (1982), Genres: Adventure|Animation|Children|Drama, Tag: mice", "completion": "4.0"}
-{"prompt": "Title: Pretty in Pink (1986), Genres: Comedy|Drama|Romance, Tag: 1980s", "completion": "4.0"}
-{"prompt": "Title: St. Elmo's Fire (1985), Genres: Drama|Romance, Tag: post-college", "completion": "4.5"}
-{"prompt": "Title: Rosemary's Baby (1968), Genres: Drama|Horror|Thriller, Tag: creepy", "completion": "4.5"}
-{"prompt": "Title: Rosemary's Baby (1968), Genres: Drama|Horror|Thriller, Tag: paranoia", "completion": "4.5"}
-{"prompt": "Title: Rosemary's Baby (1968), Genres: Drama|Horror|Thriller, Tag: scary", "completion": "4.5"}
-{"prompt": "Title: Rosemary's Baby (1968), Genres: Drama|Horror|Thriller, Tag: suspense", "completion": "4.5"}
-{"prompt": "Title: Rosemary's Baby (1968), Genres: Drama|Horror|Thriller, Tag: demons", "completion": "4.0"}
-{"prompt": "Title: Next Stop Wonderland (1998), Genres: Comedy|Drama|Romance, Tag: aquarium", "completion": "5.0"}
-{"prompt": "Title: Stage Fright (1950), Genres: Mystery|Romance|Thriller, Tag: theater", "completion": "3.5"}
-{"prompt": "Title: Shadow of a Doubt (1943), Genres: Crime|Drama|Thriller, Tag: small towns", "completion": "4.0"}
-{"prompt": "Title: Suspicion (1941), Genres: Film-Noir|Mystery|Thriller, Tag: paranoia", "completion": "4.5"}
-{"prompt": "Title: My Cousin Vinny (1992), Genres: Comedy, Tag: court", "completion": "2.0"}
-{"prompt": "Title: Elephant Man, The (1980), Genres: Drama, Tag: freaks", "completion": "4.5"}
-{"prompt": "Title: Life Is Beautiful (La Vita \u00e8 bella) (1997), Genres: Comedy|Drama|Romance|War, Tag: Holocaust", "completion": "5.0"}
-{"prompt": "Title: Life Is Beautiful (La Vita \u00e8 bella) (1997), Genres: Comedy|Drama|Romance|War, Tag: tearjerking", "completion": "3.5"}
-{"prompt": "Title: Siege, The (1998), Genres: Action|Thriller, Tag: terrorism", "completion": "4.0"}
-{"prompt": "Title: Simple Plan, A (1998), Genres: Crime|Drama|Thriller, Tag: heist", "completion": "4.0"}
-{"prompt": "Title: Prince of Egypt, The (1998), Genres: Animation|Musical, Tag: Bible", "completion": "5.0"}
-{"prompt": "Title: Rocky III (1982), Genres: Action|Drama, Tag: boxing", "completion": "2.0"}
-{"prompt": "Title: Rocky V (1990), Genres: Action|Drama, Tag: boxing", "completion": "1.5"}
-{"prompt": "Title: Karate Kid, The (1984), Genres: Drama, Tag: martial arts", "completion": "4.0"}
-{"prompt": "Title: Karate Kid, Part III, The (1989), Genres: Action|Adventure|Children|Drama, Tag: martial arts", "completion": "2.0"}
-{"prompt": "Title: Christmas Vacation (National Lampoon's Christmas Vacation) (1989), Genres: Comedy, Tag: christmas", "completion": "1.5"}
-{"prompt": "Title: You've Got Mail (1998), Genres: Comedy|Romance, Tag: e-mail", "completion": "5.0"}
-{"prompt": "Title: Simply Irresistible (1999), Genres: Comedy|Romance, Tag: food", "completion": "2.0"}
-{"prompt": "Title: Children of the Damned (1963), Genres: Horror|Sci-Fi|Thriller, Tag: evil children", "completion": "3.5"}
-{"prompt": "Title: Matrix, The (1999), Genres: Action|Sci-Fi|Thriller, Tag: philosophy", "completion": "4.0"}
-{"prompt": "Title: Mildred Pierce (1945), Genres: Drama|Film-Noir, Tag: motherhood", "completion": "4.0"}
-{"prompt": "Title: Run Lola Run (Lola rennt) (1998), Genres: Action|Crime, Tag: alternate endings", "completion": "4.0"}
-{"prompt": "Title: South Park: Bigger, Longer and Uncut (1999), Genres: Animation|Comedy|Musical, Tag: satire", "completion": "5.0"}
-{"prompt": "Title: Ghostbusters II (1989), Genres: Comedy|Fantasy|Sci-Fi, Tag: Ghosts", "completion": "0.5"}
-{"prompt": "Title: 400 Blows, The (Les quatre cents coups) (1959), Genres: Crime|Drama, Tag: heartwarming", "completion": "3.5"}
-{"prompt": "Title: Mission, The (1986), Genres: Drama, Tag: Missionary", "completion": "5.0"}
-{"prompt": "Title: Radio Days (1987), Genres: Comedy|Drama, Tag: nostalgia", "completion": "3.5"}
-{"prompt": "Title: Radio Days (1987), Genres: Comedy|Drama, Tag: radio", "completion": "3.5"}
-{"prompt": "Title: Sixth Sense, The (1999), Genres: Drama|Horror|Mystery, Tag: Atmospheric", "completion": "5.0"}
-{"prompt": "Title: Sixth Sense, The (1999), Genres: Drama|Horror|Mystery, Tag: twist ending", "completion": "5.0"}
-{"prompt": "Title: Big (1988), Genres: Comedy|Drama|Fantasy|Romance, Tag: children", "completion": "4.0"}
-{"prompt": "Title: Year of Living Dangerously, The (1982), Genres: Drama|Romance|War, Tag: Indonesia", "completion": "4.0"}
-{"prompt": "Title: Lady Eve, The (1941), Genres: Comedy|Romance, Tag: gambling", "completion": "4.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: Brad Pitt", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: Chuck Palahniuk", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: dark", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: imaginary friend", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: mental illness", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: mindfuck", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: Nudity (Topless)", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: surreal", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: twist ending", "completion": "5.0"}
-{"prompt": "Title: Fight Club (1999), Genres: Action|Crime|Drama|Thriller, Tag: violent", "completion": "5.0"}
-{"prompt": "Title: Princess Mononoke (Mononoke-hime) (1997), Genres: Action|Adventure|Animation|Drama|Fantasy, Tag: Studio Ghibli", "completion": "5.0"}
-{"prompt": "Title: Trading Places (1983), Genres: Comedy, Tag: Dan Aykroyd", "completion": "5.0"}
-{"prompt": "Title: Meatballs (1979), Genres: Comedy, Tag: camp", "completion": "1.0"}
-{"prompt": "Title: Dogma (1999), Genres: Adventure|Comedy|Fantasy, Tag: satire", "completion": "5.0"}
-{"prompt": "Title: Dogma (1999), Genres: Adventure|Comedy|Fantasy, Tag: religion", "completion": "4.0"}
-{"prompt": "Title: Toy Story 2 (1999), Genres: Adventure|Animation|Children|Comedy|Fantasy, Tag: Pixar", "completion": "3.0"}
-{"prompt": "Title: Flawless (1999), Genres: Drama, Tag: men in drag", "completion": "4.0"}
-{"prompt": "Title: End of the Affair, The (1999), Genres: Drama, Tag: Graham Greene", "completion": "4.0"}
-{"prompt": "Title: Grand Illusion (La grande illusion) (1937), Genres: Drama|War, Tag: downbeat", "completion": "3.0"}
-{"prompt": "Title: Green Mile, The (1999), Genres: Crime|Drama, Tag: Stephen King", "completion": "4.0"}
-{"prompt": "Title: Magnolia (1999), Genres: Drama, Tag: L.A.", "completion": "5.0"}
-{"prompt": "Title: Cry in the Dark, A (1988), Genres: Drama, Tag: Australia", "completion": "4.0"}
-{"prompt": "Title: Man Bites Dog (C'est arriv\u00e9 pr\u00e8s de chez vous) (1992), Genres: Comedy|Crime|Drama|Thriller, Tag: black comedy", "completion": "5.0"}
-{"prompt": "Title: Man Bites Dog (C'est arriv\u00e9 pr\u00e8s de chez vous) (1992), Genres: Comedy|Crime|Drama|Thriller, Tag: crazy", "completion": "5.0"}
-{"prompt": "Title: Man Bites Dog (C'est arriv\u00e9 pr\u00e8s de chez vous) (1992), Genres: Comedy|Crime|Drama|Thriller, Tag: dark humor", "completion": "5.0"}
-{"prompt": "Title: Cutting Edge, The (1992), Genres: Comedy|Drama|Romance, Tag: figure skating", "completion": "2.5"}
-{"prompt": "Title: Scream 3 (2000), Genres: Comedy|Horror|Mystery|Thriller, Tag: slasher", "completion": "4.0"}
-{"prompt": "Title: Wonder Boys (2000), Genres: Comedy|Drama, Tag: writing", "completion": "4.0"}
-{"prompt": "Title: Born Yesterday (1950), Genres: Comedy, Tag: remade", "completion": "4.0"}
-{"prompt": "Title: Hoosiers (a.k.a. Best Shot) (1986), Genres: Drama|Romance, Tag: basketball", "completion": "3.5"}
-{"prompt": "Title: JFK (1991), Genres: Drama|Mystery|Thriller, Tag: president", "completion": "4.0"}
-{"prompt": "Title: Animal House (1978), Genres: Comedy, Tag: college", "completion": "2.0"}
-{"prompt": "Title: Lord of the Flies (1963), Genres: Adventure|Drama|Thriller, Tag: island", "completion": "4.0"}
-{"prompt": "Title: Modern Times (1936), Genres: Comedy|Drama|Romance, Tag: factory", "completion": "4.5"}
-{"prompt": "Title: Inherit the Wind (1960), Genres: Drama, Tag: evolution", "completion": "2.5"}
-{"prompt": "Title: Inherit the Wind (1960), Genres: Drama, Tag: religion", "completion": "2.5"}
-{"prompt": "Title: High Fidelity (2000), Genres: Comedy|Drama|Romance, Tag: music", "completion": "5.0"}
-{"prompt": "Title: Misery (1990), Genres: Drama|Horror|Thriller, Tag: horror", "completion": "3.5"}
-{"prompt": "Title: Misery (1990), Genres: Drama|Horror|Thriller, Tag: scary", "completion": "3.5"}
-{"prompt": "Title: Misery (1990), Genres: Drama|Horror|Thriller, Tag: stephen king", "completion": "3.5"}
-{"prompt": "Title: Misery (1990), Genres: Drama|Horror|Thriller, Tag: tense", "completion": "3.5"}
-{"prompt": "Title: Network (1976), Genres: Comedy|Drama, Tag: journalism", "completion": "4.0"}
-{"prompt": "Title: Predator (1987), Genres: Action|Sci-Fi|Thriller, Tag: dialogue", "completion": "4.0"}
-{"prompt": "Title: Predator (1987), Genres: Action|Sci-Fi|Thriller, Tag: Jesse Ventura", "completion": "4.0"}
-{"prompt": "Title: Keeping the Faith (2000), Genres: Comedy|Drama|Romance, Tag: rabbi", "completion": "4.5"}
-{"prompt": "Title: Blazing Saddles (1974), Genres: Comedy|Western, Tag: dark humor", "completion": "4.5"}
-{"prompt": "Title: Blazing Saddles (1974), Genres: Comedy|Western, Tag: silly", "completion": "4.5"}
-{"prompt": "Title: White Christmas (1954), Genres: Comedy|Musical|Romance, Tag: Christmas", "completion": "4.5"}
-{"prompt": "Title: Eraserhead (1977), Genres: Drama|Horror, Tag: enigmatic", "completion": "5.0"}
-{"prompt": "Title: Eraserhead (1977), Genres: Drama|Horror, Tag: strange", "completion": "5.0"}
-{"prompt": "Title: Soapdish (1991), Genres: Comedy, Tag: television", "completion": "2.5"}
-{"prompt": "Title: X-Men (2000), Genres: Action|Adventure|Sci-Fi, Tag: comic book", "completion": "3.5"}
-{"prompt": "Title: X-Men (2000), Genres: Action|Adventure|Sci-Fi, Tag: marvel", "completion": "3.5"}
-{"prompt": "Title: Steel Magnolias (1989), Genres: Drama, Tag: diabetes", "completion": "2.5"}
-{"prompt": "Title: Unbreakable (2000), Genres: Drama|Sci-Fi, Tag: comics", "completion": "5.0"}
-{"prompt": "Title: Unbreakable (2000), Genres: Drama|Sci-Fi, Tag: somber", "completion": "4.0"}
-{"prompt": "Title: Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000), Genres: Action|Drama|Romance, Tag: china", "completion": "4.0"}
-{"prompt": "Title: Punchline (1988), Genres: Comedy|Drama, Tag: stand-up comedy", "completion": "2.0"}
-{"prompt": "Title: Finding Forrester (2000), Genres: Drama, Tag: writing", "completion": "4.0"}
-{"prompt": "Title: House of Mirth, The (2000), Genres: Romance, Tag: Edith Wharton", "completion": "2.5"}
-{"prompt": "Title: O Brother, Where Art Thou? (2000), Genres: Adventure|Comedy|Crime, Tag: bluegrass", "completion": "4.0"}
-{"prompt": "Title: With a Friend Like Harry... (Harry, un ami qui vous veut du bien) (2000), Genres: Drama|Thriller, Tag: psychopaths", "completion": "4.0"}
-{"prompt": "Title: In the Mood For Love (Fa yeung nin wa) (2000), Genres: Drama|Romance, Tag: Beautiful", "completion": "4.5"}
-{"prompt": "Title: In the Mood For Love (Fa yeung nin wa) (2000), Genres: Drama|Romance, Tag: bittersweet", "completion": "4.5"}
-{"prompt": "Title: In the Mood For Love (Fa yeung nin wa) (2000), Genres: Drama|Romance, Tag: romantic", "completion": "4.5"}
-{"prompt": "Title: In the Mood For Love (Fa yeung nin wa) (2000), Genres: Drama|Romance, Tag: visually appealing", "completion": "4.5"}
-{"prompt": "Title: In the Mood For Love (Fa yeung nin wa) (2000), Genres: Drama|Romance, Tag: visually stunning", "completion": "4.5"}
-{"prompt": "Title: Losin' It (1983), Genres: Comedy, Tag: virginity", "completion": "1.0"}
-{"prompt": "Title: Manhunter (1986), Genres: Action|Crime|Drama|Horror|Thriller, Tag: serial killer", "completion": "3.5"}
-{"prompt": "Title: Reversal of Fortune (1990), Genres: Drama, Tag: von Bulow", "completion": "4.0"}
-{"prompt": "Title: Revenge of the Nerds (1984), Genres: Comedy, Tag: college", "completion": "2.0"}
-{"prompt": "Title: Necessary Roughness (1991), Genres: Comedy, Tag: football", "completion": "2.0"}
-{"prompt": "Title: Enemy at the Gates (2001), Genres: Drama|War, Tag: Ed Harris", "completion": "4.5"}
-{"prompt": "Title: Enemy at the Gates (2001), Genres: Drama|War, Tag: Rachel Weisz", "completion": "4.5"}
-{"prompt": "Title: Enemy at the Gates (2001), Genres: Drama|War, Tag: sniper", "completion": "4.5"}
-{"prompt": "Title: Enemy at the Gates (2001), Genres: Drama|War, Tag: World War II", "completion": "4.5"}
-{"prompt": "Title: Memento (2000), Genres: Mystery|Thriller, Tag: mystery", "completion": "4.5"}
-{"prompt": "Title: Memento (2000), Genres: Mystery|Thriller, Tag: twist ending", "completion": "4.5"}
-{"prompt": "Title: Memento (2000), Genres: Mystery|Thriller, Tag: Backwards. memory", "completion": "5.0"}
-{"prompt": "Title: Memento (2000), Genres: Mystery|Thriller, Tag: twist ending", "completion": "4.0"}
-{"prompt": "Title: Scarface (1983), Genres: Action|Crime|Drama, Tag: Al Pacino", "completion": "3.5"}
-{"prompt": "Title: Days of Wine and Roses (1962), Genres: Drama, Tag: alcoholism", "completion": "4.0"}
-{"prompt": "Title: Love Story (1970), Genres: Drama|Romance, Tag: death", "completion": "2.0"}
-{"prompt": "Title: Seven Year Itch, The (1955), Genres: Comedy, Tag: adultery", "completion": "4.0"}
-{"prompt": "Title: Princess and the Warrior, The (Krieger und die Kaiserin, Der) (2000), Genres: Drama|Romance, Tag: accident", "completion": "4.0"}
-{"prompt": "Title: Accused, The (1988), Genres: Drama, Tag: rape", "completion": "4.0"}
-{"prompt": "Title: Big Business (1988), Genres: Comedy, Tag: twins", "completion": "2.0"}
-{"prompt": "Title: Bill & Ted's Excellent Adventure (1989), Genres: Adventure|Comedy|Sci-Fi, Tag: time travel", "completion": "4.5"}
-{"prompt": "Title: America's Sweethearts (2001), Genres: Comedy|Romance, Tag: Hollywood", "completion": "2.5"}
-{"prompt": "Title: America's Sweethearts (2001), Genres: Comedy|Romance, Tag: movie business", "completion": "2.5"}
-{"prompt": "Title: Ghost World (2001), Genres: Comedy|Drama, Tag: adolescence", "completion": "4.0"}
-{"prompt": "Title: Little Foxes, The (1941), Genres: Drama, Tag: family", "completion": "4.0"}
-{"prompt": "Title: SpaceCamp (1986), Genres: Adventure|Sci-Fi, Tag: space", "completion": "2.0"}
-{"prompt": "Title: Coal Miner's Daughter (1980), Genres: Drama, Tag: Loretta Lynn", "completion": "4.0"}
-{"prompt": "Title: Fiddler on the Roof (1971), Genres: Drama|Musical, Tag: Judaism", "completion": "4.0"}
-{"prompt": "Title: K-PAX (2001), Genres: Drama|Fantasy|Mystery|Sci-Fi, Tag: psychiatrist", "completion": "2.5"}
-{"prompt": "Title: Donnie Darko (2001), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: cult film", "completion": "4.0"}
-{"prompt": "Title: Donnie Darko (2001), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: dreamlike", "completion": "5.0"}
-{"prompt": "Title: Donnie Darko (2001), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: mental illness", "completion": "5.0"}
-{"prompt": "Title: Donnie Darko (2001), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: teen", "completion": "5.0"}
-{"prompt": "Title: Donnie Darko (2001), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: cerebral", "completion": "3.5"}
-{"prompt": "Title: Donnie Darko (2001), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: mental illness", "completion": "3.5"}
-{"prompt": "Title: Donnie Darko (2001), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: quirky", "completion": "3.5"}
-{"prompt": "Title: Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001), Genres: Adventure|Children|Fantasy, Tag: alan rickman", "completion": "3.5"}
-{"prompt": "Title: Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001), Genres: Adventure|Children|Fantasy, Tag: Magic", "completion": "3.5"}
-{"prompt": "Title: Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001), Genres: Adventure|Children|Fantasy, Tag: Wizards", "completion": "4.5"}
-{"prompt": "Title: Now, Voyager (1942), Genres: Drama|Romance, Tag: psychology", "completion": "4.0"}
-{"prompt": "Title: Blue Angel, The (Blaue Engel, Der) (1930), Genres: Drama, Tag: singers", "completion": "4.0"}
-{"prompt": "Title: The Count of Monte Cristo (2002), Genres: Action|Adventure|Drama|Thriller, Tag: revenge", "completion": "4.0"}
-{"prompt": "Title: Going Places (Valseuses, Les) (1974), Genres: Comedy|Crime|Drama, Tag: irreverent", "completion": "5.0"}
-{"prompt": "Title: Rashomon (Rash\u00f4mon) (1950), Genres: Crime|Drama|Mystery, Tag: samurai", "completion": "4.0"}
-{"prompt": "Title: Spider-Man (2002), Genres: Action|Adventure|Sci-Fi|Thriller, Tag: superhero", "completion": "4.5"}
-{"prompt": "Title: Insomnia (2002), Genres: Action|Crime|Drama|Mystery|Thriller, Tag: Hilary Swank", "completion": "4.5"}
-{"prompt": "Title: The Importance of Being Earnest (1952), Genres: Comedy|Romance, Tag: Oscar Wilde", "completion": "4.5"}
-{"prompt": "Title: Signs (2002), Genres: Horror|Sci-Fi|Thriller, Tag: aliens", "completion": "4.5"}
-{"prompt": "Title: One Hour Photo (2002), Genres: Drama|Thriller, Tag: psychopaths", "completion": "4.0"}
-{"prompt": "Title: Igby Goes Down (2002), Genres: Comedy|Drama, Tag: adolescence", "completion": "4.0"}
-{"prompt": "Title: Lavender Hill Mob, The (1951), Genres: Comedy|Crime, Tag: heist", "completion": "4.0"}
-{"prompt": "Title: Heaven (2002), Genres: Drama, Tag: bombs", "completion": "4.0"}
-{"prompt": "Title: Punch-Drunk Love (2002), Genres: Comedy|Drama|Romance, Tag: pudding", "completion": "4.5"}
-{"prompt": "Title: Punch-Drunk Love (2002), Genres: Comedy|Drama|Romance, Tag: bittersweet", "completion": "3.5"}
-{"prompt": "Title: Grave of the Fireflies (Hotaru no haka) (1988), Genres: Animation|Drama|War, Tag: orphans", "completion": "4.5"}
-{"prompt": "Title: Grave of the Fireflies (Hotaru no haka) (1988), Genres: Animation|Drama|War, Tag: poignant", "completion": "4.0"}
-{"prompt": "Title: Roger Dodger (2002), Genres: Comedy|Drama, Tag: dating", "completion": "2.5"}
-{"prompt": "Title: World of Henry Orient, The (1964), Genres: Comedy, Tag: teenagers", "completion": "4.0"}
-{"prompt": "Title: Chicago (2002), Genres: Comedy|Crime|Drama|Musical, Tag: murder", "completion": "4.0"}
-{"prompt": "Title: Pianist, The (2002), Genres: Drama|War, Tag: true story", "completion": "4.5"}
-{"prompt": "Title: Pianist, The (2002), Genres: Drama|War, Tag: Holocaust", "completion": "4.5"}
-{"prompt": "Title: Imitation of Life (1959), Genres: Drama|Romance, Tag: race", "completion": "4.0"}
-{"prompt": "Title: Kiss Me Goodbye (1982), Genres: Comedy, Tag: ghosts", "completion": "3.5"}
-{"prompt": "Title: All the Real Girls (2003), Genres: Drama|Romance, Tag: adolescence", "completion": "3.5"}
-{"prompt": "Title: He Loves Me... He Loves Me Not (\u00c0 la folie... pas du tout) (2002), Genres: Romance|Thriller, Tag: obsession", "completion": "4.5"}
-{"prompt": "Title: Patch of Blue, A (1965), Genres: Drama|Romance, Tag: race", "completion": "4.0"}
-{"prompt": "Title: Lady Jane (1986), Genres: Drama|Romance, Tag: England", "completion": "5.0"}
-{"prompt": "Title: Irreversible (Irr\u00e9versible) (2002), Genres: Crime|Drama|Mystery|Thriller, Tag: disturbing", "completion": "3.0"}
-{"prompt": "Title: Green Card (1990), Genres: Comedy|Drama|Romance, Tag: immigrants", "completion": "3.5"}
-{"prompt": "Title: Holes (2003), Genres: Adventure|Children|Comedy|Mystery, Tag: children", "completion": "3.5"}
-{"prompt": "Title: X2: X-Men United (2003), Genres: Action|Adventure|Sci-Fi|Thriller, Tag: superhero", "completion": "5.0"}
-{"prompt": "Title: Owning Mahowny (2003), Genres: Crime|Drama|Thriller, Tag: gambling", "completion": "3.5"}
-{"prompt": "Title: Down with Love (2003), Genres: Comedy|Romance, Tag: retro", "completion": "4.0"}
-{"prompt": "Title: Bruce Almighty (2003), Genres: Comedy|Drama|Fantasy|Romance, Tag: religion", "completion": "2.5"}
-{"prompt": "Title: Whale Rider (2002), Genres: Drama, Tag: Girl Power", "completion": "5.0"}
-{"prompt": "Title: Shenandoah (1965), Genres: Drama|War|Western, Tag: Civil War", "completion": "4.0"}
-{"prompt": "Title: Barton Fink (1991), Genres: Drama|Thriller, Tag: movie business", "completion": "3.5"}
-{"prompt": "Title: 28 Days Later (2002), Genres: Action|Horror|Sci-Fi, Tag: zombies", "completion": "5.0"}
-{"prompt": "Title: Hulk (2003), Genres: Action|Adventure|Sci-Fi, Tag: dogs", "completion": "3.5"}
-{"prompt": "Title: Hulk (2003), Genres: Action|Adventure|Sci-Fi, Tag: mad scientist", "completion": "3.5"}
-{"prompt": "Title: Pirates of the Caribbean: The Curse of the Black Pearl (2003), Genres: Action|Adventure|Comedy|Fantasy, Tag: swashbuckler", "completion": "3.5"}
-{"prompt": "Title: League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003), Genres: Action|Fantasy|Sci-Fi, Tag: comic book", "completion": "3.5"}
-{"prompt": "Title: Northfork (2003), Genres: Drama|Fantasy, Tag: flood", "completion": "2.5"}
-{"prompt": "Title: Lara Croft Tomb Raider: The Cradle of Life (2003), Genres: Action|Adventure|Comedy|Romance|Thriller, Tag: Angelina Jolie", "completion": "3.5"}
-{"prompt": "Title: One, Two, Three (1961), Genres: Comedy, Tag: Japan", "completion": "3.5"}
-{"prompt": "Title: Waco: The Rules of Engagement (1997), Genres: Documentary, Tag: FBI", "completion": "3.5"}
-{"prompt": "Title: Dummy (2002), Genres: Comedy|Drama|Romance, Tag: vertriloquism", "completion": "3.5"}
-{"prompt": "Title: Ginger Snaps (2000), Genres: Drama|Horror|Thriller, Tag: werewolf", "completion": "4.0"}
-{"prompt": "Title: In Cold Blood (1967), Genres: Crime|Drama, Tag: crime", "completion": "3.5"}
-{"prompt": "Title: In Cold Blood (1967), Genres: Crime|Drama, Tag: murder", "completion": "3.5"}
-{"prompt": "Title: School of Rock (2003), Genres: Comedy|Musical, Tag: school", "completion": "3.5"}
-{"prompt": "Title: Mystic River (2003), Genres: Crime|Drama|Mystery, Tag: kidnapping", "completion": "3.5"}
-{"prompt": "Title: Elf (2003), Genres: Children|Comedy|Fantasy, Tag: christmas", "completion": "4.0"}
-{"prompt": "Title: Father of the Bride (1991), Genres: Comedy, Tag: wedding", "completion": "2.0"}
-{"prompt": "Title: Passion of Joan of Arc, The (Passion de Jeanne d'Arc, La) (1928), Genres: Drama, Tag: saint", "completion": "4.5"}
-{"prompt": "Title: Battle Royale (Batoru rowaiaru) (2000), Genres: Action|Drama|Horror|Thriller, Tag: survival", "completion": "5.0"}
-{"prompt": "Title: Flying Down to Rio (1933), Genres: Comedy|Musical|Romance, Tag: Astaire and Rogers", "completion": "3.0"}
-{"prompt": "Title: Birdman of Alcatraz (1962), Genres: Drama, Tag: birds", "completion": "4.0"}
-{"prompt": "Title: Birdman of Alcatraz (1962), Genres: Drama, Tag: prison", "completion": "4.0"}
-{"prompt": "Title: Macbeth (a.k.a. Tragedy of Macbeth, The) (1971), Genres: Drama, Tag: In Netflix queue", "completion": "3.5"}
-{"prompt": "Title: Macbeth (a.k.a. Tragedy of Macbeth, The) (1971), Genres: Drama, Tag: Shakespeare", "completion": "3.5"}
-{"prompt": "Title: Hunchback of Notre Dame, The (1939), Genres: Drama, Tag: disability", "completion": "2.5"}
-{"prompt": "Title: Passage to India, A (1984), Genres: Adventure|Drama, Tag: E.M. Forster", "completion": "4.0"}
-{"prompt": "Title: Big Fish (2003), Genres: Drama|Fantasy|Romance, Tag: dreamlike", "completion": "3.5"}
-{"prompt": "Title: Big Fish (2003), Genres: Drama|Fantasy|Romance, Tag: Tim Burton", "completion": "3.5"}
-{"prompt": "Title: Lord of the Rings: The Return of the King, The (2003), Genres: Action|Adventure|Drama|Fantasy, Tag: scenic", "completion": "5.0"}
-{"prompt": "Title: Dark Passage (1947), Genres: Crime|Drama|Film-Noir|Romance|Thriller, Tag: amnesia", "completion": "4.0"}
-{"prompt": "Title: Strada, La (1954), Genres: Drama, Tag: circus", "completion": "4.5"}
-{"prompt": "Title: The Butterfly Effect (2004), Genres: Drama|Sci-Fi|Thriller, Tag: sci-fi", "completion": "5.0"}
-{"prompt": "Title: Eternal Sunshine of the Spotless Mind (2004), Genres: Drama|Romance|Sci-Fi, Tag: surreal", "completion": "4.0"}
-{"prompt": "Title: Eternal Sunshine of the Spotless Mind (2004), Genres: Drama|Romance|Sci-Fi, Tag: artistic", "completion": "5.0"}
-{"prompt": "Title: Eternal Sunshine of the Spotless Mind (2004), Genres: Drama|Romance|Sci-Fi, Tag: happpiness", "completion": "5.0"}
-{"prompt": "Title: Eternal Sunshine of the Spotless Mind (2004), Genres: Drama|Romance|Sci-Fi, Tag: humane", "completion": "5.0"}
-{"prompt": "Title: Eternal Sunshine of the Spotless Mind (2004), Genres: Drama|Romance|Sci-Fi, Tag: intelligent", "completion": "5.0"}
-{"prompt": "Title: Eternal Sunshine of the Spotless Mind (2004), Genres: Drama|Romance|Sci-Fi, Tag: thought-provoking", "completion": "5.0"}
-{"prompt": "Title: Dogville (2003), Genres: Drama|Mystery|Thriller, Tag: Grace", "completion": "4.5"}
-{"prompt": "Title: Woman of the Year (1942), Genres: Comedy|Romance, Tag: marriage", "completion": "4.0"}
-{"prompt": "Title: Rose Red (2002), Genres: Horror|Mystery|Thriller, Tag: Stephen King", "completion": "2.0"}
-{"prompt": "Title: Babylon 5: In the Beginning (1998), Genres: Adventure|Sci-Fi, Tag: space station", "completion": "4.0"}
-{"prompt": "Title: Cat People (1942), Genres: Drama|Horror|Romance|Thriller, Tag: sexuality", "completion": "4.0"}
-{"prompt": "Title: Thin Man Goes Home, The (1945), Genres: Comedy|Crime|Mystery, Tag: Nick and Nora Charles", "completion": "3.5"}
-{"prompt": "Title: Dark Days (2000), Genres: Documentary, Tag: independent", "completion": "4.0"}
-{"prompt": "Title: Weather Underground, The (2002), Genres: Documentary, Tag: politics", "completion": "4.0"}
-{"prompt": "Title: Bad Day at Black Rock (1955), Genres: Drama|Thriller|Western, Tag: In Netflix queue", "completion": "3.5"}
-{"prompt": "Title: Lust for Life (1956), Genres: Drama, Tag: Van Gogh", "completion": "2.5"}
-{"prompt": "Title: Maltese Falcon, The (a.k.a. Dangerous Female) (1931), Genres: Mystery, Tag: heist", "completion": "4.0"}
-{"prompt": "Title: Caine Mutiny, The (1954), Genres: Drama|War, Tag: military", "completion": "4.0"}
-{"prompt": "Title: Harry Potter and the Prisoner of Azkaban (2004), Genres: Adventure|Fantasy|IMAX, Tag: Magic", "completion": "5.0"}
-{"prompt": "Title: Super Size Me (2004), Genres: Comedy|Documentary|Drama, Tag: McDonalds", "completion": "4.0"}
-{"prompt": "Title: Fahrenheit 9/11 (2004), Genres: Documentary, Tag: politics", "completion": "4.0"}
-{"prompt": "Title: Spider-Man 2 (2004), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: Doc Ock", "completion": "5.0"}
-{"prompt": "Title: Anchorman: The Legend of Ron Burgundy (2004), Genres: Comedy, Tag: stupid", "completion": "3.0"}
-{"prompt": "Title: Come Back, Little Sheba (1952), Genres: Drama, Tag: alcoholism", "completion": "4.0"}
-{"prompt": "Title: Come Back, Little Sheba (1952), Genres: Drama, Tag: marriage", "completion": "4.0"}
-{"prompt": "Title: Murder on the Orient Express (1974), Genres: Crime|Mystery|Thriller, Tag: Oscar (Best Supporting Actress)", "completion": "3.0"}
-{"prompt": "Title: Primer (2004), Genres: Drama|Sci-Fi, Tag: time travel", "completion": "4.0"}
-{"prompt": "Title: Tarnation (2003), Genres: Documentary, Tag: parenthood", "completion": "4.0"}
-{"prompt": "Title: Being Julia (2004), Genres: Comedy|Drama, Tag: stage", "completion": "2.5"}
-{"prompt": "Title: Stage Door (1937), Genres: Drama, Tag: show business", "completion": "4.0"}
-{"prompt": "Title: Au Hasard Balthazar (1966), Genres: Crime|Drama, Tag: donkey", "completion": "3.5"}
-{"prompt": "Title: Kiki's Delivery Service (Majo no takky\u00fbbin) (1989), Genres: Adventure|Animation|Children|Drama|Fantasy, Tag: anime", "completion": "4.0"}
-{"prompt": "Title: Begotten (1990), Genres: Drama|Horror, Tag: boring", "completion": "0.5"}
-{"prompt": "Title: Begotten (1990), Genres: Drama|Horror, Tag: psychedelic", "completion": "0.5"}
-{"prompt": "Title: Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekij\u00f4-ban: Air/Magokoro wo, kimi ni) (1997), Genres: Action|Animation|Drama|Fantasy|Sci-Fi, Tag: psychology", "completion": "4.5"}
-{"prompt": "Title: Animatrix, The (2003), Genres: Action|Animation|Drama|Sci-Fi, Tag: animation", "completion": "4.5"}
-{"prompt": "Title: Animatrix, The (2003), Genres: Action|Animation|Drama|Sci-Fi, Tag: Matrix", "completion": "4.5"}
-{"prompt": "Title: Animatrix, The (2003), Genres: Action|Animation|Drama|Sci-Fi, Tag: sci-fi", "completion": "4.5"}
-{"prompt": "Title: Lemony Snicket's A Series of Unfortunate Events (2004), Genres: Adventure|Children|Comedy|Fantasy, Tag: quirky", "completion": "4.0"}
-{"prompt": "Title: Lemony Snicket's A Series of Unfortunate Events (2004), Genres: Adventure|Children|Comedy|Fantasy, Tag: stylized", "completion": "4.0"}
-{"prompt": "Title: Layer Cake (2004), Genres: Crime|Drama|Thriller, Tag: Tom Hardy", "completion": "4.5"}
-{"prompt": "Title: Hotel Rwanda (2004), Genres: Drama|War, Tag: genocide", "completion": "4.5"}
-{"prompt": "Title: Life Aquatic with Steve Zissou, The (2004), Genres: Adventure|Comedy|Fantasy, Tag: quirky", "completion": "4.0"}
-{"prompt": "Title: Life Aquatic with Steve Zissou, The (2004), Genres: Adventure|Comedy|Fantasy, Tag: visually appealing", "completion": "4.0"}
-{"prompt": "Title: Life Aquatic with Steve Zissou, The (2004), Genres: Adventure|Comedy|Fantasy, Tag: whimsical", "completion": "4.0"}
-{"prompt": "Title: Nobody Knows (Dare mo shiranai) (2004), Genres: Drama, Tag: orphans", "completion": "4.0"}
-{"prompt": "Title: Howl's Moving Castle (Hauru no ugoku shiro) (2004), Genres: Adventure|Animation|Fantasy|Romance, Tag: fantasy world", "completion": "3.5"}
-{"prompt": "Title: Wild Parrots of Telegraph Hill, The (2003), Genres: Documentary, Tag: parrots", "completion": "4.5"}
-{"prompt": "Title: Kingdom of Heaven (2005), Genres: Action|Drama|Romance|War, Tag: Eva Green", "completion": "4.0"}
-{"prompt": "Title: Kingdom of Heaven (2005), Genres: Action|Drama|Romance|War, Tag: Orlando Bloom", "completion": "4.0"}
-{"prompt": "Title: Crash (2004), Genres: Crime|Drama, Tag: racism", "completion": "4.0"}
-{"prompt": "Title: Star Wars: Episode III - Revenge of the Sith (2005), Genres: Action|Adventure|Sci-Fi, Tag: space opera", "completion": "4.5"}
-{"prompt": "Title: Cinderella Man (2005), Genres: Drama|Romance, Tag: boksdrama", "completion": "4.5"}
-{"prompt": "Title: Wedding Crashers (2005), Genres: Comedy|Romance, Tag: stiller", "completion": "4.0"}
-{"prompt": "Title: Serenity (2005), Genres: Action|Adventure|Sci-Fi, Tag: Firefly", "completion": "4.5"}
-{"prompt": "Title: Junebug (2005), Genres: Comedy|Drama, Tag: pregnancy", "completion": "4.0"}
-{"prompt": "Title: 40-Year-Old Virgin, The (2005), Genres: Comedy|Romance, Tag: BEST PICTURE", "completion": "5.0"}
-{"prompt": "Title: 40-Year-Old Virgin, The (2005), Genres: Comedy|Romance, Tag: hilarious", "completion": "5.0"}
-{"prompt": "Title: Corpse Bride (2005), Genres: Animation|Comedy|Fantasy|Musical|Romance, Tag: helena bonham carter", "completion": "4.0"}
-{"prompt": "Title: Corpse Bride (2005), Genres: Animation|Comedy|Fantasy|Musical|Romance, Tag: Johnny Depp", "completion": "4.0"}
-{"prompt": "Title: Corpse Bride (2005), Genres: Animation|Comedy|Fantasy|Musical|Romance, Tag: Tim Burton", "completion": "4.0"}
-{"prompt": "Title: Corpse Bride (2005), Genres: Animation|Comedy|Fantasy|Musical|Romance, Tag: visually appealing", "completion": "4.0"}
-{"prompt": "Title: Wallace & Gromit in The Curse of the Were-Rabbit (2005), Genres: Adventure|Animation|Children|Comedy, Tag: 06 Oscar Nominated Best Movie - Animation", "completion": "4.5"}
-{"prompt": "Title: Kiss Kiss Bang Bang (2005), Genres: Comedy|Crime|Mystery|Thriller, Tag: clever", "completion": "4.0"}
-{"prompt": "Title: Kiss Kiss Bang Bang (2005), Genres: Comedy|Crime|Mystery|Thriller, Tag: fast-paced dialogue", "completion": "4.0"}
-{"prompt": "Title: Kiss Kiss Bang Bang (2005), Genres: Comedy|Crime|Mystery|Thriller, Tag: witty", "completion": "4.0"}
-{"prompt": "Title: Reefer Madness: The Movie Musical (2005), Genres: Comedy|Drama|Musical, Tag: satire", "completion": "5.0"}
-{"prompt": "Title: Da Vinci Code, The (2006), Genres: Drama|Mystery|Thriller, Tag: Tom Hanks", "completion": "3.5"}
-{"prompt": "Title: Lady in the Water (2006), Genres: Drama|Fantasy|Mystery, Tag: far fetched", "completion": "3.0"}
-{"prompt": "Title: Lady in the Water (2006), Genres: Drama|Fantasy|Mystery, Tag: M. Night Shyamalan", "completion": "3.0"}
-{"prompt": "Title: Marie Antoinette (2006), Genres: Drama|Romance, Tag: lyrical", "completion": "3.0"}
-{"prompt": "Title: Babel (2006), Genres: Drama|Thriller, Tag: Brad Pitt", "completion": "3.0"}
-{"prompt": "Title: Stranger than Fiction (2006), Genres: Comedy|Drama|Fantasy|Romance, Tag: modern fantasy", "completion": "4.0"}
-{"prompt": "Title: Pan's Labyrinth (Laberinto del fauno, El) (2006), Genres: Drama|Fantasy|Thriller, Tag: visually appealing", "completion": "3.0"}
-{"prompt": "Title: Departed, The (2006), Genres: Crime|Drama|Thriller, Tag: undercover cop", "completion": "4.0"}
-{"prompt": "Title: Blood Diamond (2006), Genres: Action|Adventure|Crime|Drama|Thriller|War, Tag: Jennifer Connelly", "completion": "4.5"}
-{"prompt": "Title: Meet the Robinsons (2007), Genres: Action|Adventure|Animation|Children|Comedy|Sci-Fi, Tag: Something for everyone in this one... saw it without and plan on seeing it with kids!", "completion": "4.0"}
-{"prompt": "Title: Fantastic Four: Rise of the Silver Surfer (2007), Genres: Action|Adventure|Sci-Fi, Tag: bad plot", "completion": "3.0"}
-{"prompt": "Title: Fido (2006), Genres: Comedy|Horror|Thriller, Tag: zombies", "completion": "4.0"}
-{"prompt": "Title: Bourne Ultimatum, The (2007), Genres: Action|Crime|Thriller, Tag: assassin", "completion": "5.0"}
-{"prompt": "Title: Superbad (2007), Genres: Comedy, Tag: shenanigans", "completion": "5.0"}
-{"prompt": "Title: Tekkonkinkreet (Tekkon kinkur\u00eeto) (2006), Genres: Action|Adventure|Animation|Crime|Fantasy, Tag: anime", "completion": "4.5"}
-{"prompt": "Title: Gone Baby Gone (2007), Genres: Crime|Drama|Mystery, Tag: great performances", "completion": "5.0"}
-{"prompt": "Title: American Gangster (2007), Genres: Crime|Drama|Thriller, Tag: organized crime", "completion": "5.0"}
-{"prompt": "Title: I Am Legend (2007), Genres: Action|Horror|Sci-Fi|Thriller|IMAX, Tag: apocalypse", "completion": "4.0"}
-{"prompt": "Title: I Am Legend (2007), Genres: Action|Horror|Sci-Fi|Thriller|IMAX, Tag: last man on earth", "completion": "4.0"}
-{"prompt": "Title: I Am Legend (2007), Genres: Action|Horror|Sci-Fi|Thriller|IMAX, Tag: vampire", "completion": "4.0"}
-{"prompt": "Title: In Bruges (2008), Genres: Comedy|Crime|Drama|Thriller, Tag: Colin Farrell", "completion": "5.0"}
-{"prompt": "Title: In Bruges (2008), Genres: Comedy|Crime|Drama|Thriller, Tag: drugs", "completion": "5.0"}
-{"prompt": "Title: In Bruges (2008), Genres: Comedy|Crime|Drama|Thriller, Tag: irreverent", "completion": "5.0"}
-{"prompt": "Title: In Bruges (2008), Genres: Comedy|Crime|Drama|Thriller, Tag: Ralph Fiennes", "completion": "5.0"}
-{"prompt": "Title: In Bruges (2008), Genres: Comedy|Crime|Drama|Thriller, Tag: stylized", "completion": "5.0"}
-{"prompt": "Title: Definitely, Maybe (2008), Genres: Comedy|Drama|Romance, Tag: Ryan Reynolds", "completion": "3.5"}
-{"prompt": "Title: Bank Job, The (2008), Genres: Action|Crime|Thriller, Tag: heist", "completion": "5.0"}
-{"prompt": "Title: Funny Games U.S. (2007), Genres: Drama|Thriller, Tag: intelligent", "completion": "4.5"}
-{"prompt": "Title: Dark Knight, The (2008), Genres: Action|Crime|Drama|IMAX, Tag: superhero", "completion": "5.0"}
-{"prompt": "Title: Step Brothers (2008), Genres: Comedy, Tag: funny", "completion": "5.0"}
-{"prompt": "Title: Step Brothers (2008), Genres: Comedy, Tag: funny", "completion": "4.0"}
-{"prompt": "Title: Step Brothers (2008), Genres: Comedy, Tag: will ferrell", "completion": "4.0"}
-{"prompt": "Title: Pineapple Express (2008), Genres: Action|Comedy|Crime, Tag: James Franco", "completion": "4.0"}
-{"prompt": "Title: Burn After Reading (2008), Genres: Comedy|Crime|Drama, Tag: Coen Bros", "completion": "4.5"}
-{"prompt": "Title: Burn After Reading (2008), Genres: Comedy|Crime|Drama, Tag: George Clooney", "completion": "4.5"}
-{"prompt": "Title: Burn After Reading (2008), Genres: Comedy|Crime|Drama, Tag: weird", "completion": "4.5"}
-{"prompt": "Title: Zack and Miri Make a Porno (2008), Genres: Comedy|Drama|Romance, Tag: Sexual Humor", "completion": "4.5"}
-{"prompt": "Title: Changeling (2008), Genres: Crime|Drama|Mystery, Tag: emotional", "completion": "3.5"}
-{"prompt": "Title: Twilight (2008), Genres: Drama|Fantasy|Romance|Thriller, Tag: boring", "completion": "1.0"}
-{"prompt": "Title: Coraline (2009), Genres: Animation|Fantasy|Thriller, Tag: creepy", "completion": "4.5"}
-{"prompt": "Title: Coraline (2009), Genres: Animation|Fantasy|Thriller, Tag: dark fairy tale", "completion": "4.5"}
-{"prompt": "Title: Coraline (2009), Genres: Animation|Fantasy|Thriller, Tag: Surreal", "completion": "4.5"}
-{"prompt": "Title: Dr. Horrible's Sing-Along Blog (2008), Genres: Comedy|Drama|Musical|Sci-Fi, Tag: joss whedon", "completion": "5.0"}
-{"prompt": "Title: Dr. Horrible's Sing-Along Blog (2008), Genres: Comedy|Drama|Musical|Sci-Fi, Tag: parody", "completion": "5.0"}
-{"prompt": "Title: I Love You, Man (2009), Genres: Comedy, Tag: bromance", "completion": "3.5"}
-{"prompt": "Title: Inglourious Basterds (2009), Genres: Action|Drama|War, Tag: black comedy", "completion": "4.5"}
-{"prompt": "Title: X-Men Origins: Wolverine (2009), Genres: Action|Sci-Fi|Thriller, Tag: too many characters", "completion": "3.5"}
-{"prompt": "Title: Star Trek (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: future", "completion": "4.5"}
-{"prompt": "Title: Star Trek (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: lack of development", "completion": "4.5"}
-{"prompt": "Title: Star Trek (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: sci-fi", "completion": "4.5"}
-{"prompt": "Title: Terminator Salvation (2009), Genres: Action|Adventure|Sci-Fi|Thriller, Tag: bad acting", "completion": "4.0"}
-{"prompt": "Title: Terminator Salvation (2009), Genres: Action|Adventure|Sci-Fi|Thriller, Tag: bad plot", "completion": "4.0"}
-{"prompt": "Title: Terminator Salvation (2009), Genres: Action|Adventure|Sci-Fi|Thriller, Tag: franchise", "completion": "4.0"}
-{"prompt": "Title: Brothers Bloom, The (2008), Genres: Adventure|Comedy|Crime|Romance, Tag: Mark Ruffalo", "completion": "4.0"}
-{"prompt": "Title: Brothers Bloom, The (2008), Genres: Adventure|Comedy|Crime|Romance, Tag: Rachel Weisz", "completion": "4.0"}
-{"prompt": "Title: Neon Genesis Evangelion: Death & Rebirth (Shin seiki Evangelion Gekij\u00f4-ban: Shito shinsei) (1997), Genres: Action|Animation|Mystery|Sci-Fi, Tag: Recap", "completion": "3.5"}
-{"prompt": "Title: Up (2009), Genres: Adventure|Animation|Children|Drama, Tag: children", "completion": "4.0"}
-{"prompt": "Title: Up (2009), Genres: Adventure|Animation|Children|Drama, Tag: computer animation", "completion": "4.0"}
-{"prompt": "Title: Up (2009), Genres: Adventure|Animation|Children|Drama, Tag: bittersweet", "completion": "3.0"}
-{"prompt": "Title: Hangover, The (2009), Genres: Comedy|Crime, Tag: casino", "completion": "4.0"}
-{"prompt": "Title: Transformers: Revenge of the Fallen (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: plot holes", "completion": "3.0"}
-{"prompt": "Title: (500) Days of Summer (2009), Genres: Comedy|Drama|Romance, Tag: inspiring", "completion": "5.0"}
-{"prompt": "Title: (500) Days of Summer (2009), Genres: Comedy|Drama|Romance, Tag: intelligent", "completion": "5.0"}
-{"prompt": "Title: Haunted World of El Superbeasto, The (2009), Genres: Action|Animation|Comedy|Horror|Thriller, Tag: Narrative pisstake", "completion": "3.5"}
-{"prompt": "Title: Zombieland (2009), Genres: Action|Comedy|Horror, Tag: Emma Stone", "completion": "3.5"}
-{"prompt": "Title: Mary and Max (2009), Genres: Animation|Comedy|Drama, Tag: bittersweet", "completion": "5.0"}
-{"prompt": "Title: Mary and Max (2009), Genres: Animation|Comedy|Drama, Tag: character study", "completion": "5.0"}
-{"prompt": "Title: Mary and Max (2009), Genres: Animation|Comedy|Drama, Tag: dark comedy", "completion": "5.0"}
-{"prompt": "Title: Mary and Max (2009), Genres: Animation|Comedy|Drama, Tag: mental illness", "completion": "5.0"}
-{"prompt": "Title: Mary and Max (2009), Genres: Animation|Comedy|Drama, Tag: quirky", "completion": "5.0"}
-{"prompt": "Title: Mary and Max (2009), Genres: Animation|Comedy|Drama, Tag: sweet", "completion": "5.0"}
-{"prompt": "Title: Avatar (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: military", "completion": "4.0"}
-{"prompt": "Title: Avatar (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: poor dialogue", "completion": "4.0"}
-{"prompt": "Title: Avatar (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: white guilt", "completion": "4.0"}
-{"prompt": "Title: Avatar (2009), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: visually stunning", "completion": "5.0"}
-{"prompt": "Title: Shutter Island (2010), Genres: Drama|Mystery|Thriller, Tag: psychological", "completion": "5.0"}
-{"prompt": "Title: Shutter Island (2010), Genres: Drama|Mystery|Thriller, Tag: Psychological Thriller", "completion": "5.0"}
-{"prompt": "Title: Inception (2010), Genres: Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX, Tag: alternate reality", "completion": "2.5"}
-{"prompt": "Title: Inception (2010), Genres: Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX, Tag: Leonardo DiCaprio", "completion": "2.5"}
-{"prompt": "Title: Inception (2010), Genres: Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX, Tag: dead wife", "completion": "5.0"}
-{"prompt": "Title: Inception (2010), Genres: Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX, Tag: great soundtrack", "completion": "5.0"}
-{"prompt": "Title: Inception (2010), Genres: Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX, Tag: intellectual", "completion": "5.0"}
-{"prompt": "Title: Scott Pilgrim vs. the World (2010), Genres: Action|Comedy|Fantasy|Musical|Romance, Tag: geeky", "completion": "5.0"}
-{"prompt": "Title: Scott Pilgrim vs. the World (2010), Genres: Action|Comedy|Fantasy|Musical|Romance, Tag: Michael Cera", "completion": "5.0"}
-{"prompt": "Title: Scott Pilgrim vs. the World (2010), Genres: Action|Comedy|Fantasy|Musical|Romance, Tag: stylized", "completion": "5.0"}
-{"prompt": "Title: Social Network, The (2010), Genres: Drama, Tag: witty", "completion": "3.5"}
-{"prompt": "Title: Sintel (2010), Genres: Animation|Fantasy, Tag: animation", "completion": "3.5"}
-{"prompt": "Title: Sintel (2010), Genres: Animation|Fantasy, Tag: fantasy", "completion": "3.5"}
-{"prompt": "Title: Inside Job (2010), Genres: Documentary, Tag: economics", "completion": "5.0"}
-{"prompt": "Title: Black Swan (2010), Genres: Drama|Thriller, Tag: horror", "completion": "3.5"}
-{"prompt": "Title: Black Swan (2010), Genres: Drama|Thriller, Tag: obsession", "completion": "3.5"}
-{"prompt": "Title: True Grit (2010), Genres: Western, Tag: atmospheric", "completion": "5.0"}
-{"prompt": "Title: True Grit (2010), Genres: Western, Tag: Matt Damon", "completion": "5.0"}
-{"prompt": "Title: True Grit (2010), Genres: Western, Tag: predictable", "completion": "5.0"}
-{"prompt": "Title: Green Lantern (2011), Genres: Action|Adventure|Sci-Fi, Tag: audience intelligence underestimated", "completion": "3.5"}
-{"prompt": "Title: Green Lantern (2011), Genres: Action|Adventure|Sci-Fi, Tag: cheesy", "completion": "3.5"}
-{"prompt": "Title: Green Lantern (2011), Genres: Action|Adventure|Sci-Fi, Tag: comic book", "completion": "3.5"}
-{"prompt": "Title: Green Lantern (2011), Genres: Action|Adventure|Sci-Fi, Tag: DC", "completion": "3.5"}
-{"prompt": "Title: Avengers, The (2012), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: superhero team", "completion": "1.5"}
-{"prompt": "Title: Warrior (2011), Genres: Drama, Tag: Tom Hardy", "completion": "5.0"}
-{"prompt": "Title: Beasts of the Southern Wild (2012), Genres: Drama|Fantasy, Tag: emotional", "completion": "3.0"}
-{"prompt": "Title: Skyfall (2012), Genres: Action|Adventure|Thriller|IMAX, Tag: beautiful cinematography", "completion": "3.0"}
-{"prompt": "Title: Hands Over the City (Le mani sulla citt\u00e0) (1963), Genres: Drama, Tag: city politics", "completion": "4.5"}
-{"prompt": "Title: Hands Over the City (Le mani sulla citt\u00e0) (1963), Genres: Drama, Tag: political right versus left", "completion": "4.5"}
-{"prompt": "Title: Argo (2012), Genres: Drama|Thriller, Tag: cia", "completion": "4.5"}
-{"prompt": "Title: Django Unchained (2012), Genres: Action|Drama|Western, Tag: Leonardo DiCaprio", "completion": "5.0"}
-{"prompt": "Title: It's Such a Beautiful Day (2012), Genres: Animation|Comedy|Drama|Fantasy|Sci-Fi, Tag: philosopical", "completion": "5.0"}
-{"prompt": "Title: It's Such a Beautiful Day (2012), Genres: Animation|Comedy|Drama|Fantasy|Sci-Fi, Tag: weird", "completion": "5.0"}
-{"prompt": "Title: Upstream Color (2013), Genres: Romance|Sci-Fi|Thriller, Tag: atmospheric", "completion": "3.5"}
-{"prompt": "Title: Movie 43 (2013), Genres: Comedy, Tag: embarassing scenes", "completion": "5.0"}
-{"prompt": "Title: Movie 43 (2013), Genres: Comedy, Tag: satire", "completion": "5.0"}
-{"prompt": "Title: Now You See Me (2013), Genres: Crime|Mystery|Thriller, Tag: predictable", "completion": "1.5"}
-{"prompt": "Title: Man of Steel (2013), Genres: Action|Adventure|Fantasy|Sci-Fi|IMAX, Tag: Amy Adams", "completion": "3.5"}
-{"prompt": "Title: Prisoners (2013), Genres: Drama|Mystery|Thriller, Tag: acting", "completion": "5.0"}
-{"prompt": "Title: Prisoners (2013), Genres: Drama|Mystery|Thriller, Tag: Hugh Jackman", "completion": "5.0"}
-{"prompt": "Title: Short Term 12 (2013), Genres: Drama, Tag: heartwarming", "completion": "3.5"}
-{"prompt": "Title: Captain Phillips (2013), Genres: Adventure|Drama|Thriller|IMAX, Tag: ocean", "completion": "5.0"}
-{"prompt": "Title: Dallas Buyers Club (2013), Genres: Drama, Tag: social commentary", "completion": "4.0"}
-{"prompt": "Title: Inside Llewyn Davis (2013), Genres: Drama, Tag: cinematography", "completion": "4.0"}
-{"prompt": "Title: Inside Llewyn Davis (2013), Genres: Drama, Tag: depressing", "completion": "4.0"}
-{"prompt": "Title: Snowpiercer (2013), Genres: Action|Drama|Sci-Fi, Tag: fatalistic", "completion": "3.0"}
-{"prompt": "Title: Divergent (2014), Genres: Adventure|Romance|Sci-Fi|IMAX, Tag: dystopia", "completion": "3.0"}
-{"prompt": "Title: Divergent (2014), Genres: Adventure|Romance|Sci-Fi|IMAX, Tag: new society", "completion": "3.0"}
-{"prompt": "Title: Divergent (2014), Genres: Adventure|Romance|Sci-Fi|IMAX, Tag: plot holes", "completion": "3.0"}
-{"prompt": "Title: Divergent (2014), Genres: Adventure|Romance|Sci-Fi|IMAX, Tag: predictable", "completion": "3.0"}
-{"prompt": "Title: Interstellar (2014), Genres: Sci-Fi|IMAX, Tag: black hole", "completion": "4.5"}
-{"prompt": "Title: Babadook, The (2014), Genres: Drama|Horror|Thriller, Tag: atmospheric", "completion": "4.5"}
-{"prompt": "Title: Babadook, The (2014), Genres: Drama|Horror|Thriller, Tag: psychological", "completion": "4.5"}
-{"prompt": "Title: Gone Girl (2014), Genres: Drama|Thriller, Tag: Stupid ending", "completion": "1.0"}
-{"prompt": "Title: Two Days, One Night (Deux jours, une nuit) (2014), Genres: Drama, Tag: bittersweet", "completion": "3.5"}
-{"prompt": "Title: Maze Runner, The (2014), Genres: Action|Mystery|Sci-Fi, Tag: action", "completion": "3.5"}
-{"prompt": "Title: Maze Runner, The (2014), Genres: Action|Mystery|Sci-Fi, Tag: post-apocalyptic", "completion": "3.5"}
-{"prompt": "Title: Maze Runner, The (2014), Genres: Action|Mystery|Sci-Fi, Tag: weak plot", "completion": "3.5"}
-{"prompt": "Title: John Wick (2014), Genres: Action|Thriller, Tag: widows/widowers", "completion": "4.5"}
-{"prompt": "Title: Big Hero 6 (2014), Genres: Action|Animation|Comedy, Tag: feel-good", "completion": "5.0"}
-{"prompt": "Title: The Imitation Game (2014), Genres: Drama|Thriller|War, Tag: inspirational", "completion": "3.0"}
-{"prompt": "Title: Wild Tales (2014), Genres: Comedy|Drama|Thriller, Tag: black comedy", "completion": "4.0"}
-{"prompt": "Title: Wild Tales (2014), Genres: Comedy|Drama|Thriller, Tag: dark humor", "completion": "4.0"}
-{"prompt": "Title: Wild Tales (2014), Genres: Comedy|Drama|Thriller, Tag: multiple short stories", "completion": "4.0"}
-{"prompt": "Title: The Rabbi's Cat (Le chat du rabbin) (2011), Genres: Adventure|Animation, Tag: trippy", "completion": "3.0"}
-{"prompt": "Title: The Interview (2014), Genres: Action|Comedy, Tag: Seth Rogen", "completion": "3.0"}
-{"prompt": "Title: Avengers: Infinity War - Part I (2018), Genres: Action|Adventure|Sci-Fi, Tag: comic book", "completion": "4.0"}
-{"prompt": "Title: Avengers: Infinity War - Part I (2018), Genres: Action|Adventure|Sci-Fi, Tag: Great villain", "completion": "4.0"}
-{"prompt": "Title: Avengers: Infinity War - Part I (2018), Genres: Action|Adventure|Sci-Fi, Tag: Guardians of the Galaxy", "completion": "4.0"}
-{"prompt": "Title: Avengers: Infinity War - Part I (2018), Genres: Action|Adventure|Sci-Fi, Tag: Sad", "completion": "3.0"}
-{"prompt": "Title: Thor: Ragnarok (2017), Genres: Action|Adventure|Sci-Fi, Tag: humor", "completion": "3.0"}
-{"prompt": "Title: Thor: Ragnarok (2017), Genres: Action|Adventure|Sci-Fi, Tag: white guilt", "completion": "3.0"}
-{"prompt": "Title: A Pigeon Sat on a Branch Reflecting on Existence (2014), Genres: Comedy|Drama, Tag: understated", "completion": "3.5"}
-{"prompt": "Title: The Hateful Eight (2015), Genres: Western, Tag: Kurt Russell", "completion": "5.0"}
-{"prompt": "Title: The Hateful Eight (2015), Genres: Western, Tag: Western", "completion": "5.0"}
-{"prompt": "Title: The Hunger Games: Mockingjay - Part 2 (2015), Genres: Adventure|Sci-Fi, Tag: Jennifer Lawrence", "completion": "3.5"}
-{"prompt": "Title: Self/less (2015), Genres: Action|Mystery|Sci-Fi|Thriller, Tag: ethics", "completion": "3.5"}
-{"prompt": "Title: Suicide Squad (2016), Genres: Action|Crime|Sci-Fi, Tag: Bad writing", "completion": "4.0"}
-{"prompt": "Title: Suicide Squad (2016), Genres: Action|Crime|Sci-Fi, Tag: Ben Affleck", "completion": "4.0"}
-{"prompt": "Title: Suicide Squad (2016), Genres: Action|Crime|Sci-Fi, Tag: Harley Quinn", "completion": "4.0"}
-{"prompt": "Title: Suicide Squad (2016), Genres: Action|Crime|Sci-Fi, Tag: Horrible directing", "completion": "4.0"}
-{"prompt": "Title: Suicide Squad (2016), Genres: Action|Crime|Sci-Fi, Tag: lack of plot", "completion": "4.0"}
-{"prompt": "Title: Suicide Squad (2016), Genres: Action|Crime|Sci-Fi, Tag: Will Smith", "completion": "4.0"}
-{"prompt": "Title: The Man from U.N.C.L.E. (2015), Genres: Action|Adventure|Comedy, Tag: stylish", "completion": "3.0"}
-{"prompt": "Title: Silence (2016), Genres: Drama|Thriller, Tag: philosophical", "completion": "4.5"}
-{"prompt": "Title: Silence (2016), Genres: Drama|Thriller, Tag: tragic", "completion": "4.5"}
-{"prompt": "Title: Just Eat It: A Food Waste Story (2014), Genres: Documentary, Tag: Sustainability", "completion": "4.0"}
-{"prompt": "Title: Big Short, The (2015), Genres: Drama, Tag: Witty", "completion": "3.0"}
-{"prompt": "Title: World of Tomorrow (2015), Genres: Animation|Comedy, Tag: surreal", "completion": "5.0"}
-{"prompt": "Title: 10 Cloverfield Lane (2016), Genres: Thriller, Tag: suspense", "completion": "3.0"}
-{"prompt": "Title: Who Killed Chea Vichea? (2010), Genres: Documentary, Tag: Cambodia", "completion": "5.0"}
-{"prompt": "Title: Who Killed Chea Vichea? (2010), Genres: Documentary, Tag: human rights", "completion": "5.0"}
-{"prompt": "Title: Eye in the Sky (2016), Genres: Drama|Thriller|War, Tag: suspense", "completion": "3.5"}
-{"prompt": "Title: Paterson, Genres: (no genres listed), Tag: quirky", "completion": "4.5"}
-{"prompt": "Title: Paterson, Genres: (no genres listed), Tag: sweet", "completion": "4.5"}
-{"prompt": "Title: Paterson, Genres: (no genres listed), Tag: understated", "completion": "4.5"}
-{"prompt": "Title: Sausage Party (2016), Genres: Animation|Comedy, Tag: satire", "completion": "5.0"}
-{"prompt": "Title: Sausage Party (2016), Genres: Animation|Comedy, Tag: Vulgar", "completion": "5.0"}
-{"prompt": "Title: Captain Fantastic (2016), Genres: Drama, Tag: freedom", "completion": "4.5"}
-{"prompt": "Title: Don't Breathe (2016), Genres: Thriller, Tag: intense", "completion": "3.0"}
-{"prompt": "Title: Arrival (2016), Genres: Sci-Fi, Tag: Cerebral", "completion": "4.0"}
-{"prompt": "Title: John Wick: Chapter Two (2017), Genres: Action|Crime|Thriller, Tag: dark hero", "completion": "4.5"}
-{"prompt": "Title: Logan (2017), Genres: Action|Sci-Fi, Tag: gritty", "completion": "4.0"}
-{"prompt": "Title: It Comes at Night (2017), Genres: Horror|Mystery|Thriller, Tag: paranoia", "completion": "3.5"}
-{"prompt": "Title: It Comes at Night (2017), Genres: Horror|Mystery|Thriller, Tag: Suspenseful", "completion": "3.5"}
-{"prompt": "Title: Blade Runner 2049 (2017), Genres: Sci-Fi, Tag: beautiful", "completion": "5.0"}
-{"prompt": "Title: Blade Runner 2049 (2017), Genres: Sci-Fi, Tag: dreamlike", "completion": "5.0"}
-{"prompt": "Title: Blade Runner 2049 (2017), Genres: Sci-Fi, Tag: existentialism", "completion": "5.0"}
-{"prompt": "Title: Mother! (2017), Genres: Drama|Horror|Mystery|Thriller, Tag: allegorical", "completion": "3.0"}
-{"prompt": "Title: Jumanji: Welcome to the Jungle (2017), Genres: Action|Adventure|Children, Tag: funny", "completion": "3.5"}
-{"prompt": "Title: The Greatest Showman (2017), Genres: Drama, Tag: bad music", "completion": "1.0"}
-{"prompt": "Title: Game Night (2018), Genres: Action|Comedy|Crime|Horror, Tag: funny", "completion": "4.0"}
-{"prompt": "Title: Tomb Raider (2018), Genres: Action|Adventure|Fantasy, Tag: video game adaptation", "completion": "3.5"}
+{"prompt": "Title: Divided We Fall (Mus\u00edme si pom\u00e1hat) (2000), Genres: Comedy|Drama, Tag: Holocaust", "completion": "4.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: thought-provoking", "completion": "5.0"}
+{"prompt": "Title: Eraserhead (1977), Genres: Drama|Horror, Tag: disturbing", "completion": "5.0"}
+{"prompt": "Title: Zack and Miri Make a Porno (2008), Genres: Comedy|Drama|Romance, Tag: Seth Rogen", "completion": "4.5"}
+{"prompt": "Title: Whole Wide World, The (1996), Genres: Drama, Tag: Conan", "completion": "4.5"}
+{"prompt": "Title: Manhunter (1986), Genres: Action|Crime|Drama|Horror|Thriller, Tag: Hannibal Lecter", "completion": "3.5"}
+{"prompt": "Title: Godfather: Part II, The (1974), Genres: Crime|Drama, Tag: Mafia", "completion": "5.0"}
+{"prompt": "Title: Saw (2004), Genres: Horror|Mystery|Thriller, Tag: brutal", "completion": "5.0"}
+{"prompt": "Title: Zero Dark Thirty (2012), Genres: Action|Drama|Thriller, Tag: American propaganda", "completion": "5.0"}
+{"prompt": "Title: Promises (2001), Genres: Documentary, Tag: In Netflix queue", "completion": "4.0"}
+{"prompt": "Title: Village of the Damned (1960), Genres: Horror|Sci-Fi|Thriller, Tag: evil children", "completion": "3.5"}
+{"prompt": "Title: Up (2009), Genres: Adventure|Animation|Children|Drama, Tag: Pixar", "completion": "4.0"}
+{"prompt": "Title: Final Destination 2 (2003), Genres: Horror|Thriller, Tag: sequel", "completion": "3.5"}
+{"prompt": "Title: X-Men Origins: Wolverine (2009), Genres: Action|Sci-Fi|Thriller, Tag: bad plot", "completion": "3.5"}
+{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: meditative", "completion": "5.0"}
+{"prompt": "Title: Godfather: Part II, The (1974), Genres: Crime|Drama, Tag: Mafia", "completion": "5.0"}
+{"prompt": "Title: Roman Holiday (1953), Genres: Comedy|Drama|Romance, Tag: royalty", "completion": "4.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: aggressive", "completion": "5.0"}
+{"prompt": "Title: Million Dollar Baby (2004), Genres: Drama, Tag: boxing", "completion": "4.0"}
+{"prompt": "Title: Little Princess, A (1995), Genres: Children|Drama, Tag: England", "completion": "4.0"}
+{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: drama", "completion": "5.0"}
+{"prompt": "Title: Ratatouille (2007), Genres: Animation|Children|Drama, Tag: inspirational", "completion": "5.0"}
+{"prompt": "Title: Blue Sky (1994), Genres: Drama|Romance, Tag: mental illness", "completion": "3.5"}
+{"prompt": "Title: Mississippi Masala (1991), Genres: Drama|Romance, Tag: In Netflix queue", "completion": "4.5"}
+{"prompt": "Title: Love Liza (2002), Genres: Drama, Tag: planes", "completion": "3.5"}
+{"prompt": "Title: Down with Love (2003), Genres: Comedy|Romance, Tag: Renee Zellweger", "completion": "3.0"}
+{"prompt": "Title: Star Wars: Episode V - The Empire Strikes Back (1980), Genres: Action|Adventure|Sci-Fi, Tag: I am your father", "completion": "5.0"}
+{"prompt": "Title: Good Will Hunting (1997), Genres: Drama|Romance, Tag: inspirational", "completion": "4.0"}
+{"prompt": "Title: Passion Fish (1992), Genres: Drama, Tag: disability", "completion": "4.0"}
+{"prompt": "Title: War Room, The (1993), Genres: Documentary, Tag: politics", "completion": "3.0"}
+{"prompt": "Title: Inception (2010), Genres: Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX, Tag: complicated", "completion": "5.0"}
+{"prompt": "Title: Observe and Report (2009), Genres: Action|Comedy, Tag: Seth Rogen", "completion": "5.0"}
+{"prompt": "Title: Rear Window (1954), Genres: Mystery|Thriller, Tag: photographer", "completion": "3.5"}
+{"prompt": "Title: Dark Victory (1939), Genres: Drama|Romance, Tag: terminal illness", "completion": "4.0"}
+{"prompt": "Title: Margin Call (2011), Genres: Drama|Thriller, Tag: financial crisis", "completion": "5.0"}
+{"prompt": "Title: Arrival (2016), Genres: Sci-Fi, Tag: smart", "completion": "4.0"}
+{"prompt": "Title: Starsuckers (2009), Genres: Documentary, Tag: mediacentralism", "completion": "4.0"}
+{"prompt": "Title: There's Something About Mary (1998), Genres: Comedy|Romance, Tag: goofy", "completion": "3.5"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: intellectual", "completion": "5.0"}
+{"prompt": "Title: The Hateful Eight (2015), Genres: Western, Tag: humor", "completion": "5.0"}
+{"prompt": "Title: Dangerous Minds (1995), Genres: Drama, Tag: high school", "completion": "3.0"}
+{"prompt": "Title: Bishop's Wife, The (1947), Genres: Comedy|Drama|Romance, Tag: Christmas", "completion": "4.0"}
+{"prompt": "Title: Grave of the Fireflies (Hotaru no haka) (1988), Genres: Animation|Drama|War, Tag: downbeat", "completion": "4.0"}
+{"prompt": "Title: Terminator Salvation (2009), Genres: Action|Adventure|Sci-Fi|Thriller, Tag: post-apocalyptic", "completion": "4.0"}
+{"prompt": "Title: L\u00e9on: The Professional (a.k.a. The Professional) (L\u00e9on) (1994), Genres: Action|Crime|Drama|Thriller, Tag: friendship", "completion": "5.0"}
+{"prompt": "Title: Howards End (1992), Genres: Drama, Tag: E.M. Forster", "completion": "4.5"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: travolta", "completion": "5.0"}
+{"prompt": "Title: One Flew Over the Cuckoo's Nest (1975), Genres: Drama, Tag: emotional", "completion": "4.0"}
+{"prompt": "Title: Ninotchka (1939), Genres: Comedy|Romance, Tag: Cold War", "completion": "4.0"}
+{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: cult film", "completion": "5.0"}
+{"prompt": "Title: In Bruges (2008), Genres: Comedy|Crime|Drama|Thriller, Tag: black comedy", "completion": "5.0"}
+{"prompt": "Title: Platoon (1986), Genres: Drama|War, Tag: Vietnam", "completion": "3.5"}
+{"prompt": "Title: Predator (1987), Genres: Action|Sci-Fi|Thriller, Tag: aliens", "completion": "4.0"}
+{"prompt": "Title: Shakespeare in Love (1998), Genres: Comedy|Drama|Romance, Tag: England", "completion": "4.0"}
+{"prompt": "Title: Big Lebowski, The (1998), Genres: Comedy|Crime, Tag: great dialogue", "completion": "5.0"}
+{"prompt": "Title: Inception (2010), Genres: Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX, Tag: dreamlike", "completion": "4.5"}
+{"prompt": "Title: Eternal Sunshine of the Spotless Mind (2004), Genres: Drama|Romance|Sci-Fi, Tag: insightful", "completion": "5.0"}
+{"prompt": "Title: 2001: A Space Odyssey (1968), Genres: Adventure|Drama|Sci-Fi, Tag: cinematography", "completion": "5.0"}
+{"prompt": "Title: John Wick: Chapter Two (2017), Genres: Action|Crime|Thriller, Tag: secret society", "completion": "4.5"}
+{"prompt": "Title: Godzilla (2014), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: Creature Feature", "completion": "3.0"}
+{"prompt": "Title: Top Gun (1986), Genres: Action|Romance, Tag: Navy", "completion": "3.5"}
+{"prompt": "Title: Christmas Story, A (1983), Genres: Children|Comedy, Tag: Christmas", "completion": "4.0"}
+{"prompt": "Title: Cat's Eye (1985), Genres: Horror, Tag: Stephen King", "completion": "2.0"}
+{"prompt": "Title: Vertigo (1958), Genres: Drama|Mystery|Romance|Thriller, Tag: imdb top 250", "completion": "3.5"}
+{"prompt": "Title: Old School (2003), Genres: Comedy, Tag: comedy", "completion": "4.5"}
+{"prompt": "Title: Mask of Zorro, The (1998), Genres: Action|Comedy|Romance, Tag: California", "completion": "4.0"}
+{"prompt": "Title: Star Trek IV: The Voyage Home (1986), Genres: Adventure|Comedy|Sci-Fi, Tag: whales", "completion": "4.0"}
+{"prompt": "Title: Life Aquatic with Steve Zissou, The (2004), Genres: Adventure|Comedy|Fantasy, Tag: trippy", "completion": "4.0"}
+{"prompt": "Title: A.I. Artificial Intelligence (2001), Genres: Adventure|Drama|Sci-Fi, Tag: robots", "completion": "4.5"}
+{"prompt": "Title: Black Mirror: White Christmas (2014), Genres: Drama|Horror|Mystery|Sci-Fi|Thriller, Tag: jon hamm", "completion": "5.0"}
+{"prompt": "Title: Wolf of Wall Street, The (2013), Genres: Comedy|Crime|Drama, Tag: Leonardo DiCaprio", "completion": "5.0"}
+{"prompt": "Title: Anchorman 2: The Legend Continues (2013), Genres: Comedy, Tag: will ferrell", "completion": "4.0"}
+{"prompt": "Title: Moon (2009), Genres: Drama|Mystery|Sci-Fi|Thriller, Tag: 2001-like", "completion": "4.5"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: noir", "completion": "5.0"}
+{"prompt": "Title: Usual Suspects, The (1995), Genres: Crime|Mystery|Thriller, Tag: thriller", "completion": "5.0"}
+{"prompt": "Title: South Pacific (1958), Genres: Musical|Romance|War, Tag: island", "completion": "4.0"}
+{"prompt": "Title: Pi (1998), Genres: Drama|Sci-Fi|Thriller, Tag: cerebral", "completion": "3.0"}
+{"prompt": "Title: Man in the Iron Mask, The (1998), Genres: Action|Adventure|Drama, Tag: seen more than once", "completion": "4.0"}
+{"prompt": "Title: Star Wars: Episode V - The Empire Strikes Back (1980), Genres: Action|Adventure|Sci-Fi, Tag: space", "completion": "5.0"}
+{"prompt": "Title: Psycho (1960), Genres: Crime|Horror, Tag: suspenseful", "completion": "4.0"}
+{"prompt": "Title: Reservoir Dogs (1992), Genres: Crime|Mystery|Thriller, Tag: religion", "completion": "4.0"}
+{"prompt": "Title: Seven (a.k.a. Se7en) (1995), Genres: Mystery|Thriller, Tag: serial killer", "completion": "4.0"}
+{"prompt": "Title: Babadook, The (2014), Genres: Drama|Horror|Thriller, Tag: Metaphorical", "completion": "4.5"}
+{"prompt": "Title: Avengers, The (2012), Genres: Action|Adventure|Sci-Fi|IMAX, Tag: Captain America", "completion": "1.5"}
+{"prompt": "Title: Forbidden Kingdom, The (2008), Genres: Action|Adventure|Comedy|Fantasy, Tag: kung fu", "completion": "4.5"}
+{"prompt": "Title: Tetsuo, the Ironman (Tetsuo) (1988), Genres: Action|Horror|Sci-Fi|Thriller, Tag: atmospheric", "completion": "3.5"}
+{"prompt": "Title: Love Liza (2002), Genres: Drama, Tag: widows/widowers", "completion": "3.5"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: very funny", "completion": "5.0"}
+{"prompt": "Title: Constant Gardener, The (2005), Genres: Drama|Thriller, Tag: politics", "completion": "4.0"}
+{"prompt": "Title: Say Anything... (1989), Genres: Comedy|Drama|Romance, Tag: In Your Eyes", "completion": "5.0"}
+{"prompt": "Title: Caddyshack (1980), Genres: Comedy, Tag: golf", "completion": "2.0"}
+{"prompt": "Title: Green Lantern (2011), Genres: Action|Adventure|Sci-Fi, Tag: space", "completion": "3.5"}
+{"prompt": "Title: Seventh Seal, The (Sjunde inseglet, Det) (1957), Genres: Drama, Tag: chess", "completion": "2.5"}
+{"prompt": "Title: Lady in the Water (2006), Genres: Drama|Fantasy|Mystery, Tag: bad", "completion": "3.0"}
+{"prompt": "Title: Taken 3 (2015), Genres: Action|Crime|Thriller, Tag: police", "completion": "4.5"}
+{"prompt": "Title: Ninotchka (1939), Genres: Comedy|Romance, Tag: Russia", "completion": "4.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: suspense", "completion": "5.0"}
+{"prompt": "Title: Constant Gardener, The (2005), Genres: Drama|Thriller, Tag: Africa", "completion": "4.0"}
+{"prompt": "Title: Zombieland (2009), Genres: Action|Comedy|Horror, Tag: Woody Harrelson", "completion": "3.5"}
+{"prompt": "Title: Sleepy Hollow (1999), Genres: Fantasy|Horror|Mystery|Romance, Tag: Ichabod Crane", "completion": "2.0"}
+{"prompt": "Title: Road to Perdition (2002), Genres: Crime|Drama, Tag: Tom Hanks", "completion": "4.0"}
+{"prompt": "Title: Girl, Interrupted (1999), Genres: Drama, Tag: winona ryder", "completion": "3.5"}
+{"prompt": "Title: Emma (1996), Genres: Comedy|Drama|Romance, Tag: Jane Austen", "completion": "3.0"}
+{"prompt": "Title: Love Liza (2002), Genres: Drama, Tag: drugs", "completion": "3.5"}
+{"prompt": "Title: Shining, The (1980), Genres: Horror, Tag: suspense", "completion": "4.5"}
+{"prompt": "Title: Saving Private Ryan (1998), Genres: Action|Drama|War, Tag: World War II", "completion": "3.0"}
+{"prompt": "Title: Old Boy (2003), Genres: Mystery|Thriller, Tag: depressing", "completion": "4.5"}
+{"prompt": "Title: Good Night, and Good Luck. (2005), Genres: Crime|Drama, Tag: Morrow", "completion": "4.0"}
+{"prompt": "Title: Primal Fear (1996), Genres: Crime|Drama|Mystery|Thriller, Tag: priest", "completion": "3.0"}
+{"prompt": "Title: Ordet (Word, The) (1955), Genres: Drama, Tag: religion", "completion": "4.0"}
+{"prompt": "Title: Tucker & Dale vs Evil (2010), Genres: Comedy|Horror, Tag: black comedy", "completion": "5.0"}
+{"prompt": "Title: Bug's Life, A (1998), Genres: Adventure|Animation|Children|Comedy, Tag: Pixar", "completion": "4.0"}
+{"prompt": "Title: District 9 (2009), Genres: Mystery|Sci-Fi|Thriller, Tag: intelligent sci-fi", "completion": "4.5"}
+{"prompt": "Title: Stranger than Fiction (2006), Genres: Comedy|Drama|Fantasy|Romance, Tag: Maggie Gyllenhaal", "completion": "4.0"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: Tarantino", "completion": "5.0"}
+{"prompt": "Title: Trainspotting (1996), Genres: Comedy|Crime|Drama, Tag: dark comedy", "completion": "4.0"}
+{"prompt": "Title: Now You See Me (2013), Genres: Crime|Mystery|Thriller, Tag: overcomplicated", "completion": "1.5"}
+{"prompt": "Title: Pulp Fiction (1994), Genres: Comedy|Crime|Drama|Thriller, Tag: action packed", "completion": "5.0"}

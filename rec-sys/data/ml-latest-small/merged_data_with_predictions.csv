@@ -1,101 +1,101 @@
 movieId,imdbId,tmdbId,title,genres,userId,rating,tag,predicted_rating_zero_shot,predicted_rating_few_shot_x,predicted_rating_few_shot_y
-1423,116506,55146.0,Hearts and Minds (1996),Drama,474,4.0,In Netflix queue,4.0,4.0,
-135536,1386697,297761.0,Suicide Squad (2016),Action|Crime|Sci-Fi,62,4.0,lack of plot,4.0,4.0,4.0
-135536,1386697,297761.0,Suicide Squad (2016),Action|Crime|Sci-Fi,62,4.0,Ben Affleck,4.0,4.0,4.0
-2313,80678,1955.0,"Elephant Man, The (1980)",Drama,474,4.5,freaks,4.5,4.5,
-296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,psychological,5.0,5.0,5.0
-296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,dialogue,5.0,5.0,5.0
-296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,ensemble cast,5.0,5.0,5.0
-296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,noir,5.0,5.0,5.0
-296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,great acting,5.0,5.0,5.0
-37729,121164,3933.0,Corpse Bride (2005),Animation|Comedy|Fantasy|Musical|Romance,336,2.5,animation,2.5,2.5,4.0
-5316,157583,10491.0,Enigma (2001),Romance|Thriller,474,2.5,World War II,2.5,2.5,4.0
-87430,1133985,44912.0,Green Lantern (2011),Action|Adventure|Sci-Fi,62,3.5,DC Comics,3.5,3.5,3.0
-7160,340855,504.0,Monster (2003),Crime|Drama,474,4.0,serial killer,4.0,4.0,4.0
-6820,210070,9871.0,Ginger Snaps (2000),Drama|Horror|Thriller,474,4.0,werewolf,4.0,4.0,
-223,109445,2292.0,Clerks (1994),Comedy,474,3.5,generation X,3.5,3.5,4.5
-750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,513,5.0,purity of essence,5.0,5.0,4.5
-52604,488120,6145.0,Fracture (2007),Crime|Drama|Mystery|Thriller,18,4.5,courtroom drama,4.5,4.5,4.5
-5,113041,11862.0,Father of the Bride Part II (1995),Comedy,474,1.5,pregnancy,1.5,1.5,4.0
-79132,1375666,27205.0,Inception (2010),Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX,537,5.0,psychology,4.75,5.0,2.5
-79132,1375666,27205.0,Inception (2010),Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX,477,4.5,surreal,4.75,4.5,2.5
-53127,470705,12526.0,Bug (2007),Drama|Horror|Thriller,424,3.5,paranoia,3.5,3.5,4.0
-4558,96320,9493.0,Twins (1988),Comedy,474,2.0,twins,2.0,2.0,3.5
-2700,158983,9473.0,"South Park: Bigger, Longer and Uncut (1999)",Animation|Comedy|Musical,424,5.0,satire,5.0,5.0,3.0
-2700,158983,9473.0,"South Park: Bigger, Longer and Uncut (1999)",Animation|Comedy|Musical,424,5.0,free speech,5.0,5.0,3.0
-1022,42332,11224.0,Cinderella (1950),Animation|Children|Fantasy|Musical|Romance,474,4.0,Disney,4.0,4.0,3.5
-50,114814,629.0,"Usual Suspects, The (1995)",Crime|Mystery|Thriller,424,5.0,suspense,5.0,5.0,4.5
-339,114924,2064.0,While You Were Sleeping (1995),Comedy|Romance,474,3.5,coma,3.5,3.5,4.0
-39292,433383,3291.0,"Good Night, and Good Luck. (2005)",Crime|Drama,474,4.0,Morrow,4.0,4.0,4.5
-4816,196229,9398.0,Zoolander (2001),Comedy,424,3.0,mindless one liners,3.0,3.0,3.5
-6002,282698,15395.0,Love Liza (2002),Drama,474,3.5,drugs,3.5,3.5,3.5
-2716,87332,620.0,Ghostbusters (a.k.a. Ghost Busters) (1984),Action|Comedy|Sci-Fi,474,4.5,ghosts,4.5,4.5,4.0
-3556,159097,1443.0,"Virgin Suicides, The (1999)",Drama|Romance,132,4.0,sofia coppola,4.0,4.0,
-112552,2582802,244786.0,Whiplash (2014),Drama,487,3.0,passion,3.0,3.0,
-27831,375912,4836.0,Layer Cake (2004),Crime|Drama|Thriller,62,4.5,Exquisite plotting.,4.5,4.5,3.0
-1193,73486,510.0,One Flew Over the Cuckoo's Nest (1975),Drama,474,3.5,mental illness,3.5,3.5,4.5
-7070,40724,3089.0,Red River (1948),Action|Adventure|Western,474,4.0,cattle drive,4.0,4.0,4.5
-6333,290334,36658.0,X2: X-Men United (2003),Action|Adventure|Sci-Fi|Thriller,474,5.0,Jean Grey,5.0,5.0,4.0
-47,114369,807.0,Seven (a.k.a. Se7en) (1995),Mystery|Thriller,424,5.0,twist ending,5.0,5.0,
-5644,35211,19140.0,"Pride of the Yankees, The (1942)",Drama,474,4.0,baseball,4.0,4.0,3.5
-2966,166896,404.0,"Straight Story, The (1999)",Adventure|Drama,474,4.0,brothers,4.0,4.0,4.0
-152711,1276121,148184.0,Who Killed Chea Vichea? (2010),Documentary,462,5.0,Cambodia,5.0,5.0,4.0
-27773,364569,670.0,Old Boy (2003),Mystery|Thriller,567,4.5,disturbing,4.5,4.5,4.5
-5791,120679,1360.0,Frida (2002),Drama|Romance,474,4.0,art,4.0,4.0,4.0
-104944,2370248,169813.0,Short Term 12 (2013),Drama,567,3.5,emotional,3.5,3.5,4.5
-3072,93565,2039.0,Moonstruck (1987),Comedy|Romance,474,5.0,New York,5.0,5.0,4.0
-1196,80684,1891.0,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,477,5.0,music,5.0,5.0,4.5
-3578,172495,98.0,Gladiator (2000),Action|Adventure|Drama,606,3.5,Romans,3.5,3.5,
-134130,3659388,286217.0,The Martian (2015),Adventure|Drama|Sci-Fi,567,3.0,smart,3.0,3.0,4.5
-6810,102945,7442.0,Sleeping with the Enemy (1991),Drama|Thriller,474,3.5,domestic violence,3.5,3.5,4.0
-5673,272338,8051.0,Punch-Drunk Love (2002),Comedy|Drama|Romance,567,3.5,hallucinatory,3.5,3.5,
-5673,272338,8051.0,Punch-Drunk Love (2002),Comedy|Drama|Romance,567,3.5,bittersweet,3.5,3.5,
-2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,schizophrenia,5.0,5.0,
-2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,Brad Pitt,5.0,5.0,
-2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,David Fincher,5.0,5.0,
-3071,94027,29154.0,Stand and Deliver (1988),Comedy|Drama,474,2.5,high school,2.5,2.5,3.5
-541,83658,78.0,Blade Runner (1982),Action|Sci-Fi|Thriller,477,5.0,mindfuck,5.0,5.0,4.0
-480,107290,329.0,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,474,4.5,Dinosaur,4.5,4.5,3.5
-6874,266697,24.0,Kill Bill: Vol. 1 (2003),Action|Crime|Thriller,474,4.0,revenge,4.0,4.0,3.5
-4476,94739,12710.0,Big Business (1988),Comedy,474,2.0,twins,2.0,2.0,5.0
-54286,440963,2503.0,"Bourne Ultimatum, The (2007)",Action|Crime|Thriller,166,5.0,Robert Ludlum,5.0,5.0,
-110,112573,197.0,Braveheart (1995),Action|Drama|War,62,4.5,sword fight,4.5,4.5,4.5
-7254,289879,1954.0,The Butterfly Effect (2004),Drama|Sci-Fi|Thriller,125,5.0,alternate reality,5.0,5.0,3.0
-5954,307901,1429.0,25th Hour (2002),Crime|Drama,474,4.0,crime,4.0,4.0,4.0
-104,116483,9614.0,Happy Gilmore (1996),Comedy,474,2.0,golf,2.0,2.0,3.5
-1544,119567,330.0,"Lost World: Jurassic Park, The (1997)",Action|Adventure|Sci-Fi|Thriller,474,1.0,dinosaurs,1.0,1.0,
-170945,4695012,418078.0,It Comes at Night (2017),Horror|Mystery|Thriller,567,3.5,Suspenseful,3.5,3.5,3.0
-6101,84335,15600.0,Missing (1982),Drama|Mystery|Thriller,474,4.0,Chile,4.0,4.0,3.5
-27741,351817,12496.0,"Twilight Samurai, The (Tasogare Seibei) (2002)",Drama|Romance,474,3.5,In Netflix queue,3.5,3.5,3.0
-35015,361715,15907.0,Duma (2005),Adventure|Drama,474,3.5,Animal movie,3.5,3.5,4.5
-2761,129167,10386.0,"Iron Giant, The (1999)",Adventure|Animation|Children|Drama|Sci-Fi,474,4.0,robots,4.0,4.0,4.0
-7382,326977,25300.0,I'm Not Scared (Io non ho paura) (2003),Drama|Mystery|Thriller,474,4.0,adolescence,4.0,4.0,4.0
-3504,74958,10774.0,Network (1976),Comedy|Drama,474,4.0,journalism,4.0,4.0,4.5
-114627,208502,15916.0,Angel's Egg (Tenshi no tamago) (1985),Animation|Drama|Fantasy,567,3.5,bizzare,3.5,3.5,3.0
-8796,60438,17768.0,"Funny Thing Happened on the Way to the Forum, A (1966)",Comedy|Musical,474,2.5,Rome,2.5,2.5,
-6400,307197,51391.0,Murder on a Sunday Morning (Un coupable idéal) (2001),Documentary,474,3.5,crime,3.5,3.5,3.5
-37733,399146,59.0,"History of Violence, A (2005)",Action|Crime|Drama|Thriller,474,4.0,In Netflix queue,4.0,4.0,4.0
-3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,secrets,5.0,5.0,4.0
-118784,1782451,22285.0,Good Copy Bad Copy (2007),Documentary,318,3.5,music industry,3.5,3.5,3.5
-1304,64115,642.0,Butch Cassidy and the Sundance Kid (1969),Action|Western,474,3.5,crime,3.5,3.5,4.0
-2581,151738,11355.0,Never Been Kissed (1999),Comedy|Romance,474,4.0,high school,4.0,4.0,3.5
-4191,60086,15598.0,Alfie (1966),Comedy|Drama|Romance,474,4.0,sexuality,4.0,4.0,3.0
-3211,94924,35119.0,"Cry in the Dark, A (1988)",Drama,474,4.0,Australia,4.0,4.0,
-6773,286244,9662.0,"Triplets of Belleville, The (Les triplettes de Belleville) (2003)",Animation|Comedy|Fantasy,474,3.5,biking,3.5,3.5,4.0
-7022,266308,3176.0,Battle Royale (Batoru rowaiaru) (2000),Action|Drama|Horror|Thriller,125,5.0,satire,5.0,5.0,
-7451,377092,10625.0,Mean Girls (2004),Comedy,357,4.5,lesbian subtext,4.5,4.5,4.5
-28,114117,17015.0,Persuasion (1995),Drama|Romance,474,4.5,In Netflix queue,4.5,4.5,3.5
-6308,91396,9930.0,Legal Eagles (1986),Comedy|Crime|Romance,474,2.0,lawyers,2.0,2.0,
-128360,3460252,273248.0,The Hateful Eight (2015),Western,62,5.0,violent,5.0,5.0,4.5
-8477,56119,662.0,"Jetée, La (1962)",Romance|Sci-Fi,567,5.0,post-apocalyptic,5.0,5.0,3.0
-2171,119778,41469.0,Next Stop Wonderland (1998),Comedy|Drama|Romance,474,5.0,personals ads,5.0,5.0,4.0
-52,113819,11448.0,Mighty Aphrodite (1995),Comedy|Drama|Romance,474,4.0,prostitution,4.0,4.0,4.0
-68954,1049413,14160.0,Up (2009),Adventure|Animation|Children|Drama,567,3.0,bittersweet,3.0,3.0,
-6299,301727,11516.0,"Winged Migration (Peuple migrateur, Le) (2001)",Documentary,474,3.5,birds,3.5,3.5,4.0
-6534,286716,1927.0,Hulk (2003),Action|Adventure|Sci-Fi,62,3.5,dogs,3.5,3.5,4.0
-136864,2975590,209112.0,Batman v Superman: Dawn of Justice (2016),Action|Adventure|Fantasy|Sci-Fi,62,4.0,superman,4.0,4.0,4.0
-6031,52918,34148.0,Imitation of Life (1959),Drama|Romance,474,4.0,motherhood,4.0,4.0,4.5
-3932,24184,10787.0,"Invisible Man, The (1933)",Horror|Sci-Fi,474,4.0,invisibility,4.0,4.0,3.0
-52712,435670,9785.0,"Invisible, The (2007)",Crime|Drama|Fantasy|Mystery|Thriller,573,0.5,interesting,0.5,0.5,4.0
-1947,55614,1725.0,West Side Story (1961),Drama|Musical|Romance,474,5.0,Gangs,5.0,5.0,4.5
-36517,387131,1985.0,"Constant Gardener, The (2005)",Drama|Thriller,474,4.0,business,4.0,4.0,3.5
+6534,286716,1927.0,Hulk (2003),Action|Adventure|Sci-Fi,62,3.5,Eric Bana,3.5,3.5,4.0
+3098,87781,11393.0,"Natural, The (1984)",Drama,474,3.5,baseball,3.5,3.5,3.5
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,meaningless violence,4.916666666666667,5.0,5.0
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,424,4.5,drugs,4.916666666666667,4.5,5.0
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,multiple stories,4.916666666666667,5.0,5.0
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,intense,4.916666666666667,5.0,5.0
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,blood splatters,4.916666666666667,5.0,5.0
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,notable soundtrack,4.916666666666667,5.0,5.0
+7361,338013,38.0,Eternal Sunshine of the Spotless Mind (2004),Drama|Romance|Sci-Fi,567,5.0,mind-bending,5.0,5.0,4.5
+90439,1615147,50839.0,Margin Call (2011),Drama|Thriller,537,5.0,big corporations,5.0,5.0,4.0
+43,114272,35196.0,Restoration (1995),Drama,474,3.5,England,3.5,3.5,4.0
+5673,272338,8051.0,Punch-Drunk Love (2002),Comedy|Drama|Romance,567,3.5,hallucinatory,3.5,3.5,4.0
+4725,261983,10972.0,Session 9 (2001),Horror|Thriller,477,4.0,psychology,4.0,4.0,4.0
+4725,261983,10972.0,Session 9 (2001),Horror|Thriller,477,4.0,suspense,4.0,4.0,4.0
+6948,343121,21525.0,Tupac: Resurrection (2003),Documentary,474,4.0,rap,4.0,4.0,4.0
+6867,340377,2056.0,"Station Agent, The (2003)",Comedy|Drama,474,4.0,trains,4.0,4.0,3.5
+5629,298388,15173.0,Jonah: A VeggieTales Movie (2002),Animation|Children|Musical,474,2.0,Bible,2.0,2.0,4.0
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,great acting,5.0,5.0,4.0
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,humorous,5.0,5.0,4.0
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,police,5.0,5.0,4.0
+7212,41498,23567.0,I Was a Male War Bride (1949),Comedy|Romance,474,4.0,men in drag,4.0,4.0,3.5
+3468,54997,990.0,"Hustler, The (1961)",Drama,474,3.5,pool,3.5,3.5,4.0
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,complicated,4.833333333333333,5.0,4.5
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,Palahnuik,4.833333333333333,5.0,4.5
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,psychology,4.833333333333333,4.5,4.5
+2249,100212,16384.0,My Blue Heaven (1990),Comedy,474,2.0,Mafia,2.0,2.0,4.0
+1250,50212,826.0,"Bridge on the River Kwai, The (1957)",Adventure|Drama|War,474,4.0,POW,4.0,4.0,4.0
+260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,103,4.0,EPIC,4.5,4.0,3.5
+260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,205,4.5,Star Wars,4.5,4.5,3.5
+260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,193,5.0,classic sci-fi,4.5,5.0,3.5
+180031,5580390,399055.0,The Shape of Water (2017),Adventure|Drama|Fantasy,567,4.0,atmospheric,4.0,4.0,4.5
+3095,32551,596.0,"Grapes of Wrath, The (1940)",Drama,474,4.5,dust bowl,4.5,4.5,4.5
+2160,63522,805.0,Rosemary's Baby (1968),Drama|Horror|Thriller,424,4.5,Atmospheric,4.5,4.5,4.0
+1407,117571,4232.0,Scream (1996),Comedy|Horror|Mystery|Thriller,474,4.0,slasher,4.0,4.0,3.5
+2424,128853,9489.0,You've Got Mail (1998),Comedy|Romance,474,5.0,remake,5.0,5.0,4.0
+3499,100157,1700.0,Misery (1990),Drama|Horror|Thriller,424,3.5,thriller,3.5,3.5,4.5
+4896,241527,671.0,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy,106,5.0,Everything you want is here,5.0,5.0,4.5
+112852,2015381,118340.0,Guardians of the Galaxy (2014),Action|Adventure|Sci-Fi,567,3.5,funny,3.5,3.5,4.0
+1962,97239,403.0,Driving Miss Daisy (1989),Drama,474,4.0,rasicm,4.0,4.0,
+2085,55254,12230.0,101 Dalmatians (One Hundred and One Dalmatians) (1961),Adventure|Animation|Children,474,4.0,Disney,4.0,4.0,3.5
+2324,118799,637.0,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,567,3.5,poignant,3.5,3.5,4.5
+1977,87298,9730.0,Friday the 13th Part IV: The Final Chapter (1984),Horror,474,1.5,Jason,1.5,1.5,4.0
+104875,2245195,115199.0,"History of Future Folk, The (2012)",Adventure|Comedy|Musical|Sci-Fi,567,3.5,quirky,3.5,3.5,3.5
+6235,99776,8996.0,Europa Europa (Hitlerjunge Salomon) (1990),Drama|War,474,3.5,Holocaust,3.5,3.5,4.5
+31,112792,9909.0,Dangerous Minds (1995),Drama,474,3.0,teacher,3.0,3.0,3.5
+969,43265,488.0,"African Queen, The (1951)",Adventure|Comedy|Romance|War,474,5.0,missionary,5.0,5.0,3.5
+30812,338751,2567.0,"Aviator, The (2004)",Drama,474,4.0,biopic,4.0,4.0,4.0
+1219,54215,539.0,Psycho (1960),Crime|Horror,477,4.0,black and white,4.0,4.0,4.0
+32,114746,63.0,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Mystery|Sci-Fi|Thriller,477,4.5,Post apocalyptic,4.5,4.5,4.0
+99917,2084989,145197.0,Upstream Color (2013),Romance|Sci-Fi|Thriller,567,3.5,existentialism,3.5,3.5,3.5
+99917,2084989,145197.0,Upstream Color (2013),Romance|Sci-Fi|Thriller,567,3.5,Beautiful,3.5,3.5,3.5
+5690,95327,12477.0,Grave of the Fireflies (Hotaru no haka) (1988),Animation|Drama|War,567,4.0,grim,4.0,4.0,4.5
+101,115734,13685.0,Bottle Rocket (1996),Adventure|Comedy|Crime|Romance,567,3.0,off-beat comedy,3.0,3.0,4.0
+60756,838283,12133.0,Step Brothers (2008),Comedy,62,3.5,will ferrell,3.5,3.5,3.5
+593,102926,274.0,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,477,5.0,suspense,4.75,5.0,5.0
+593,102926,274.0,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,474,4.5,Hannibal Lector,4.75,4.5,5.0
+919,32138,630.0,"Wizard of Oz, The (1939)",Adventure|Children|Fantasy|Musical,474,4.5,Dorothy,4.5,4.5,4.5
+3897,181875,786.0,Almost Famous (2000),Drama,474,4.5,music,4.5,4.5,4.0
+59501,499448,2454.0,"Chronicles of Narnia: Prince Caspian, The (2008)",Adventure|Children|Fantasy,62,4.0,lion,4.0,4.0,3.5
+153070,347840,44351.0,Rabbits (2002),Comedy|Drama|Fantasy,567,3.5,nightmare,3.5,3.5,3.5
+7153,167260,122.0,"Lord of the Rings: The Return of the King, The (2003)",Action|Adventure|Drama|Fantasy,474,5.0,Tolkein,5.0,5.0,4.5
+750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,513,5.0,Slim Pickens,5.0,5.0,4.5
+56174,480249,6479.0,I Am Legend (2007),Action|Horror|Sci-Fi|Thriller|IMAX,477,4.0,religion,4.0,4.0,4.0
+1204,56172,947.0,Lawrence of Arabia (1962),Adventure|Drama|War,474,4.0,Middle East,4.0,4.0,4.5
+119141,2788710,228967.0,The Interview (2014),Action|Comedy,21,0.5,bloody,0.5,0.5,3.5
+8796,60438,17768.0,"Funny Thing Happened on the Way to the Forum, A (1966)",Comedy|Musical,474,2.5,Rome,2.5,2.5,4.0
+1243,100519,18971.0,Rosencrantz and Guildenstern Are Dead (1990),Comedy|Drama,474,4.0,Shakespeare sort of,4.0,4.0,3.5
+6564,325703,1996.0,Lara Croft Tomb Raider: The Cradle of Life (2003),Action|Adventure|Comedy|Romance|Thriller,62,3.5,heroine in tight suit,3.5,3.5,3.5
+6564,325703,1996.0,Lara Croft Tomb Raider: The Cradle of Life (2003),Action|Adventure|Comedy|Romance|Thriller,62,3.5,adventure,3.5,3.5,3.5
+1203,50083,389.0,12 Angry Men (1957),Drama,567,4.5,good dialogue,4.5,4.5,3.5
+79132,1375666,27205.0,Inception (2010),Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX,424,2.5,thought-provoking,2.5,2.5,4.5
+2167,120611,36647.0,Blade (1998),Action|Horror|Thriller,474,2.0,vampires,2.0,2.0,2.0
+513,110939,22588.0,Radioland Murders (1994),Comedy|Mystery|Romance,474,3.5,radio,3.5,3.5,3.0
+3526,98067,1552.0,Parenthood (1989),Comedy|Drama,474,4.0,families,4.0,4.0,3.5
+7983,87003,12762.0,Broadway Danny Rose (1984),Comedy,474,4.0,show business,4.0,4.0,4.0
+25771,20530,626.0,"Andalusian Dog, An (Chien andalou, Un) (1929)",Fantasy,567,5.0,surreal,5.0,5.0,5.0
+56367,467406,7326.0,Juno (2007),Comedy|Drama|Romance,477,4.0,witty,4.0,4.0,4.0
+8958,350258,1677.0,Ray (2004),Drama,474,4.0,biopic,4.0,4.0,
+4454,188913,36107.0,More (1998),Animation|Drama|Sci-Fi|IMAX,477,5.0,no dialogue,5.0,5.0,4.0
+88405,1632708,50544.0,Friends with Benefits (2011),Comedy|Romance,62,3.5,comedy,3.5,3.5,3.5
+122916,3501632,284053.0,Thor: Ragnarok (2017),Action|Adventure|Sci-Fi,567,3.0,quirky,3.0,3.0,4.0
+6269,334416,51927.0,Stevie (2002),Documentary,474,4.5,Big Brothers,4.5,4.5,4.0
+7090,299977,79.0,Hero (Ying xiong) (2002),Action|Adventure|Drama,474,4.0,martial arts,4.0,4.0,4.0
+7451,377092,10625.0,Mean Girls (2004),Comedy,357,4.5,High School,4.5,4.5,3.5
+122882,1392190,76341.0,Mad Max: Fury Road (2015),Action|Adventure|Sci-Fi|Thriller,567,4.0,cinematography,4.0,4.0,4.5
+4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,567,3.5,mindfuck,3.5,3.5,4.0
+7022,266308,3176.0,Battle Royale (Batoru rowaiaru) (2000),Action|Drama|Horror|Thriller,125,5.0,based on a book,5.0,5.0,4.0
+3911,218839,13785.0,Best in Show (2000),Comedy,424,3.5,satire,3.5,3.5,4.0
+27156,169858,18491.0,"Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni) (1997)",Action|Animation|Drama|Fantasy|Sci-Fi,184,4.5,end of the world,4.5,4.5,3.5
+1363,117372,21539.0,"Preacher's Wife, The (1996)",Drama,474,2.5,religion,2.5,2.5,4.0
+100083,1333125,87818.0,Movie 43 (2013),Comedy,125,5.0,offensive,5.0,5.0,3.0
+34150,120667,9738.0,Fantastic Four (2005),Action|Adventure|Sci-Fi,62,3.0,superhero,3.0,3.0,3.0
+4969,37515,4886.0,And Then There Were None (1945),Crime|Mystery,474,3.5,In Netflix queue,3.5,3.5,4.5
+4495,94921,27397.0,Crossing Delancey (1988),Comedy|Romance,474,5.0,New York,5.0,5.0,3.5
+318,111161,278.0,"Shawshank Redemption, The (1994)",Crime|Drama,474,5.0,Stephen King,5.0,5.0,4.5
+1777,120888,11003.0,"Wedding Singer, The (1998)",Comedy|Romance,474,4.5,1980s,4.5,4.5,4.0
+2550,57129,11772.0,"Haunting, The (1963)",Horror|Thriller,474,4.0,ghosts,4.0,4.0,4.0
+8235,14429,22596.0,Safety Last! (1923),Action|Comedy|Romance,474,5.0,Clock,5.0,5.0,4.5
+69526,1055369,8373.0,Transformers: Revenge of the Fallen (2009),Action|Adventure|Sci-Fi|IMAX,477,3.0,Shia LaBeouf,3.0,3.0,4.0
+45,114681,577.0,To Die For (1995),Comedy|Drama|Thriller,474,4.0,Journalism,4.0,4.0,4.0
