@@ -3,11 +3,10 @@ import os
 
 # Random State
 RANDOM_STATE = 2002
-
 # Number of Samples
 NUM_SAMPLES = 100
-
 # OpenAI API Key
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-NUM_FEATURES, NUM_CLASSES, NUM_EPOCHS, BATCH_SIZE, LEARNING_RATE = 100, 2, 10, 32, 0.01
+# OpenAI GPT Model parameters
+GPT_MODEL_NAME = "gpt-3.5-turbo"
+TEMPERATURE = 0
