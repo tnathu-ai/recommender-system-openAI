@@ -1,0 +1,101 @@
+,movieId,imdbId,tmdbId,title,genres,userId,rating,tag
+420,380,111503,36955.0,True Lies (1994),Action|Adventure|Comedy|Romance|Thriller,474,4.0,spies
+2960,79132,1375666,27205.0,Inception (2010),Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX,537,5.0,complicated
+651,930,38787,303.0,Notorious (1946),Film-Noir|Romance|Thriller,474,4.0,assassination
+1681,4218,91860,21309.0,River's Edge (1986),Crime|Drama,474,3.5,In Netflix queue
+2200,7069,67372,11316.0,"Macbeth (a.k.a. Tragedy of Macbeth, The) (1971)",Drama,474,3.5,Shakespeare
+667,951,32599,3085.0,His Girl Friday (1940),Comedy|Romance,474,4.5,Screwball
+406,356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,533,5.0,stupid is as stupid does
+2458,27773,364569,670.0,Old Boy (2003),Mystery|Thriller,567,4.5,bizarre
+2497,30822,385267,1901.0,In Good Company (2004),Comedy|Drama,474,4.5,busniess
+942,1413,118163,18451.0,"Whole Wide World, The (1996)",Drama,474,4.5,Conan
+187,293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,loneliness
+1508,3429,99317,54825.0,Creature Comforts (1989),Animation|Comedy,474,3.5,aardman
+2452,27706,339291,11774.0,Lemony Snicket's A Series of Unfortunate Events (2004),Adventure|Children|Comedy|Fantasy,62,4.0,Jim Carrey
+1440,3134,28950,777.0,Grand Illusion (La grande illusion) (1937),Drama|War,567,3.0,downbeat
+2338,8338,39192,16391.0,Black Narcissus (1947),Drama,474,4.0,religion
+622,924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,music
+814,1220,80455,525.0,"Blues Brothers, The (1980)",Action|Comedy|Musical,474,3.0,Saturday Night Live
+2225,7153,167260,122.0,"Lord of the Rings: The Return of the King, The (2003)",Action|Adventure|Drama|Fantasy,62,5.0,stylized
+2050,6373,315327,310.0,Bruce Almighty (2003),Comedy|Drama|Fantasy|Romance,573,4.5,classic
+257,296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,disturbing
+3092,99114,1853728,68718.0,Django Unchained (2012),Action|Drama|Western,62,5.0,Leonardo DiCaprio
+3015,88094,1764726,64780.0,Upside Down: The Creation Records Story (2010),Documentary,18,3.0,indie record label
+1589,3712,102951,25562.0,Soapdish (1991),Comedy,474,2.5,television
+1980,6156,300471,6038.0,Shanghai Knights (2003),Action|Adventure|Comedy,474,3.5,England
+1921,5690,95327,12477.0,Grave of the Fireflies (Hotaru no haka) (1988),Animation|Drama|War,567,4.0,downbeat
+1857,5353,68326,55106.0,Butterflies Are Free (1972),Comedy|Drama,474,3.0,blind
+196,293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,tense
+2470,27808,371246,2539.0,Spanglish (2004),Comedy|Drama|Romance,62,4.0,sweet
+768,1196,80684,1891.0,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,477,5.0,George Lucas
+2340,8360,298148,809.0,Shrek 2 (2004),Adventure|Animation|Children|Comedy|Musical|Romance,474,4.0,ogres
+3452,176419,5109784,381283.0,Mother! (2017),Drama|Horror|Mystery|Thriller,567,3.0,uncomfortable
+574,904,47396,567.0,Rear Window (1954),Mystery|Thriller,474,4.0,voyeurism
+1274,2700,158983,9473.0,"South Park: Bigger, Longer and Uncut (1999)",Animation|Comedy|Musical,424,5.0,parody
+161,288,110632,241.0,Natural Born Killers (1994),Action|Crime|Thriller,424,4.0,psychedelic
+1725,4448,227445,11371.0,"Score, The (2001)",Action|Drama,474,4.0,heist
+810,1219,54215,539.0,Psycho (1960),Crime|Horror,477,4.0,Alfred Hitchcock
+689,1022,42332,11224.0,Cinderella (1950),Animation|Children|Fantasy|Musical|Romance,474,4.0,Disney
+1083,1953,67116,1051.0,"French Connection, The (1971)",Action|Crime|Thriller,474,4.0,drugs
+3337,135536,1386697,297761.0,Suicide Squad (2016),Action|Crime|Sci-Fi,62,4.0,Harley Quinn
+1644,4105,83907,764.0,"Evil Dead, The (1981)",Fantasy|Horror|Thriller,474,2.0,zombies
+23,28,114117,17015.0,Persuasion (1995),Drama|Romance,474,4.5,Jane Austen
+1453,3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,obsession
+1941,5952,167261,121.0,"Lord of the Rings: The Two Towers, The (2002)",Adventure|Fantasy,474,5.0,Tolkein
+3367,139644,3397884,273481.0,Sicario (2015),Crime|Drama|Mystery,567,3.5,atmospheric
+963,1610,99810,1669.0,"Hunt for Red October, The (1990)",Action|Adventure|Thriller,474,4.0,Tom Clancy
+272,296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,fun
+1538,3527,93773,106.0,Predator (1987),Action|Sci-Fi|Thriller,477,4.0,aliens
+3,2,113497,8844.0,Jumanji (1995),Adventure|Children|Fantasy,62,4.0,fantasy
+1989,6183,53172,4952.0,Pillow Talk (1959),Comedy|Musical|Romance,474,4.0,Day and Hudson
+1428,3108,101889,177.0,"Fisher King, The (1991)",Comedy|Drama|Fantasy|Romance,474,2.5,homeless
+167,293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,Action
+3126,104841,1454468,49047.0,Gravity (2013),Action|Sci-Fi|IMAX,537,3.0,predictable
+1043,1916,118789,9464.0,Buffalo '66 (a.k.a. Buffalo 66) (1998),Drama|Romance,567,5.0,elegiac
+273,296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,funny
+2111,6711,335266,153.0,Lost in Translation (2003),Comedy|Drama|Romance,474,3.5,Japan
+1537,3526,98067,1552.0,Parenthood (1989),Comedy|Drama,474,4.0,families
+771,1196,80684,1891.0,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,477,5.0,original plot
+705,1059,117509,454.0,William Shakespeare's Romeo + Juliet (1996),Drama|Romance,474,4.5,Shakespeare
+131,260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,63,5.0,space action
+2395,8943,340012,18701.0,Being Julia (2004),Comedy|Drama,474,2.5,stage
+2372,8645,390221,436.0,"Maria Full of Grace (Maria, Llena eres de gracia) (2004)",Crime|Drama,474,4.0,drugs
+1804,4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,567,3.5,enigmatic
+2994,81591,947798,44214.0,Black Swan (2010),Drama|Thriller,424,3.5,creepy
+3052,91529,1345836,49026.0,"Dark Knight Rises, The (2012)",Action|Adventure|Crime|IMAX,357,4.5,comic book
+160,288,110632,241.0,Natural Born Killers (1994),Action|Crime|Thriller,424,4.0,dark comedy
+358,296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,smart writing
+2528,34150,120667,9738.0,Fantastic Four (2005),Action|Adventure|Sci-Fi,62,3.0,heroine in tight suit
+1668,4166,251031,19513.0,Series 7: The Contenders (2001),Action|Drama,474,2.0,reality TV
+753,1179,99703,18129.0,"Grifters, The (1990)",Crime|Drama|Film-Noir,474,3.5,crime
+1337,2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,dark comedy
+3409,164179,2543164,329865.0,Arrival (2016),Sci-Fi,567,4.0,beautiful visuals
+1138,2122,87050,10823.0,Children of the Corn (1984),Horror|Thriller,474,1.0,Stephen King
+2721,56782,469494,7345.0,There Will Be Blood (2007),Drama|Western,567,5.0,long shots
+930,1381,84021,9037.0,Grease 2 (1982),Comedy|Musical|Romance,474,2.0,high school
+1971,6058,309593,9358.0,Final Destination 2 (2003),Horror|Thriller,62,3.5,sequel
+2022,6291,300140,12093.0,Lilya 4-Ever (Lilja 4-ever) (2002),Crime|Drama,474,4.0,prostitution
+428,412,106226,10436.0,"Age of Innocence, The (1993)",Drama,474,4.0,Edith Wharton
+3414,164179,2543164,329865.0,Arrival (2016),Sci-Fi,567,4.0,thought-provoking
+51,43,114272,35196.0,Restoration (1995),Drama,474,3.5,England
+2880,69122,1119646,18785.0,"Hangover, The (2009)",Comedy|Crime,537,4.0,comedy
+1751,4571,96928,1648.0,Bill & Ted's Excellent Adventure (1989),Adventure|Comedy|Sci-Fi,474,4.5,time travel
+2550,36517,387131,1985.0,"Constant Gardener, The (2005)",Drama|Thriller,474,4.0,politics
+2214,7147,319061,587.0,Big Fish (2003),Drama|Fantasy|Romance,193,3.5,dreamlike
+3059,95558,2125435,84175.0,Beasts of the Southern Wild (2012),Drama|Fantasy,567,3.0,Beautiful
+1901,5644,35211,19140.0,"Pride of the Yankees, The (1942)",Drama,474,4.0,Lou Gehrig
+1493,3330,55471,28569.0,Splendor in the Grass (1961),Drama|Romance,474,4.0,adolescence
+1580,3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,fucked up
+571,903,52357,426.0,Vertigo (1958),Drama|Mystery|Romance|Thriller,477,3.5,Atmospheric
+1852,5291,42876,548.0,Rashomon (Rashômon) (1950),Crime|Drama|Mystery,474,4.0,In Netflix queue
+1995,6197,278731,9613.0,Spider (2002),Drama|Mystery,474,3.5,mental illness
+97,153,112462,414.0,Batman Forever (1995),Action|Adventure|Comedy|Crime,474,3.0,superhero
+487,586,99785,771.0,Home Alone (1990),Children|Comedy,474,2.0,christmas
+3022,88405,1632708,50544.0,Friends with Benefits (2011),Comedy|Romance,62,3.5,Mila Kunis
+787,1203,50083,389.0,12 Angry Men (1957),Drama,567,4.5,gritty
+1658,4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,melancholy
+850,1254,40897,3090.0,"Treasure of the Sierra Madre, The (1948)",Action|Adventure|Drama|Western,474,4.5,Cold
+685,1006,115862,6346.0,"Chamber, The (1996)",Drama,474,3.5,John Grisham
+2036,6333,290334,36658.0,X2: X-Men United (2003),Action|Adventure|Sci-Fi|Thriller,474,5.0,Magneto
+1025,1732,118715,115.0,"Big Lebowski, The (1998)",Comedy|Crime,599,5.0,rug
+2016,6283,275277,11299.0,Cowboy Bebop: The Movie (Cowboy Bebop: Tengoku no Tobira) (2001),Action|Animation|Sci-Fi|Thriller,184,4.0,anime

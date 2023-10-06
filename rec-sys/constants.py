@@ -22,3 +22,5 @@ GPT_MODEL_NAME = "gpt-3.5-turbo"
 TEMPERATURE = 0
 # Embedding Embedding
 EMBEDDING_MODEL = "text-embedding-ada-002"
+EMBEDDING_ENCODING = "cl100k_base"  # this the encoding for text-embedding-ada-002
+MAX_TOKENS = 8000  # the maximum for text-embedding-ada-002 is 8191
