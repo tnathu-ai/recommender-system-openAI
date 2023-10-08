@@ -38,7 +38,6 @@ RMSE: 1.0751 - This is the lowest RMSE among the methods, indicating that the fe
 
 - `LICENSE`: Licensing details.
 - `README.md`: Description of the project, setup instructions, and other details.
-- (Include other main files or folders here)
 
 Please check the repository regularly for updates and performance improvements.
 
