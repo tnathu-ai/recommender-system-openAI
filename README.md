@@ -17,6 +17,7 @@
 **Paper's Few-shot:**
 RMSE: 1.0751 - This is the lowest RMSE among the methods, indicating that the few-shot approach from the paper is the most accurate in terms of squared differences.
 
+
 **Thu's Few-shot GPT:**
 RMSE: 1.9086 - This is the highest RMSE among the methods, indicating that this approach has the largest deviation in terms of squared differences.
 ![image](https://github.com/tnathu-ai/recommender-system/assets/72063833/45f92fdc-32f4-425c-bcd4-dfdb331ca5f4)

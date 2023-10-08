@@ -6,6 +6,9 @@ RANDOM_STATE = 2002
 # Number of Samples
 NUM_SAMPLES = 100
 
+# train-test split
+TEST_SIZE = 0.2
+
 # Model Parameters
 # batch size
 BATCH_SIZE = 10
@@ -13,6 +16,7 @@ BATCH_SIZE = 10
 N_ESTIMATORS = 10
 # number of examples to show
 NUM_EXAMPLES = 5
+
 
 # OpenAI API Parameters
 # OpenAI API Key
