@@ -34,6 +34,15 @@ RMSE: 1.0751 - This is the lowest RMSE among the methods, indicating that the fe
 </p>
 </details>
 
+## non-LaTeX example from training_data.jsonl:
+
+  ```
+  {
+    "prompt": "Title: Charming Silver Colored Earring / Ear Cuff / Clip In Snake / Spiral Shape By VAGA", 
+    "completion": "5.0"
+  }
+  ```
+
 ## Repository Structure
 
 - `LICENSE`: Licensing details.

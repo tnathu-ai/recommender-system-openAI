@@ -1,6 +1,8 @@
 from constants import *
 import numpy as np
 from sklearn.model_selection import train_test_split
+import json
+import gzip
 
 
 def split_data_by_rated_items(df, user_col, test_size, given_n, random_state=RANDOM_STATE):
