@@ -40,7 +40,7 @@ def predict_rating_zero_shot_ChatCompletion(title, model=GPT_MODEL_NAME, tempera
         if not (1 <= rating <= 5):
             raise ValueError("Rating out of bounds")
     except (ValueError, AttributeError):
-        print(f"Unexpected response for '{product_title}': {rating_text}")
+        print(f"Unexpected response for '{title}': {rating_text}")
         rating = 0  # Set default value to 0 for unexpected responses
 
     return rating
@@ -93,3 +93,13 @@ def predict_rating_few_shot_ChatCompletion(product_title, rating_history, model=
         rating = 0  # Set default value to 0 for unexpected responses
 
     return rating
+
+
+# Function to predict rating using both title and reviewText
+def predict_rating_zero_shot_with_review(title, review):
+    return predict_rating_zero_shot_ChatCompletion(f"{title}. {review}")
+
+
+# Function to predict rating using both title and reviewText with user's rating history
+def predict_rating_few_shot_with_review(title, review, rating_history_str):
+    return predict_rating_few_shot_ChatCompletion(f"{title}. {review}", rating_history_str)
