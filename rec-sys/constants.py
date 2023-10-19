@@ -28,3 +28,7 @@ TEMPERATURE = 0
 EMBEDDING_MODEL = "text-embedding-ada-002"
 EMBEDDING_ENCODING = "cl100k_base"  # this the encoding for text-embedding-ada-002
 MAX_TOKENS = 8000  # the maximum for text-embedding-ada-002 is 8191
+
+# Parameters for pausing
+PAUSE_EVERY_N_USERS = 10
+SLEEP_TIME = 60  # Sleep for 60 seconds
