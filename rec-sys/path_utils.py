@@ -41,3 +41,11 @@ def parse_json_gz(file_path):
             data.append(json.loads(line.strip()))
 
     return pd.DataFrame(data)
+
+
+def export_predictions_to_csv(predictions, filename):
+    """
+    Export the predicted ratings to a CSV file.
+    """
+    predictions_df = pd.DataFrame(predictions)
+    predictions_df.to_csv(filename, index=False)
