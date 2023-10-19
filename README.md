@@ -18,7 +18,7 @@ A collection of performance comparisons on rating prediction for various recomme
 | Thu's few-shot GPT (small Amazon)           | 1.9086            | 1.0714           |
 | Thu's OpenAI embedding using RandomForestRegressor (large Amazon)  | 1.60              | 1.14             |
 | Thu's zero-shot GPT (large Amazon)          | 1.1344            | 1.0118           |
-| Thu's few-shot GPT (large Amazon)           | 1.9086            | 1.0714           |             
+| Thu's few-shot GPT (large Amazon)           | 0.7185          |  0.3259         |             
 
 **Paper's Few-shot:**
 RMSE: 1.0751 - This is the lowest RMSE among the methods, indicating that the few-shot approach from the paper is the most accurate in terms of squared differences.
