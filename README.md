@@ -4,7 +4,8 @@ A collection of performance comparisons on rating prediction for various recomme
 
 **Latest Update**: Added ReviewText as an additional feature.
 
-<details><summary><b> Data Overview</b></summary>
+
+<details><summary><b> Data </b></summary>
 <p>
 Amazon Dataset Description
 The Amazon dataset used in this project is divided into two sets: Small Amazon and Large Amazon.
