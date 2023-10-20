@@ -30,6 +30,20 @@ Dataset Statistics:
 + Number of unique ratings: 5
 + Unique rating values: [1.0, 5.0, 4.0, 2.0, 3.0]
 
+**Determining the importance of features that impact the rating of a product**
+| Feature                  | Description                                                                                                                                       |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| `title`                  | The product title is the first thing customers see. A clear and accurate title can set appropriate expectations.                                  |
+| `brand`                  | Established and reputable brands might receive higher ratings due to brand loyalty and trustworthiness.                                            |
+| `price`                  | The cost of the product can influence ratings. If customers feel they received good value for their money, they might rate the product higher.     |
+| `feature`                | Special features or unique selling points of the product can impact its utility and the customer's satisfaction.                                  |
+| `rank`                   | Products with better sales ranks might be more popular and, therefore, have higher or more consistent ratings.                                     |
+| `also_buy` and `also_view` | Products frequently bought or viewed together can provide insights into user preferences and the potential quality or utility of a product.      |
+| `main_cat`               | The main category of the product might influence ratings as some categories may inherently have higher or lower ratings.                           |
+| `details`                | Detailed specifications or additional information about the product can help set correct customer expectations.                                    |
+| `similar_item`           | If customers often compare the product with similar items, it can provide insights into the competitive landscape and the product's standing among its peers. |
+
+
 </p>
 </details>
 
