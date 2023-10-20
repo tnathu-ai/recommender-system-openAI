@@ -101,43 +101,65 @@ def predict_ratings_zero_shot_and_save(data,
                                        pause_every_n_users=PAUSE_EVERY_N_USERS,
                                        sleep_time=SLEEP_TIME,
                                        save_path='../../data/amazon-beauty/reviewText_large_predictions_zero_shot.csv'):
+    """
+    This function predicts product ratings using a zero-shot approach and saves the predictions to a specified CSV file.
 
-    # Nested function to predict rating using both title and reviewText
+    Parameters:
+    - data: DataFrame containing the product reviews data.
+    - columns_for_training: List of columns used to uniquely identify each product for training. Default is ['title'].
+    - columns_for_prediction: List of columns used for predicting ratings. Default is ['title'].
+    - pause_every_n_users: The function will pause for a specified duration after processing a given number of users. This can be useful to avoid hitting API rate limits.
+    - sleep_time: Duration (in seconds) for which the function should pause.
+    - save_path: Path where the predictions will be saved as a CSV file.
+    """
+
+    # Nested function to predict ratings by combining provided arguments into a single string
     def predict_rating_zero_shot_with_review(*args):
-        combined_text = ". ".join(args)
+        """Combine the arguments into a text and use them to predict the rating."""
+        combined_text = ". ".join(map(str, args))
         return predict_rating_zero_shot_ChatCompletion(combined_text)
 
-    # Iterate through the dataset and predict ratings
+    # List to store predicted ratings
     predicted_ratings = []
+
+    # Get unique pairs of products based on columns_for_training
     unique_pairs_for_training = data[columns_for_training].drop_duplicates(
     ).values
 
+    # Loop through each unique product pair
     for idx, unique_pair in enumerate(unique_pairs_for_training):
-        # Extract corresponding prediction columns for the current unique pair
-        matching_row = data[data[columns_for_training] == unique_pair].iloc[0]
+
+        # Extract the row in the original data that matches the current unique pair
+        mask = (data[columns_for_training].values == unique_pair).all(axis=1)
+        matching_row = data[mask].iloc[0]
+
+        # Get the data used for prediction
         prediction_data = matching_row[columns_for_prediction].values
 
+        # Predict the rating
         predicted_rating = predict_rating_zero_shot_with_review(
             *prediction_data)
         print(f"Predicted rating for {unique_pair}: {predicted_rating}")
+
+        # Append the predicted rating to the list
         predicted_ratings.append(predicted_rating)
 
-        # Pause every pause_every_n_users rows
+        # Pause for sleep_time seconds after processing pause_every_n_users products
         if (idx + 1) % pause_every_n_users == 0:
             print(f"Pausing for {sleep_time} seconds...")
             time.sleep(sleep_time)
 
-    # Create a DataFrame with columns_for_training and predicted ratings
+    # Create a DataFrame to store the unique product pairs and their predicted ratings
     columns_dict = {columns_for_training[i]: unique_pairs_for_training[:, i] for i in range(
         len(columns_for_training))}
     columns_dict['zero_shot_predicted_rating'] = predicted_ratings
     predicted_ratings_df = pd.DataFrame(columns_dict)
 
-    # Merge the predicted ratings with the original data
+    # Merge the original data with the predicted ratings
     merged_data_with_predictions = pd.merge(
         data, predicted_ratings_df, on=columns_for_training)
 
-    # Save the merged data with predictions to the provided path
+    # Save the merged data with predictions to the specified path
     merged_data_with_predictions.to_csv(save_path, index=False)
 
 
@@ -149,65 +171,73 @@ def predict_ratings_few_shot_and_save(data,
                                       sleep_time=SLEEP_TIME,
                                       save_path='../../data/amazon-beauty/reviewText_small_predictions_few_shot.csv'):
     """
-    Predict product ratings using the few-shot method and save the predictions to a CSV file.
+    This function predicts product ratings using a few-shot approach, which utilizes a user's rating history, 
+    and then saves the predictions to a specified CSV file.
 
     Parameters:
-
     - data: DataFrame containing the product reviews data.
-    - columns_for_training and columns_for_prediction: List of columns to be used for unique product identification. Default is ['title'].
+    - columns_for_training: List of columns used to uniquely identify each product for training. Default is ['title'].
+    - columns_for_prediction: List of columns used for predicting ratings. Default is ['title'].
     - obs_per_user: Number of observations to use for the test set per user. If None, all available data for the user will be used.
-      Default is None.
-    - pause_every_n_users: Number of users to process before pausing. Default value set by the PAUSE_EVERY_N_USERS constant.
-    - sleep_time: Time to sleep in seconds after processing a batch of users. Default value set by the SLEEP_TIME constant.
-    - save_path: Path to save the predicted ratings CSV file.
-
-    Returns:
-    None
+    - pause_every_n_users: The function will pause for a specified duration after processing a given number of users. This can be useful to avoid hitting API rate limits.
+    - sleep_time: Duration (in seconds) for which the function should pause.
+    - save_path: Path where the predictions will be saved as a CSV file.
     """
 
-    # Nested function to predict rating using both title and reviewText with user's rating history
+    # Nested function to predict ratings by combining provided arguments into a single string along with rating history
     def predict_rating_few_shot_with_review(*args, rating_history_str):
-        combined_text = ". ".join(args)
+        """Combine the arguments into a text and use them along with rating history to predict the rating."""
+        combined_text = ". ".join(map(str, args))
         return predict_rating_few_shot_ChatCompletion(combined_text, rating_history_str)
 
+    # Lists to store predicted ratings and actual ratings
     predicted_ratings = []
     actual_ratings = []
 
-    # For each user in the dataset
+    # Get unique users from the data
     users = data['reviewerID'].unique()
+
+    # Loop through each user
     for idx, reviewerID in enumerate(users):
+        # Extract the data related to the current user
         user_data = data[data['reviewerID'] == reviewerID]
 
-        # Check if the user has at least 5 ratings
+        # Ensure the user has at least 5 ratings
         if len(user_data) >= 5:
+            # Randomly sample 4 rows for training
             train_data = user_data.sample(4, random_state=RANDOM_STATE)
+
+            # Depending on the value of obs_per_user, sample rows for testing
             if obs_per_user:
                 test_data = user_data.sample(
                     obs_per_user, random_state=RANDOM_STATE)
             else:
                 test_data = user_data.drop(train_data.index)
 
-            # For each product in the testing set, use the training data to predict a rating
+            # Loop through each row in the test data
             for _, test_row in test_data.iterrows():
+                # Create a rating history string using the training data
                 rating_history_str = ', '.join(
                     [f"{row[columns_for_training[0]]} ({row['rating']} stars): {row[columns_for_training[1]]}" for _, row in train_data.iterrows()])
 
-                # Extract prediction columns for the current row in test_data
+                # Extract the data used for prediction from the test row
                 prediction_data = test_row[columns_for_prediction].values
 
+                # Predict the rating using the few-shot approach
                 predicted_rating = predict_rating_few_shot_with_review(
                     *prediction_data, rating_history_str=rating_history_str)
 
+                # Append the predicted rating and the actual rating to their respective lists
                 predicted_ratings.append(predicted_rating)
                 actual_ratings.append(test_row['rating'])
 
-        # Introduce a pause after processing every pause_every_n_users
+        # Introduce a pause after processing a set number of users
         if (idx + 1) % pause_every_n_users == 0:
             print(
                 f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
             time.sleep(sleep_time)
 
-    # Save the predicted ratings to the provided path
+    # Save the predicted and actual ratings to the specified path
     predicted_ratings_df = pd.DataFrame({
         'few_shot_predicted_rating': predicted_ratings,
         'actual_rating': actual_ratings

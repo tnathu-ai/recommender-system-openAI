@@ -32,6 +32,54 @@ Dataset Statistics:
 + Number of unique ratings: 5
 + Unique rating values: [1.0, 5.0, 4.0, 2.0, 3.0]
 
+Source: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
+
+**Item Side:**
+| Column Name     | Description                                       |
+|-----------------|---------------------------------------------------|
+| asin            | Unique product ID                                 |
+| title           | Name of the product                               |
+| feature         | Bullet-point format features of the product       |
+| description     | Description of the product                        |
+| price           | Price of the product in US dollars                |
+| imageURL        | URL of the product image                          |
+| imageURLHighRes | URL of the high resolution product image          |
+| related         | Related products (also bought, also viewed, etc.) |
+| salesRank       | Sales rank information                            |
+| brand           | Brand name of the product                         |
+| categories      | List of categories the product belongs to         |
+| tech1           | The first technical detail table of the product   |
+| tech2           | The second technical detail table of the product  |
+| similar         | Similar product table                             |
+| also_buy        | Products also bought with this item               |
+| also_view       | Products also viewed by users who viewed this item|
+| details         | Additional details about the product              |
+| main_cat        | Main category of the product                      |
+| similar_item    | Similar items related to the product              |
+| date            | Release date or manufacturing date of the product |
+| rank            | Ranking information of the product                |
+
+
+**Interaction Side:**
+| Column Name     | Description                                       |
+|-----------------|---------------------------------------------------|
+| reviewText      | Text of the review                                |
+| overall         | Rating of the product                             |
+| summary         | Summary of the review                             |
+| unixReviewTime  | Time of the review in unix time                   |
+| reviewTime      | Time of the review in raw format                  |
+| vote            | Helpful votes count for the review                |
+| style           | A dictionary of the product metadata              |
+| image           | Images posted by users after receiving the product|
+
+**User Side:**
+| Column Name   | Description                               |
+|---------------|-------------------------------------------|
+| reviewerID    | Unique ID of the reviewer                 |
+| reviewerName  | Name of the reviewer                      |
+| verified      | Indicates if the review is verified or not|
+
+
 **Determining the importance of features that impact the rating of a product**
 | Feature                  | Description                                                                                                                                       |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +100,7 @@ Dataset Statistics:
 <details><summary><b> OpenAI API Performance Comparison on Rating Prediction</b></summary>
 <p>
 
-| **Methods**                                          | **Dataset**           | **Feature(s)** | **Model Name**        | **Parameters**                                    | **RMSE** | **(MAE)** | **Wall Time** |
+| **Methods**                                          | **Dataset**           | **Feature(s)** | **Model Name**        | **Parameters**                                    | **RMSE** | **MAE** | **Wall Time** |
 |------------------------------------------------------|-----------------------|--------------|-----------------------|---------------------------------------------------|------------|-----------|----------------|
 | MF [1]                                               | Unknown               | title        | -                     | -                                                 | 1.1973     | 0.9461    | -              |
 | MLP [2]                                              | Unknown               | title        | -                     | -                                                 | 1.3078     | 0.9597    | -              |

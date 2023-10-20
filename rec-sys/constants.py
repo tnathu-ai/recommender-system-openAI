@@ -32,3 +32,48 @@ MAX_TOKENS = 8000  # the maximum for text-embedding-ada-002 is 8191
 # Parameters for pausing
 PAUSE_EVERY_N_USERS = 10
 SLEEP_TIME = 60  # Sleep for 60 seconds
+
+
+# Columns related to the item side
+ITEM_SIDE = [
+    "asin",
+    "title",
+    "feature",
+    "description",
+    "price",
+    "imageURL",
+    "imageURLHighRes",
+    "related",
+    "salesRank",
+    "brand",
+    "categories",
+    "tech1",
+    "tech2",
+    "similar",
+    "also_buy",
+    "also_view",
+    "details",
+    "main_cat",
+    "similar_item",
+    "date",
+    "rank"
+]
+
+# Columns related to the interaction side
+INTERACTION_SIDE = [
+    "reviewText",
+    "overall",
+    "summary",
+    "unixReviewTime",
+    "reviewTime",
+    "vote",
+    "style",
+    "image"
+]
+
+# Columns related to the user side
+USER_SIDE = [
+    "reviewerID",
+    "reviewerName",
+    "verified"
+]
