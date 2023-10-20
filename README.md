@@ -4,6 +4,7 @@ A collection of performance comparisons on rating prediction for various recomme
 
 **Latest Update**: Added ReviewText as an additional feature.
 
+![](rec-sys/notebook/images/comparison_plot.png)
 
 <details><summary><b> Data </b></summary>
 <p>
