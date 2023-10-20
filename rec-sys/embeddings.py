@@ -12,6 +12,7 @@ def get_embeddings(texts: list[str], model="text-embedding-ada-002") -> list[lis
     return [item["embedding"] for item in openai.Embedding.create(input=texts, model=model)["data"]]
 
 
+@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
 def train_and_evaluate_embeddings_model(df, columns_for_unique_pairs=['title'], batch_size=100, RANDOM_STATE=RANDOM_STATE, TEST_SIZE=TEST_SIZE, N_ESTIMATORS=N_ESTIMATORS):
     # Assuming the user column is named 'reviewerID'
 

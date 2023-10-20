@@ -66,6 +66,9 @@ Dataset Statistics:
 | Thu's zero-shot GPT                                  | Small Amazon            | title, reviewText        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 1.3758     | 1.0118    | 12min 21s              |
 | Thu's few-shot GPT                                   | Small Amazon           | title, reviewText        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 1.9457     | 0.9286    | 10min 30s              | 
 | Thu's few-shot GPT (1 test/user)                                  | Small Amazon           | title, reviewText        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 0.6325     | 0.4   | 9.59 s             | 
+| Thu's OpenAI embedding                                 | Small Amazon           | title, reviewText        | RandomForestRegressor         | BATCH_SIZE=10, N_ESTIMATORS=10, MAX_TOKENS=8000                    | 0.8856     | 0.4714   | 10.8 s             | 
+
+
 
 **References:**
 
