@@ -100,7 +100,7 @@ Source: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 <details><summary><b> OpenAI API Performance Comparison on Rating Prediction</b></summary>
 <p>
 
-| **Methods**                                          | **Dataset**           | **Feature(s)** | **Model Name**        | **Parameters**                                    | **RMSE** | **MAE** | **Wall Time** |
+| **Methods**                                          | **Dataset**           | **Feature(s)** | **Model Name**        | **Hyperparameter(s)**                                    | **RMSE** | **MAE** | **Wall Time** |
 |------------------------------------------------------|-----------------------|--------------|-----------------------|---------------------------------------------------|------------|-----------|----------------|
 | MF [1]                                               | Unknown               | title        | -                     | -                                                 | 1.1973     | 0.9461    | -              |
 | MLP [2]                                              | Unknown               | title        | -                     | -                                                 | 1.3078     | 0.9597    | -              |
@@ -128,6 +128,14 @@ Source: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 
 [3] [https://arxiv.org/pdf/2304.10149.pdf](https://arxiv.org/pdf/2304.10149.pdf)
 
+
+</p>
+</details>
+
+<details><summary><b>SVD in Recommender System</b></summary>
+<p>
+
+![image](https://github.com/tnathu-ai/recommender-system/assets/72063833/45f92fdc-32f4-425c-bcd4-dfdb331ca5f4)
 
 </p>
 </details>
