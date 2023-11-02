@@ -14,9 +14,23 @@ openai.api_key = OPENAI_API_KEY
 
 # Decorator to retry the function up to 6 times with an exponential backoff delay (1 to 20 seconds) between attempts.
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
-def predict_rating_zero_shot_ChatCompletion(title, model=GPT_MODEL_NAME, temperature=TEMPERATURE):
-    prompt = f"How will users rate this product title: '{title}'? (1 being lowest and 5 being highest) Attention! Just give me back the exact whole number as a result, and you don't need a lot of text."
+def predict_rating_zero_shot_ChatCompletion(combined_text, model=GPT_MODEL_NAME, temperature=TEMPERATURE):
+    """
+    Predicts product ratings using a zero-shot approach with the GPT model and a combined text prompt.
 
+    Parameters:
+    - combined_text (str): A combined text string containing product attributes and values.
+    - model (str): The GPT model version to use.
+    - temperature (float): Sampling temperature for the model response.
+
+    Returns:
+    - float: Predicted rating for the product or 0 if the response is not valid.
+    """
+    
+    # Construct the prompt for the model
+    prompt = f"How will users rate this product based on the following details: '{combined_text}'? (1 being lowest and 5 being highest) Attention! Just give me back the exact whole number as a result, and you don't need a lot of text."
+
+    # Make the API call
     response = openai.ChatCompletion.create(
         model=model,
         temperature=temperature,
@@ -32,28 +46,33 @@ def predict_rating_zero_shot_ChatCompletion(title, model=GPT_MODEL_NAME, tempera
         ]
     )
 
+    # Extract the content from the response
     rating_text = response.choices[0].message['content'].strip()
+    
     try:
-        # Extract the first numerical value from the response
-        # Only capture whole numbers
+        # Extract the first numerical value from the response and ensure it's a whole number
         rating = float(re.search(r'\d+', rating_text).group())
+        
+        # Validate if the rating is within the expected bounds (1 to 5)
         if not (1 <= rating <= 5):
             raise ValueError("Rating out of bounds")
     except (ValueError, AttributeError):
-        print(f"Unexpected response for '{title}': {rating_text}")
+        # Handle unexpected responses or errors
+        print(f"Unexpected response for the provided details: {rating_text}")
         rating = 0  # Set default value to 0 for unexpected responses
 
+    # Return the predicted rating
     return rating
 
 
 # Decorator to retry the function up to 6 times with an exponential backoff delay (1 to 20 seconds) between attempts.
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
-def predict_rating_few_shot_ChatCompletion(product_title, rating_history, model=GPT_MODEL_NAME, temperature=TEMPERATURE):
+def predict_rating_few_shot_ChatCompletion(combined_text, rating_history, model=GPT_MODEL_NAME, temperature=TEMPERATURE):
     """
-    Predict the rating of a product based on user's past rating history using the GPT model.
+    Predict the rating of a product based on user's past rating history and combined textual information using the GPT model.
 
     Parameters:
-    - product_title (str): The title of the product for which rating needs to be predicted.
+    - combined_text (str): A string containing combined information about the product, which may include title, description, or other relevant details.
     - rating_history (str): A string representation of user's past product ratings.
     - model (str): The GPT model version to use.
     - temperature (float): Sampling temperature for the model response.
@@ -63,9 +82,11 @@ def predict_rating_few_shot_ChatCompletion(product_title, rating_history, model=
     """
     # Construct the prompt to ask the model
     prompt = (f"Here is the user's rating history: {rating_history}. "
-              f"Based on the above rating history, how many stars would you rate the product: '{product_title}'? "
+              f"Based on the above rating history and the following information: '{combined_text}', "
+              f"how many stars would you rate the product? "
               "(Provide a number between 1 and 5, either followed by the word 'stars' or preceded by the words 'would be'). "
               "Attention! Keep the response concise.")
+
     # Make the API call
     response = openai.ChatCompletion.create(
         model=model,
@@ -89,10 +110,11 @@ def predict_rating_few_shot_ChatCompletion(product_title, rating_history, model=
         if not (0.5 <= rating <= 5.0):
             raise ValueError("Rating out of bounds")
     except (ValueError, AttributeError):
-        print(f"Unexpected response for '{product_title}': {rating_text}")
+        print(f"Unexpected response for '{combined_text}': {rating_text}")
         rating = 0  # Set default value to 0 for unexpected responses
 
     return rating
+
 
 
 def predict_ratings_zero_shot_and_save(data,
@@ -116,7 +138,7 @@ def predict_ratings_zero_shot_and_save(data,
     # Nested function to predict ratings by combining provided arguments into a single string
     def predict_rating_zero_shot_with_review(*args):
         """Combine the arguments into a text and use them to predict the rating."""
-        combined_text = ". ".join(map(str, args))
+        combined_text = ". ".join([f"{columns_for_prediction[i]}: {args[i]}" for i in range(len(args))])
         return predict_rating_zero_shot_ChatCompletion(combined_text)
 
     # List to store predicted ratings
@@ -170,6 +192,7 @@ def predict_ratings_zero_shot_and_save(data,
     merged_data_with_predictions.to_csv(save_path, index=False)
 
 
+
 def predict_ratings_few_shot_and_save(data,
                                       columns_for_training=['title'],
                                       columns_for_prediction=['title'],
@@ -194,7 +217,7 @@ def predict_ratings_few_shot_and_save(data,
     # Nested function to predict ratings by combining provided arguments into a single string along with rating history
     def predict_rating_few_shot_with_review(*args, rating_history_str):
         """Combine the arguments into a text and use them along with rating history to predict the rating."""
-        combined_text = ". ".join(map(str, args))
+        combined_text = ". ".join([f"{columns_for_prediction[i]}: {arg}" for i, arg in enumerate(args)])
         return predict_rating_few_shot_ChatCompletion(combined_text, rating_history_str)
 
     # Lists to store predicted ratings and actual ratings
@@ -250,3 +273,4 @@ def predict_ratings_few_shot_and_save(data,
         'actual_rating': actual_ratings
     })
     predicted_ratings_df.to_csv(save_path, index=False)
+

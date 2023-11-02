@@ -6,6 +6,34 @@ A collection of performance comparisons on rating prediction for various recomme
 
 ![](rec-sys/notebook/images/comparison_plot.png)
 
+## Prompting Strategy for Rating Predictions
+
+### Overview
+
+We employ a zero-shot and few-shot prompting strategy to predict product ratings based on product titles and user's rating history. These strategies utilize GPT models to generate predictions by crafting specific prompts that guide the model towards the desired output.
+
+### Zero-Shot Prompting
+
+In the zero-shot approach, the model is prompted without any prior examples or context. It relies solely on the given prompt to make a prediction.
+
+**Example:**
+```python
+    prompt = f"How will users rate this product based on the following details: '{combined_text}'? (1 being lowest and 5 being highest) Attention! Just give me back the exact whole number as a result, and you don't need a lot of text."
+```
+
+### Few-Shot Prompting
+
+In the few-shot approach, the model is provided with a user's past rating history along with the product title. This additional context helps the model make more informed predictions.
+
+**Example:**
+```python
+    prompt = (f"Here is the user's rating history: {rating_history}. "
+              f"Based on the above rating history and the following information: '{combined_text}', "
+              f"how many stars would you rate the product? "
+              "(Provide a number between 1 and 5, either followed by the word 'stars' or preceded by the words 'would be'). "
+              "Attention! Keep the response concise.")
+```
+
 <details><summary><b> Data </b></summary>
 <p>
 Amazon Dataset Description
