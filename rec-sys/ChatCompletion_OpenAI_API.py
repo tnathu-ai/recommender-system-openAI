@@ -131,18 +131,25 @@ def predict_ratings_zero_shot_and_save(data,
 
         # Extract the row in the original data that matches the current unique pair
         mask = (data[columns_for_training].values == unique_pair).all(axis=1)
-        matching_row = data[mask].iloc[0]
+        matching_rows = data[mask]
 
-        # Get the data used for prediction
-        prediction_data = matching_row[columns_for_prediction].values
+        # Proceed only if there are matching rows
+        if not matching_rows.empty:
+            matching_row = matching_rows.iloc[0]
 
-        # Predict the rating
-        predicted_rating = predict_rating_zero_shot_with_review(
-            *prediction_data)
-        print(f"Predicted rating for {unique_pair}: {predicted_rating}")
+            # Get the data used for prediction
+            prediction_data = matching_row[columns_for_prediction].values
 
-        # Append the predicted rating to the list
-        predicted_ratings.append(predicted_rating)
+            # Predict the rating
+            predicted_rating = predict_rating_zero_shot_with_review(
+                *prediction_data)
+            print(f"Predicted rating for {unique_pair}: {predicted_rating}")
+
+            # Append the predicted rating to the list
+            predicted_ratings.append(predicted_rating)
+        else:
+            print(f"No matching data found for {unique_pair}. Skipping...")
+            continue
 
         # Pause for sleep_time seconds after processing pause_every_n_users products
         if (idx + 1) % pause_every_n_users == 0:

@@ -97,6 +97,17 @@ Source: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 </p>
 </details>
 
+
+
+<details><summary><b> Prompt design</b></summary>
+<p>
+
+**References**
+https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction
+
+</p>
+</details>
+
 <details><summary><b> OpenAI API Performance Comparison on Rating Prediction</b></summary>
 <p>
 
@@ -142,6 +153,25 @@ Source: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 
 <details><summary><b>SVD in Recommender System</b></summary>
 <p>
+
+![image](https://github.com/tnathu-ai/recommender-system/assets/72063833/45f92fdc-32f4-425c-bcd4-dfdb331ca5f4)
+
+</p>
+</details>
+
+
+<details><summary><b>RELATED WORK</b></summary>
+<p>
+[2305.02182] Uncovering ChatGPT's Capabilities in Recommender Systems (arxiv.org)
+
+Uncovering ChatGPT’s Capabilities in Recommender Systems | Proceedings of the 17th ACM Conference on Recommender Systems
+
+[2309.03613] Evaluating ChatGPT as a Recommender System: A Rigorous Approach (arxiv.org)
+(GitHub - sisinflab/Recommender-ChatGPT: The official source code and datasets for the paper titled "Evaluating ChatGPT as a Recommender System: A Rigorous Approach")
+
+[2304.10149] Is ChatGPT a Good Recommender? A Preliminary Study (arxiv.org)
+</p>
+</details>
 
 ![image](https://github.com/tnathu-ai/recommender-system/assets/72063833/45f92fdc-32f4-425c-bcd4-dfdb331ca5f4)
 
