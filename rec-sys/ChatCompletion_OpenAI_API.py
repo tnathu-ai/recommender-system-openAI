@@ -193,6 +193,7 @@ def predict_ratings_zero_shot_and_save(data,
 
 
 
+# Define the function to predict ratings using a few-shot approach
 def predict_ratings_few_shot_and_save(data,
                                       columns_for_training=['title'],
                                       columns_for_prediction=['title'],
@@ -239,8 +240,7 @@ def predict_ratings_few_shot_and_save(data,
 
             # Depending on the value of obs_per_user, sample rows for testing
             if obs_per_user:
-                test_data = user_data.sample(
-                    obs_per_user, random_state=RANDOM_STATE)
+                test_data = user_data.sample(obs_per_user, random_state=RANDOM_STATE)
             else:
                 test_data = user_data.drop(train_data.index)
 
@@ -257,14 +257,19 @@ def predict_ratings_few_shot_and_save(data,
                 predicted_rating = predict_rating_few_shot_with_review(
                     *prediction_data, rating_history_str=rating_history_str)
 
+                # Print the predicted rating
+                if predicted_rating:
+                    print(f"Predicted rating for {test_row[columns_for_training[0]]}: {predicted_rating}")
+                else:
+                    print(f"No rating predicted for {test_row[columns_for_training[0]]}")
+
                 # Append the predicted rating and the actual rating to their respective lists
                 predicted_ratings.append(predicted_rating)
                 actual_ratings.append(test_row['rating'])
 
         # Introduce a pause after processing a set number of users
         if (idx + 1) % pause_every_n_users == 0:
-            print(
-                f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
+            print(f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
             time.sleep(sleep_time)
 
     # Save the predicted and actual ratings to the specified path
@@ -273,4 +278,3 @@ def predict_ratings_few_shot_and_save(data,
         'actual_rating': actual_ratings
     })
     predicted_ratings_df.to_csv(save_path, index=False)
-

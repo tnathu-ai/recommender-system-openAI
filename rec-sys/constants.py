@@ -34,7 +34,7 @@ PAUSE_EVERY_N_USERS = 10
 SLEEP_TIME = 60  # Sleep for 60 seconds
 
 
-# Columns related to the item side
+# Columns related to the item side can be used for the prediction
 ITEM_SIDE = [
     "asin",
     "title",
@@ -43,13 +43,10 @@ ITEM_SIDE = [
     "price",
     "imageURL",
     "imageURLHighRes",
-    "related",
-    "salesRank",
     "brand",
-    "categories",
+    "category",
     "tech1",
     "tech2",
-    "similar",
     "also_buy",
     "also_view",
     "details",
@@ -59,10 +56,10 @@ ITEM_SIDE = [
     "rank"
 ]
 
-# Columns related to the interaction side
+# Columns related to the interaction side can't be used for the prediction
 INTERACTION_SIDE = [
     "reviewText",
-    "overall",
+    "rating",
     "summary",
     "unixReviewTime",
     "reviewTime",
@@ -71,7 +68,7 @@ INTERACTION_SIDE = [
     "image"
 ]
 
-# Columns related to the user side
+# Columns related to the user side can't be used for the prediction
 USER_SIDE = [
     "reviewerID",
     "reviewerName",
