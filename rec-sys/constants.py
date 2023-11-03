@@ -41,8 +41,6 @@ ITEM_SIDE = [
     "feature",
     "description",
     "price",
-    "imageURL",
-    "imageURLHighRes",
     "brand",
     "category",
     "tech1",
@@ -65,7 +63,6 @@ INTERACTION_SIDE = [
     "reviewTime",
     "vote",
     "style",
-    "image"
 ]
 
 # Columns related to the user side can't be used for the prediction
