@@ -62,6 +62,8 @@ Dataset Statistics:
 
 Source: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 
+![](rec-sys/notebook/images/interaction_venn_diagram.png)
+
 We're attempting to predict product ratings based on item attributes, while avoiding interaction and user-specific details. This makes sense for a zero-shot prediction approach.
 
 **Item Side:**

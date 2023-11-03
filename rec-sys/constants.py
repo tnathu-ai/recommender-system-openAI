@@ -34,7 +34,7 @@ PAUSE_EVERY_N_USERS = 10
 SLEEP_TIME = 60  # Sleep for 60 seconds
 
 
-# Columns related to the item side can be used for the prediction
+# Columns related to the item side can be used for the prediction and training
 ITEM_SIDE = [
     "asin",
     "title",
@@ -54,7 +54,7 @@ ITEM_SIDE = [
     "rank"
 ]
 
-# Columns related to the interaction side can't be used for the prediction
+# Columns related to the interaction side can be used for training but can't be used for the prediction
 INTERACTION_SIDE = [
     "reviewText",
     "rating",
@@ -65,7 +65,7 @@ INTERACTION_SIDE = [
     "style",
 ]
 
-# Columns related to the user side can't be used for the prediction
+# Columns related to the user side can be used for training but can't be used for the prediction
 USER_SIDE = [
     "reviewerID",
     "reviewerName",

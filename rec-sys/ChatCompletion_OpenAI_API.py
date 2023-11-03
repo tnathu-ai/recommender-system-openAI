@@ -118,7 +118,6 @@ def predict_rating_few_shot_ChatCompletion(combined_text, rating_history, model=
 
 
 def predict_ratings_zero_shot_and_save(data,
-                                       columns_for_training=['title'],
                                        columns_for_prediction=['title'],
                                        pause_every_n_users=PAUSE_EVERY_N_USERS,
                                        sleep_time=SLEEP_TIME,
@@ -128,7 +127,6 @@ def predict_ratings_zero_shot_and_save(data,
 
     Parameters:
     - data: DataFrame containing the product reviews data.
-    - columns_for_training: List of columns used to uniquely identify each product for training. Default is ['title'].
     - columns_for_prediction: List of columns used for predicting ratings. Default is ['title'].
     - pause_every_n_users: The function will pause for a specified duration after processing a given number of users. This can be useful to avoid hitting API rate limits.
     - sleep_time: Duration (in seconds) for which the function should pause.
@@ -144,52 +142,29 @@ def predict_ratings_zero_shot_and_save(data,
     # List to store predicted ratings
     predicted_ratings = []
 
-    # Get unique pairs of products based on columns_for_training
-    unique_pairs_for_training = data[columns_for_training].drop_duplicates(
-    ).values
+    # Loop through each row in the data
+    for idx, row in data.iterrows():
 
-    # Loop through each unique product pair
-    for idx, unique_pair in enumerate(unique_pairs_for_training):
+        # Get the data used for prediction
+        prediction_data = row[columns_for_prediction].values
 
-        # Extract the row in the original data that matches the current unique pair
-        mask = (data[columns_for_training].values == unique_pair).all(axis=1)
-        matching_rows = data[mask]
+        # Predict the rating
+        predicted_rating = predict_rating_zero_shot_with_review(*prediction_data)
+        print(f"Predicted rating for {prediction_data}: {predicted_rating}")
 
-        # Proceed only if there are matching rows
-        if not matching_rows.empty:
-            matching_row = matching_rows.iloc[0]
-
-            # Get the data used for prediction
-            prediction_data = matching_row[columns_for_prediction].values
-
-            # Predict the rating
-            predicted_rating = predict_rating_zero_shot_with_review(
-                *prediction_data)
-            print(f"Predicted rating for {unique_pair}: {predicted_rating}")
-
-            # Append the predicted rating to the list
-            predicted_ratings.append(predicted_rating)
-        else:
-            print(f"No matching data found for {unique_pair}. Skipping...")
-            continue
+        # Append the predicted rating to the list
+        predicted_ratings.append(predicted_rating)
 
         # Pause for sleep_time seconds after processing pause_every_n_users products
         if (idx + 1) % pause_every_n_users == 0:
             print(f"Pausing for {sleep_time} seconds...")
             time.sleep(sleep_time)
 
-    # Create a DataFrame to store the unique product pairs and their predicted ratings
-    columns_dict = {columns_for_training[i]: unique_pairs_for_training[:, i] for i in range(
-        len(columns_for_training))}
-    columns_dict['zero_shot_predicted_rating'] = predicted_ratings
-    predicted_ratings_df = pd.DataFrame(columns_dict)
+    # Add the predicted ratings to the original data
+    data['zero_shot_predicted_rating'] = predicted_ratings
 
-    # Merge the original data with the predicted ratings
-    merged_data_with_predictions = pd.merge(
-        data, predicted_ratings_df, on=columns_for_training)
-
-    # Save the merged data with predictions to the specified path
-    merged_data_with_predictions.to_csv(save_path, index=False)
+    # Save the data with predictions to the specified path
+    data.to_csv(save_path, index=False)
 
 
 
