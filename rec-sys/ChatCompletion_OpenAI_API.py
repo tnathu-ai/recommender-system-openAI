@@ -12,8 +12,8 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 openai.api_key = OPENAI_API_KEY
 
 
-# Decorator to retry the function up to 6 times with an exponential backoff delay (1 to 20 seconds) between attempts.
-@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
+# Decorator to retry the function up to STOP_AFTER_N_ATTEMPTS times with an exponential backoff delay (1 to 20 seconds) between attempts.
+@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(STOP_AFTER_N_ATTEMPTS))
 def predict_rating_zero_shot_ChatCompletion(combined_text, model=GPT_MODEL_NAME, temperature=TEMPERATURE):
     """
     Predicts product ratings using a zero-shot approach with the GPT model and a combined text prompt.
@@ -24,31 +24,33 @@ def predict_rating_zero_shot_ChatCompletion(combined_text, model=GPT_MODEL_NAME,
     - temperature (float): Sampling temperature for the model response.
 
     Returns:
-    - float: Predicted rating for the product or 0 if the response is not valid.
+    - float: Predicted rating for the product or 0 if the response is not valid or not answerable.
     """
-    
+
     # Construct the prompt for the model
-    prompt = f"How will users rate this product based on the following details: '{combined_text}'? (1 being lowest and 5 being highest) Attention! Just give me back the exact whole number as a result, and you don't need a lot of text."
+    prompt = (f"Answer the question based on the details below, and if the question can't be answered based on the context, "
+              f"say \"I don't know\"\n\nContext: Product Details - {combined_text}\n\n---\n\n"
+              f"Question: How will users rate this product based on these details? (1 being lowest and 5 being highest)\nAnswer:")
 
     # Make the API call
     response = openai.ChatCompletion.create(
         model=model,
         temperature=temperature,
+        max_tokens=150,  # Set a limit to the number of tokens to generate
         messages=[
-            {
-                "role": "system",
-                "content": "You are an Amazon Beauty products critic."
-            },
-            {
-                "role": "user",
-                "content": prompt
-            }
+            {"role": "system", "content": "You are an Amazon Beauty products critic."},
+            {"role": "user", "content": prompt}
         ]
     )
 
     # Extract the content from the response
     rating_text = response.choices[0].message['content'].strip()
-    
+
+    # Check if the model's response is "I don't know"
+    if rating_text.lower() == "i don't know":
+        print("Unable to determine a rating based on the provided context.")
+        return 0
+
     try:
         # Extract the first numerical value from the response and ensure it's a whole number
         rating = float(re.search(r'\d+', rating_text).group())
@@ -65,8 +67,8 @@ def predict_rating_zero_shot_ChatCompletion(combined_text, model=GPT_MODEL_NAME,
     return rating
 
 
-# Decorator to retry the function up to 6 times with an exponential backoff delay (1 to 20 seconds) between attempts.
-@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
+# Decorator to retry the function up to STOP_AFTER_N_ATTEMPTS times with an exponential backoff delay (1 to 20 seconds) between attempts.
+@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(STOP_AFTER_N_ATTEMPTS))
 def predict_rating_few_shot_ChatCompletion(combined_text, rating_history, model=GPT_MODEL_NAME, temperature=TEMPERATURE):
     """
     Predict the rating of a product based on user's past rating history and combined textual information using the GPT model.
@@ -78,26 +80,33 @@ def predict_rating_few_shot_ChatCompletion(combined_text, rating_history, model=
     - temperature (float): Sampling temperature for the model response.
 
     Returns:
-    - float: Predicted rating for the product or None if the response is not valid.
+    - float: Predicted rating for the product or 0 if the response is not valid or not answerable.
     """
     # Construct the prompt to ask the model
-    prompt = (f"Here is the user's rating history: {rating_history}. "
-              f"Based on the above rating history and the following information: '{combined_text}', "
-              f"how many stars would you rate the product? "
-              "(Provide a number between 1 and 5, either followed by the word 'stars' or preceded by the words 'would be'). "
-              "Attention! Keep the response concise.")
+    prompt = (f"Answer the question based on the user's rating history and the product details below, "
+              f"and if the question can't be answered based on the context, say \"I don't know\"\n\n"
+              f"Context: User's Rating History - {rating_history}. Product Details - {combined_text}\n\n---\n\n"
+              f"Question: How many stars would you rate the product?\nAnswer:")
 
     # Make the API call
     response = openai.ChatCompletion.create(
         model=model,
         temperature=temperature,
+        max_tokens=150,  # Set a limit to the number of tokens to generate
         messages=[
             {"role": "system", "content": "You are a product critic."},
             {"role": "user", "content": prompt}
         ]
     )
 
+    # Extract the content from the response
     rating_text = response.choices[0].message['content'].strip()
+
+    # Check if the model's response is "I don't know"
+    if rating_text.lower() == "i don't know":
+        print("Unable to determine a rating based on the provided context.")
+        return 0
+
     try:
         # Extract the numerical value that appears close to "rating" or "stars"
         match = re.search(
@@ -114,7 +123,6 @@ def predict_rating_few_shot_ChatCompletion(combined_text, rating_history, model=
         rating = 0  # Set default value to 0 for unexpected responses
 
     return rating
-
 
 
 def predict_ratings_zero_shot_and_save(data,

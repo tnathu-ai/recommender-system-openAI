@@ -1,5 +1,7 @@
 import os
 
+STOP_AFTER_N_ATTEMPTS = 7
+
 # Data Parameters
 # Random State
 RANDOM_STATE = 2002
@@ -28,6 +30,7 @@ TEMPERATURE = 0
 EMBEDDING_MODEL = "text-embedding-ada-002"
 EMBEDDING_ENCODING = "cl100k_base"  # this the encoding for text-embedding-ada-002
 MAX_TOKENS = 8000  # the maximum for text-embedding-ada-002 is 8191
+MAX_TOKENS_CHAT_GPT = 16000  # the maximum for chat is 2048
 
 # Parameters for pausing
 PAUSE_EVERY_N_USERS = 10

@@ -1,12 +1,13 @@
-# Recommender System 
+# Recommender System Evaluation with Open AI API
 
-A collection of performance comparisons on rating prediction for various recommender system methods. 
+A collection of performance comparisons on rating prediction for various recommender system methods.
 
-**Latest Update**: Added ReviewText as an additional feature.
+**Latest Update**: Added context as an additional feature.
 
-![](rec-sys/notebook/images/comparison_plot.png)
+![performance](rec-sys/notebook/images/comparison_plot.png)
 
-## Prompting Strategy for Rating Predictions
+<details><summary><b> Prompting Strategy for Rating Predictions </b></summary>
+<p>
 
 ### Overview
 
@@ -33,6 +34,8 @@ In the few-shot approach, the model is provided with a user's past rating histor
               "(Provide a number between 1 and 5, either followed by the word 'stars' or preceded by the words 'would be'). "
               "Attention! Keep the response concise.")
 ```
+</p>
+</details>
 
 <details><summary><b> Data </b></summary>
 <p>
@@ -183,14 +186,6 @@ https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction
 </p>
 </details>
 
-<details><summary><b>SVD in Recommender System</b></summary>
-<p>
-
-![image](https://github.com/tnathu-ai/recommender-system/assets/72063833/45f92fdc-32f4-425c-bcd4-dfdb331ca5f4)
-
-</p>
-</details>
-
 
 <details><summary><b>RELATED WORK</b></summary>
 <p>
@@ -205,10 +200,6 @@ Uncovering ChatGPT’s Capabilities in Recommender Systems | Proceedings of the 
 </p>
 </details>
 
-![image](https://github.com/tnathu-ai/recommender-system/assets/72063833/45f92fdc-32f4-425c-bcd4-dfdb331ca5f4)
-
-</p>
-</details>
 
 ## non-LaTeX example from training_data.jsonl:
 
