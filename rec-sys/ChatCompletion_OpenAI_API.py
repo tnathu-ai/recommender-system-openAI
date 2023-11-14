@@ -101,7 +101,6 @@ def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, 
     return extract_numeric_rating(rating_text)
 
 
-
 def predict_ratings_zero_shot_and_save(data,
                                        columns_for_prediction=['title'],
                                        title_column_name='title',  # Parameter for title column name
@@ -109,63 +108,41 @@ def predict_ratings_zero_shot_and_save(data,
                                        pause_every_n_users=PAUSE_EVERY_N_USERS,
                                        sleep_time=SLEEP_TIME,
                                        save_path='../../data/amazon-beauty/reviewText_large_predictions_zero_shot.csv'):
-    """
-    Predicts product ratings using a zero-shot approach and saves the predictions to a CSV file.
-
-    Parameters:
-    - data: DataFrame containing the product reviews data.
-    - columns_for_prediction: List of columns used for predicting ratings, default is ['title'].
-    - title_column_name: Name of the column containing product titles.
-    - asin_column_name: Name of the column containing product ASIN (optional).
-    - pause_every_n_users: Function pauses after processing a set number of users to avoid API rate limits.
-    - sleep_time: Duration (in seconds) to pause.
-    - save_path: Path where the predictions will be saved as a CSV file.
-    """
-
-    # List to store predicted ratings
     predicted_ratings = []
 
-    # Loop through each row in the data
     for idx, row in data.iterrows():
-        # Combine prediction data into a text string
         prediction_data = row[columns_for_prediction].values
         combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data)
-
-        # Get the predicted rating
         predicted_rating = predict_rating_combined_ChatCompletion(combined_text, use_few_shot=False)
 
-        # Construct the product details string
         product_title = row[title_column_name]
         product_details = f"{product_title}"
 
-        # Include ASIN if provided and available in the data
         if asin_column_name and asin_column_name in row:
             product_code = row[asin_column_name]
             product_details += f" (Code: {product_code})"
 
-        # Print the progress with formatted output
-        print(f"Processing item {idx + 1}/{len(data)}")
+        print(f"Processing item {idx + 1}/{len(data)}\n\n")
         print(f"Details: {product_details}")
-        print(f"Predicted Rating: {predicted_rating} stars\n")
+        print(f"\nPredicted Rating: {predicted_rating} stars")
+        print(f"\n----------------\n")
 
-        # Append the predicted rating to the list
         predicted_ratings.append(predicted_rating)
 
-        # Pause for a specified duration after processing a set number of users
         if (idx + 1) % pause_every_n_users == 0:
             print(f"Pausing for {sleep_time} seconds...")
             time.sleep(sleep_time)
 
-    # Add the predicted ratings to the original data and save it
     data['zero_shot_predicted_rating'] = predicted_ratings
     data.to_csv(save_path, index=False)
     print(f"Predictions saved to {save_path}")
 
 
+
 # Define the function to predict ratings using a few-shot approach
 def predict_ratings_few_shot_and_save(data,
-                                      columns_for_training=['title'],
-                                      columns_for_prediction=['title'],
+                                      columns_for_training,
+                                      columns_for_prediction,
                                       user_column_name='reviewerID',
                                       title_column_name='title',  # Parameter for title column name
                                       asin_column_name='asin',    # Parameter for product code (ASIN) column name, optional
@@ -183,29 +160,31 @@ def predict_ratings_few_shot_and_save(data,
             train_data = user_data.sample(4, random_state=RANDOM_STATE)
             test_data = user_data.sample(obs_per_user, random_state=RANDOM_STATE) if obs_per_user else user_data.drop(train_data.index)
 
-            for _, test_row in test_data.iterrows():
+            # Drop 'rating' column from test_data if present
+            test_data = test_data.drop(columns=['rating'], errors='ignore')
+
+            for test_idx, test_row in test_data.iterrows():
                 rating_history_str = ', '.join([f"{row[columns_for_training[0]]} ({row['rating']} stars)" for _, row in train_data.iterrows()])
                 prediction_data = test_row[columns_for_prediction].values
                 combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data)
                 predicted_rating = predict_rating_combined_ChatCompletion(combined_text, rating_history=rating_history_str, use_few_shot=True)
 
-                product_title = test_row[title_column_name]
+                product_title = test_row.get(title_column_name, "Unknown Title")
                 product_details = f"{product_title}"
 
-                # Include ASIN if provided
                 if asin_column_name and asin_column_name in test_row:
                     product_code = test_row[asin_column_name]
                     product_details += f" (Code: {product_code})"
 
-                # Printing enhanced details
-                print(f"\nUser {user_id}:")
-                print(f"\nRating History for Prediction: {rating_history_str}")
-                print(f"\nPredicted Item: {product_details}")
+                print(f"Processing user {idx + 1}/{len(users)}, item {test_idx + 1}/{len(test_data)}\n\n")
+                print(f"User {user_id}:")
+                print(f"Rating History for Prediction: {rating_history_str}")
+                print(f"Predicted Item: {product_details}")
                 print(f"Predicted Rating: {predicted_rating} stars")
-                print(f"Actual Rating: {test_row['rating']} stars\n\n")
+                print(f"\n----------------\n")
 
                 predicted_ratings.append(predicted_rating)
-                actual_ratings.append(test_row['rating'])
+                actual_ratings.append(test_row.get('rating', None))
 
         if (idx + 1) % pause_every_n_users == 0:
             print(f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
@@ -213,5 +192,8 @@ def predict_ratings_few_shot_and_save(data,
 
     predicted_ratings_df = pd.DataFrame({'few_shot_predicted_rating': predicted_ratings, 'actual_rating': actual_ratings})
     predicted_ratings_df.to_csv(save_path, index=False)
+
+
+
 
 
