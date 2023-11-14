@@ -56,6 +56,9 @@ def evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_
     # Unpack the filtered actual and predicted ratings
     actual_filtered, predicted_filtered = zip(*filtered_ratings)
 
+    # Convert zipped object to a list for slicing
+    actual_vs_predicted = list(zip(actual_filtered, predicted_filtered))
+
     # Calculate RMSE and MAE using the custom function
     rmse, mae = calculate_rmse_and_mae(actual_filtered, predicted_filtered)
 
@@ -65,5 +68,5 @@ def evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_
 
     # Display the first few actual vs. predicted ratings for debugging
     print("\nFirst few actual vs predicted ratings:")
-    for actual, predicted in zip(actual_filtered, predicted_filtered)[:num_examples]:
+    for actual, predicted in actual_vs_predicted[:num_examples]:
         print(f"Actual: {actual}, Predicted: {predicted}")
