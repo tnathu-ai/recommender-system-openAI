@@ -30,13 +30,15 @@ TEMPERATURE = 0
 EMBEDDING_MODEL = "text-embedding-ada-002"
 EMBEDDING_ENCODING = "cl100k_base"  # this the encoding for text-embedding-ada-002
 MAX_TOKENS = 8000  # the maximum for text-embedding-ada-002 is 8191
-MAX_TOKENS_CHAT_GPT = 16000  # the maximum for chat is 2048
+
+# only the maximum tokens for chat but we must account for the tokens generated in the response as well.
+MAX_TOKENS_CHAT_GPT = 3000 
 
 # Parameters for pausing
 PAUSE_EVERY_N_USERS = 10
-SLEEP_TIME = 60  # Sleep for 60 seconds
+SLEEP_TIME = 16000  # Sleep for 60 seconds
 
-
+# Amazon Dataset Attributes
 # Columns related to the item side can be used for the prediction and training
 ITEM_SIDE = [
     "asin",
@@ -56,7 +58,6 @@ ITEM_SIDE = [
     "date",
     "rank"
 ]
-
 # Columns related to the interaction side can be used for training but can't be used for the prediction
 INTERACTION_SIDE = [
     "reviewText",
@@ -67,7 +68,6 @@ INTERACTION_SIDE = [
     "vote",
     "style",
 ]
-
 # Columns related to the user side can be used for training but can't be used for the prediction
 USER_SIDE = [
     "reviewerID",

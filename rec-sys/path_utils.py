@@ -2,6 +2,22 @@ import os
 import gzip
 import json
 import pandas as pd
+import os
+import sys
+
+def get_rec_sys_directory():
+    """
+    Function to get the 'rec-sys' directory, assuming this script is within the 'rec-sys' hierarchy.
+    """
+    current_dir = os.getcwd()
+    rec_sys_dir = os.path.abspath(os.path.join(current_dir, '..', '..'))
+    return rec_sys_dir
+
+
+def add_path_to_sys(path):
+    """Add a specific path to the system path."""
+    if path not in sys.path:
+        sys.path.append(path)
 
 
 def get_absolute_path(relative_path):
