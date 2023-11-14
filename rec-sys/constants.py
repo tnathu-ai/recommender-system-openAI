@@ -1,76 +1,64 @@
 import os
 
-STOP_AFTER_N_ATTEMPTS = 7
+# =============================================================================
+# General Constants
+# =============================================================================
+STOP_AFTER_N_ATTEMPTS = 7  # Maximum number of retry attempts for a function
 
+# =============================================================================
 # Data Parameters
-# Random State
-RANDOM_STATE = 2002
-# Number of Samples
-NUM_SAMPLES = 100
+# =============================================================================
+RANDOM_STATE = 2002  # Seed value for random number generation
+NUM_SAMPLES = 100    # Number of samples to consider in operations
+TEST_SIZE = 0.2      # Proportion of the dataset to include in the test split
 
-# train-test split
-TEST_SIZE = 0.2
+# =============================================================================
+# Machine Learning Model Parameters
+# =============================================================================
+BATCH_SIZE = 10      # Batch size for model training
+N_ESTIMATORS = 10    # Number of trees in the forest for ensemble models
+NUM_EXAMPLES = 5     # Number of examples to show for demonstrations
 
-# Model Parameters
-# batch size
-BATCH_SIZE = 10
-# n_estimators: the number of trees in the forest of the model
-N_ESTIMATORS = 10
-# number of examples to show
-NUM_EXAMPLES = 5
-
-
+# =============================================================================
 # OpenAI API Parameters
-# OpenAI API Key
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# OpenAI GPT Model parameters
-GPT_MODEL_NAME = "gpt-3.5-turbo"
-TEMPERATURE = 0
-# Embedding Embedding
-EMBEDDING_MODEL = "text-embedding-ada-002"
-EMBEDDING_ENCODING = "cl100k_base"  # this the encoding for text-embedding-ada-002
-MAX_TOKENS = 8000  # the maximum for text-embedding-ada-002 is 8191
+# =============================================================================
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # API Key for OpenAI
 
-# only the maximum tokens for chat but we must account for the tokens generated in the response as well.
-MAX_TOKENS_CHAT_GPT = 3000 
+# GPT Model Parameters
+GPT_MODEL_NAME = "gpt-3.5-turbo"  # Model name for GPT
+TEMPERATURE = 0                   # Sampling temperature for model response generation
 
-# Parameters for pausing
-PAUSE_EVERY_N_USERS = 10
-SLEEP_TIME = 16000  # Sleep for 60 seconds
+# Embedding Model Parameters
+EMBEDDING_MODEL = "text-embedding-ada-002"  # Model name for text embedding
+EMBEDDING_ENCODING = "cl100k_base"          # Encoding for text-embedding-ada-002
+MAX_TOKENS = 8000                           # Maximum tokens for embedding (limit is 8191)
 
-# Amazon Dataset Attributes
-# Columns related to the item side can be used for the prediction and training
+# Chat GPT Model Parameters
+MAX_TOKENS_CHAT_GPT = 3000  # Maximum tokens for chat responses, considering the response tokens
+
+# =============================================================================
+# Parameters for Processing Control
+# =============================================================================
+PAUSE_EVERY_N_USERS = 10  # Pause frequency in terms of number of users processed
+SLEEP_TIME = 16000        # Duration to pause in seconds (e.g., 60 seconds)
+
+# =============================================================================
+# Dataset Specific Constants
+# =============================================================================
+# Item-side attributes useful for prediction and training
 ITEM_SIDE = [
-    "asin",
-    "title",
-    "feature",
-    "description",
-    "price",
-    "brand",
-    "category",
-    "tech1",
-    "tech2",
-    "also_buy",
-    "also_view",
-    "details",
-    "main_cat",
-    "similar_item",
-    "date",
-    "rank"
+    "asin", "title", "feature", "description", "price", "brand", "category",
+    "tech1", "tech2", "also_buy", "also_view", "details", "main_cat",
+    "similar_item", "date", "rank"
 ]
-# Columns related to the interaction side can be used for training but can't be used for the prediction
+
+# Interaction-side attributes for training (not for prediction)
 INTERACTION_SIDE = [
-    "reviewText",
-    "rating",
-    "summary",
-    "unixReviewTime",
-    "reviewTime",
-    "vote",
-    "style",
+    "reviewText", "rating", "summary", "unixReviewTime", "reviewTime", "vote",
+    "style"
 ]
-# Columns related to the user side can be used for training but can't be used for the prediction
+
+# User-side attributes for training (not for prediction)
 USER_SIDE = [
-    "reviewerID",
-    "reviewerName",
-    "verified"
+    "reviewerID", "reviewerName", "verified"
 ]

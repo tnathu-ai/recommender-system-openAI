@@ -14,6 +14,7 @@ openai.api_key = OPENAI_API_KEY
 AMAZON_CONTENT_SYSTEM = "Amazon Beauty products critic"
 
 # Retry decorator configuration up to STOP_AFTER_N_ATTEMPTS times with an exponential backoff delay (1 to 20 seconds) between attempts.
+# source: https://tenacity.readthedocs.io/en/latest/
 retry_decorator = retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(STOP_AFTER_N_ATTEMPTS))
 
 TOKENIZER = tiktoken.get_encoding(EMBEDDING_ENCODING)

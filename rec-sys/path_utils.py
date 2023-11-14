@@ -2,53 +2,82 @@ import os
 import gzip
 import json
 import pandas as pd
-import os
 import sys
+
+# ----------------------------------------------------------------------------------------------------------------------
+# Utility functions for path management and data handling in a recommender system project
+# ----------------------------------------------------------------------------------------------------------------------
 
 def get_rec_sys_directory():
     """
-    Function to get the 'rec-sys' directory, assuming this script is within the 'rec-sys' hierarchy.
+    Get the 'rec-sys' directory, assuming this script is within the 'rec-sys' hierarchy.
+    
+    Returns:
+        str: Absolute path to the 'rec-sys' directory.
     """
     current_dir = os.getcwd()
     rec_sys_dir = os.path.abspath(os.path.join(current_dir, '..', '..'))
     return rec_sys_dir
 
-
 def add_path_to_sys(path):
-    """Add a specific path to the system path."""
+    """
+    Add a specific path to the system path if it's not already present.
+
+    Parameters:
+        path (str): The path to be added to the system path.
+    """
     if path not in sys.path:
         sys.path.append(path)
 
-
 def get_absolute_path(relative_path):
-    """Get the absolute path given a relative path."""
+    """
+    Convert a relative path to an absolute path.
+
+    Parameters:
+        relative_path (str): The relative path to convert.
+
+    Returns:
+        str: The absolute path.
+    """
     current_dir = os.path.dirname(os.path.abspath(__file__))
     absolute_path = os.path.join(current_dir, relative_path)
     return absolute_path
 
-
 def get_amazon_data_path(filename):
-    """Get the path to a data file in the 'data/amazon-beauty' directory."""
+    """
+    Construct the path to a data file located in the 'data/amazon-beauty' directory.
+
+    Parameters:
+        filename (str): The name of the file.
+
+    Returns:
+        str: Absolute path to the file in the 'data/amazon-beauty' directory.
+    """
     relative_path = os.path.join('../../data/amazon-beauty', filename)
     return get_absolute_path(relative_path)
 
-
 def get_movie_data_path(filename):
-    """Get the path to a data file in the 'data/movie-ml-latest-small/' directory."""
-    relative_path = os.path.join(
-        'data/movie-ml-latest-small/', filename)
-    return get_absolute_path(relative_path)
+    """
+    Construct the path to a data file located in the 'data/movie-ml-latest-small/' directory.
 
+    Parameters:
+        filename (str): The name of the file.
+
+    Returns:
+        str: Absolute path to the file in the 'data/movie-ml-latest-small/' directory.
+    """
+    relative_path = os.path.join('data/movie-ml-latest-small/', filename)
+    return get_absolute_path(relative_path)
 
 def parse_json_gz(file_path):
     """
-    Parse a .json.gz file into a pandas DataFrame.
+    Parse a .json.gz file and load it into a pandas DataFrame.
 
     Parameters:
-    - file_path (str): The path to the .json.gz file.
+        file_path (str): Path to the .json.gz file.
 
     Returns:
-    - DataFrame: A pandas DataFrame containing the parsed data.
+        pd.DataFrame: DataFrame containing the parsed data.
     """
     data = []
 
@@ -58,10 +87,13 @@ def parse_json_gz(file_path):
 
     return pd.DataFrame(data)
 
-
 def export_predictions_to_csv(predictions, filename):
     """
-    Export the predicted ratings to a CSV file.
+    Export a list of predictions to a CSV file.
+
+    Parameters:
+        predictions (list): A list of predictions to export.
+        filename (str): The filename for the exported CSV file.
     """
     predictions_df = pd.DataFrame(predictions)
     predictions_df.to_csv(filename, index=False)
