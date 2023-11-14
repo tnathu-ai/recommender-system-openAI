@@ -148,8 +148,8 @@ def predict_ratings_few_shot_and_save(data,
                                       columns_for_training,
                                       columns_for_prediction,
                                       user_column_name='reviewerID',
-                                      title_column_name='title',  # Parameter for title column name
-                                      asin_column_name='asin',    # Parameter for product code (ASIN) column name, optional
+                                      title_column_name='title',
+                                      asin_column_name='asin',
                                       obs_per_user=None,
                                       pause_every_n_users=PAUSE_EVERY_N_USERS,
                                       sleep_time=SLEEP_TIME,
@@ -164,18 +164,16 @@ def predict_ratings_few_shot_and_save(data,
             train_data = user_data.sample(4, random_state=RANDOM_STATE)
             test_data = user_data.sample(obs_per_user, random_state=RANDOM_STATE) if obs_per_user else user_data.drop(train_data.index)
 
-            # Drop 'rating' column from test_data if present
-            test_data = test_data.drop(columns=['rating'], errors='ignore')
-
             for test_idx, test_row in test_data.iterrows():
+                # Generate combined text for prediction without the rating column
+                prediction_data = {col: test_row[col] for col in columns_for_prediction if col != 'rating'}
+                combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
+
                 rating_history_str = ', '.join([f"{row[columns_for_training[0]]} ({row['rating']} stars)" for _, row in train_data.iterrows()])
-                prediction_data = test_row[columns_for_prediction].values
-                combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data)
                 predicted_rating = predict_rating_combined_ChatCompletion(combined_text, rating_history=rating_history_str, use_few_shot=True)
 
                 product_title = test_row.get(title_column_name, "Unknown Title")
                 product_details = f"{product_title}"
-
                 if asin_column_name and asin_column_name in test_row:
                     product_code = test_row[asin_column_name]
                     product_details += f" (Code: {product_code})"
@@ -188,7 +186,7 @@ def predict_ratings_few_shot_and_save(data,
                 print(f"\n----------------\n")
 
                 predicted_ratings.append(predicted_rating)
-                actual_ratings.append(test_row.get('rating', None))
+                actual_ratings.append(test_row['rating'])
 
         if (idx + 1) % pause_every_n_users == 0:
             print(f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
@@ -196,6 +194,7 @@ def predict_ratings_few_shot_and_save(data,
 
     predicted_ratings_df = pd.DataFrame({'few_shot_predicted_rating': predicted_ratings, 'actual_rating': actual_ratings})
     predicted_ratings_df.to_csv(save_path, index=False)
+
 
 
 

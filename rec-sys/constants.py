@@ -40,7 +40,7 @@ MAX_TOKENS_CHAT_GPT = 3000  # Maximum tokens for chat responses, considering the
 # Parameters for Processing Control
 # =============================================================================
 PAUSE_EVERY_N_USERS = 10  # Pause frequency in terms of number of users processed
-SLEEP_TIME = 16000        # Duration to pause in seconds (e.g., 60 seconds)
+SLEEP_TIME = 60        # Duration to pause in seconds (e.g., 60 seconds)
 
 # =============================================================================
 # Dataset Specific Constants

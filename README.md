@@ -21,7 +21,7 @@ In the zero-shot approach, the model is prompted without any prior examples or c
 
 **Example:**
 ```python
-    prompt = f"How will users rate this product based on the following details: '{combined_text}'? (1 being lowest and 5 being highest) Attention! Just give me back the exact whole number as a result, and you don't need a lot of text."
+    prompt = f"How will users rate this product based on the following details: '{combined_text}'? (1 being lowest and 5 being highest) Attention! Just give me back the exact whole number as a result, and we don't need a lot of text."
 ```
 
 ### Few-Shot Prompting
@@ -32,7 +32,7 @@ In the few-shot approach, the model is provided with a user's past rating histor
 ```python
     prompt = (f"Here is the user's rating history: {rating_history}. "
               f"Based on the above rating history and the following information: '{combined_text}', "
-              f"how many stars would you rate the product? "
+              f"how many stars would we rate the product? "
               "(Provide a number between 1 and 5, either followed by the word 'stars' or preceded by the words 'would be'). "
               "Attention! Keep the response concise.")
 ```
@@ -176,9 +176,23 @@ https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction
 
 [3] [https://arxiv.org/pdf/2304.10149.pdf](https://arxiv.org/pdf/2304.10149.pdf)
 
-
 </p>
 </details>
+
+<details><summary><b>Collaborative Filtering (CF) approach</b></summary>
+<p>
+To adapt our existing OpenAI GPT-based product rating prediction system into a Collaborative Filtering (CF) approach for a recommender system, we need to shift the focus from analyzing individual product attributes to leveraging user-item interactions. Collaborative Filtering primarily uses past interactions (such as ratings) from users to make recommendations. This approach can be user-based, item-based, or a hybrid.
+
+User-Based CF: This involves finding similar users based on their ratings and recommending items that these similar users liked.
+
+Item-Based CF: This involves finding similar items based on how users rated them and recommending these similar items to users.
+
+Matrix Factorization: A more advanced approach, often used in modern recommender systems, where user-item interactions are represented in a matrix, and matrix factorization techniques are used to predict missing ratings.
+
+Incorporate Embeddings: we can use GPT to generate embeddings for items based on their descriptions and other features, and then use these embeddings to find similar items or to enhance the user-item interaction matrix.
+</p>
+</details>
+
 
 <details><summary><b>SVD in Recommender System</b></summary>
 <p>
