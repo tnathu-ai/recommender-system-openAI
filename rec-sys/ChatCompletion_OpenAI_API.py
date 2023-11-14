@@ -93,6 +93,10 @@ def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, 
         ]
     )
 
+    # Extract the system fingerprint and print it
+    system_fingerprint = response.get('system_fingerprint')
+    print(f"System Fingerprint: {system_fingerprint}")
+
     # Extract and return the rating
     rating_text = response.choices[0].message['content'].strip()
     if "I don't know" in rating_text.lower():
@@ -122,7 +126,7 @@ def predict_ratings_zero_shot_and_save(data,
             product_code = row[asin_column_name]
             product_details += f" (Code: {product_code})"
 
-        print(f"Processing item {idx + 1}/{len(data)}\n\n")
+        print(f"Processing item {idx + 1}/{len(data)}\n")
         print(f"Details: {product_details}")
         print(f"\nPredicted Rating: {predicted_rating} stars")
         print(f"\n----------------\n")
@@ -176,7 +180,7 @@ def predict_ratings_few_shot_and_save(data,
                     product_code = test_row[asin_column_name]
                     product_details += f" (Code: {product_code})"
 
-                print(f"Processing user {idx + 1}/{len(users)}, item {test_idx + 1}/{len(test_data)}\n\n")
+                print(f"Processing user {idx + 1}/{len(users)}, item {test_idx + 1}/{len(test_data)}\n")
                 print(f"User {user_id}:")
                 print(f"Rating History for Prediction: {rating_history_str}")
                 print(f"Predicted Item: {product_details}")

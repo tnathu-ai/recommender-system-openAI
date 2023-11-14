@@ -25,7 +25,7 @@ NUM_EXAMPLES = 5     # Number of examples to show for demonstrations
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # API Key for OpenAI
 
 # GPT Model Parameters
-GPT_MODEL_NAME = "gpt-3.5-turbo"  # Model name for GPT
+GPT_MODEL_NAME = "gpt-3.5-turbo-1106"  # Model name for GPT
 TEMPERATURE = 0                   # Sampling temperature for model response generation
 
 # Embedding Model Parameters

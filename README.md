@@ -2,7 +2,7 @@
 
 A collection of performance comparisons on rating prediction for various recommender system methods.
 
-**Latest Update**: Added context as an additional feature.
+**Latest Update**: Added system_fingerprint for the reproducibility
 
 ![performance](rec-sys/notebook/images/comparison_plot.png)
 
@@ -12,6 +12,8 @@ A collection of performance comparisons on rating prediction for various recomme
 ### Overview
 
 We employ a zero-shot and few-shot prompting strategy to predict product ratings based on product titles and user's rating history. These strategies utilize GPT models to generate predictions by crafting specific prompts that guide the model towards the desired output.
+
+The system_fingerprint in OpenAI's API response is used to identify the specific backend configuration of the model, helping users track changes in the model's infrastructure that might affect the reproducibility of results.
 
 ### Zero-Shot Prompting
 
