@@ -179,8 +179,12 @@ https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction
 </p>
 </details>
 
-<details><summary><b>Collaborative Filtering (CF) approach</b></summary>
+<details><summary><b>Tasks</b></summary>
 <p>
+
+# Content-Based Recommendation Systems
+
+# Collaborative Filtering (CF) Recommendation Systems
 To adapt our existing OpenAI GPT-based product rating prediction system into a Collaborative Filtering (CF) approach for a recommender system, we need to shift the focus from analyzing individual product attributes to leveraging user-item interactions. Collaborative Filtering primarily uses past interactions (such as ratings) from users to make recommendations. This approach can be user-based, item-based, or a hybrid.
 
 User-Based CF: This involves finding similar users based on their ratings and recommending items that these similar users liked.

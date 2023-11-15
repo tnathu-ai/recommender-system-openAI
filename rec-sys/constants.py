@@ -43,7 +43,7 @@ PAUSE_EVERY_N_USERS = 10  # Pause frequency in terms of number of users processe
 SLEEP_TIME = 60        # Duration to pause in seconds (e.g., 60 seconds)
 
 # =============================================================================
-# Dataset Specific Constants
+# Dataset Specific Constants for Amazon Beauty dataset
 # =============================================================================
 # Item-side attributes useful for prediction and training
 ITEM_SIDE = [
