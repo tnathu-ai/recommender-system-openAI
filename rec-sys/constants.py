@@ -62,3 +62,13 @@ INTERACTION_SIDE = [
 USER_SIDE = [
     "reviewerID", "reviewerName", "verified"
 ]
+
+# =============================================================================
+# Evaluation Metrics Parameters
+# =============================================================================
+# confidence level for the confidence interval
+CONFIDENCE_LEVEL = 0.95
+# Bootstrap Resampling: Repeatedly sample set of (actual, predicted) ratings with replacement, typically thousands of times (e.g., 10,000 bootstrap samples).
+BOOSTRAP_RESAMPLING_ITERATIONS = 10000
+# confidence_multiplier
+CONFIDENCE_MULTIPLIER = 1.96
