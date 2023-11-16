@@ -160,9 +160,17 @@ def predict_ratings_few_shot_and_save(data,
 
     for idx, user_id in enumerate(users):
         user_data = data[data[user_column_name] == user_id]
+        
         if len(user_data) >= 5:
+            # Sample training data
             train_data = user_data.sample(4, random_state=RANDOM_STATE)
-            test_data = user_data.sample(obs_per_user, random_state=RANDOM_STATE) if obs_per_user else user_data.drop(train_data.index)
+            
+            # Exclude the items in train_data from the test set
+            test_data = user_data[~user_data.index.isin(train_data.index)]
+            
+            # If specified, limit the number of observations per user for the test set
+            if obs_per_user:
+                test_data = test_data.sample(obs_per_user, random_state=RANDOM_STATE)
 
             for test_idx, test_row in test_data.iterrows():
                 # Generate combined text for prediction without the rating column
@@ -194,7 +202,6 @@ def predict_ratings_few_shot_and_save(data,
 
     predicted_ratings_df = pd.DataFrame({'few_shot_predicted_rating': predicted_ratings, 'actual_rating': actual_ratings})
     predicted_ratings_df.to_csv(save_path, index=False)
-
 
 
 
