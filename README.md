@@ -194,6 +194,9 @@ Item-Based CF: This involves finding similar items based on how users rated them
 Matrix Factorization: A more advanced approach, often used in modern recommender systems, where user-item interactions are represented in a matrix, and matrix factorization techniques are used to predict missing ratings.
 
 Incorporate Embeddings: we can use GPT to generate embeddings for items based on their descriptions and other features, and then use these embeddings to find similar items or to enhance the user-item interaction matrix.
+
+![user similarity heat map](rec-sys/notebook/images/user_similarity_heatmap.png)
+
 </p>
 </details>
 

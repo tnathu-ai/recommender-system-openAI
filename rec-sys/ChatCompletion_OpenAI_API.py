@@ -6,61 +6,12 @@ import re
 import time
 from constants import *
 from evaluation_utils import *
+from utils import *
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 import tiktoken
+from sklearn.neighbors import NearestNeighbors
+from scipy.sparse import csr_matrix
 
-# OpenAI API Key
-openai.api_key = OPENAI_API_KEY
-AMAZON_CONTENT_SYSTEM = "Amazon Beauty products critic"
-
-# Retry decorator configuration up to STOP_AFTER_N_ATTEMPTS times with an exponential backoff delay (1 to 20 seconds) between attempts.
-# source: https://tenacity.readthedocs.io/en/latest/
-retry_decorator = retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(STOP_AFTER_N_ATTEMPTS))
-
-TOKENIZER = tiktoken.get_encoding(EMBEDDING_ENCODING)
-
-# source: openai-cookbook
-def check_and_reduce_length(text, 
-                            max_tokens=MAX_TOKENS_CHAT_GPT, 
-                            tokenizer=TOKENIZER):
-    """
-    Check and reduce the length of the text to be within the max_tokens limit.
-    
-    Parameters:
-    text (str): The input text.
-    max_tokens (int): Maximum allowed tokens.
-    tokenizer: The tokenizer used for token counting.
-
-    Returns:
-    str: The text truncated to the max_tokens limit.
-    """
-    # Tokenize the text and check its length
-    tokens = tokenizer.encode(text)
-    if len(tokens) <= max_tokens:
-        return text
-
-    # If tokens exceed max_tokens, truncate the text
-    truncated_text = ''
-    for token in tokens[:max_tokens]:
-        truncated_text += tokenizer.decode([token])
-
-    return truncated_text
-
-# function to extract the numeric rating from the response text
-def extract_numeric_rating(rating_text):
-    """Extract numeric rating from response text."""
-    try:
-        rating = float(re.search(r'\d+', rating_text).group())
-        if 1 <= rating <= 5:
-            return rating
-        raise ValueError("Rating out of bounds")
-    except (ValueError, AttributeError):
-        print(f"Unexpected response for the provided details: {rating_text}")
-        return 0  # Default value for unexpected responses
-
-def generate_combined_text_for_prediction(columns, *args):
-    """Generates a combined text string from columns and arguments for prediction."""
-    return ". ".join([f"{col}: {val}" for col, val in zip(columns, args)])
 
 @retry_decorator
 def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, temperature=TEMPERATURE, use_few_shot=False, rating_history=None, seed=RANDOM_STATE):
@@ -203,6 +154,63 @@ def predict_ratings_few_shot_and_save(data,
     predicted_ratings_df = pd.DataFrame({'few_shot_predicted_rating': predicted_ratings, 'actual_rating': actual_ratings})
     predicted_ratings_df.to_csv(save_path, index=False)
 
+
+# User based Collaborative Filtering
+def predict_ratings_with_collaborative_filtering_and_save(data, interaction_matrix, user_mapper, item_mapper, user_inv_mapper, model_knn,
+                                                          columns_for_training, columns_for_prediction,
+                                                          user_column_name='reviewerID', title_column_name='title', asin_column_name='asin',
+                                                          obs_per_user=None, pause_every_n_users=PAUSE_EVERY_N_USERS, sleep_time=SLEEP_TIME,
+                                                          save_path='../../data/amazon-beauty/similar_users_predictions.csv'):
+    predicted_ratings = []
+    actual_ratings = []
+    users = data[user_column_name].unique()
+
+    for idx, user_id in enumerate(users):
+        user_data = data[data[user_column_name] == user_id]
+
+        if len(user_data) >= 5:
+            test_data = user_data.sample(obs_per_user if obs_per_user else 1, random_state=RANDOM_STATE)
+            remaining_data = user_data[~user_data.index.isin(test_data.index)]
+
+            for test_idx, test_row in test_data.iterrows():
+                user_idx = user_mapper[user_id]
+                distances, indices = model_knn.kneighbors(interaction_matrix[user_idx], n_neighbors=5)
+
+                training_data = pd.DataFrame()
+                similar_users = []
+                for idx in indices.flatten():
+                    similar_user_id = user_inv_mapper[idx]
+                    if similar_user_id != user_id:
+                        similar_users.append(similar_user_id)
+                        similar_user_data = data[data[user_column_name] == similar_user_id]
+                        training_data = pd.concat([training_data, similar_user_data], ignore_index=True)
+
+                # Log similar users
+                print(f"Similar users for {user_id}: {similar_users}")
+
+                prediction_data = {col: test_row[col] for col in columns_for_prediction if col != 'rating'}
+                combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
+
+                rating_history_str = ', '.join([f"{row[columns_for_training[0]]} ({row['rating']} stars)" for _, row in training_data.iterrows()])
+                predicted_rating = predict_rating_combined_ChatCompletion(combined_text, rating_history=rating_history_str, use_few_shot=True)
+
+                predicted_ratings.append(predicted_rating)
+                actual_ratings.append(test_row['rating'])
+
+                print(f"Processing user {idx + 1}/{len(users)}, item {test_idx + 1}/{len(test_data)}")
+                print(f"User {user_id}:")
+                print(f"Rating History for Prediction: {rating_history_str}")
+                print(f"Predicted Item: {test_row[title_column_name]}")
+                print(f"Predicted Rating: {predicted_rating} stars")
+                print("\n----------------\n")
+
+            if (idx + 1) % pause_every_n_users == 0:
+                print(f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
+                time.sleep(sleep_time)
+
+    predicted_ratings_df = pd.DataFrame({'predicted_rating': predicted_ratings, 'actual_rating': actual_ratings})
+    predicted_ratings_df.to_csv(save_path, index=False)
+    print(f"Predictions saved to {save_path}")
 
 
 
