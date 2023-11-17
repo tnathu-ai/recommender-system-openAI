@@ -1,17 +1,18 @@
-\begin{tabular}{llllrrl}
- & Methods & Dataset & Features & RMSE & MAE & Wall Time \\
-0 & MF [1] & Unknown & title & 1.197300 & 0.946100 & - \\
-1 & MLP [2] & Unknown & title & 1.307800 & 0.959700 & - \\
-2 & Paper's (zero-shot) [3] & Unknown Amazon & title & 1.405900 & 1.186100 & - \\
-3 & Paper's (few-shot) [3] & Unknown Amazon & title & 1.075100 & 0.697700 & - \\
-4 & Thu's OpenAI embedding & Small Amazon & title & 1.603600 & 1.142900 & 47.9 ms \\
-5 & Thu's zero-shot GPT & Small Amazon & title & 1.335100 & 1.260900 & 13.6 s \\
-6 & Thu's few-shot GPT & Small Amazon & title & 1.908600 & 1.071400 & 16.4 s \\
-7 & Thu's OpenAI embedding & Large Amazon & title & 0.624000 & 0.310700 & 1h 25min 35s \\
-8 & Thu's zero-shot GPT & Large Amazon & title & 1.134400 & 1.011800 & 13h 14min 39s \\
-9 & Thu's few-shot GPT & Large Amazon & title & 0.718500 & 0.325900 & 9h 36min 7s \\
-10 & Thu's few-shot GPT (1 test/user) & Large Amazon & title & 0.644500 & 0.222600 & 15h 37s \\
-11 & Thu's zero-shot GPT & Small Amazon & all & 2.413199 & 2.000000 & 4min 6s \\
-12 & Thu's few-shot GPT & Small Amazon & all & 2.577374 & 1.785714 & 1min 2s \\
-13 & Thu's few-shot GPT (1 test/user) & Small Amazon & all & 2.577374 & 1.785714 & 31 s \\
+\begin{tabular}{llllrllrlll}
+ & Methods & Dataset & Features & RMSE & CI_RMSE & StdError_RMSE & MAE & CI_MAE & StdError_MAE & Wall Time \\
+0 & MF [1] & Unknown & title & 1.197300 & - & - & 0.946100 & - & - & - \\
+1 & MLP [2] & Unknown & title & 1.307800 & - & - & 0.959700 & - & - & - \\
+2 & Paper's (zero-shot) [3] & Unknown Amazon & title & 1.405900 & - & - & 1.186100 & - & - & - \\
+3 & Paper's (few-shot) [3] & Unknown Amazon & title & 1.075100 & - & - & 0.697700 & - & - & - \\
+4 & Thu's OpenAI embedding & Small Amazon & title & 1.603600 & - & - & 1.142900 & - & - & 47.9 ms \\
+5 & Thu's zero-shot GPT (updated) & Small Amazon & title & 3.573200 & (3.1436, 3.9779) & 0.004100 & 3.233100 & (2.7059, 3.7353) & 0.005200 & 5min 30s \\
+6 & Thu's few-shot GPT (updated) & Small Amazon & title & 4.540300 & (3.5214, 5.0000) & 0.008400 & 4.399900 & (3.2000, 5.0000) & 0.010500 & 13.2 s \\
+7 & Thu's OpenAI embedding & Large Amazon & title & 0.624000 & - & - & 0.310700 & - & - & 1h 25min 35s \\
+8 & Thu's zero-shot GPT & Large Amazon & title & 1.134400 & - & - & 1.011800 & - & - & 13h 14min 39s \\
+9 & Thu's few-shot GPT & Large Amazon & title & 3.125500 & (3.0543, 3.1957) & 0.000700 & 2.642300 & (2.5609, 2.7220) & 0.000800 & 6h 16min 2s \\
+10 & Thu's few-shot GPT (1 test/user) & Large Amazon & title & 0.644500 & - & - & 0.222600 & - & - & 15h 37s \\
+11 & Small Amazon user based CF & Small Amazon & all & 3.634000 & (2.6458, 4.4721) & 0.010000 & 3.410800 & (2.2000, 4.4000) & 0.011900 & 10min 21s \\
+12 & Thu's zero-shot GPT & Small Amazon & all & 2.413199 & - & - & 2.000000 & - & - & 4min 6s \\
+13 & Thu's few-shot GPT & Small Amazon & all & 2.577374 & - & - & 1.785714 & - & - & 1min 2s \\
+14 & Thu's few-shot GPT (1 test/user) & Small Amazon & all & 2.577374 & - & - & 1.785714 & - & - & 31 s \\
 \end{tabular}
