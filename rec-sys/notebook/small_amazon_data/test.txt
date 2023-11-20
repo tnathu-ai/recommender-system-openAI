@@ -1,0 +1,94 @@
+Rsearch qustion: whether the collaborative information would be helpful in prompting for GPT models as recommender systems?
+
+sub-research questions: 
+1. helpful or not? 
+2, how helpful? by how much adding collaboraive infomration could imprve the accuracy of recommendation? 
+3, what would be the best way to add the collaborative information? 
+4. why it works? 
+
+Desgin: 
+
+Baseline: 
+Baseline1: "How will user rate this product_title: "SHANY Nail Art Set (24 Famous Colors Nail Art Polish, Nail Art Decoration)" , and
+product_category: Beauty? ( 1 being lowest and 5 being highest ) Attention! Just give me back the exact number a result , and you don't need
+a lot of text. 
+
+Here is user rating history:
+1. Bundle Monster 100 PC 3D Designs Nail Art Nailart Manicure Fimo Canes Sticks Rods Stickers Gel Tips, 5.0;
+2. Winstonia‘s Double Ended Nail Art Marbling Dotting Tool Pen Set w/ 10 Different Sizes 5 Colors - Manicure Pedicure, 5.0;
+3. Nail Art Jumbo Stamp Stamping Manicure Image Plate 2 Tropical Holiday by Cheeky&reg, 5.0 ;
+4.Nail Art Jumbo Stamp Stamping Manicure Image Plate 6 Happy Holidays by Cheeky&reg, 5.0;
+Based on above rating history, please predict user's rating for the product: "SHANY Nail Art Set (24 Famouse Colors Nail Art Polish, Nail
+Art Decoration)", (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)"
+
+
+Your current method: 
+
+Evaluation: done on the same set for both the baseline and your method. 
+train: the same
+test: the same 
+
+First Big ersion: 
+--------------------
+How will user rate this product_title: "SHANY Nail Art Set (24 Famous Colors Nail Art Polish, Nail Art Decoration)" , and
+product_category: Beauty? ( 1 being lowest and 5 being highest ) Attention! Just give me back the exact number a result , and you don't need
+a lot of text. 
+
+Here is user rating history:
+1. Bundle Monster 100 PC 3D Designs Nail Art Nailart Manicure Fimo Canes Sticks Rods Stickers Gel Tips, 5.0;
+2. Winstonia‘s Double Ended Nail Art Marbling Dotting Tool Pen Set w/ 10 Different Sizes 5 Colors - Manicure Pedicure, 5.0;
+3. Nail Art Jumbo Stamp Stamping Manicure Image Plate 2 Tropical Holiday by Cheeky&reg, 5.0 ;
+4.Nail Art Jumbo Stamp Stamping Manicure Image Plate 6 Happy Holidays by Cheeky&reg, 5.0;
+Based on above rating history, please predict user's rating for the product: "SHANY Nail Art Set (24 Famouse Colors Nail Art Polish, Nail
+Art Decoration)", (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)
+
+Here are the rating history from users who are similar to this user: 
+1. ""
+2. 
+
+...
+
+8. 
+-------------------------------
+
+2nd Big version: 
+--------------------
+How will user rate this product_title: "SHANY Nail Art Set (24 Famous Colors Nail Art Polish, Nail Art Decoration)" , and
+product_category: Beauty? ( 1 being lowest and 5 being highest ) Attention! Just give me back the exact number a result , and you don't need
+a lot of text. 
+
+Here is user rating history:
+1. Bundle Monster 100 PC 3D Designs Nail Art Nailart Manicure Fimo Canes Sticks Rods Stickers Gel Tips, 5.0;
+2. Winstonia‘s Double Ended Nail Art Marbling Dotting Tool Pen Set w/ 10 Different Sizes 5 Colors - Manicure Pedicure, 5.0;
+3. Nail Art Jumbo Stamp Stamping Manicure Image Plate 2 Tropical Holiday by Cheeky&reg, 5.0 ;
+4.Nail Art Jumbo Stamp Stamping Manicure Image Plate 6 Happy Holidays by Cheeky&reg, 5.0;
+Based on above rating history, please predict user's rating for the product: "SHANY Nail Art Set (24 Famouse Colors Nail Art Polish, Nail
+Art Decoration)", (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)
+
+Here are the rating history from users who are similar to this user: 
+1. ""
+2. 
+
+...
+
+8. 
+
+Please note that: tsome similar neighbour gaive different ratings on XXXX with R1, and R2, and their similar to the current user is 0.8 and 0.9
+
+-------------------------------
+
+Results: 
+
+Method, RMSE, mae
+Baseline2(KNN-CF): 
+Baselin1, 0.9, 0.7
+Your method_v1, 0.89, 0.67
+Your method_v2 (5 rating per neightbor), 0.8, 0.6 
+v3(100 ratings per neithg), 1.0, 0.9
+2ndBig Version, 0.85, 0.65
+
+Table 2: 
+Method, ,# of cases ChatGP does not work
+Baleine 1 : 20
+baselin 2: 15
+V1: 2

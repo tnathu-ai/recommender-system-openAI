@@ -1,10 +1,11 @@
-# CF_utils.py
 import numpy as np
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 from scipy.sparse import csr_matrix
-from utils import check_and_reduce_length, extract_numeric_rating, generate_combined_text_for_prediction
+from utils import *
 from constants import *
+from tenacity import retry, stop_after_attempt, wait_random_exponential
+
 
 
 def create_interaction_matrix(df, user_col, item_col, rating_col, threshold=0):

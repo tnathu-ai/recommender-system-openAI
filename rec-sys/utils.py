@@ -5,7 +5,9 @@ import time
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 import tiktoken
 from constants import *
+from tenacity import retry, stop_after_attempt, wait_random_exponential
 
+import openai
 # Configure OpenAI API
 openai.api_key = OPENAI_API_KEY
 AMAZON_CONTENT_SYSTEM = "Amazon Beauty products critic"

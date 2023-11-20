@@ -7,42 +7,66 @@ import time
 from constants import *
 from evaluation_utils import *
 from utils import *
+from CF_utils import *
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 import tiktoken
 from sklearn.neighbors import NearestNeighbors
 from scipy.sparse import csr_matrix
+import openai
+from openai.error import APIError, APIConnectionError, RateLimitError
+
 
 
 @retry_decorator
-def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, temperature=TEMPERATURE, use_few_shot=False, rating_history=None, seed=RANDOM_STATE):
+def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, temperature=TEMPERATURE, approach="zero-shot", rating_history=None, similar_users_ratings=None, seed=RANDOM_STATE):
     """
-    Predicts product ratings using either a zero-shot or few-shot approach with the GPT model.
+    Predicts product ratings using different approaches with the GPT model.
     """
-    if use_few_shot and rating_history is None:
+    # Validation
+    if approach == "few-shot" and rating_history is None:
         raise ValueError("Rating history is required for the few-shot approach.")
+    if approach == "CF" and similar_users_ratings is None:
+        raise ValueError("Similar users' ratings are required for the collaborative filtering approach.")
 
-    # Check and reduce length of combined_text and rating_history
-    combined_text = check_and_reduce_length(combined_text, MAX_TOKENS_CHAT_GPT // 2, TOKENIZER)
-    if use_few_shot:
-        rating_history = check_and_reduce_length(rating_history, MAX_TOKENS_CHAT_GPT // 2, TOKENIZER)
+    # Check and reduce length of combined_text
+    combined_text = check_and_reduce_length(combined_text, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
+    prompt = f"How will user rate this {combined_text}, and\nproduct_category: Beauty? (1 being lowest and 5 being highest) Attention! Just give me back the exact number a result, and you don't need a lot of text."
 
-    # Construct the prompt
-    prompt = f"Context: Product Details - {combined_text}"
-    if use_few_shot:
-        prompt += f"\nUser's Rating History - {rating_history}"
-    prompt += "\n\n---\n\nQuestion: Based on these details, what might influence the product's rating? (1 being lowest and 5 being highest)\nAnswer:"
+    # Construct the prompt based on the approach
+    if approach == "few-shot":
+        rating_history = check_and_reduce_length(rating_history, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
+        prompt += f"\n\nHere is user rating history:\n{rating_history}"
 
-    # Create the API call
-    response = openai.ChatCompletion.create(
-        model=model,
-        temperature=temperature,
-        max_tokens=MAX_TOKENS_CHAT_GPT,
-        seed=seed,
-        messages=[
-            {"role": "system", "content": AMAZON_CONTENT_SYSTEM},
-            {"role": "user", "content": prompt}
-        ]
-    )
+    elif approach == "CF":
+        similar_users_ratings = check_and_reduce_length(similar_users_ratings, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
+        prompt += f"\n\nHere are the rating history from users who are similar to this user:\n{similar_users_ratings}"
+
+    # Adding end of the prompt
+    prompt += "\n\nBased on above rating history, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)"
+
+    print(f"Constructed Prompt for {approach} approach:\n{prompt}")
+
+    try:
+        # Create the API call
+        response = openai.ChatCompletion.create(
+            model=model,
+            temperature=temperature,
+            max_tokens=MAX_TOKENS_CHAT_GPT,
+            seed=seed,
+            messages=[
+                {"role": "system", "content": AMAZON_CONTENT_SYSTEM},
+                {"role": "user", "content": prompt}
+            ]
+        )
+    except APIError as e:
+        print(f"OpenAI API returned an API Error: {e}")
+        return None  # or appropriate error handling
+    except APIConnectionError as e:
+        print(f"Failed to connect to OpenAI API: {e}")
+        return None  # or appropriate error handling
+    except RateLimitError as e:
+        print(f"OpenAI API request exceeded rate limit: {e}")
+        return None  # or appropriate error handling
 
     # Extract the system fingerprint and print it
     system_fingerprint = response.get('system_fingerprint')
@@ -54,6 +78,7 @@ def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, 
         print("Insights provided by the model: ", rating_text)
         return 0
     return extract_numeric_rating(rating_text)
+
 
 
 def predict_ratings_zero_shot_and_save(data,
