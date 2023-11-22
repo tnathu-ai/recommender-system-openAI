@@ -40,6 +40,7 @@ def check_and_reduce_length(text, max_tokens=MAX_TOKENS_CHAT_GPT, tokenizer=TOKE
 
     return truncated_text
 
+
 def extract_numeric_rating(rating_text):
     """
     Extract numeric rating from response text.
@@ -51,13 +52,20 @@ def extract_numeric_rating(rating_text):
         float: Extracted rating value. Returns 0 for unexpected responses.
     """
     try:
-        rating = float(re.search(r'\d+', rating_text).group())
-        if 1 <= rating <= 5:
-            return rating
-        raise ValueError("Rating out of bounds")
-    except (ValueError, AttributeError):
-        print(f"Unexpected response for the provided details: {rating_text}")
+        # Updated regex to capture the number before "stars"
+        rating_match = re.search(r'(\d+(\.\d+)?) stars', rating_text)
+        if rating_match:
+            rating = float(rating_match.group(1))
+            if 1 <= rating <= 5:
+                return rating
+            else:
+                raise ValueError("Rating out of bounds")
+        else:
+            raise ValueError("No valid rating found")
+    except ValueError as e:
+        print(f"Unexpected response for the provided details: {rating_text}. Error: {e}")
         return 0
+
 
 def generate_combined_text_for_prediction(columns, *args):
     """

@@ -72,3 +72,115 @@ def recommend_items(user_id, interaction_matrix, user_mapper, item_inv_mapper, m
     recommendations = [item_inv_mapper[idx] for idx, dist in raw_recommends if idx != user_idx]
 
     return recommendations
+
+
+
+# source RMIT courses
+def pearson_correlation(interaction_matrix):
+    """
+    Compute the Pearson Correlation Coefficient matrix for the user-item interaction matrix.
+
+    Args:
+    interaction_matrix (numpy.ndarray): A 2D array where rows represent users and columns represent items.
+                                        The values in the matrix are the ratings given by users to items.
+
+    Returns:
+    numpy.ndarray: A 2D array representing the Pearson Correlation Coefficients between each pair of users.
+    """
+
+    # Get the number of users
+    n_users = interaction_matrix.shape[0]
+
+    # Initialize the Pearson Correlation matrix with zeros
+    pearson_corr_matrix = np.zeros((n_users, n_users))
+
+    # Small constant to avoid division by zero
+    EPSILON = 1e-9
+
+    # Iterate over each pair of users
+    for i in range(n_users):
+        for j in range(n_users):
+            # Get the rating vectors for the current pair of users
+            user_i_vec = interaction_matrix[i, :]
+            user_j_vec = interaction_matrix[j, :]
+
+            # Create masks for ratings greater than 0 (indicating rated items)
+            mask_i = user_i_vec > 0
+            mask_j = user_j_vec > 0
+
+            # Find indices of corrated items (items rated by both users)
+            corrated_index = np.intersect1d(np.where(mask_i), np.where(mask_j))
+
+            # Skip if no items are corrated
+            if len(corrated_index) == 0:
+                continue
+
+            # Compute the mean rating for each user over corrated items
+            mean_user_i = np.mean(user_i_vec[corrated_index])
+            mean_user_j = np.mean(user_j_vec[corrated_index])
+
+            # Compute the deviations from the mean for each user
+            user_i_sub_mean = user_i_vec[corrated_index] - mean_user_i
+            user_j_sub_mean = user_j_vec[corrated_index] - mean_user_j
+
+            # Calculate the components for Pearson correlation
+            r_ui_sub_r_i_sq = np.square(user_i_sub_mean)
+            r_uj_sub_r_j_sq = np.square(user_j_sub_mean)
+
+            r_ui_sum_sqrt = np.sqrt(np.sum(r_ui_sub_r_i_sq))
+            r_uj_sum_sqrt = np.sqrt(np.sum(r_uj_sub_r_j_sq))
+
+            # Calculate Pearson correlation and handle division by zero
+            sim = np.sum(user_i_sub_mean * user_j_sub_mean) / (r_ui_sum_sqrt * r_uj_sum_sqrt + EPSILON)
+
+            # Store the similarity in the matrix
+            pearson_corr_matrix[i, j] = sim
+
+    return pearson_corr_matrix
+
+
+
+
+def cosine_similarity_manual(interaction_matrix):
+    """
+    Compute the Cosine Similarity matrix for the user-item interaction matrix.
+
+    Args:
+    interaction_matrix (numpy.ndarray): A 2D array where rows represent users and columns represent items.
+                                        The values in the matrix are the ratings given by users to items.
+
+    Returns:
+    numpy.ndarray: A 2D array representing the Cosine Similarities between each pair of users.
+    """
+
+    # Get the number of users
+    n_users = interaction_matrix.shape[0]
+
+    # Initialize the Cosine Similarity matrix with zeros
+    cosine_sim_matrix = np.zeros((n_users, n_users))
+
+    # Iterate over each pair of users
+    for i in range(n_users):
+        for j in range(n_users):
+            # Get the rating vectors for the current pair of users
+            user_i_vec = interaction_matrix[i, :]
+            user_j_vec = interaction_matrix[j, :]
+
+            # Compute the dot product between the two vectors
+            dot_product = np.dot(user_i_vec, user_j_vec)
+
+            # Compute the magnitude (norm) of each vector
+            norm_i = np.linalg.norm(user_i_vec)
+            norm_j = np.linalg.norm(user_j_vec)
+
+            # Calculate cosine similarity (handling division by zero)
+            if norm_i == 0 or norm_j == 0:
+                # If a vector has magnitude 0, the similarity is set to 0
+                similarity = 0
+            else:
+                similarity = dot_product / (norm_i * norm_j)
+
+            # Store the similarity in the matrix
+            cosine_sim_matrix[i, j] = similarity
+
+    return cosine_sim_matrix
