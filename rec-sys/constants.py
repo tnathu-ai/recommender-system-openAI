@@ -34,7 +34,7 @@ EMBEDDING_ENCODING = "cl100k_base"          # Encoding for text-embedding-ada-00
 MAX_TOKENS = 8000                           # Maximum tokens for embedding (limit is 8191)
 
 # Chat GPT Model Parameters
-MAX_TOKENS_CHAT_GPT = 3000  # Maximum tokens for chat responses, considering the response tokens
+MAX_TOKENS_CHAT_GPT = 4000  # Maximum tokens for chat responses, considering the response tokens
 
 # =============================================================================
 # Parameters for Processing Control

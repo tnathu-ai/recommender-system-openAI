@@ -52,19 +52,24 @@ def extract_numeric_rating(rating_text):
         float: Extracted rating value. Returns 0 for unexpected responses.
     """
     try:
-        # Updated regex to capture the number before "stars"
-        rating_match = re.search(r'(\d+(\.\d+)?) stars', rating_text)
+        # Updated regex to capture standalone digit rating as well
+        rating_match = re.search(r'(\d+(\.\d+)?) stars|Rating: (\d+(\.\d+)?)|^\s*(\d+(\.\d+)?)\s*$', rating_text)
         if rating_match:
-            rating = float(rating_match.group(1))
+            # The rating could be in one of multiple groups depending on the pattern matched
+            rating = float(rating_match.group(1) or rating_match.group(3) or rating_match.group(5))
             if 1 <= rating <= 5:
                 return rating
             else:
-                raise ValueError("Rating out of bounds")
+                print(f"Rating out of expected range (1-5 stars): {rating_text}")
+                return 0
         else:
-            raise ValueError("No valid rating found")
-    except ValueError as e:
-        print(f"Unexpected response for the provided details: {rating_text}. Error: {e}")
+            print(f"No valid rating found in the response: {rating_text}")
+            return 0
+    except Exception as e:
+        print(f"Error extracting rating: {e}. Full response: {rating_text}")
         return 0
+
+
 
 
 def generate_combined_text_for_prediction(columns, *args):

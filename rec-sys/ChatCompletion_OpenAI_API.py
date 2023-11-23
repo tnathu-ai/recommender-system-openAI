@@ -43,7 +43,9 @@ def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, 
     # Adding end of the prompt
     prompt += "\n\nBased on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)"
 
-    print(f"Constructed Prompt for {approach} approach:\n{prompt}")
+    print(f"Constructed Prompt for {approach} approach:\n")
+    # meaningful print for prompt
+    print(f'The prompt:\n**********\n{prompt}\n**********\n')
 
     try:
         # Create the API call
@@ -63,14 +65,12 @@ def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, 
 
     # Extract the system fingerprint and print it
     system_fingerprint = response.get('system_fingerprint')
-    print(f"System Fingerprint: {system_fingerprint}")
+    print(f"\n\nSystem Fingerprint: {system_fingerprint}")
 
     # Extract and return the rating
     rating_text = response.choices[0].message['content'].strip()
-    print(f'\nAPI call response: {rating_text}')
+    print(f'\nAPI call response: "{rating_text}"')
     extracted_rating = extract_numeric_rating(rating_text)
-    if extracted_rating == 0:
-        print("Response from the model: ", rating_text)
     return extracted_rating
 
 
@@ -103,7 +103,7 @@ def predict_ratings_zero_shot_and_save(data,
         print(f"Processing item {idx + 1}/{len(grouped_data)}\n")
         print(f"Details: {product_details}")
         print(f"\nPredicted Rating: {predicted_rating} stars")
-        print(f"\n----------------\n")
+        print(f"\n------------------------------------\n")
 
         predicted_ratings.append(predicted_rating)
 
@@ -115,17 +115,7 @@ def predict_ratings_zero_shot_and_save(data,
     grouped_data.to_csv(save_path, index=False)
     print(f"Predictions saved to {save_path}")
 
-
-def predict_ratings_few_shot_and_save(data,
-                                      columns_for_training,
-                                      columns_for_prediction,
-                                      user_column_name='reviewerID',
-                                      title_column_name='title',
-                                      asin_column_name='asin',
-                                      obs_per_user=None,
-                                      pause_every_n_users=PAUSE_EVERY_N_USERS,
-                                      sleep_time=SLEEP_TIME,
-                                      save_path='../../data/amazon-beauty/reviewText_small_predictions_few_shot.csv'):
+def predict_ratings_few_shot_and_save(data, columns_for_training, columns_for_prediction, user_column_name='reviewerID', title_column_name='title', asin_column_name='asin', obs_per_user=None, pause_every_n_users=PAUSE_EVERY_N_USERS, sleep_time=SLEEP_TIME, save_path='../../data/amazon-beauty/reviewText_small_predictions_few_shot.csv'):
     predicted_ratings = []
     actual_ratings = []
     users = data[user_column_name].unique()
@@ -134,17 +124,20 @@ def predict_ratings_few_shot_and_save(data,
         user_data = data[data[user_column_name] == user_id]
 
         if len(user_data) < 5:
-            continue  # Skip users with fewer than 5 records
+            continue
 
-        train_data = user_data.sample(4, random_state=RANDOM_STATE)
-        train_data_indices = train_data.index
-        test_data = user_data.drop(train_data_indices)
+        user_data = user_data.sample(frac=1, random_state=RANDOM_STATE).reset_index(drop=True)
+        
+        for test_idx, test_row in user_data.iterrows():
+            # Skip the current item being predicted
+            train_data = user_data[user_data[asin_column_name] != test_row[asin_column_name]]
 
-        # If specified, limit the number of observations per user for the test set
-        if obs_per_user:
-            test_data = test_data.sample(min(obs_per_user, len(test_data)), random_state=RANDOM_STATE)
+            # Select 4 distinct previous ratings
+            if len(train_data) >= 4:
+                train_data = train_data.head(4)
+            else:
+                continue  # Skip if there are not enough historical ratings
 
-        for test_idx, test_row in test_data.iterrows():
             prediction_data = {col: test_row[col] for col in columns_for_prediction if col != 'rating'}
             combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
 
@@ -157,11 +150,11 @@ def predict_ratings_few_shot_and_save(data,
 
             product_title = test_row.get(title_column_name, "Unknown Title")
             product_details = f"{product_title}"
-            if asin_column_name and asin_column_name in test_row:
+            if asin_column_name in test_row:
                 product_code = test_row[asin_column_name]
                 product_details += f" (Code: {product_code})"
 
-            print(f"Processing user {idx + 1}/{len(users)}, item {test_idx + 1}/{len(test_data)}")
+            print(f"Processing user {idx + 1}/{len(users)}, item {test_idx + 1}/{len(user_data)}")
             print(f"User {user_id}:")
             print(f"Rating History for Prediction:\n{rating_history_str}")
             print(f"Predicted Item: {product_details}")
@@ -171,13 +164,15 @@ def predict_ratings_few_shot_and_save(data,
             predicted_ratings.append(predicted_rating)
             actual_ratings.append(test_row['rating'])
 
+            if obs_per_user and len(predicted_ratings) >= obs_per_user:
+                break  # Break if the observation per user limit is reached
+
         if (idx + 1) % pause_every_n_users == 0:
             print(f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
             time.sleep(sleep_time)
 
     predicted_ratings_df = pd.DataFrame({'few_shot_predicted_rating': predicted_ratings, 'actual_rating': actual_ratings})
     predicted_ratings_df.to_csv(save_path, index=False)
-
 
 
 # User based Collaborative Filtering
