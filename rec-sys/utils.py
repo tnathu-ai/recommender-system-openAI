@@ -52,7 +52,7 @@ def extract_numeric_rating(rating_text):
         float: Extracted rating value. Returns 0 for unexpected responses.
     """
     try:
-        # Updated regex to capture standalone digit rating as well
+        # Updated regex to capture standalone digit rating and rating with stars
         rating_match = re.search(r'(\d+(\.\d+)?) stars|Rating: (\d+(\.\d+)?)|^\s*(\d+(\.\d+)?)\s*$', rating_text)
         if rating_match:
             # The rating could be in one of multiple groups depending on the pattern matched
