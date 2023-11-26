@@ -51,6 +51,54 @@ Here are the rating history from users who are similar to this user:
 8. 
 -------------------------------
 
+======
+How to add the collaborative inforation? 
+
+Targe: rating on item i for user a
+
+from userside: 
+similar users to a:{n1, n2, n3, n4, ...}
+How to define similar users? using COS, PCC? 
+how many similar neighbours to consider? 
+for each similar users, how many ratings per user to be used? how to choose? (random,similar items to item i )
+
+try verion 1
+PCC to find nieghbours. 
+How many neighbours to try: 1 vs 3 vs 5 
+how many ragtings per neibhour: 1 vs 3, vs 5
+
+(random)
+#Neibhour, # ratings per neighb, MAE, RMSE
+1, 1, 
+1, 3, 
+1, 5, 
+
+3, 1, 
+3, 3, 
+3, 5, 
+
+5, 1, 
+5, 3, 
+5,5
+
+=======
+
+((similar to item i)))
+#Neibhour, # ratings per neighb, MAE, RMSE
+1, 1, 
+1, 3, 
+1, 5, 
+
+3, 1, 
+3, 3, 
+3, 5, 
+
+5, 1, 
+5, 3, 
+5,5
+
+=======
+
 2nd Big version: 
 --------------------
 How will user rate this product_title: "SHANY Nail Art Set (24 Famous Colors Nail Art Polish, Nail Art Decoration)" , and
