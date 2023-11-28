@@ -6,8 +6,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 2,113497,8844.0,Jumanji (1995),Adventure|Children|Fantasy,62,4.0,magic board game
 2,113497,8844.0,Jumanji (1995),Adventure|Children|Fantasy,62,4.0,Robin Williams
 2,113497,8844.0,Jumanji (1995),Adventure|Children|Fantasy,474,3.0,game
-3,113228,15602.0,Grumpier Old Men (1995),Comedy|Romance,289,2.5,moldy
-3,113228,15602.0,Grumpier Old Men (1995),Comedy|Romance,289,2.5,old
 5,113041,11862.0,Father of the Bride Part II (1995),Comedy,474,1.5,pregnancy
 5,113041,11862.0,Father of the Bride Part II (1995),Comedy,474,1.5,remake
 7,114319,11860.0,Sabrina (1995),Comedy|Romance,474,3.0,remake
@@ -71,7 +69,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 101,115734,13685.0,Bottle Rocket (1996),Adventure|Comedy|Crime|Romance,474,3.5,crime
 101,115734,13685.0,Bottle Rocket (1996),Adventure|Comedy|Crime|Romance,567,3.0,off-beat comedy
 101,115734,13685.0,Bottle Rocket (1996),Adventure|Comedy|Crime|Romance,567,3.0,quirky
-104,116483,9614.0,Happy Gilmore (1996),Comedy,167,4.0,test tag
 104,116483,9614.0,Happy Gilmore (1996),Comedy,474,2.0,golf
 104,116483,9614.0,Happy Gilmore (1996),Comedy,477,4.0,Adam Sandler
 107,117110,10874.0,Muppet Treasure Island (1996),Adventure|Children|Comedy|Musical,474,3.0,muppets
@@ -129,21 +126,11 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 249,110116,13701.0,Immortal Beloved (1994),Drama|Romance,474,4.0,Beethoven
 252,110099,11777.0,I.Q. (1994),Comedy|Romance,474,2.0,Einstein
 257,113501,9061.0,Just Cause (1995),Mystery|Thriller,474,3.0,court
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,63,5.0,classic
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,63,5.0,space action
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,76,4.0,action
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,76,4.0,sci-fi
 260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,103,4.0,EPIC
 260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,103,4.0,great soundtrack
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,112,5.0,classic sci-fi
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,112,5.0,engrossing adventure
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,112,5.0,EPIC
 260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,193,5.0,classic sci-fi
 260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,193,5.0,space action
 260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,193,5.0,space epic
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,205,4.5,oldie but goodie
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,205,4.5,sci-fi
-260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,205,4.5,Star Wars
 260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,474,4.0,darth vader
 260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,474,4.0,luke skywalker
 260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,474,4.0,space opera
@@ -403,18 +390,12 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 351,109484,10464.0,"Corrina, Corrina (1994)",Comedy|Drama|Romance,474,2.0,interracial romance
 356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,474,3.0,shrimp
 356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,474,3.0,Vietnam
-356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,533,5.0,bubba gump shrimp
-356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,533,5.0,lieutenant dan
-356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,533,5.0,stupid is as stupid does
 356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,567,3.0,bittersweet
 356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,567,3.0,emotional
 356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,567,3.0,heartwarming
 356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,567,3.0,touching
 357,109831,712.0,Four Weddings and a Funeral (1994),Comedy|Romance,474,3.0,wedding
 361,110167,10660.0,It Could Happen to You (1994),Comedy|Drama|Romance,474,3.5,gambling
-364,110357,8587.0,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX,319,5.0,Disney
-364,110357,8587.0,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX,319,5.0,Disney animated feature
-364,110357,8587.0,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX,319,5.0,Oscar (Best Music - Original Score)
 364,110357,8587.0,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX,424,4.5,soundtrack
 364,110357,8587.0,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX,474,4.5,Disney
 371,110771,12280.0,"Paper, The (1994)",Comedy|Drama,474,3.0,journalism
@@ -542,8 +523,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,477,5.0,black comedy
 750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,477,5.0,dark comedy
 750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,477,5.0,satire
-750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,513,5.0,purity of essence
-750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,513,5.0,Slim Pickens
 750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,567,3.0,black comedy
 750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,567,3.0,dark comedy
 750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,567,3.0,Quirky
@@ -734,7 +713,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 1093,101761,10537.0,"Doors, The (1991)",Drama,474,3.0,music
 1096,84707,15764.0,Sophie's Choice (1982),Drama,474,2.5,Holocaust
 1097,83866,601.0,E.T. the Extra-Terrestrial (1982),Children|Drama|Sci-Fi,474,4.0,aliens
-1101,92099,744.0,Top Gun (1986),Action|Romance,289,2.0,predictable
 1101,92099,744.0,Top Gun (1986),Action|Romance,474,3.5,Navy
 1103,48545,221.0,Rebel Without a Cause (1955),Drama,474,4.0,1950s
 1103,48545,221.0,Rebel Without a Cause (1955),Drama,474,4.0,adolescence
@@ -1340,7 +1318,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,psychology
 2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,thought-provoking
 2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,twist ending
-2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,435,5.0,dark comedy
 2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,474,4.0,violence
 2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,action
 2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,atmospheric
@@ -1407,7 +1384,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 3028,61407,25560.0,"Taming of the Shrew, The (1967)",Comedy,474,2.0,Shakespeare
 3030,55630,11878.0,Yojimbo (1961),Action|Adventure,474,4.0,samurai
 3039,86465,1621.0,Trading Places (1983),Comedy,474,4.0,class
-3039,86465,1621.0,Trading Places (1983),Comedy,520,5.0,Dan Aykroyd
 3040,79540,14035.0,Meatballs (1979),Comedy,474,1.0,camp
 3044,101669,11498.0,Dead Again (1991),Mystery|Romance|Thriller,474,5.0,memory
 3044,101669,11498.0,Dead Again (1991),Mystery|Romance|Thriller,474,5.0,music
@@ -1475,8 +1451,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 3259,104231,11259.0,Far and Away (1992),Adventure|Drama|Romance,474,2.5,Ireland
 3260,104454,8293.0,Howards End (1992),Drama,474,4.5,E.M. Forster
 3263,105812,10158.0,White Men Can't Jump (1992),Comedy|Drama,474,2.0,basketball
-3265,104684,11782.0,Hard-Boiled (Lat sau san taam) (1992),Action|Crime|Drama|Thriller,610,5.0,gun fu
-3265,104684,11782.0,Hard-Boiled (Lat sau san taam) (1992),Action|Crime|Drama|Thriller,610,5.0,heroic bloodshed
 3266,103905,10086.0,Man Bites Dog (C'est arrivé près de chez vous) (1992),Comedy|Crime|Drama|Thriller,567,5.0,black comedy
 3266,103905,10086.0,Man Bites Dog (C'est arrivé près de chez vous) (1992),Comedy|Crime|Drama|Thriller,567,5.0,crazy
 3266,103905,10086.0,Man Bites Dog (C'est arrivé près de chez vous) (1992),Comedy|Crime|Drama|Thriller,567,5.0,dark
@@ -1552,7 +1526,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 3548,51383,16347.0,Auntie Mame (1958),Comedy|Drama,474,4.5,1920s
 3549,48140,4825.0,Guys and Dolls (1955),Comedy|Musical|Romance,474,5.0,Gambling
 3552,80487,11977.0,Caddyshack (1980),Comedy,474,2.0,golf
-3556,159097,1443.0,"Virgin Suicides, The (1999)",Drama|Romance,132,4.0,sofia coppola
 3556,159097,1443.0,"Virgin Suicides, The (1999)",Drama|Romance,474,4.0,1970s
 3556,159097,1443.0,"Virgin Suicides, The (1999)",Drama|Romance,474,4.0,suicide
 3566,189584,15723.0,"Big Kahuna, The (2000)",Comedy|Drama,474,4.5,business
@@ -1814,7 +1787,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,567,3.5,thought-provoking
 4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,567,3.5,weird
 4881,243133,10778.0,"Man Who Wasn't There, The (2001)",Crime|Drama,474,4.0,Coen Brothers
-4896,241527,671.0,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy,106,5.0,Everything you want is here
 4896,241527,671.0,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy,184,3.5,alan rickman
 4896,241527,671.0,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy,184,3.5,harry potter
 4896,241527,671.0,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),Adventure|Children|Fantasy,184,3.5,humorous
@@ -1939,7 +1911,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 5876,258068,8198.0,"Quiet American, The (2002)",Drama|Thriller|War,474,4.0,Graham Greene
 5878,287467,64.0,Talk to Her (Hable con Ella) (2002),Drama|Romance,474,4.0,coma
 5899,58777,14433.0,Zulu (1964),Action|Drama|War,474,3.0,Africa
-5952,167261,121.0,"Lord of the Rings: The Two Towers, The (2002)",Adventure|Fantasy,439,4.0,Myth
 5952,167261,121.0,"Lord of the Rings: The Two Towers, The (2002)",Adventure|Fantasy,474,5.0,Tolkein
 5954,307901,1429.0,25th Hour (2002),Crime|Drama,474,4.0,crime
 5954,307901,1429.0,25th Hour (2002),Crime|Drama,474,4.0,nightclub
@@ -2030,7 +2001,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 6299,301727,11516.0,"Winged Migration (Peuple migrateur, Le) (2001)",Documentary,474,3.5,birds
 6305,60390,1714.0,Fahrenheit 451 (1966),Drama|Sci-Fi,474,4.5,Ray Bradbury
 6308,91396,9930.0,Legal Eagles (1986),Comedy|Crime|Romance,474,2.0,lawyers
-6323,309698,2832.0,Identity (2003),Crime|Horror|Mystery|Thriller,132,3.0,John Cusack
 6327,342275,38868.0,"Decade Under the Influence, A (2003)",Documentary,474,3.5,1970s
 6327,342275,38868.0,"Decade Under the Influence, A (2003)",Documentary,474,3.5,movies
 6331,334405,16636.0,Spellbound (2002),Documentary,474,4.0,spelling bee
@@ -2044,8 +2014,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 6339,301414,22016.0,"Man on the Train (Homme du train, L') (2002)",Comedy|Drama,474,3.5,trains
 6341,308878,22958.0,"Shape of Things, The (2003)",Drama,474,3.5,art
 6350,92067,10515.0,Laputa: Castle in the Sky (Tenkû no shiro Rapyuta) (1986),Action|Adventure|Animation|Children|Fantasy|Sci-Fi,474,4.0,anime
-6367,309530,10720.0,Down with Love (2003),Comedy|Romance,132,3.0,Ewan McGregor
-6367,309530,10720.0,Down with Love (2003),Comedy|Romance,132,3.0,Renee Zellweger
 6367,309530,10720.0,Down with Love (2003),Comedy|Romance,474,4.0,retro
 6368,281724,51230.0,Cinemania (2002),Documentary,474,3.5,movies
 6373,315327,310.0,Bruce Almighty (2003),Comedy|Drama|Fantasy|Romance,474,2.5,religion
@@ -2109,7 +2077,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 6708,325805,7270.0,Matchstick Men (2003),Comedy|Crime|Drama,474,3.5,con men
 6708,325805,7270.0,Matchstick Men (2003),Comedy|Crime|Drama,474,3.5,fatherhood
 6710,246592,17906.0,Dummy (2002),Comedy|Drama|Romance,474,3.5,vertriloquism
-6711,335266,153.0,Lost in Translation (2003),Comedy|Drama|Romance,300,5.0,atmospheric
 6711,335266,153.0,Lost in Translation (2003),Comedy|Drama|Romance,474,3.5,Japan
 6713,291350,33320.0,Millennium Actress (Sennen joyû) (2001),Animation|Drama|Romance,474,3.5,In Netflix queue
 6724,70510,11293.0,Paper Moon (1973),Comedy|Crime|Drama,474,3.5,In Netflix queue
@@ -2124,7 +2091,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 6785,47472,16563.0,Seven Brides for Seven Brothers (1954),Comedy|Musical|Romance|Western,474,4.5,Lonesome Polecat
 6787,74119,891.0,All the President's Men (1976),Drama|Thriller,474,4.0,journalism
 6787,74119,891.0,All the President's Men (1976),Drama|Thriller,474,4.0,Watergate
-6787,74119,891.0,All the President's Men (1976),Drama|Thriller,513,4.5,Deep Throat
 6788,109129,83714.0,Angie (1994),Comedy|Drama|Romance,474,2.0,pregnancy
 6791,92603,11832.0,Babette's Feast (Babettes gæstebud) (1987),Drama,474,5.0,Food
 6807,85959,4543.0,Monty Python's The Meaning of Life (1983),Comedy,474,3.5,british comedy
@@ -2156,8 +2122,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 6918,48956,897.0,"Unvanquished, The (Aparajito) (1957)",Drama,474,4.0,India
 6932,323944,13537.0,Shattered Glass (2003),Crime|Drama,474,4.5,journalism
 6936,319343,10719.0,Elf (2003),Children|Comedy|Fantasy,474,4.0,christmas
-6938,379713,23995.0,Billabong Odyssey (2003),Documentary,226,4.0,big wave
-6938,379713,23995.0,Billabong Odyssey (2003),Documentary,226,4.0,surfing
 6944,101862,11846.0,Father of the Bride (1991),Comedy,474,2.0,remake
 6944,101862,11846.0,Father of the Bride (1991),Comedy,474,2.0,wedding
 6948,343121,21525.0,Tupac: Resurrection (2003),Documentary,474,4.0,music business
@@ -2635,7 +2599,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 48394,457430,1417.0,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",Drama|Fantasy|Thriller,567,3.0,atmospheric
 48394,457430,1417.0,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",Drama|Fantasy|Thriller,567,3.0,bittersweet
 48394,457430,1417.0,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",Drama|Fantasy|Thriller,567,3.0,visually appealing
-48516,407887,1422.0,"Departed, The (2006)",Crime|Drama|Thriller,7,1.0,way too long
 48516,407887,1422.0,"Departed, The (2006)",Crime|Drama|Thriller,357,4.0,Leonardo DiCaprio
 48516,407887,1422.0,"Departed, The (2006)",Crime|Drama|Thriller,357,4.0,suspense
 48516,407887,1422.0,"Departed, The (2006)",Crime|Drama|Thriller,357,4.0,twist ending
@@ -2645,7 +2608,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 48516,407887,1422.0,"Departed, The (2006)",Crime|Drama|Thriller,424,4.5,Leonardo DiCaprio
 48516,407887,1422.0,"Departed, The (2006)",Crime|Drama|Thriller,424,4.5,Martin Scorsese
 48516,407887,1422.0,"Departed, The (2006)",Crime|Drama|Thriller,424,4.5,suspense
-48780,482571,1124.0,"Prestige, The (2006)",Drama|Mystery|Sci-Fi|Thriller,226,4.0,ummarti2006
 48780,482571,1124.0,"Prestige, The (2006)",Drama|Mystery|Sci-Fi|Thriller,567,3.5,atmospheric
 48780,482571,1124.0,"Prestige, The (2006)",Drama|Mystery|Sci-Fi|Thriller,567,3.5,enigmatic
 49130,401445,9726.0,"Good Year, A (2006)",Comedy|Drama|Romance,62,4.0,Marion Cotillard
@@ -2654,12 +2616,9 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 49530,450259,1372.0,Blood Diamond (2006),Action|Adventure|Crime|Drama|Thriller|War,62,4.5,Jennifer Connelly
 49530,450259,1372.0,Blood Diamond (2006),Action|Adventure|Crime|Drama|Thriller|War,62,4.5,justice
 49530,450259,1372.0,Blood Diamond (2006),Action|Adventure|Crime|Drama|Thriller|War,62,4.5,Leonardo DiCaprio
-50872,382932,2062.0,Ratatouille (2007),Animation|Children|Drama,291,5.0,a clever chef rat
-50872,382932,2062.0,Ratatouille (2007),Animation|Children|Drama,291,5.0,inspirational
 50872,382932,2062.0,Ratatouille (2007),Animation|Children|Drama,567,4.0,clever
 50872,382932,2062.0,Ratatouille (2007),Animation|Children|Drama,567,4.0,inspirational
 51255,425112,4638.0,Hot Fuzz (2007),Action|Comedy|Crime|Mystery,327,3.5,british comedy
-52287,396555,1267.0,Meet the Robinsons (2007),Action|Adventure|Animation|Children|Comedy|Sci-Fi,161,4.0,Something for everyone in this one... saw it without and plan on seeing it with kids!
 52604,488120,6145.0,Fracture (2007),Crime|Drama|Mystery|Thriller,18,4.5,Anthony Hopkins
 52604,488120,6145.0,Fracture (2007),Crime|Drama|Mystery|Thriller,18,4.5,courtroom drama
 52604,488120,6145.0,Fracture (2007),Crime|Drama|Mystery|Thriller,18,4.5,twist ending
@@ -2745,12 +2704,8 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 58301,808279,8461.0,Funny Games U.S. (2007),Drama|Thriller,567,4.5,dark humor
 58301,808279,8461.0,Funny Games U.S. (2007),Drama|Thriller,567,4.5,intelligent
 58301,808279,8461.0,Funny Games U.S. (2007),Drama|Thriller,567,4.5,thought-provoking
-58559,468569,155.0,"Dark Knight, The (2008)",Action|Crime|Drama|IMAX,435,5.0,psychology
-58559,468569,155.0,"Dark Knight, The (2008)",Action|Crime|Drama|IMAX,435,5.0,superhero
 58559,468569,155.0,"Dark Knight, The (2008)",Action|Crime|Drama|IMAX,567,4.0,dark
 58559,468569,155.0,"Dark Knight, The (2008)",Action|Crime|Drama|IMAX,567,4.0,gritty
-59103,865556,1729.0,"Forbidden Kingdom, The (2008)",Action|Adventure|Comedy|Fantasy,138,4.5,jackie chan
-59103,865556,1729.0,"Forbidden Kingdom, The (2008)",Action|Adventure|Comedy|Fantasy,138,4.5,kung fu
 59141,845046,13258.0,Son of Rambow (2007),Children|Comedy|Drama,477,4.5,movies about movies
 59501,499448,2454.0,"Chronicles of Narnia: Prince Caspian, The (2008)",Adventure|Children|Fantasy,62,4.0,fantasy
 59501,499448,2454.0,"Chronicles of Narnia: Prince Caspian, The (2008)",Adventure|Children|Fantasy,62,4.0,lion
@@ -2765,7 +2720,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 60074,448157,8960.0,Hancock (2008),Action|Adventure|Comedy|Crime|Fantasy,62,3.0,Will Smith
 60126,425061,11665.0,Get Smart (2008),Action|Comedy,62,3.0,Anne Hathaway
 60126,425061,11665.0,Get Smart (2008),Action|Comedy,62,3.0,Steve Carell
-60516,765476,11260.0,Meet Dave (2008),Adventure|Children|Comedy|Romance|Sci-Fi,520,4.5,enjoyable
 60756,838283,12133.0,Step Brothers (2008),Comedy,2,5.0,funny
 60756,838283,12133.0,Step Brothers (2008),Comedy,2,5.0,Highly quotable
 60756,838283,12133.0,Step Brothers (2008),Comedy,2,5.0,will ferrell
@@ -2831,7 +2785,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 68237,1182345,17431.0,Moon (2009),Drama|Mystery|Sci-Fi|Thriller,477,4.5,2001-like
 68237,1182345,17431.0,Moon (2009),Drama|Mystery|Sci-Fi|Thriller,477,4.5,Sci-fi
 68237,1182345,17431.0,Moon (2009),Drama|Mystery|Sci-Fi|Thriller,477,4.5,solitude
-68319,458525,2080.0,X-Men Origins: Wolverine (2009),Action|Sci-Fi|Thriller,274,2.5,comic book
 68319,458525,2080.0,X-Men Origins: Wolverine (2009),Action|Sci-Fi|Thriller,477,3.5,bad plot
 68319,458525,2080.0,X-Men Origins: Wolverine (2009),Action|Sci-Fi|Thriller,477,3.5,comic book
 68319,458525,2080.0,X-Men Origins: Wolverine (2009),Action|Sci-Fi|Thriller,477,3.5,hugh jackman
@@ -2981,9 +2934,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 80463,1285016,37799.0,"Social Network, The (2010)",Drama,567,3.5,good dialogue
 80463,1285016,37799.0,"Social Network, The (2010)",Drama,567,3.5,loneliness
 80463,1285016,37799.0,"Social Network, The (2010)",Drama,567,3.5,witty
-80834,1727587,45745.0,Sintel (2010),Animation|Fantasy,509,3.5,adventure
-80834,1727587,45745.0,Sintel (2010),Animation|Fantasy,509,3.5,animation
-80834,1727587,45745.0,Sintel (2010),Animation|Fantasy,509,3.5,fantasy
 80906,1645089,44639.0,Inside Job (2010),Documentary,537,5.0,business
 80906,1645089,44639.0,Inside Job (2010),Documentary,537,5.0,corruption
 80906,1645089,44639.0,Inside Job (2010),Documentary,537,5.0,economics
@@ -3078,8 +3028,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 97938,454876,87827.0,Life of Pi (2012),Adventure|Drama|IMAX,193,4.0,cinematography
 97938,454876,87827.0,Life of Pi (2012),Adventure|Drama|IMAX,193,4.0,India
 97938,454876,87827.0,Life of Pi (2012),Adventure|Drama|IMAX,193,4.0,surreal
-98809,903624,49051.0,"Hobbit: An Unexpected Journey, The (2012)",Adventure|Fantasy|IMAX,439,3.5,Action
-98809,903624,49051.0,"Hobbit: An Unexpected Journey, The (2012)",Adventure|Fantasy|IMAX,439,3.5,Myth
 98961,1790885,97630.0,Zero Dark Thirty (2012),Action|Drama|Thriller,419,5.0,Afghanistan
 98961,1790885,97630.0,Zero Dark Thirty (2012),Action|Drama|Thriller,419,5.0,American propaganda
 98961,1790885,97630.0,Zero Dark Thirty (2012),Action|Drama|Thriller,419,5.0,assassination
@@ -3115,7 +3063,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 101142,481499,49519.0,"Croods, The (2013)",Adventure|Animation|Comedy,119,4.0,animation
 101142,481499,49519.0,"Croods, The (2013)",Adventure|Animation|Comedy,119,4.0,funny
 101142,481499,49519.0,"Croods, The (2013)",Adventure|Animation|Comedy,119,4.0,stone age
-102007,903135,13647.0,"Invincible Iron Man, The (2007)",Animation,291,3.0,animation
 102903,1670345,75656.0,Now You See Me (2013),Crime|Mystery|Thriller,424,1.5,illusions
 102903,1670345,75656.0,Now You See Me (2013),Crime|Mystery|Thriller,424,1.5,overcomplicated
 102903,1670345,75656.0,Now You See Me (2013),Crime|Mystery|Thriller,424,1.5,predictable
@@ -3153,7 +3100,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 106100,790636,152532.0,Dallas Buyers Club (2013),Drama,424,4.0,Jared Leto
 106100,790636,152532.0,Dallas Buyers Club (2013),Drama,424,4.0,social commentary
 106100,790636,152532.0,Dallas Buyers Club (2013),Drama,424,4.0,uplifting
-106489,1170358,57158.0,"Hobbit: The Desolation of Smaug, The (2013)",Adventure|Fantasy|IMAX,106,5.0,adventure
 106766,2042568,86829.0,Inside Llewyn Davis (2013),Drama,567,4.0,atmospheric
 106766,2042568,86829.0,Inside Llewyn Davis (2013),Drama,567,4.0,cinematography
 106766,2042568,86829.0,Inside Llewyn Davis (2013),Drama,567,4.0,depressing
@@ -3183,9 +3129,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 108932,1490017,137106.0,The Lego Movie (2014),Action|Adventure|Animation|Children|Comedy|Fantasy,567,4.5,fun
 108932,1490017,137106.0,The Lego Movie (2014),Action|Adventure|Animation|Children|Comedy|Fantasy,567,4.5,imaginative
 108932,1490017,137106.0,The Lego Movie (2014),Action|Adventure|Animation|Children|Comedy|Fantasy,567,4.5,quirky
-109487,816692,157336.0,Interstellar (2014),Sci-Fi|IMAX,49,4.5,black hole
-109487,816692,157336.0,Interstellar (2014),Sci-Fi|IMAX,49,4.5,sci-fi
-109487,816692,157336.0,Interstellar (2014),Sci-Fi|IMAX,49,4.5,time-travel
 109487,816692,157336.0,Interstellar (2014),Sci-Fi|IMAX,567,3.0,bad dialogue
 109487,816692,157336.0,Interstellar (2014),Sci-Fi|IMAX,567,3.0,philosophical issues
 109487,816692,157336.0,Interstellar (2014),Sci-Fi|IMAX,567,3.0,thought-provoking
@@ -3205,12 +3148,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 112515,2321549,242224.0,"Babadook, The (2014)",Drama|Horror|Thriller,424,4.5,dark
 112515,2321549,242224.0,"Babadook, The (2014)",Drama|Horror|Thriller,424,4.5,Metaphorical
 112515,2321549,242224.0,"Babadook, The (2014)",Drama|Horror|Thriller,424,4.5,psychological
-112552,2582802,244786.0,Whiplash (2014),Drama,487,3.0,passion
-112552,2582802,244786.0,Whiplash (2014),Drama,487,3.0,psychological
-112552,2582802,244786.0,Whiplash (2014),Drama,487,3.0,suspense
-112552,2582802,244786.0,Whiplash (2014),Drama,506,3.5,jazz
-112552,2582802,244786.0,Whiplash (2014),Drama,506,3.5,music
-112552,2582802,244786.0,Whiplash (2014),Drama,506,3.5,tense
 112552,2582802,244786.0,Whiplash (2014),Drama,567,3.5,inspirational
 112552,2582802,244786.0,Whiplash (2014),Drama,567,3.5,inspiring
 112552,2582802,244786.0,Whiplash (2014),Drama,567,3.5,intense
@@ -3245,9 +3182,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 115617,2245084,177572.0,Big Hero 6 (2014),Action|Animation|Comedy,119,5.0,animation
 115617,2245084,177572.0,Big Hero 6 (2014),Action|Animation|Comedy,119,5.0,kids
 115617,2245084,177572.0,Big Hero 6 (2014),Action|Animation|Comedy,119,5.0,robots
-115617,2245084,177572.0,Big Hero 6 (2014),Action|Animation|Comedy,177,5.0,feel-good
-115617,2245084,177572.0,Big Hero 6 (2014),Action|Animation|Comedy,177,5.0,fun family movie
-115617,2245084,177572.0,Big Hero 6 (2014),Action|Animation|Comedy,177,5.0,very funny
 116797,2084970,205596.0,The Imitation Game (2014),Drama|Thriller|War,567,3.0,inspirational
 116797,2084970,205596.0,The Imitation Game (2014),Drama|Thriller|War,567,3.0,intelligent
 116897,3011894,265195.0,Wild Tales (2014),Comedy|Drama|Thriller,62,4.0,black comedy
@@ -3259,11 +3193,9 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 117877,1355638,75491.0,The Rabbi's Cat (Le chat du rabbin) (2011),Adventure|Animation,567,3.0,philosophical
 117877,1355638,75491.0,The Rabbi's Cat (Le chat du rabbin) (2011),Adventure|Animation,567,3.0,trippy
 117887,1109624,116149.0,Paddington (2014),Children|Comedy,567,3.5,heartwarming
-118696,2310332,122917.0,The Hobbit: The Battle of the Five Armies (2014),Adventure|Fantasy,291,4.0,hope
 118784,1782451,22285.0,Good Copy Bad Copy (2007),Documentary,318,3.5,documentary
 118784,1782451,22285.0,Good Copy Bad Copy (2007),Documentary,318,3.5,music industry
 118784,1782451,22285.0,Good Copy Bad Copy (2007),Documentary,318,3.5,remix culture
-119141,2788710,228967.0,The Interview (2014),Action|Comedy,21,0.5,bloody
 119141,2788710,228967.0,The Interview (2014),Action|Comedy,62,3.0,bromance
 119141,2788710,228967.0,The Interview (2014),Action|Comedy,62,3.0,comedy
 119141,2788710,228967.0,The Interview (2014),Action|Comedy,62,3.0,funny
@@ -3298,8 +3230,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 122916,3501632,284053.0,Thor: Ragnarok (2017),Action|Adventure|Sci-Fi,567,3.0,white guilt
 122918,3896198,283995.0,Guardians of the Galaxy 2 (2017),Action|Adventure|Sci-Fi,567,3.5,fun
 122922,1211837,284052.0,Doctor Strange (2016),Action|Adventure|Sci-Fi,567,3.0,visually appealing
-126548,1666801,272693.0,The DUFF (2015),Comedy,256,4.5,funny
-126548,1666801,272693.0,The DUFF (2015),Comedy,256,4.5,high school
 127172,2917506,194537.0,A Story of Children and Film (2013),Documentary,318,3.5,film history
 127172,2917506,194537.0,A Story of Children and Film (2013),Documentary,318,3.5,poetic
 127172,2917506,194537.0,A Story of Children and Film (2013),Documentary,318,3.5,representation of children
@@ -3426,7 +3356,6 @@ movieId,imdbId,tmdbId,title,genres,userId,rating,tag
 168248,4425200,324552.0,John Wick: Chapter Two (2017),Action|Crime|Thriller,62,4.5,Keanu Reeves
 168248,4425200,324552.0,John Wick: Chapter Two (2017),Action|Crime|Thriller,62,4.5,organized crime
 168248,4425200,324552.0,John Wick: Chapter Two (2017),Action|Crime|Thriller,62,4.5,secret society
-168248,4425200,324552.0,John Wick: Chapter Two (2017),Action|Crime|Thriller,610,5.0,Heroic Bloodshed
 168252,3315342,263115.0,Logan (2017),Action|Sci-Fi,567,4.0,dark
 168252,3315342,263115.0,Logan (2017),Action|Sci-Fi,567,4.0,emotional
 168252,3315342,263115.0,Logan (2017),Action|Sci-Fi,567,4.0,gritty

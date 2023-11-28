@@ -17,7 +17,14 @@ from openai.error import APIError, APIConnectionError, RateLimitError
 
 
 @retry_decorator
-def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, temperature=TEMPERATURE, approach="zero-shot", rating_history=None, similar_users_ratings=None, seed=RANDOM_STATE):
+def predict_rating_combined_ChatCompletion(combined_text, 
+                                           model=GPT_MODEL_NAME, 
+                                           temperature=TEMPERATURE, 
+                                           approach="zero-shot", 
+                                           rating_history=None, 
+                                           similar_users_ratings=None, 
+                                           seed=RANDOM_STATE, 
+                                           system_content=AMAZON_CONTENT_SYSTEM):
     """
     Predicts product ratings using different approaches with the GPT model.
     """
@@ -26,10 +33,12 @@ def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, 
         raise ValueError("Rating history is required for the few-shot approach.")
     if approach == "CF" and similar_users_ratings is None:
         raise ValueError("Similar users' ratings are required for the collaborative filtering approach.")
+    if not system_content:
+        raise ValueError("System content is required.")
 
     # Check and reduce length of combined_text
     combined_text = check_and_reduce_length(combined_text, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
-    prompt = f"How will user rate this {combined_text}, and\nproduct_category: Beauty? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text."
+    prompt = f"How will user rate this {combined_text}? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text."
 
     # Construct the prompt based on the approach
     if approach == "few-shot":
@@ -55,7 +64,7 @@ def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, 
             max_tokens=MAX_TOKENS_CHAT_GPT,
             seed=seed,
             messages=[
-                {"role": "system", "content": AMAZON_CONTENT_SYSTEM},
+                {"role": "system", "content": system_content},
                 {"role": "user", "content": prompt}
             ]
         )
@@ -72,6 +81,7 @@ def predict_rating_combined_ChatCompletion(combined_text, model=GPT_MODEL_NAME, 
     print(f'\nAPI call response: "{rating_text}"')
     extracted_rating = extract_numeric_rating(rating_text)
     return extracted_rating
+
 
 
 def predict_ratings_zero_shot_and_save(data,
@@ -115,7 +125,16 @@ def predict_ratings_zero_shot_and_save(data,
     grouped_data.to_csv(save_path, index=False)
     print(f"Predictions saved to {save_path}")
 
-def predict_ratings_few_shot_and_save(data, columns_for_training, columns_for_prediction, user_column_name='reviewerID', title_column_name='title', asin_column_name='asin', obs_per_user=None, pause_every_n_users=PAUSE_EVERY_N_USERS, sleep_time=SLEEP_TIME, save_path='../../data/amazon-beauty/reviewText_small_predictions_few_shot.csv'):
+def predict_ratings_few_shot_and_save(data, 
+                                      columns_for_training, 
+                                      columns_for_prediction, 
+                                      user_column_name='reviewerID', 
+                                      title_column_name='title', 
+                                      asin_column_name='asin', 
+                                      obs_per_user=None, 
+                                      pause_every_n_users=PAUSE_EVERY_N_USERS, 
+                                      sleep_time=SLEEP_TIME, 
+                                      save_path='../../data/amazon-beauty/reviewText_small_predictions_few_shot.csv'):
     predicted_ratings = []
     actual_ratings = []
     users = data[user_column_name].unique()

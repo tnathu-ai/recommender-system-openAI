@@ -10,7 +10,7 @@ from tenacity import retry, stop_after_attempt, wait_random_exponential
 import openai
 # Configure OpenAI API
 openai.api_key = OPENAI_API_KEY
-AMAZON_CONTENT_SYSTEM = "Amazon Beauty products critic"
+
 
 # Configured to retry up to STOP_AFTER_N_ATTEMPTS with an exponential backoff delay
 retry_decorator = retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(STOP_AFTER_N_ATTEMPTS))

@@ -72,3 +72,9 @@ CONFIDENCE_LEVEL = 0.95
 BOOSTRAP_RESAMPLING_ITERATIONS = 10000
 # confidence_multiplier
 CONFIDENCE_MULTIPLIER = 1.96
+
+# =============================================================================
+# OpenAI API chat completion response parameters
+# =============================================================================
+AMAZON_CONTENT_SYSTEM = "Amazon Beauty products critic"
+MOVIELENS_CONTENT_SYSTEM = "MovieLens movies critic"
