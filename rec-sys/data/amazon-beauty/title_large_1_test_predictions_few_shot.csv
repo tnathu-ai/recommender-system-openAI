@@ -1,0 +1,1601 @@
+few_shot_predicted_rating,actual_rating
+2.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37717, Requested 4096. Please try again in 2.719s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37573, Requested 4096. Please try again in 2.503s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37422, Requested 4096. Please try again in 2.277s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37275, Requested 4096. Please try again in 2.056s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37132, Requested 4096. Please try again in 1.842s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,3.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36474, Requested 4096. Please try again in 855ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36270, Requested 4096. Please try again in 549ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36107, Requested 4096. Please try again in 304ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35953, Requested 4096. Please try again in 73ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,5.0
+4.0,5.0
+5.0,5.0
+3.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38865, Requested 4096. Please try again in 4.441s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38710, Requested 4096. Please try again in 4.209s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38553, Requested 4096. Please try again in 3.973s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38410, Requested 4096. Please try again in 3.759s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38248, Requested 4096. Please try again in 3.516s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+1.0,1.0
+5.0,5.0
+4.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37357, Requested 4096. Please try again in 2.179s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37144, Requested 4096. Please try again in 1.86s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37002, Requested 4096. Please try again in 1.647s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36849, Requested 4096. Please try again in 1.417s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36674, Requested 4096. Please try again in 1.155s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+3.0,4.0
+3.0,2.0
+3.0,2.0
+3.0,3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36190, Requested 4096. Please try again in 429ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36032, Requested 4096. Please try again in 192ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39671, Requested 4096. Please try again in 5.65s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39469, Requested 4096. Please try again in 5.347s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39314, Requested 4096. Please try again in 5.115s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,4.0
+5.0,5.0
+3.0,1.0
+4.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38513, Requested 4096. Please try again in 3.913s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38348, Requested 4096. Please try again in 3.666s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38194, Requested 4096. Please try again in 3.435s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38043, Requested 4096. Please try again in 3.208s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37875, Requested 4096. Please try again in 2.956s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36882, Requested 4096. Please try again in 1.467s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36663, Requested 4096. Please try again in 1.138s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36514, Requested 4096. Please try again in 915ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36359, Requested 4096. Please try again in 682ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36200, Requested 4096. Please try again in 444ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+3.0,2.0
+1.0,1.0
+1.0,1.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39263, Requested 4096. Please try again in 5.038s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39065, Requested 4096. Please try again in 4.741s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38869, Requested 4096. Please try again in 4.447s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38724, Requested 4096. Please try again in 4.23s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38579, Requested 4096. Please try again in 4.012s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,5.0
+1.0,1.0
+1.0,1.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37887, Requested 4096. Please try again in 2.974s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37738, Requested 4096. Please try again in 2.751s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37581, Requested 4096. Please try again in 2.515s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37430, Requested 4096. Please try again in 2.289s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37284, Requested 4096. Please try again in 2.07s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.5,5.0
+1.0,1.0
+3.0,5.0
+3.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36679, Requested 4096. Please try again in 1.162s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36523, Requested 4096. Please try again in 928ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36382, Requested 4096. Please try again in 717ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36237, Requested 4096. Please try again in 499ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36090, Requested 4096. Please try again in 279ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+3.0,5.0
+5.0,1.0
+5.0,5.0
+3.0,2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39473, Requested 4096. Please try again in 5.353s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39309, Requested 4096. Please try again in 5.107s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39146, Requested 4096. Please try again in 4.863s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38934, Requested 4096. Please try again in 4.545s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38771, Requested 4096. Please try again in 4.3s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,5.0
+1.0,1.0
+3.0,2.0
+1.0,1.0
+1.0,1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38078, Requested 4096. Please try again in 3.261s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37918, Requested 4096. Please try again in 3.021s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37759, Requested 4096. Please try again in 2.782s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37620, Requested 4096. Please try again in 2.574s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37471, Requested 4096. Please try again in 2.35s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+1.0,1.0
+4.0,5.0
+4.5,5.0
+3.0,3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37064, Requested 4096. Please try again in 1.74s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36912, Requested 4096. Please try again in 1.512s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36759, Requested 4096. Please try again in 1.282s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36604, Requested 4096. Please try again in 1.05s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36451, Requested 4096. Please try again in 820ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36298, Requested 4096. Please try again in 591ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+4.5,5.0
+5.0,5.0
+4.5,5.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39618, Requested 4096. Please try again in 5.571s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39461, Requested 4096. Please try again in 5.335s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39308, Requested 4096. Please try again in 5.106s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39143, Requested 4096. Please try again in 4.858s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38979, Requested 4096. Please try again in 4.612s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.5,5.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37268, Requested 4096. Please try again in 2.046s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37098, Requested 4096. Please try again in 1.791s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36957, Requested 4096. Please try again in 1.579s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36797, Requested 4096. Please try again in 1.339s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36638, Requested 4096. Please try again in 1.101s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+3.0,4.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39379, Requested 4096. Please try again in 5.212s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39234, Requested 4096. Please try again in 4.995s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39088, Requested 4096. Please try again in 4.776s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38941, Requested 4096. Please try again in 4.555s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+4.5,5.0
+3.0,4.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38104, Requested 4096. Please try again in 3.3s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37896, Requested 4096. Please try again in 2.988s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37751, Requested 4096. Please try again in 2.77s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37559, Requested 4096. Please try again in 2.482s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37413, Requested 4096. Please try again in 2.263s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,4.0
+3.0,5.0
+3.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36344, Requested 4096. Please try again in 660ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36212, Requested 4096. Please try again in 462ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36063, Requested 4096. Please try again in 238ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35917, Requested 4096. Please try again in 19ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37904, Requested 4096. Please try again in 3s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37693, Requested 4096. Please try again in 2.683s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37545, Requested 4096. Please try again in 2.461s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37401, Requested 4096. Please try again in 2.245s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+3.0,4.0
+4.0,5.0
+4.5,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36327, Requested 4096. Please try again in 634ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36177, Requested 4096. Please try again in 409ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36015, Requested 4096. Please try again in 166ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39601, Requested 4096. Please try again in 5.545s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38436, Requested 4096. Please try again in 3.797s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38281, Requested 4096. Please try again in 3.565s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38120, Requested 4096. Please try again in 3.324s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37970, Requested 4096. Please try again in 3.099s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+3.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37193, Requested 4096. Please try again in 1.933s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37044, Requested 4096. Please try again in 1.71s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36891, Requested 4096. Please try again in 1.48s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36735, Requested 4096. Please try again in 1.246s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36573, Requested 4096. Please try again in 1.003s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.5,5.0
+5.0,5.0
+5.0,5.0
+5.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39605, Requested 4096. Please try again in 5.551s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39448, Requested 4096. Please try again in 5.316s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39298, Requested 4096. Please try again in 5.091s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39150, Requested 4096. Please try again in 4.869s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37949, Requested 4096. Please try again in 3.067s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37770, Requested 4096. Please try again in 2.799s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37620, Requested 4096. Please try again in 2.574s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37471, Requested 4096. Please try again in 2.35s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37315, Requested 4096. Please try again in 2.116s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+3.0,3.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39590, Requested 4096. Please try again in 5.529s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39443, Requested 4096. Please try again in 5.308s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39292, Requested 4096. Please try again in 5.082s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39137, Requested 4096. Please try again in 4.849s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.5,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38099, Requested 4096. Please try again in 3.292s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37938, Requested 4096. Please try again in 3.051s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37804, Requested 4096. Please try again in 2.85s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37648, Requested 4096. Please try again in 2.616s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+3.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36877, Requested 4096. Please try again in 1.459s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36677, Requested 4096. Please try again in 1.159s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36531, Requested 4096. Please try again in 940ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36371, Requested 4096. Please try again in 700ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36196, Requested 4096. Please try again in 438ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+3.5,4.0
+5.0,5.0
+5.0,5.0
+4.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38889, Requested 4096. Please try again in 4.477s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38730, Requested 4096. Please try again in 4.239s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38571, Requested 4096. Please try again in 4s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38406, Requested 4096. Please try again in 3.752s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+3.0,5.0
+3.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37255, Requested 4096. Please try again in 2.026s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37081, Requested 4096. Please try again in 1.765s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36925, Requested 4096. Please try again in 1.531s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36769, Requested 4096. Please try again in 1.297s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36600, Requested 4096. Please try again in 1.044s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39592, Requested 4096. Please try again in 5.532s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39431, Requested 4096. Please try again in 5.29s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39280, Requested 4096. Please try again in 5.064s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39117, Requested 4096. Please try again in 4.819s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37746, Requested 4096. Please try again in 2.763s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37551, Requested 4096. Please try again in 2.47s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37396, Requested 4096. Please try again in 2.238s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37208, Requested 4096. Please try again in 1.955s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37042, Requested 4096. Please try again in 1.707s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+4.0,5.0
+4.5,5.0
+4.0,5.0
+4.5,5.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39670, Requested 4096. Please try again in 5.649s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39514, Requested 4096. Please try again in 5.415s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39365, Requested 4096. Please try again in 5.191s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39214, Requested 4096. Please try again in 4.965s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.5,5.0
+5.0,5.0
+4.5,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38159, Requested 4096. Please try again in 3.382s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38006, Requested 4096. Please try again in 3.153s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37847, Requested 4096. Please try again in 2.914s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37628, Requested 4096. Please try again in 2.586s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.5,5.0
+4.0,5.0
+5.0,5.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36847, Requested 4096. Please try again in 1.414s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36661, Requested 4096. Please try again in 1.135s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36502, Requested 4096. Please try again in 897ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36340, Requested 4096. Please try again in 654ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36183, Requested 4096. Please try again in 418ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39071, Requested 4096. Please try again in 4.75s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38918, Requested 4096. Please try again in 4.521s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38758, Requested 4096. Please try again in 4.281s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38599, Requested 4096. Please try again in 4.042s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+3.0,4.0
+4.5,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37464, Requested 4096. Please try again in 2.34s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37307, Requested 4096. Please try again in 2.104s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37154, Requested 4096. Please try again in 1.875s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36996, Requested 4096. Please try again in 1.638s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36118, Requested 4096. Please try again in 321ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35908, Requested 4096. Please try again in 6ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39515, Requested 4096. Please try again in 5.416s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39362, Requested 4096. Please try again in 5.187s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+5.0,5.0
+3.0,5.0
+4.5,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38355, Requested 4096. Please try again in 3.676s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38205, Requested 4096. Please try again in 3.451s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38046, Requested 4096. Please try again in 3.213s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37900, Requested 4096. Please try again in 2.994s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,4.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36664, Requested 4096. Please try again in 1.14s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36507, Requested 4096. Please try again in 904ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36333, Requested 4096. Please try again in 643ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36168, Requested 4096. Please try again in 396ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+3.0,4.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39044, Requested 4096. Please try again in 4.71s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38893, Requested 4096. Please try again in 4.483s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38737, Requested 4096. Please try again in 4.249s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38567, Requested 4096. Please try again in 3.994s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.5,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37410, Requested 4096. Please try again in 2.259s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37254, Requested 4096. Please try again in 2.025s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37094, Requested 4096. Please try again in 1.785s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36938, Requested 4096. Please try again in 1.551s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39383, Requested 4096. Please try again in 5.218s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39236, Requested 4096. Please try again in 4.998s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39054, Requested 4096. Please try again in 4.725s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+4.5,5.0
+5.0,2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37817, Requested 4096. Please try again in 2.869s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37659, Requested 4096. Please try again in 2.632s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37500, Requested 4096. Please try again in 2.394s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37272, Requested 4096. Please try again in 2.052s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+3.0,4.0
+4.5,5.0
+3.0,4.0
+3.0,4.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39393, Requested 4096. Please try again in 5.233s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39199, Requested 4096. Please try again in 4.942s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39044, Requested 4096. Please try again in 4.71s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37258, Requested 4096. Please try again in 2.031s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37059, Requested 4096. Please try again in 1.732s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36908, Requested 4096. Please try again in 1.506s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39270, Requested 4096. Please try again in 5.049s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39109, Requested 4096. Please try again in 4.807s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+4.5,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37553, Requested 4096. Please try again in 2.473s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37394, Requested 4096. Please try again in 2.235s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37236, Requested 4096. Please try again in 1.998s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+3.5,4.0
+4.5,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39542, Requested 4096. Please try again in 5.457s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39390, Requested 4096. Please try again in 5.229s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+5.0,5.0
+4.5,5.0
+4.5,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+4.5,5.0
+3.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37618, Requested 4096. Please try again in 2.571s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37467, Requested 4096. Please try again in 2.344s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+4.5,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+4.5,5.0
+4.0,5.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39246, Requested 4096. Please try again in 5.013s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+4.5,5.0
+1.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37405, Requested 4096. Please try again in 2.251s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37214, Requested 4096. Please try again in 1.965s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+3.0,4.0
+4.5,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+3.5,4.0
+3.5,4.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38713, Requested 4096. Please try again in 4.213s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.5,4.0
+4.0,5.0
+4.5,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36586, Requested 4096. Please try again in 1.023s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+3.0,4.0
+3.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38250, Requested 4096. Please try again in 3.519s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38097, Requested 4096. Please try again in 3.289s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.5,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38556, Requested 4096. Please try again in 3.978s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38390, Requested 4096. Please try again in 3.729s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38234, Requested 4096. Please try again in 3.495s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38065, Requested 4096. Please try again in 3.241s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.5,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39014, Requested 4096. Please try again in 4.665s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38792, Requested 4096. Please try again in 4.332s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38640, Requested 4096. Please try again in 4.104s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38483, Requested 4096. Please try again in 3.868s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.5,5.0
+4.5,5.0
+3.0,4.0
+5.0,5.0
+4.5,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38519, Requested 4096. Please try again in 3.922s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38371, Requested 4096. Please try again in 3.7s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38207, Requested 4096. Please try again in 3.454s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+4.5,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39129, Requested 4096. Please try again in 4.837s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38971, Requested 4096. Please try again in 4.6s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38817, Requested 4096. Please try again in 4.369s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38648, Requested 4096. Please try again in 4.116s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39011, Requested 4096. Please try again in 4.66s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38862, Requested 4096. Please try again in 4.437s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38707, Requested 4096. Please try again in 4.204s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38553, Requested 4096. Please try again in 3.973s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38401, Requested 4096. Please try again in 3.745s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+3.0,4.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39033, Requested 4096. Please try again in 4.693s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38875, Requested 4096. Please try again in 4.456s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38725, Requested 4096. Please try again in 4.231s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38563, Requested 4096. Please try again in 3.988s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38410, Requested 4096. Please try again in 3.759s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39286, Requested 4096. Please try again in 5.073s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39128, Requested 4096. Please try again in 4.836s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38967, Requested 4096. Please try again in 4.594s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38817, Requested 4096. Please try again in 4.369s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38664, Requested 4096. Please try again in 4.14s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+4.5,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39298, Requested 4096. Please try again in 5.091s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39134, Requested 4096. Please try again in 4.845s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38984, Requested 4096. Please try again in 4.62s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38832, Requested 4096. Please try again in 4.392s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38677, Requested 4096. Please try again in 4.159s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.5,5.0
+5.0,5.0
+3.0,3.0
+3.0,3.0
+5.0,5.0
+4.0,2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38612, Requested 4096. Please try again in 4.062s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38451, Requested 4096. Please try again in 3.82s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38296, Requested 4096. Please try again in 3.588s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38133, Requested 4096. Please try again in 3.343s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,5.0
+4.0,5.0
+0,5.0
+3.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39333, Requested 4096. Please try again in 5.143s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39175, Requested 4096. Please try again in 4.906s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39019, Requested 4096. Please try again in 4.672s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38869, Requested 4096. Please try again in 4.447s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38703, Requested 4096. Please try again in 4.198s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+5.0,5.0
+4.0,3.0
+0,5.0
+4.5,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39178, Requested 4096. Please try again in 4.911s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39024, Requested 4096. Please try again in 4.68s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38881, Requested 4096. Please try again in 4.465s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38717, Requested 4096. Please try again in 4.219s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38563, Requested 4096. Please try again in 3.988s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+3.0,5.0
+5.0,5.0
+3.0,5.0
+4.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39010, Requested 4096. Please try again in 4.659s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38860, Requested 4096. Please try again in 4.434s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38699, Requested 4096. Please try again in 4.192s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38537, Requested 4096. Please try again in 3.949s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,4.0
+5.0,4.0
+5.0,5.0
+3.0,1.0
+1.0,1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39074, Requested 4096. Please try again in 4.755s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38916, Requested 4096. Please try again in 4.518s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38717, Requested 4096. Please try again in 4.219s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38515, Requested 4096. Please try again in 3.916s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,4.0
+5.0,5.0
+5.0,3.0
+5.0,5.0
+3.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39059, Requested 4096. Please try again in 4.732s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38899, Requested 4096. Please try again in 4.492s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38751, Requested 4096. Please try again in 4.27s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38595, Requested 4096. Please try again in 4.036s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38428, Requested 4096. Please try again in 3.786s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,4.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39307, Requested 4096. Please try again in 5.104s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39153, Requested 4096. Please try again in 4.873s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38995, Requested 4096. Please try again in 4.636s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38838, Requested 4096. Please try again in 4.401s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38687, Requested 4096. Please try again in 4.174s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+5.0,5.0
+5.0,5.0
+3.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39386, Requested 4096. Please try again in 5.223s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39227, Requested 4096. Please try again in 4.984s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39064, Requested 4096. Please try again in 4.74s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38919, Requested 4096. Please try again in 4.522s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38752, Requested 4096. Please try again in 4.272s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38601, Requested 4096. Please try again in 4.045s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,4.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38893, Requested 4096. Please try again in 4.483s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38732, Requested 4096. Please try again in 4.242s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38575, Requested 4096. Please try again in 4.006s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38423, Requested 4096. Please try again in 3.778s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38261, Requested 4096. Please try again in 3.535s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38089, Requested 4096. Please try again in 3.277s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+3.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39198, Requested 4096. Please try again in 4.941s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39034, Requested 4096. Please try again in 4.695s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38881, Requested 4096. Please try again in 4.465s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38716, Requested 4096. Please try again in 4.218s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38562, Requested 4096. Please try again in 3.986s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,4.0
+4.0,4.0
+5.0,5.0
+4.0,4.0
+5.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39157, Requested 4096. Please try again in 4.879s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39007, Requested 4096. Please try again in 4.654s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38857, Requested 4096. Please try again in 4.429s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38700, Requested 4096. Please try again in 4.194s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38538, Requested 4096. Please try again in 3.951s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+3.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39412, Requested 4096. Please try again in 5.262s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39259, Requested 4096. Please try again in 5.032s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39101, Requested 4096. Please try again in 4.795s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38946, Requested 4096. Please try again in 4.563s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38792, Requested 4096. Please try again in 4.332s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,4.0
+3.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39208, Requested 4096. Please try again in 4.956s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39052, Requested 4096. Please try again in 4.722s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38889, Requested 4096. Please try again in 4.477s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38733, Requested 4096. Please try again in 4.243s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38553, Requested 4096. Please try again in 3.973s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39456, Requested 4096. Please try again in 5.328s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39303, Requested 4096. Please try again in 5.098s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39134, Requested 4096. Please try again in 4.845s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38982, Requested 4096. Please try again in 4.617s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38821, Requested 4096. Please try again in 4.375s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38673, Requested 4096. Please try again in 4.153s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,4.0
+5.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39060, Requested 4096. Please try again in 4.734s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38912, Requested 4096. Please try again in 4.512s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38744, Requested 4096. Please try again in 4.26s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38605, Requested 4096. Please try again in 4.051s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38458, Requested 4096. Please try again in 3.831s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+4.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38667, Requested 4096. Please try again in 4.144s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38522, Requested 4096. Please try again in 3.926s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38378, Requested 4096. Please try again in 3.711s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38232, Requested 4096. Please try again in 3.492s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38092, Requested 4096. Please try again in 3.282s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37946, Requested 4096. Please try again in 3.063s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+1.0,1.0
+3.0,1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38961, Requested 4096. Please try again in 4.585s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38482, Requested 4096. Please try again in 3.866s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38328, Requested 4096. Please try again in 3.636s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38174, Requested 4096. Please try again in 3.405s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38039, Requested 4096. Please try again in 3.202s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, ""Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)"")",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, ""Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)"")",5.0
+"(None, ""Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)"")",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39310, Requested 4096. Please try again in 5.109s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39114, Requested 4096. Please try again in 4.815s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38916, Requested 4096. Please try again in 4.518s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38761, Requested 4096. Please try again in 4.285s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38566, Requested 4096. Please try again in 3.993s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+3.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37875, Requested 4096. Please try again in 2.956s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37664, Requested 4096. Please try again in 2.64s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37483, Requested 4096. Please try again in 2.368s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37330, Requested 4096. Please try again in 2.139s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37125, Requested 4096. Please try again in 1.831s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36991, Requested 4096. Please try again in 1.63s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36229, Requested 4096. Please try again in 487ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36084, Requested 4096. Please try again in 270ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35932, Requested 4096. Please try again in 42ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39522, Requested 4096. Please try again in 5.427s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39318, Requested 4096. Please try again in 5.121s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37964, Requested 4096. Please try again in 3.09s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37811, Requested 4096. Please try again in 2.86s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37651, Requested 4096. Please try again in 2.62s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37487, Requested 4096. Please try again in 2.374s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37328, Requested 4096. Please try again in 2.136s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36165, Requested 4096. Please try again in 391ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35983, Requested 4096. Please try again in 118ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39427, Requested 4096. Please try again in 5.284s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39280, Requested 4096. Please try again in 5.064s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39119, Requested 4096. Please try again in 4.822s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38217, Requested 4096. Please try again in 3.469s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38050, Requested 4096. Please try again in 3.219s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37898, Requested 4096. Please try again in 2.991s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37723, Requested 4096. Please try again in 2.728s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37567, Requested 4096. Please try again in 2.494s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37400, Requested 4096. Please try again in 2.244s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36982, Requested 4096. Please try again in 1.617s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36799, Requested 4096. Please try again in 1.342s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36642, Requested 4096. Please try again in 1.107s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36451, Requested 4096. Please try again in 820ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36286, Requested 4096. Please try again in 573ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36110, Requested 4096. Please try again in 309ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35955, Requested 4096. Please try again in 76ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39035, Requested 4096. Please try again in 4.696s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38839, Requested 4096. Please try again in 4.402s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38659, Requested 4096. Please try again in 4.132s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38492, Requested 4096. Please try again in 3.881s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38283, Requested 4096. Please try again in 3.568s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38090, Requested 4096. Please try again in 3.279s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37594, Requested 4096. Please try again in 2.535s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37428, Requested 4096. Please try again in 2.286s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37272, Requested 4096. Please try again in 2.052s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37102, Requested 4096. Please try again in 1.797s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36929, Requested 4096. Please try again in 1.537s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36712, Requested 4096. Please try again in 1.212s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36516, Requested 4096. Please try again in 918ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36026, Requested 4096. Please try again in 183ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39575, Requested 4096. Please try again in 5.506s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39383, Requested 4096. Please try again in 5.218s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39181, Requested 4096. Please try again in 4.915s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38971, Requested 4096. Please try again in 4.6s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38814, Requested 4096. Please try again in 4.365s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38422, Requested 4096. Please try again in 3.777s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38265, Requested 4096. Please try again in 3.541s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38083, Requested 4096. Please try again in 3.268s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37869, Requested 4096. Please try again in 2.947s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37720, Requested 4096. Please try again in 2.724s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37563, Requested 4096. Please try again in 2.488s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37401, Requested 4096. Please try again in 2.245s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37046, Requested 4096. Please try again in 1.713s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36859, Requested 4096. Please try again in 1.432s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36695, Requested 4096. Please try again in 1.186s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36534, Requested 4096. Please try again in 945ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36316, Requested 4096. Please try again in 618ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36097, Requested 4096. Please try again in 289ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35940, Requested 4096. Please try again in 54ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39582, Requested 4096. Please try again in 5.517s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39306, Requested 4096. Please try again in 5.103s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39146, Requested 4096. Please try again in 4.863s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38981, Requested 4096. Please try again in 4.615s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38832, Requested 4096. Please try again in 4.392s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38627, Requested 4096. Please try again in 4.084s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38470, Requested 4096. Please try again in 3.849s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38070, Requested 4096. Please try again in 3.249s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37917, Requested 4096. Please try again in 3.019s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37754, Requested 4096. Please try again in 2.775s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37533, Requested 4096. Please try again in 2.443s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37341, Requested 4096. Please try again in 2.155s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37179, Requested 4096. Please try again in 1.912s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37022, Requested 4096. Please try again in 1.677s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37112, Requested 4096. Please try again in 1.812s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36929, Requested 4096. Please try again in 1.537s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36762, Requested 4096. Please try again in 1.287s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36585, Requested 4096. Please try again in 1.021s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36426, Requested 4096. Please try again in 783ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36236, Requested 4096. Please try again in 498ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36025, Requested 4096. Please try again in 181ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39584, Requested 4096. Please try again in 5.52s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39421, Requested 4096. Please try again in 5.275s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39263, Requested 4096. Please try again in 5.038s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39112, Requested 4096. Please try again in 4.812s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38955, Requested 4096. Please try again in 4.576s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38803, Requested 4096. Please try again in 4.348s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38643, Requested 4096. Please try again in 4.108s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38277, Requested 4096. Please try again in 3.559s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38088, Requested 4096. Please try again in 3.276s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37923, Requested 4096. Please try again in 3.028s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37739, Requested 4096. Please try again in 2.752s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37588, Requested 4096. Please try again in 2.526s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37397, Requested 4096. Please try again in 2.239s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37190, Requested 4096. Please try again in 1.928s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37209, Requested 4096. Please try again in 1.957s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37051, Requested 4096. Please try again in 1.72s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36850, Requested 4096. Please try again in 1.419s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36698, Requested 4096. Please try again in 1.191s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36541, Requested 4096. Please try again in 955ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36391, Requested 4096. Please try again in 730ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36232, Requested 4096. Please try again in 492ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36070, Requested 4096. Please try again in 249ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36541, Requested 4096. Please try again in 955ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36384, Requested 4096. Please try again in 720ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36222, Requested 4096. Please try again in 477ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36059, Requested 4096. Please try again in 232ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35905, Requested 4096. Please try again in 1ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39513, Requested 4096. Please try again in 5.413s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39321, Requested 4096. Please try again in 5.125s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39158, Requested 4096. Please try again in 4.881s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39104, Requested 4096. Please try again in 4.8s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38909, Requested 4096. Please try again in 4.507s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38697, Requested 4096. Please try again in 4.189s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38533, Requested 4096. Please try again in 3.943s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38353, Requested 4096. Please try again in 3.673s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38161, Requested 4096. Please try again in 3.385s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37998, Requested 4096. Please try again in 3.141s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37832, Requested 4096. Please try again in 2.892s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38152, Requested 4096. Please try again in 3.372s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38003, Requested 4096. Please try again in 3.148s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37830, Requested 4096. Please try again in 2.889s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37677, Requested 4096. Please try again in 2.659s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37507, Requested 4096. Please try again in 2.404s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37336, Requested 4096. Please try again in 2.148s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37167, Requested 4096. Please try again in 1.894s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36993, Requested 4096. Please try again in 1.633s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36788, Requested 4096. Please try again in 1.326s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37526, Requested 4096. Please try again in 2.433s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37333, Requested 4096. Please try again in 2.143s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37125, Requested 4096. Please try again in 1.831s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36926, Requested 4096. Please try again in 1.533s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36712, Requested 4096. Please try again in 1.212s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36521, Requested 4096. Please try again in 925ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36294, Requested 4096. Please try again in 585ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36107, Requested 4096. Please try again in 304ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35952, Requested 4096. Please try again in 72ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, ""Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)"")",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38156, Requested 4096. Please try again in 3.378s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38008, Requested 4096. Please try again in 3.156s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37858, Requested 4096. Please try again in 2.931s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37673, Requested 4096. Please try again in 2.653s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38198, Requested 4096. Please try again in 3.441s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38048, Requested 4096. Please try again in 3.216s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37894, Requested 4096. Please try again in 2.985s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37742, Requested 4096. Please try again in 2.757s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37572, Requested 4096. Please try again in 2.502s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37347, Requested 4096. Please try again in 2.164s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37171, Requested 4096. Please try again in 1.9s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37007, Requested 4096. Please try again in 1.654s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38261, Requested 4096. Please try again in 3.535s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38106, Requested 4096. Please try again in 3.303s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37951, Requested 4096. Please try again in 3.07s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37801, Requested 4096. Please try again in 2.845s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37651, Requested 4096. Please try again in 2.62s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37440, Requested 4096. Please try again in 2.304s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39170, Requested 4096. Please try again in 4.899s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38975, Requested 4096. Please try again in 4.606s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38821, Requested 4096. Please try again in 4.375s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38661, Requested 4096. Please try again in 4.135s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38507, Requested 4096. Please try again in 3.904s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38361, Requested 4096. Please try again in 3.685s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38209, Requested 4096. Please try again in 3.457s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39184, Requested 4096. Please try again in 4.92s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39015, Requested 4096. Please try again in 4.666s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38846, Requested 4096. Please try again in 4.413s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38700, Requested 4096. Please try again in 4.194s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38543, Requested 4096. Please try again in 3.958s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38388, Requested 4096. Please try again in 3.726s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39019, Requested 4096. Please try again in 4.672s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38829, Requested 4096. Please try again in 4.387s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38674, Requested 4096. Please try again in 4.155s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38521, Requested 4096. Please try again in 3.925s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38371, Requested 4096. Please try again in 3.7s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38941, Requested 4096. Please try again in 4.555s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38778, Requested 4096. Please try again in 4.311s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38626, Requested 4096. Please try again in 4.083s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38478, Requested 4096. Please try again in 3.861s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38332, Requested 4096. Please try again in 3.642s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39089, Requested 4096. Please try again in 4.777s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38938, Requested 4096. Please try again in 4.551s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38766, Requested 4096. Please try again in 4.293s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38612, Requested 4096. Please try again in 4.062s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38445, Requested 4096. Please try again in 3.811s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38287, Requested 4096. Please try again in 3.574s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38136, Requested 4096. Please try again in 3.348s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38591, Requested 4096. Please try again in 4.03s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38431, Requested 4096. Please try again in 3.79s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38290, Requested 4096. Please try again in 3.579s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38137, Requested 4096. Please try again in 3.349s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37990, Requested 4096. Please try again in 3.129s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39084, Requested 4096. Please try again in 4.77s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38898, Requested 4096. Please try again in 4.491s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38737, Requested 4096. Please try again in 4.249s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38599, Requested 4096. Please try again in 4.042s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38434, Requested 4096. Please try again in 3.795s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39154, Requested 4096. Please try again in 4.875s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38985, Requested 4096. Please try again in 4.621s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38828, Requested 4096. Please try again in 4.386s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38680, Requested 4096. Please try again in 4.164s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38521, Requested 4096. Please try again in 3.925s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.5,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38613, Requested 4096. Please try again in 4.063s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38461, Requested 4096. Please try again in 3.835s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38320, Requested 4096. Please try again in 3.624s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38141, Requested 4096. Please try again in 3.355s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37938, Requested 4096. Please try again in 3.051s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39382, Requested 4096. Please try again in 5.217s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39223, Requested 4096. Please try again in 4.978s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39061, Requested 4096. Please try again in 4.735s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38909, Requested 4096. Please try again in 4.507s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38762, Requested 4096. Please try again in 4.287s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38616, Requested 4096. Please try again in 4.068s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+3.0,2.0
+3.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38979, Requested 4096. Please try again in 4.612s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38823, Requested 4096. Please try again in 4.378s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38665, Requested 4096. Please try again in 4.141s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38508, Requested 4096. Please try again in 3.906s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38368, Requested 4096. Please try again in 3.696s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39328, Requested 4096. Please try again in 5.136s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39120, Requested 4096. Please try again in 4.824s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38910, Requested 4096. Please try again in 4.509s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38759, Requested 4096. Please try again in 4.282s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38615, Requested 4096. Please try again in 4.066s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38466, Requested 4096. Please try again in 3.842s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,1.0
+4.0,4.0
+4.0,4.0
+4.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39393, Requested 4096. Please try again in 5.233s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39230, Requested 4096. Please try again in 4.989s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39069, Requested 4096. Please try again in 4.747s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38924, Requested 4096. Please try again in 4.53s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38767, Requested 4096. Please try again in 4.294s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38624, Requested 4096. Please try again in 4.08s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+4.0,5.0
+5.0,5.0
+3.0,3.0
+4.0,5.0
+4.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38942, Requested 4096. Please try again in 4.557s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38536, Requested 4096. Please try again in 3.948s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38394, Requested 4096. Please try again in 3.735s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38228, Requested 4096. Please try again in 3.486s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38080, Requested 4096. Please try again in 3.264s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+2.0,1.0
+5.0,4.0
+5.0,5.0
+4.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39114, Requested 4096. Please try again in 4.815s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38966, Requested 4096. Please try again in 4.593s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38819, Requested 4096. Please try again in 4.372s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38675, Requested 4096. Please try again in 4.156s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38523, Requested 4096. Please try again in 3.928s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38377, Requested 4096. Please try again in 3.709s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38711, Requested 4096. Please try again in 4.21s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38514, Requested 4096. Please try again in 3.915s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38360, Requested 4096. Please try again in 3.684s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38206, Requested 4096. Please try again in 3.453s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38070, Requested 4096. Please try again in 3.249s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+5.0,5.0
+5.0,3.0
+5.0,5.0
+5.0,5.0
+3.0,3.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38916, Requested 4096. Please try again in 4.518s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38723, Requested 4096. Please try again in 4.228s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38524, Requested 4096. Please try again in 3.93s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38309, Requested 4096. Please try again in 3.607s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+5.0,5.0
+3.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+3.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38950, Requested 4096. Please try again in 4.569s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38806, Requested 4096. Please try again in 4.353s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38634, Requested 4096. Please try again in 4.095s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38483, Requested 4096. Please try again in 3.868s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+3.0,5.0
+3.0,5.0
+4.0,5.0
+3.0,5.0
+5.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38664, Requested 4096. Please try again in 4.14s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38508, Requested 4096. Please try again in 3.906s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38341, Requested 4096. Please try again in 3.655s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38180, Requested 4096. Please try again in 3.414s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,5.0
+4.0,4.0
+3.0,2.0
+4.0,5.0
+5.0,5.0
+5.0,4.0
+"(None, 'The server is overloaded or not ready yet.')",4.0
+4.0,5.0
+3.0,1.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+3.0,1.0
+4.0,5.0
+3.0,4.0
+3.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38787, Requested 4096. Please try again in 4.324s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38596, Requested 4096. Please try again in 4.038s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38392, Requested 4096. Please try again in 3.732s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38229, Requested 4096. Please try again in 3.487s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+5.0,5.0
+3.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+3.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36753, Requested 4096. Please try again in 1.273s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36551, Requested 4096. Please try again in 970ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36390, Requested 4096. Please try again in 729ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36248, Requested 4096. Please try again in 516ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+4.0,4.0
+4.5,5.0
+4.0,4.0
+4.0,5.0
+5.0,4.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38364, Requested 4096. Please try again in 3.69s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38212, Requested 4096. Please try again in 3.462s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38068, Requested 4096. Please try again in 3.246s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,4.0
+4.0,5.0
+3.0,5.0
+3.0,5.0
+2.0,2.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36470, Requested 4096. Please try again in 849ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36283, Requested 4096. Please try again in 568ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36127, Requested 4096. Please try again in 334ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 35987, Requested 4096. Please try again in 124ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,4.0
+3.0,4.0
+3.0,4.0
+3.0,5.0
+4.0,3.0
+3.0,5.0
+5.0,3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38166, Requested 4096. Please try again in 3.393s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38005, Requested 4096. Please try again in 3.151s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,5.0
+3.0,4.0
+5.0,4.0
+4.0,5.0
+3.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36599, Requested 4096. Please try again in 1.042s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36432, Requested 4096. Please try again in 792ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36271, Requested 4096. Please try again in 550ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+4.0,5.0
+3.0,3.0
+3.0,1.0
+4.0,5.0
+5.0,5.0
+4.0,3.0
+2.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38570, Requested 4096. Please try again in 3.999s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38407, Requested 4096. Please try again in 3.754s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38258, Requested 4096. Please try again in 3.531s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+3.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36951, Requested 4096. Please try again in 1.57s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36809, Requested 4096. Please try again in 1.357s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36620, Requested 4096. Please try again in 1.074s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36463, Requested 4096. Please try again in 838ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+3.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38511, Requested 4096. Please try again in 3.91s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38346, Requested 4096. Please try again in 3.663s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38200, Requested 4096. Please try again in 3.444s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,4.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+3.0,4.0
+3.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39074, Requested 4096. Please try again in 4.755s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38910, Requested 4096. Please try again in 4.509s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+3.0,4.0
+5.0,5.0
+3.0,5.0
+3.0,2.0
+5.0,5.0
+3.0,5.0
+4.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37050, Requested 4096. Please try again in 1.719s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36890, Requested 4096. Please try again in 1.479s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36730, Requested 4096. Please try again in 1.239s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+5.0,4.0
+4.0,5.0
+2.0,3.0
+4.0,4.0
+4.0,5.0
+5.0,5.0
+5.0,3.0
+4.5,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38716, Requested 4096. Please try again in 4.218s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38528, Requested 4096. Please try again in 3.936s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+2.0,4.0
+0,5.0
+3.0,2.0
+3.0,2.0
+3.0,3.0
+5.0,5.0
+5.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36524, Requested 4096. Please try again in 930ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36343, Requested 4096. Please try again in 658ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+3.0,4.0
+4.0,5.0
+5.0,5.0
+4.0,4.0
+5.0,5.0
+5.0,1.0
+3.0,1.0
+4.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38034, Requested 4096. Please try again in 3.195s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37864, Requested 4096. Please try again in 2.94s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,3.0
+3.0,3.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+4.0,4.0
+4.0,5.0
+4.0,3.0
+3.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38990, Requested 4096. Please try again in 4.629s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,3.0
+5.0,4.0
+5.0,5.0
+3.0,4.0
+4.0,2.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+4.0,4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 36138, Requested 4096. Please try again in 351ms. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+4.0,5.0
+3.0,4.0
+5.0,5.0
+5.0,5.0
+3.0,4.0
+5.0,4.0
+0,5.0
+5.0,5.0
+1.0,1.0
+1.0,1.0
+5.0,5.0
+4.0,4.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+3.0,2.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38607, Requested 4096. Please try again in 4.054s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38452, Requested 4096. Please try again in 3.822s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38302, Requested 4096. Please try again in 3.597s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+4.0,5.0
+5.0,5.0
+3.0,5.0
+5.0,5.0
+3.0,3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38867, Requested 4096. Please try again in 4.444s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38662, Requested 4096. Please try again in 4.137s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38471, Requested 4096. Please try again in 3.85s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38301, Requested 4096. Please try again in 3.595s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38155, Requested 4096. Please try again in 3.376s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,5.0
+4.0,5.0
+4.0,4.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38691, Requested 4096. Please try again in 4.18s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38532, Requested 4096. Please try again in 3.941s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38378, Requested 4096. Please try again in 3.711s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38218, Requested 4096. Please try again in 3.471s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38033, Requested 4096. Please try again in 3.193s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+0,3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38966, Requested 4096. Please try again in 4.593s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38809, Requested 4096. Please try again in 4.357s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38655, Requested 4096. Please try again in 4.126s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38503, Requested 4096. Please try again in 3.898s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38374, Requested 4096. Please try again in 3.705s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38206, Requested 4096. Please try again in 3.453s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,3.0
+3.0,3.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39002, Requested 4096. Please try again in 4.647s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38838, Requested 4096. Please try again in 4.401s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38695, Requested 4096. Please try again in 4.186s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38549, Requested 4096. Please try again in 3.967s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38401, Requested 4096. Please try again in 3.745s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38253, Requested 4096. Please try again in 3.523s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+3.0,5.0
+3.0,5.0
+3.0,1.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38878, Requested 4096. Please try again in 4.461s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38684, Requested 4096. Please try again in 4.17s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38485, Requested 4096. Please try again in 3.871s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38288, Requested 4096. Please try again in 3.576s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38083, Requested 4096. Please try again in 3.268s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,2.0
+4.0,5.0
+3.0,4.0
+5.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39092, Requested 4096. Please try again in 4.782s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38933, Requested 4096. Please try again in 4.543s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38807, Requested 4096. Please try again in 4.354s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38627, Requested 4096. Please try again in 4.084s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38478, Requested 4096. Please try again in 3.861s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+1.0,5.0
+5.0,4.0
+4.0,4.0
+3.0,4.0
+4.0,2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38742, Requested 4096. Please try again in 4.257s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38589, Requested 4096. Please try again in 4.027s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38397, Requested 4096. Please try again in 3.739s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38191, Requested 4096. Please try again in 3.43s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+1.0,5.0
+5.0,5.0
+3.5,4.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38603, Requested 4096. Please try again in 4.048s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38429, Requested 4096. Please try again in 3.787s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38288, Requested 4096. Please try again in 3.576s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38139, Requested 4096. Please try again in 3.352s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,3.0
+5.0,5.0
+5.0,5.0
+4.0,4.0
+3.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39209, Requested 4096. Please try again in 4.957s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39065, Requested 4096. Please try again in 4.741s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38917, Requested 4096. Please try again in 4.519s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38786, Requested 4096. Please try again in 4.323s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38626, Requested 4096. Please try again in 4.083s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+4.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+3.0,1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38606, Requested 4096. Please try again in 4.053s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38456, Requested 4096. Please try again in 3.827s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38300, Requested 4096. Please try again in 3.594s. Visit https://platform.openai.com/account/rate-limits to learn more.')",3.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38155, Requested 4096. Please try again in 3.376s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,4.0
+4.0,4.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39282, Requested 4096. Please try again in 5.067s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39132, Requested 4096. Please try again in 4.842s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38976, Requested 4096. Please try again in 4.608s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38817, Requested 4096. Please try again in 4.369s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38677, Requested 4096. Please try again in 4.159s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+4.0,2.0
+4.0,5.0
+5.0,5.0
+4.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39216, Requested 4096. Please try again in 4.968s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 39037, Requested 4096. Please try again in 4.699s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38827, Requested 4096. Please try again in 4.384s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,1.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38627, Requested 4096. Please try again in 4.084s. Visit https://platform.openai.com/account/rate-limits to learn more.')",4.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38477, Requested 4096. Please try again in 3.859s. Visit https://platform.openai.com/account/rate-limits to learn more.')",1.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38271, Requested 4096. Please try again in 3.55s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,5.0
+5.0,4.0
+3.0,5.0
+4.0,5.0
+4.0,5.0
+5.0,5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38372, Requested 4096. Please try again in 3.702s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 38171, Requested 4096. Please try again in 3.4s. Visit https://platform.openai.com/account/rate-limits to learn more.')",2.0
+"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 40000, Used 37963, Requested 4096. Please try again in 3.088s. Visit https://platform.openai.com/account/rate-limits to learn more.')",5.0
+5.0,5.0
+5.0,2.0
+4.0,4.0
+3.0,5.0
+5.0,5.0
+5.0,5.0
+5.0,5.0
+3.0,5.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+3.0,5.0
+4.0,5.0
+3.0,5.0
+5.0,5.0
+4.0,5.0
+3.0,4.0
+5.0,3.0
+5.0,5.0
+5.0,5.0
+4.0,5.0
+5.0,5.0
+3.0,2.0
+3.0,3.0
+5.0,5.0
+5.0,5.0

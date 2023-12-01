@@ -5,7 +5,7 @@ from scipy.sparse import csr_matrix
 from utils import *
 from constants import *
 from tenacity import retry, stop_after_attempt, wait_random_exponential
-
+import random
 
 
 def create_interaction_matrix(df, user_col, item_col, rating_col, threshold=0):
@@ -184,3 +184,51 @@ def cosine_similarity_manual(interaction_matrix):
             cosine_sim_matrix[i, j] = similarity
 
     return cosine_sim_matrix
+
+def format_similar_users_ratings(similar_users_ratings):
+    if isinstance(similar_users_ratings, dict):
+        formatted_ratings = []
+        for user_id, ratings in similar_users_ratings.items():
+            formatted_ratings.append(f"+ User {user_id}:")
+            for rating in ratings:
+                formatted_ratings.append(rating)
+        return '\n'.join(formatted_ratings)
+    elif isinstance(similar_users_ratings, list):
+        return '\n'.join(similar_users_ratings)
+    else:
+        return ''
+
+
+
+
+def get_all_similar_users_ratings(data, user_mapper, user_inv_mapper, model_knn, interaction_matrix, title_column_name='title', user_column_name='userId'):
+    all_similar_users_ratings = {}
+    for user_id in data[user_column_name].unique():
+        similar_users_ratings = []
+        user_idx = user_mapper.get(user_id)
+        if user_idx is None:
+            print(f"No index found for user_id: {user_id}")
+            continue
+
+        n_samples = interaction_matrix.shape[0]
+        n_neighbors = min(10, n_samples)
+        distances, indices = model_knn.kneighbors(interaction_matrix[user_idx], n_neighbors=n_neighbors)
+
+        for idx in indices.flatten():
+            if idx == user_idx:
+                continue
+            
+            similar_user_id = user_inv_mapper[idx]
+            similar_user_data = data[data[user_column_name] == similar_user_id]
+            sampled_ratings = similar_user_data.sample(n=min(2, len(similar_user_data)), random_state=RANDOM_STATE)
+
+            for _, row in sampled_ratings.iterrows():
+                if pd.isna(row[title_column_name]) or pd.isna(row['rating']):
+                    continue
+
+                similar_users_ratings.append(f"{row[title_column_name]} ({row['rating']} stars)")
+
+        all_similar_users_ratings[user_id] = similar_users_ratings
+
+    return all_similar_users_ratings
+

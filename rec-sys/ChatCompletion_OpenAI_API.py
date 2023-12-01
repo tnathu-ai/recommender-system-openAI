@@ -197,71 +197,71 @@ def predict_ratings_few_shot_and_save(data,
 # User based Collaborative Filtering
 def predict_ratings_with_collaborative_filtering_and_save(data, interaction_matrix, user_mapper, item_mapper, user_inv_mapper, model_knn,
                                                           columns_for_training, columns_for_prediction,
-                                                          user_column_name='reviewerID', title_column_name='title', asin_column_name='asin',
-                                                          obs_per_user=None, pause_every_n_users=PAUSE_EVERY_N_USERS, sleep_time=SLEEP_TIME,
-                                                          save_path='../../data/amazon-beauty/similar_users_predictions.csv'):
+                                                          title_column_name='title', user_column_name='reviewerID',
+                                                          asin_column_name='asin',
+                                                          obs_per_user=None, pause_every_n_users=5, sleep_time=5,
+                                                          save_path='similar_users_predictions.csv'):
+    all_similar_users_ratings = get_all_similar_users_ratings(data, user_mapper, user_inv_mapper, model_knn, interaction_matrix, title_column_name)
     predicted_ratings = []
     actual_ratings = []
-    skipped_users = 0
-    error_count = 0
-    users = data[user_column_name].unique()
 
-    for idx, user_id in enumerate(users):
-        try:
-            user_data = data[data[user_column_name] == user_id]
+    for idx, user_id in enumerate(data[user_column_name].unique()):
+        user_data = data[data[user_column_name] == user_id].sample(frac=1, random_state=42).reset_index(drop=True)
+        print(f"\n-------------------\nUser {user_id} ({idx + 1}/{len(data[user_column_name].unique())}):")
+        if len(user_data) < 5:
+            print(f"Insufficient data points for user {user_id}, skipping...")
+            continue
 
-            if len(user_data) >= 5:
-                test_data = user_data.sample(obs_per_user if obs_per_user else 1, random_state=RANDOM_STATE)
-                remaining_data = user_data[~user_data.index.isin(test_data.index)]
+        for test_idx, test_row in user_data.iterrows():
+            train_data = user_data[user_data[asin_column_name] != test_row[asin_column_name]]
+            n_train_items = min(4, len(train_data))
+            if n_train_items == 0:
+                print(f"No training data for user {user_id}, item {test_row[asin_column_name]}, skipping...")
+                continue
 
-                for test_idx, test_row in test_data.iterrows():
-                    user_idx = user_mapper[user_id]
-                    distances, indices = model_knn.kneighbors(interaction_matrix[user_idx], n_neighbors=5)
+            similar_users_ratings_str = format_similar_users_ratings(all_similar_users_ratings.get(user_id, []))
+            print(f"\nSimilar users' ratings:\n{similar_users_ratings_str}")
+            if not similar_users_ratings_str:
+                print(f"No similar users' ratings found for user {user_id}, skipping prediction.")
+                continue
 
-                    similar_users_ratings = []
-                    for idx in indices.flatten():
-                        similar_user_id = user_inv_mapper[idx]
-                        if similar_user_id != user_id:
-                            similar_user_data = data[data[user_column_name] == similar_user_id]
-                            similar_users_ratings.extend([f"{row[title_column_name]} ({row['rating']} stars)" for _, row in similar_user_data.iterrows()])
+            prediction_data = {col: test_row[col] for col in columns_for_prediction if col != 'rating'}
+            print(f"\nPrediction data: {prediction_data}")
+            combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
+            print(f"\nCombined text: {combined_text}")
 
-                    # Check if we have similar users' ratings
-                    if not similar_users_ratings:
-                        print(f"No similar users' ratings found for user {user_id}. Skipping prediction.")
-                        skipped_users += 1
-                        continue
+            try:
+                predicted_rating = predict_rating_combined_ChatCompletion(
+                    combined_text,
+                    rating_history=similar_users_ratings_str,
+                    approach="CF"
+                )
+                if predicted_rating is None:
+                    print("\nPrediction failed, skipping...")
+                    continue
+            except Exception as e:
+                print(f"\nError during prediction: {e}, skipping...")
+                continue
 
-                    prediction_data = {col: test_row[col] for col in columns_for_prediction if col != 'rating'}
-                    combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
-                    similar_users_ratings_str = ', '.join(similar_users_ratings)
+            product_title = test_row.get(title_column_name, "Unknown Title")
+            product_details = f"{product_title} (Code: {test_row[asin_column_name]})" if asin_column_name in test_row else product_title
 
-                    predicted_rating = predict_rating_combined_ChatCompletion(
-                        combined_text, 
-                        rating_history=similar_users_ratings_str, 
-                        approach="CF"
-                    )
+            print(f"Predicted Rating - {predicted_rating} stars for '{product_details}'")
+            predicted_ratings.append(predicted_rating)
+            actual_ratings.append(test_row['rating'])
 
-                    if predicted_rating is not None:
-                        predicted_ratings.append(predicted_rating)
-                        actual_ratings.append(test_row['rating'])
-                        print(f"Predicted Rating: {predicted_rating} stars for user {user_id} on item {test_row[title_column_name]}")
-                    else:
-                        print(f"Prediction failed for user {user_id} on item {test_row[title_column_name]}.")
+            if obs_per_user and len(predicted_ratings) >= obs_per_user:
+                break
 
-            if (idx + 1) % pause_every_n_users == 0:
-                print(f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
-                time.sleep(sleep_time)
-
-        except Exception as e:
-            print(f"Error occurred while processing user {user_id}: {e}")
-            error_count += 1
-
-    print(f"Predictions completed. {skipped_users} users skipped due to no similar users' ratings.")
-    print(f"Encountered errors for {error_count} users.")
+        if (idx + 1) % pause_every_n_users == 0:
+            print(f"\nProcessed {idx + 1} users, pausing for {sleep_time} seconds...")
+            time.sleep(sleep_time)
 
     predicted_ratings_df = pd.DataFrame({'predicted_rating': predicted_ratings, 'actual_rating': actual_ratings})
     predicted_ratings_df.to_csv(save_path, index=False)
-    print(f"Predictions saved to {save_path}")
+
+    print("Predictions completed and saved.")
+
 
 
 

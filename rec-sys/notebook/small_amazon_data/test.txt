@@ -114,12 +114,15 @@ Based on above rating history, please predict user's rating for the product: "SH
 Art Decoration)", (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)
 
 Here are the rating history from users who are similar to this user: 
+
++ User a: 
 1. ""
 2. 
 
 ...
-
-8. 
++ User b:
+1.
+2.
 
 Please note that: tsome similar neighbour gaive different ratings on XXXX with R1, and R2, and their similar to the current user is 0.8 and 0.9
 
