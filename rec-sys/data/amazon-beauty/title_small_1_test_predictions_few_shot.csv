@@ -1,6 +1,6 @@
-few_shot_predicted_rating,actual_rating
-3.0,5.0
-2.0,2.0
-4.0,5.0
-3.0,5.0
-3.0,3.0
+user_id,item_id,title,actual_rating,predicted_rating
+ANV9L0JU6BNL,B001QY8QXM,"Astra Platinum Double Edge Safety Razor Blades ,100 Blades (20 x 5)",5.0,3.0
+A2TU781PWGS09X,B0012Y0ZG2,Bath &amp; Body Works Ile De Tahiti Moana Coconut Vanille Moana Body Wash with Tamanoi 8.5 oz,2.0,3.0
+A3A8F2URN7MEPR,B0012Y0ZG2,Bath &amp; Body Works Ile De Tahiti Moana Coconut Vanille Moana Body Wash with Tamanoi 8.5 oz,5.0,5.0
+A1U8L4X1O2LXXF,B010B5ZE4U,Maquita Waterproof Portable Face Facial Highlighter Stick Shimmer Powder Makeup Silver,5.0,5.0
+A38IPSLKOQ5O2F,B010L79142,ROPALIA Cosmetic Makeup Waterproof Moisturize Lipstick Lip Stick Lip Gloss,3.0,3.0

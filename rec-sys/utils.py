@@ -52,15 +52,14 @@ def extract_numeric_rating(rating_text):
         float: Extracted rating value. Returns 0 for unexpected responses.
     """
     try:
-        # Updated regex to capture standalone digit rating and rating with stars
-        rating_match = re.search(r'(\d+(\.\d+)?) stars|Rating: (\d+(\.\d+)?)|^\s*(\d+(\.\d+)?)\s*$', rating_text)
+        # Updated regex to capture standalone digit rating
+        rating_match = re.search(r'(\d+(\.\d+)?)', rating_text)
         if rating_match:
-            # The rating could be in one of multiple groups depending on the pattern matched
-            rating = float(rating_match.group(1) or rating_match.group(3) or rating_match.group(5))
+            rating = float(rating_match.group(1))
             if 1 <= rating <= 5:
                 return rating
             else:
-                print(f"Rating out of expected range (1-5 stars): {rating_text}")
+                print(f"Rating out of expected range (1-5): {rating_text}")
                 return 0
         else:
             print(f"No valid rating found in the response: {rating_text}")
@@ -68,8 +67,6 @@ def extract_numeric_rating(rating_text):
     except Exception as e:
         print(f"Error extracting rating: {e}. Full response: {rating_text}")
         return 0
-
-
 
 
 def generate_combined_text_for_prediction(columns, *args):
@@ -84,3 +81,27 @@ def generate_combined_text_for_prediction(columns, *args):
         str: Combined text string for prediction.
     """
     return ". ".join([f"{col}: {val}" for col, val in zip(columns, args)])
+
+
+def rerun_failed_predictions(data, failed_indices, prediction_function, save_path, **kwargs):
+    # Log the number of failed indices
+    print(f"Re-running predictions for {len(failed_indices)} failed cases.")
+    
+    # Filter the data to get only failed rows
+    failed_data = data.iloc[failed_indices]
+    
+    # Check if failed_data is empty or not as expected
+    print(f"Number of rows in failed data: {len(failed_data)}")
+
+    # Re-run prediction on failed data
+    failed_data = prediction_function(failed_data, **kwargs)
+
+    # Log data shape after prediction
+    print(f"Data shape after re-running predictions: {failed_data.shape}")
+    
+    # Update the original dataframe with new predictions
+    data.loc[failed_indices] = failed_data
+
+    # Save the updated dataframe
+    data.to_csv(save_path, index=False)
+    return data

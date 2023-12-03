@@ -186,18 +186,16 @@ def cosine_similarity_manual(interaction_matrix):
     return cosine_sim_matrix
 
 def format_similar_users_ratings(similar_users_ratings):
-    if isinstance(similar_users_ratings, dict):
-        formatted_ratings = []
-        for user_id, ratings in similar_users_ratings.items():
-            formatted_ratings.append(f"+ User {user_id}:")
-            for rating in ratings:
-                formatted_ratings.append(rating)
-        return '\n'.join(formatted_ratings)
-    elif isinstance(similar_users_ratings, list):
-        return '\n'.join(similar_users_ratings)
-    else:
+    if not isinstance(similar_users_ratings, dict):
         return ''
 
+    formatted_ratings = []
+    for user_id, ratings in similar_users_ratings.items():
+        formatted_ratings.append(f"\n\n{user_id}:")
+        for rating in ratings:
+            formatted_ratings.append(f"+ {rating}")
+
+    return '\n'.join(formatted_ratings)
 
 
 
@@ -231,4 +229,5 @@ def get_all_similar_users_ratings(data, user_mapper, user_inv_mapper, model_knn,
         all_similar_users_ratings[user_id] = similar_users_ratings
 
     return all_similar_users_ratings
+
 

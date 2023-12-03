@@ -1,0 +1,806 @@
+movieId,imdbId,tmdbId,title,genres,userId,rating,tag,zero_shot_predicted_rating,is_rating_float
+1,114709,862.0,Toy Story (1995),Adventure|Animation|Children|Comedy|Fantasy,567,3.5,fun,"(5.0, None)",False
+2,113497,8844.0,Jumanji (1995),Adventure|Children|Fantasy,62,4.0,fantasy,"(4.0, None)",False
+2,113497,8844.0,Jumanji (1995),Adventure|Children|Fantasy,62,4.0,magic board game,"(4.0, None)",False
+2,113497,8844.0,Jumanji (1995),Adventure|Children|Fantasy,62,4.0,Robin Williams,"(4.0, None)",False
+2,113497,8844.0,Jumanji (1995),Adventure|Children|Fantasy,474,3.0,game,"(4.0, None)",False
+5,113041,11862.0,Father of the Bride Part II (1995),Comedy,474,1.5,pregnancy,"(4.0, None)",False
+5,113041,11862.0,Father of the Bride Part II (1995),Comedy,474,1.5,remake,"(4.0, None)",False
+7,114319,11860.0,Sabrina (1995),Comedy|Romance,474,3.0,remake,"(4.0, None)",False
+17,114388,4584.0,Sense and Sensibility (1995),Drama|Romance,474,5.0,Jane Austen,"(4.0, None)",False
+21,113161,8012.0,Get Shorty (1995),Comedy|Crime|Thriller,474,4.0,Hollywood,"(4.0, None)",False
+22,112722,1710.0,Copycat (1995),Crime|Drama|Horror|Mystery|Thriller,474,3.0,serial killer,"(4.0, None)",False
+25,113627,451.0,Leaving Las Vegas (1995),Drama|Romance,474,3.5,alcoholism,"(4.0, None)",False
+26,114057,16420.0,Othello (1995),Drama,474,3.5,Shakespeare,"(4.0, None)",False
+32,114746,63.0,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Mystery|Sci-Fi|Thriller,424,3.5,time travel,"(4.0, None)",False
+32,114746,63.0,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Mystery|Sci-Fi|Thriller,474,4.0,time travel,"(4.0, None)",False
+32,114746,63.0,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Mystery|Sci-Fi|Thriller,477,4.5,Brad Pitt,"(4.0, None)",False
+32,114746,63.0,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Mystery|Sci-Fi|Thriller,477,4.5,Bruce Willis,"(4.0, None)",False
+32,114746,63.0,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Mystery|Sci-Fi|Thriller,477,4.5,mindfuck,"(4.0, None)",False
+34,112431,9598.0,Babe (1995),Children|Drama,474,4.5,pigs,"(0, None)",False
+34,112431,9598.0,Babe (1995),Children|Drama,477,4.0,villain nonexistent or not needed for good story,"(0, None)",False
+36,112818,687.0,Dead Man Walking (1995),Crime|Drama,474,5.0,death penalty,"(4.0, None)",False
+36,112818,687.0,Dead Man Walking (1995),Crime|Drama,474,5.0,Nun,"(4.0, None)",False
+39,112697,9603.0,Clueless (1995),Comedy|Romance,474,3.5,Emma,"(4.0, None)",False
+39,112697,9603.0,Clueless (1995),Comedy|Romance,474,3.5,Jane Austen,"(4.0, None)",False
+41,114279,31174.0,Richard III (1995),Drama|War,474,3.5,Shakespeare,"(4.0, None)",False
+43,114272,35196.0,Restoration (1995),Drama,474,3.5,England,"(0, None)",False
+50,114814,629.0,"Usual Suspects, The (1995)",Crime|Mystery|Thriller,424,5.0,mindfuck,"(4.0, None)",False
+50,114814,629.0,"Usual Suspects, The (1995)",Crime|Mystery|Thriller,424,5.0,suspense,"(4.0, None)",False
+50,114814,629.0,"Usual Suspects, The (1995)",Crime|Mystery|Thriller,424,5.0,thriller,"(4.0, None)",False
+50,114814,629.0,"Usual Suspects, The (1995)",Crime|Mystery|Thriller,424,5.0,tricky,"(4.0, None)",False
+50,114814,629.0,"Usual Suspects, The (1995)",Crime|Mystery|Thriller,424,5.0,twist ending,"(4.0, None)",False
+96,113403,40154.0,In the Bleak Midwinter (1995),Comedy|Drama,474,3.5,theater,"(4.0, None)",False
+101,115734,13685.0,Bottle Rocket (1996),Adventure|Comedy|Crime|Romance,474,3.5,crime,"(4.0, None)",False
+101,115734,13685.0,Bottle Rocket (1996),Adventure|Comedy|Crime|Romance,567,3.0,off-beat comedy,"(4.0, None)",False
+101,115734,13685.0,Bottle Rocket (1996),Adventure|Comedy|Crime|Romance,567,3.0,quirky,"(4.0, None)",False
+110,112573,197.0,Braveheart (1995),Action|Drama|War,62,4.5,historical,"(4.0, None)",False
+110,112573,197.0,Braveheart (1995),Action|Drama|War,62,4.5,inspirational,"(4.0, None)",False
+110,112573,197.0,Braveheart (1995),Action|Drama|War,62,4.5,Medieval,"(5.0, None)",False
+110,112573,197.0,Braveheart (1995),Action|Drama|War,62,4.5,mel gibson,"(4.0, None)",False
+110,112573,197.0,Braveheart (1995),Action|Drama|War,62,4.5,Oscar (Best Cinematography),"(4.0, None)",False
+122,103859,11066.0,Boomerang (1992),Comedy|Romance,474,1.0,dating,"(4.0, None)",False
+140,118055,9302.0,Up Close and Personal (1996),Drama|Romance,474,2.5,journalism,"(4.0, None)",False
+147,112461,10474.0,"Basketball Diaries, The (1995)",Drama,424,3.5,addiction,"(4.0, None)",False
+147,112461,10474.0,"Basketball Diaries, The (1995)",Drama,424,3.5,heroin,"(4.0, None)",False
+147,112461,10474.0,"Basketball Diaries, The (1995)",Drama,424,3.5,Leonardo DiCaprio,"(4.0, None)",False
+161,112740,8963.0,Crimson Tide (1995),Drama|Thriller|War,474,3.5,submarine,"(4.0, None)",False
+162,109508,26564.0,Crumb (1994),Documentary,474,3.5,In Netflix queue,"(4.0, None)",False
+175,113540,9344.0,Kids (1995),Drama,424,4.5,controversial,"(4.0, None)",False
+175,113540,9344.0,Kids (1995),Drama,424,4.5,New York City,"(0, None)",False
+216,112508,11017.0,Billy Madison (1995),Comedy,477,4.0,Adam Sandler,"(4.0, None)",False
+216,112508,11017.0,Billy Madison (1995),Comedy,477,4.0,stop looking at me swan,"(4.0, None)",False
+222,112679,22625.0,Circle of Friends (1995),Drama|Romance,474,4.0,Ireland,"(4.0, None)",False
+223,109445,2292.0,Clerks (1994),Comedy,424,3.5,cynical,"(4.0, None)",False
+223,109445,2292.0,Clerks (1994),Comedy,424,3.5,hilarious,"(4.0, None)",False
+224,112883,1909.0,Don Juan DeMarco (1995),Comedy|Drama|Romance,474,3.5,psychology,"(4.0, None)",False
+230,109642,11929.0,Dolores Claiborne (1995),Drama|Thriller,474,3.5,Stephen King,"(4.0, None)",False
+232,111797,10451.0,Eat Drink Man Woman (Yin shi nan nu) (1994),Comedy|Drama|Romance,474,4.0,In Netflix queue,"(4.0, None)",False
+235,109707,522.0,Ed Wood (1994),Comedy|Drama,474,4.0,movie business,"(0, None)",False
+257,113501,9061.0,Just Cause (1995),Mystery|Thriller,474,3.0,court,"(4.0, None)",False
+260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,103,4.0,EPIC,"(5.0, None)",False
+260,76759,11.0,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,103,4.0,great soundtrack,"(5.0, None)",False
+261,110367,9587.0,Little Women (1994),Drama,474,4.0,Louisa May Alcott,"(4.0, None)",False
+262,113670,19101.0,"Little Princess, A (1995)",Children|Drama,474,4.0,England,"(4.0, None)",False
+262,113670,19101.0,"Little Princess, A (1995)",Children|Drama,474,4.0,Girl Power,"(4.0, None)",False
+262,113670,19101.0,"Little Princess, A (1995)",Children|Drama,474,4.0,India,"(4.0, None)",False
+272,110428,11318.0,"Madness of King George, The (1994)",Comedy|Drama,474,3.5,England,"(4.0, None)",False
+288,110632,241.0,Natural Born Killers (1994),Action|Crime|Thriller,424,4.0,brutality,"(3.0, None)",False
+288,110632,241.0,Natural Born Killers (1994),Action|Crime|Thriller,424,4.0,controversial,"(4.0, None)",False
+288,110632,241.0,Natural Born Killers (1994),Action|Crime|Thriller,424,4.0,dark comedy,"(3.0, None)",False
+288,110632,241.0,Natural Born Killers (1994),Action|Crime|Thriller,424,4.0,psychedelic,"(3.0, None)",False
+288,110632,241.0,Natural Born Killers (1994),Action|Crime|Thriller,424,4.0,satire,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,assassin,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,assassination,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,assassins,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,awkward romance,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,corruption,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,Gary Oldman,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,great acting,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,Guns,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,hit men,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,hitman,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,loneliness,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,love story,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,Luc Besson,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,Natalie Portman,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,organized crime,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,police,"(4.0, None)",False
+293,110413,101.0,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),Action|Crime|Drama|Thriller,599,5.0,unique,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,103,5.0,good dialogue,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,103,5.0,great soundtrack,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,103,5.0,non-linear,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,424,4.5,cult film,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,1990s,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,achronological,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,action,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,action packed,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,aggressive,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,amazing,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,bad ass,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,bad language,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,bad-ass,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,bible,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,biblical references,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,blood,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,blood splatters,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,bloody,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,bruce willis,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,brutality,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,coke,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,comedy,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,conversation,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,cool,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,cool style,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,dance,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,dancing,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,dark,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,dark comedy,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,dark humor,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,disturbing,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,drama,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,drug overdose,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,drugs,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,drugs & music,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,ensemble cast,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,fast-paced,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,film noir,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,film-noir,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,foul language,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,fun,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,good dialogue,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,good music,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,gore,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,great acting,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,great dialogue,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,Highly quotable,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,hit men,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,hitman,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,homosexuality,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,humour,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,intense,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,interesting,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,intertwining storylines,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,interwoven storylines,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,ironic,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,masterpiece,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,meaningless violence,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,milkshake,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,mobster,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,mobsters,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,noir,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,non-linear,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,non-linear timeline,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,nonlinear,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,nonlinear narrative,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,organised crime,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,organized crime,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,original,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,original plot,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,out of order,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,Palme d'Or,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,Quentin Tarantino,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,quirky,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,Quotable,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,r:disturbing violent content including rape,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,r:disturbing violent images,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,r:violence,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,random,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,rape,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,retro,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,Roger Avary,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,sexy,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,smart writing,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,sophisticated,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,soundtrack,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,splatter,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,Steve Buscemi,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,Tarantino,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,thriller,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,travolta,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,twist ending,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,Uma Thurman,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,violence,"(4.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,violent,"(5.0, None)",False
+296,110912,680.0,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,599,5.0,witty,"(4.0, None)",False
+300,110932,11450.0,Quiz Show (1994),Drama,474,4.0,TV,"(4.0, None)",False
+307,108394,108.0,Three Colors: Blue (Trois couleurs: Bleu) (1993),Drama,474,4.5,Death,"(4.0, None)",False
+308,111507,109.0,Three Colors: White (Trzy kolory: Bialy) (1994),Comedy|Drama,474,4.0,marriage,"(4.0, None)",False
+318,111161,278.0,"Shawshank Redemption, The (1994)",Crime|Drama,474,5.0,Stephen King,"(5.0, None)",False
+318,111161,278.0,"Shawshank Redemption, The (1994)",Crime|Drama,474,5.0,wrongful imprisonment,"(5.0, None)",False
+318,111161,278.0,"Shawshank Redemption, The (1994)",Crime|Drama,477,5.0,Morgan Freeman,"(5.0, None)",False
+329,111280,193.0,Star Trek: Generations (1994),Adventure|Drama|Sci-Fi,474,4.0,Enterprise,"(4.0, None)",False
+337,108550,1587.0,What's Eating Gilbert Grape (1993),Drama,474,4.0,mental illness,"(4.0, None)",False
+338,114857,9271.0,Virtuosity (1995),Action|Sci-Fi|Thriller,474,3.0,serial killer,"(0, None)",False
+345,109045,2759.0,"Adventures of Priscilla, Queen of the Desert, The (1994)",Comedy|Drama,474,3.5,men in drag,"(4.0, None)",False
+345,109045,2759.0,"Adventures of Priscilla, Queen of the Desert, The (1994)",Comedy|Drama,474,3.5,remade,"(4.0, None)",False
+349,109444,9331.0,Clear and Present Danger (1994),Action|Crime|Drama|Thriller,474,3.0,Tom Clancy,"(4.0, None)",False
+350,109446,10731.0,"Client, The (1994)",Drama|Mystery|Thriller,474,3.0,John Grisham,"(4.0, None)",False
+351,109484,10464.0,"Corrina, Corrina (1994)",Comedy|Drama|Romance,474,2.0,interracial romance,"(4.0, None)",False
+356,109830,13.0,Forrest Gump (1994),Comedy|Drama|Romance|War,567,3.0,touching,"(4.0, None)",False
+357,109831,712.0,Four Weddings and a Funeral (1994),Comedy|Romance,474,3.0,wedding,"(4.0, None)",False
+361,110167,10660.0,It Could Happen to You (1994),Comedy|Drama|Romance,474,3.5,gambling,"(4.0, None)",False
+364,110357,8587.0,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX,424,4.5,soundtrack,"(4.0, None)",False
+364,110357,8587.0,"Lion King, The (1994)",Adventure|Animation|Children|Drama|Musical|IMAX,474,4.5,Disney,"(4.0, None)",False
+371,110771,12280.0,"Paper, The (1994)",Comedy|Drama,474,3.0,journalism,"(3.0, None)",False
+410,106220,2758.0,Addams Family Values (1993),Children|Comedy|Fantasy,62,4.5,Christina Ricci,"(4.0, None)",False
+410,106220,2758.0,Addams Family Values (1993),Children|Comedy|Fantasy,62,4.5,Christopher Lloyd,"(4.0, None)",False
+410,106220,2758.0,Addams Family Values (1993),Children|Comedy|Fantasy,62,4.5,dark comedy,"(4.0, None)",False
+410,106220,2758.0,Addams Family Values (1993),Children|Comedy|Fantasy,62,4.5,family,"(4.0, None)",False
+410,106220,2758.0,Addams Family Values (1993),Children|Comedy|Fantasy,62,4.5,gothic,"(4.0, None)",False
+412,106226,10436.0,"Age of Innocence, The (1993)",Drama,474,4.0,Edith Wharton,"(4.0, None)",False
+440,106673,11566.0,Dave (1993),Comedy|Romance,474,4.5,President,"(0, None)",False
+454,106918,37233.0,"Firm, The (1993)",Drama|Thriller,474,4.0,John Grisham,"(4.0, None)",False
+471,110074,11934.0,"Hudsucker Proxy, The (1994)",Comedy,474,3.0,hula hoop,"(4.0, None)",False
+488,107468,1413.0,M. Butterfly (1993),Drama|Romance,474,3.0,Japan,"(3.0, None)",False
+488,107468,1413.0,M. Butterfly (1993),Drama|Romance,474,3.0,sexuality,"(4.0, None)",False
+497,107616,11971.0,Much Ado About Nothing (1993),Comedy|Romance,474,5.0,Shakespeare,"(4.0, None)",False
+500,107614,788.0,Mrs. Doubtfire (1993),Comedy|Drama,474,2.5,cross dressing,"(4.0, None)",False
+500,107614,788.0,Mrs. Doubtfire (1993),Comedy|Drama,474,2.5,divorce,"(4.0, None)",False
+500,107614,788.0,Mrs. Doubtfire (1993),Comedy|Drama,474,2.5,men in drag,"(4.0, None)",False
+515,107943,1245.0,"Remains of the Day, The (1993)",Drama|Romance,474,5.0,Butler,"(4.0, None)",False
+515,107943,1245.0,"Remains of the Day, The (1993)",Drama|Romance,474,5.0,Housekeeper,"(4.0, None)",False
+516,110971,11858.0,Renaissance Man (1994),Comedy|Drama,474,2.0,military,"(4.0, None)",False
+522,105275,10412.0,Romper Stomper (1992),Action|Drama,474,3.5,Australia,"(3.0, None)",False
+522,105275,10412.0,Romper Stomper (1992),Action|Drama,474,3.5,racism,"(3.0, None)",False
+522,105275,10412.0,Romper Stomper (1992),Action|Drama,474,3.5,violence,"(3.0, None)",False
+524,108002,14534.0,Rudy (1993),Drama,474,2.5,football,"(4.0, None)",False
+529,108065,14291.0,Searching for Bobby Fischer (1993),Drama,474,4.0,chess,"(4.0, None)",False
+534,108101,10445.0,Shadowlands (1993),Drama|Romance,474,5.0,C.S. Lewis,"(4.0, None)",False
+535,108122,695.0,Short Cuts (1993),Drama,474,4.0,large cast,"(4.0, None)",False
+538,108149,23210.0,Six Degrees of Separation (1993),Drama,474,3.5,race,"(4.0, None)",False
+539,108160,858.0,Sleepless in Seattle (1993),Comedy|Drama|Romance,474,4.5,Empire State Building,"(4.0, None)",False
+541,83658,78.0,Blade Runner (1982),Action|Sci-Fi|Thriller,477,5.0,artificial intelligence,"(5.0, None)",False
+541,83658,78.0,Blade Runner (1982),Action|Sci-Fi|Thriller,477,5.0,atmospheric,"(5.0, None)",False
+541,83658,78.0,Blade Runner (1982),Action|Sci-Fi|Thriller,477,5.0,cyberpunk,"(4.0, None)",False
+541,83658,78.0,Blade Runner (1982),Action|Sci-Fi|Thriller,477,5.0,mindfuck,"(4.0, None)",False
+541,83658,78.0,Blade Runner (1982),Action|Sci-Fi|Thriller,477,5.0,Philip K. Dick,"(4.0, None)",False
+541,83658,78.0,Blade Runner (1982),Action|Sci-Fi|Thriller,567,3.5,atmospheric,"(4.0, None)",False
+541,83658,78.0,Blade Runner (1982),Action|Sci-Fi|Thriller,567,3.5,dreamlike,"(5.0, None)",False
+551,107688,9479.0,"Nightmare Before Christmas, The (1993)",Animation|Children|Fantasy|Musical,474,3.0,Christmas,"(4.0, None)",False
+551,107688,9479.0,"Nightmare Before Christmas, The (1993)",Animation|Children|Fantasy|Musical,474,3.0,Halloween,"(4.0, None)",False
+556,108515,26408.0,"War Room, The (1993)",Documentary,474,3.0,politics,"(4.0, None)",False
+562,114906,11446.0,Welcome to the Dollhouse (1995),Comedy|Drama,474,4.0,adolescence,"(3.0, None)",False
+586,99785,771.0,Home Alone (1990),Children|Comedy,474,2.0,christmas,"(5.0, None)",False
+587,99653,251.0,Ghost (1990),Comedy|Drama|Fantasy|Romance|Thriller,474,3.0,overrated,"(4.0, None)",False
+589,103064,280.0,Terminator 2: Judgment Day (1991),Action|Sci-Fi,424,2.0,Arnold Schwarzenegger,"(4.0, None)",False
+589,103064,280.0,Terminator 2: Judgment Day (1991),Action|Sci-Fi,424,2.0,nuclear war,"(5.0, None)",False
+589,103064,280.0,Terminator 2: Judgment Day (1991),Action|Sci-Fi,424,2.0,sci-fi,"(4.0, None)",False
+589,103064,280.0,Terminator 2: Judgment Day (1991),Action|Sci-Fi,424,2.0,Suspense,"(4.0, None)",False
+589,103064,280.0,Terminator 2: Judgment Day (1991),Action|Sci-Fi,424,2.0,time travel,"(4.0, None)",False
+589,103064,280.0,Terminator 2: Judgment Day (1991),Action|Sci-Fi,474,4.0,robots,"(4.0, None)",False
+589,103064,280.0,Terminator 2: Judgment Day (1991),Action|Sci-Fi,477,5.0,Scifi masterpiece,"(4.0, None)",False
+590,99348,581.0,Dances with Wolves (1990),Adventure|Drama|Western,474,3.5,American Indians,"(5.0, None)",False
+593,102926,274.0,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,474,4.5,Hannibal Lector,"(5.0, None)",False
+593,102926,274.0,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,477,5.0,disturbing,"(4.0, None)",False
+593,102926,274.0,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,477,5.0,drama,"(4.0, None)",False
+593,102926,274.0,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,477,5.0,gothic,"(4.0, None)",False
+593,102926,274.0,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,477,5.0,psychology,"(4.0, None)",False
+593,102926,274.0,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,477,5.0,suspense,"(4.0, None)",False
+594,29583,408.0,Snow White and the Seven Dwarfs (1937),Animation|Children|Drama|Fantasy|Musical,474,3.0,Disney,"(5.0, None)",False
+595,101414,10020.0,Beauty and the Beast (1991),Animation|Children|Fantasy|Musical|Romance|IMAX,474,5.0,Disney,"(5.0, None)",False
+597,100405,114.0,Pretty Woman (1990),Comedy|Romance,474,4.0,prostitution,"(4.0, None)",False
+608,116282,275.0,Fargo (1996),Comedy|Crime|Drama|Thriller,424,3.5,based on a true story,"(4.0, None)",False
+608,116282,275.0,Fargo (1996),Comedy|Crime|Drama|Thriller,424,3.5,dark comedy,"(4.0, None)",False
+608,116282,275.0,Fargo (1996),Comedy|Crime|Drama|Thriller,424,3.5,KIDNAPPING,"(4.0, None)",False
+608,116282,275.0,Fargo (1996),Comedy|Crime|Drama|Thriller,424,3.5,Steve Buscemi,"(4.0, None)",False
+608,116282,275.0,Fargo (1996),Comedy|Crime|Drama|Thriller,474,4.0,Coen Brothers,"(4.0, None)",False
+628,117381,1592.0,Primal Fear (1996),Crime|Drama|Mystery|Thriller,424,5.0,edward norton,"(4.0, None)",False
+628,117381,1592.0,Primal Fear (1996),Crime|Drama|Mystery|Thriller,424,5.0,psychology,"(4.0, None)",False
+628,117381,1592.0,Primal Fear (1996),Crime|Drama|Mystery|Thriller,424,5.0,twist ending,"(4.0, None)",False
+628,117381,1592.0,Primal Fear (1996),Crime|Drama|Mystery|Thriller,474,3.0,priest,"(4.0, None)",False
+638,113448,2021.0,Jack and Sarah (1995),Romance,474,3.0,babies,"(4.0, None)",False
+647,115956,10684.0,Courage Under Fire (1996),Action|Crime|Drama|War,474,3.0,Gulf War,"(4.0, None)",False
+648,117060,954.0,Mission: Impossible (1996),Action|Adventure|Mystery|Thriller,474,3.5,based on a TV show,"(5.0, None)",False
+668,48473,5801.0,Song of the Little Road (Pather Panchali) (1955),Drama,474,3.5,India,"(4.0, None)",False
+670,52572,896.0,"World of Apu, The (Apur Sansar) (1959)",Drama,474,4.5,India,"(4.0, None)",False
+671,117128,3065.0,Mystery Science Theater 3000: The Movie (1996),Comedy|Sci-Fi,474,3.5,spoof,"(4.0, None)",False
+708,117979,8866.0,"Truth About Cats & Dogs, The (1996)",Comedy|Romance,474,4.5,Veterinarian,"(4.0, None)",False
+720,118114,503475.0,Wallace & Gromit: The Best of Aardman Animation (1996),Adventure|Animation|Comedy,474,4.0,Aardman,"(4.0, None)",False
+728,112701,32513.0,Cold Comfort Farm (1995),Comedy,474,3.5,In Netflix queue,"(4.0, None)",False
+733,117500,9802.0,"Rock, The (1996)",Action|Adventure|Thriller,474,4.0,Alcatraz,"(3.0, None)",False
+733,117500,9802.0,"Rock, The (1996)",Action|Adventure|Thriller,477,4.0,Michael Bay,"(4.0, None)",False
+733,117500,9802.0,"Rock, The (1996)",Action|Adventure|Thriller,477,4.0,terrorism,"(3.0, None)",False
+736,117998,664.0,Twister (1996),Action|Adventure|Romance|Thriller,474,2.0,Disaster,"(0, None)",False
+745,112691,532.0,Wallace & Gromit: A Close Shave (1995),Animation|Children|Comedy,474,4.0,Aardman,"(4.0, None)",False
+748,115571,10547.0,"Arrival, The (1996)",Action|Sci-Fi|Thriller,474,3.5,aliens,"(3.0, None)",False
+750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,477,5.0,black comedy,"(4.0, None)",False
+750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,477,5.0,dark comedy,"(4.0, None)",False
+750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,477,5.0,satire,"(4.0, None)",False
+750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,567,3.0,black comedy,"(4.0, None)",False
+750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,567,3.0,dark comedy,"(4.0, None)",False
+750,57012,935.0,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),Comedy|War,567,3.0,Quirky,"(4.0, None)",False
+778,117951,627.0,Trainspotting (1996),Comedy|Crime|Drama,318,4.0,based on a book,"(4.0, None)",False
+778,117951,627.0,Trainspotting (1996),Comedy|Crime|Drama,318,4.0,dark comedy,"(4.0, None)",False
+778,117951,627.0,Trainspotting (1996),Comedy|Crime|Drama,318,4.0,narrated,"(4.0, None)",False
+778,117951,627.0,Trainspotting (1996),Comedy|Crime|Drama,474,4.0,drug abuse,"(4.0, None)",False
+780,116629,602.0,Independence Day (a.k.a. ID4) (1996),Action|Adventure|Sci-Fi|Thriller,474,4.0,aliens,"(4.0, None)",False
+805,117913,1645.0,"Time to Kill, A (1996)",Drama|Thriller,474,3.0,John Grisham,"(4.0, None)",False
+818,118073,12606.0,"Very Brady Sequel, A (1996)",Comedy,474,3.0,based on a TV show,"(4.0, None)",False
+830,116313,2925.0,"First Wives Club, The (1996)",Comedy,474,2.0,adultery,"(4.0, None)",False
+832,117438,3595.0,Ransom (1996),Crime|Thriller,474,2.0,kidnapping,"(4.0, None)",False
+832,117438,3595.0,Ransom (1996),Crime|Thriller,477,3.0,GIVE ME BACK MY SON!,"(4.0, None)",False
+832,117438,3595.0,Ransom (1996),Crime|Thriller,477,3.0,It was melodramatic and kind of dumb,"(4.0, None)",False
+832,117438,3595.0,Ransom (1996),Crime|Thriller,477,3.0,Mel Gibson,"(4.0, None)",False
+858,68646,238.0,"Godfather, The (1972)",Crime|Drama,474,5.0,Mafia,"(5.0, None)",False
+892,117991,44705.0,Twelfth Night (1996),Comedy|Drama|Romance,474,3.0,Shakespeare,"(4.0, None)",False
+898,32904,981.0,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,474,4.0,divorce,"(4.0, None)",False
+899,45152,872.0,Singin' in the Rain (1952),Comedy|Musical|Romance,474,4.0,movie business,"(5.0, None)",False
+900,43278,2769.0,"American in Paris, An (1951)",Musical|Romance,474,3.5,France,"(4.0, None)",False
+902,54698,164.0,Breakfast at Tiffany's (1961),Drama|Romance,474,3.5,Capote,"(4.0, None)",False
+903,52357,426.0,Vertigo (1958),Drama|Mystery|Romance|Thriller,474,4.5,falling,"(4.0, None)",False
+903,52357,426.0,Vertigo (1958),Drama|Mystery|Romance|Thriller,477,3.5,Alfred Hitchcock,"(None, 'Rate limit reached for gpt-3.5-turbo-1106 in organization org-ppCCXZWpTaByE4cI4jMbZjBx on tokens per min (TPM): Limit 60000, Used 58186, Requested 4096. Please try again in 2.282s. Visit https://platform.openai.com/account/rate-limits to learn more.')",False
+904,47396,567.0,Rear Window (1954),Mystery|Thriller,477,3.5,imdb top 250,"(5.0, None)",False
+904,47396,567.0,Rear Window (1954),Mystery|Thriller,477,3.5,James Stewart,"(5.0, None)",False
+904,47396,567.0,Rear Window (1954),Mystery|Thriller,477,3.5,mystery,"(5.0, None)",False
+904,47396,567.0,Rear Window (1954),Mystery|Thriller,477,3.5,photographer,"(5.0, None)",False
+904,47396,567.0,Rear Window (1954),Mystery|Thriller,477,3.5,photography,"(4.0, None)",False
+905,25316,3078.0,It Happened One Night (1934),Comedy|Romance,474,5.0,Screwball,"(4.0, None)",False
+908,53125,213.0,North by Northwest (1959),Action|Adventure|Mystery|Romance|Thriller,477,4.0,imdb top 250,"(0, None)",False
+909,53604,284.0,"Apartment, The (1960)",Comedy|Drama|Romance,474,4.0,adultery,"(4.0, None)",False
+910,53291,239.0,Some Like It Hot (1959),Comedy|Crime,474,4.0,men in drag,"(4.0, None)",False
+911,56923,4808.0,Charade (1963),Comedy|Crime|Mystery|Romance|Thriller,474,3.5,heist,"(4.0, None)",False
+912,34583,289.0,Casablanca (1942),Drama|Romance,474,5.0,start of a beautiful friendship,"(4.0, None)",False
+913,33870,963.0,"Maltese Falcon, The (1941)",Film-Noir|Mystery,474,4.0,statue,"(4.0, None)",False
+916,46250,804.0,Roman Holiday (1953),Comedy|Drama|Romance,474,4.0,royalty,"(5.0, None)",False
+918,37059,909.0,Meet Me in St. Louis (1944),Musical,474,3.5,1900s,"(4.0, None)",False
+919,32138,630.0,"Wizard of Oz, The (1939)",Adventure|Children|Fantasy|Musical,474,4.5,Dorothy,"(0, None)",False
+919,32138,630.0,"Wizard of Oz, The (1939)",Adventure|Children|Fantasy|Musical,474,4.5,Toto,"(4.0, None)",False
+920,31381,770.0,Gone with the Wind (1939),Drama|Romance|War,474,2.0,Civil War,"(5.0, None)",False
+921,84370,31044.0,My Favorite Year (1982),Comedy,474,3.0,television,"(4.0, None)",False
+922,43014,599.0,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),Drama|Film-Noir|Romance,474,4.0,movies,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,474,4.0,space,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,aliens,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,apes,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,Arthur C. Clarke,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,artificial intelligence,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,atmospheric,"(5.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,Dull,"(5.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,future,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,futuristic,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,imdb top 250,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,masterpiece,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,philosophical,"(5.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,relaxing,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,revolutionary,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,robots,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,sci-fi,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,space travel,"(5.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,spacecraft,"(4.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,Stanley Kubrick,"(5.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,superb soundtrack,"(5.0, None)",False
+924,62622,62.0,2001: A Space Odyssey (1968),Adventure|Drama|Sci-Fi,599,5.0,surreal,"(4.0, None)",False
+927,32143,22490.0,"Women, The (1939)",Comedy,474,4.0,divorce,"(0, None)",False
+928,32976,223.0,Rebecca (1940),Drama|Mystery|Romance|Thriller,474,5.0,Mrs. DeWinter,"(4.0, None)",False
+929,32484,25670.0,Foreign Correspondent (1940),Drama|Film-Noir|Mystery|Thriller,474,3.5,Europe,"(4.0, None)",False
+929,32484,25670.0,Foreign Correspondent (1940),Drama|Film-Noir|Mystery|Thriller,474,3.5,journalism,"(4.0, None)",False
+929,32484,25670.0,Foreign Correspondent (1940),Drama|Film-Noir|Mystery|Thriller,474,3.5,war,"(4.0, None)",False
+936,31725,1859.0,Ninotchka (1939),Comedy|Romance,474,4.0,Russia,"(3.0, None)",False
+938,51658,17281.0,Gigi (1958),Musical,474,2.5,prostitution,"(4.0, None)",False
+940,29843,10907.0,"Adventures of Robin Hood, The (1938)",Action|Adventure|Romance,474,3.5,swashbuckler,"(4.0, None)",False
+941,32762,32093.0,"Mark of Zorro, The (1940)",Adventure,474,3.5,swashbuckler,"(4.0, None)",False
+943,39420,22292.0,"Ghost and Mrs. Muir, The (1947)",Drama|Fantasy|Romance,474,3.5,ghosts,"(4.0, None)",False
+944,29162,3598.0,Lost Horizon (1937),Drama,474,4.0,Shangri-La,"(4.0, None)",False
+950,25878,3529.0,"Thin Man, The (1934)",Comedy|Crime,474,4.0,Nick and Nora Charles,"(0, None)",False
+951,32599,3085.0,His Girl Friday (1940),Comedy|Romance,474,4.5,Screwball,"(5.0, None)",False
+952,48960,2897.0,Around the World in 80 Days (1956),Adventure|Comedy,474,3.0,race,"(4.0, None)",False
+953,38650,1585.0,It's a Wonderful Life (1946),Children|Drama|Fantasy|Romance,474,3.5,Christmas,"(5.0, None)",False
+954,31679,3083.0,Mr. Smith Goes to Washington (1939),Drama,474,4.5,Politics,"(4.0, None)",False
+969,43265,488.0,"African Queen, The (1951)",Adventure|Comedy|Romance|War,474,5.0,missionary,"(4.0, None)",False
+970,46414,22733.0,Beat the Devil (1953),Adventure|Comedy|Crime|Drama|Romance,474,3.5,crime,"(4.0, None)",False
+971,51459,261.0,Cat on a Hot Tin Roof (1958),Drama,474,3.5,Tennessee Williams,"(5.0, None)",False
+973,33891,32574.0,Meet John Doe (1941),Comedy|Drama,474,3.5,journalism,"(4.0, None)",False
+976,22879,22649.0,"Farewell to Arms, A (1932)",Romance|War,474,3.0,Hemingway,"(4.0, None)",False
+1006,115862,6346.0,"Chamber, The (1996)",Drama,474,3.5,John Grisham,"(3.0, None)",False
+1010,64603,14136.0,"Love Bug, The (1969)",Children|Comedy,474,3.0,Disney,"(4.0, None)",False
+1010,64603,14136.0,"Love Bug, The (1969)",Children|Comedy,474,3.0,race,"(4.0, None)",False
+1013,55277,19186.0,"Parent Trap, The (1961)",Children|Comedy|Romance,474,3.0,twins,"(4.0, None)",False
+1022,42332,11224.0,Cinderella (1950),Animation|Children|Fantasy|Musical|Romance,474,4.0,Disney,"(4.0, None)",False
+1025,57546,9078.0,"Sword in the Stone, The (1963)",Animation|Children|Fantasy|Musical,474,3.0,Disney,"(4.0, None)",False
+1032,43274,12092.0,Alice in Wonderland (1951),Adventure|Animation|Children|Fantasy|Musical,474,2.0,Disney,"(4.0, None)",False
+1033,82406,10948.0,"Fox and the Hound, The (1981)",Animation|Children|Drama,474,4.5,Disney,"(4.0, None)",False
+1035,59742,15121.0,"Sound of Music, The (1965)",Musical|Romance,474,5.0,Rogers and Hammerstein,"(4.0, None)",False
+1041,117589,11159.0,Secrets & Lies (1996),Drama,474,4.5,In Netflix queue,"(4.0, None)",False
+1042,117887,9591.0,That Thing You Do! (1996),Comedy|Drama,474,4.5,Music,"(4.0, None)",False
+1066,29546,31530.0,Shall We Dance (1937),Comedy|Musical|Romance,474,4.0,Astaire and Rogers,"(4.0, None)",False
+1068,39286,28120.0,Crossfire (1947),Crime|Film-Noir,474,3.5,anti-Semitism,"(4.0, None)",False
+1079,95159,623.0,"Fish Called Wanda, A (1988)",Comedy|Crime,474,4.5,fish,"(4.0, None)",False
+1080,79470,583.0,Monty Python's Life of Brian (1979),Comedy,474,3.0,Bible,"(4.0, None)",False
+1080,79470,583.0,Monty Python's Life of Brian (1979),Comedy,474,3.0,parody,"(4.0, None)",False
+1088,92890,88.0,Dirty Dancing (1987),Drama|Musical|Romance,474,3.5,dance,"(4.0, None)",False
+1088,92890,88.0,Dirty Dancing (1987),Drama|Musical|Romance,474,3.5,music,"(4.0, None)",False
+1089,105236,500.0,Reservoir Dogs (1992),Crime|Mystery|Thriller,424,3.5,ensemble cast,"(4.0, None)",False
+1089,105236,500.0,Reservoir Dogs (1992),Crime|Mystery|Thriller,424,3.5,nonlinear,"(4.0, None)",False
+1089,105236,500.0,Reservoir Dogs (1992),Crime|Mystery|Thriller,424,3.5,Quentin Tarantino,"(4.0, None)",False
+1089,105236,500.0,Reservoir Dogs (1992),Crime|Mystery|Thriller,477,4.0,religion,"(4.0, None)",False
+1089,105236,500.0,Reservoir Dogs (1992),Crime|Mystery|Thriller,477,4.0,Tarantino,"(4.0, None)",False
+1090,91763,792.0,Platoon (1986),Drama|War,474,3.5,Vietnam,"(4.0, None)",False
+1093,101761,10537.0,"Doors, The (1991)",Drama,474,3.0,1960s,"(4.0, None)",False
+1103,48545,221.0,Rebel Without a Cause (1955),Drama,474,4.0,adolescence,"(5.0, None)",False
+1104,44081,702.0,"Streetcar Named Desire, A (1951)",Drama,474,4.0,Tennessee Williams,"(4.0, None)",False
+1120,117318,1630.0,"People vs. Larry Flynt, The (1996)",Comedy|Drama,424,3.5,freedom of expression,"(4.0, None)",False
+1124,82846,11816.0,On Golden Pond (1981),Drama,474,4.0,aging,"(4.0, None)",False
+1147,118147,10548.0,When We Were Kings (1996),Documentary,474,3.0,In Netflix queue,"(4.0, None)",False
+1148,108598,531.0,Wallace & Gromit: The Wrong Trousers (1993),Animation|Children|Comedy|Crime,474,4.0,Aardman,"(5.0, None)",False
+1171,103850,10608.0,Bob Roberts (1992),Comedy,474,4.0,politics,"(0, None)",False
+1177,101811,26561.0,Enchanted April (1992),Drama|Romance,474,5.0,Italy,"(4.0, None)",False
+1178,50825,975.0,Paths of Glory (1957),Drama|War,474,3.5,court,"(4.0, None)",False
+1188,105488,10409.0,Strictly Ballroom (1992),Comedy|Romance,474,5.0,Australia,"(4.0, None)",False
+1188,105488,10409.0,Strictly Ballroom (1992),Comedy|Romance,474,5.0,dance,"(4.0, None)",False
+1189,96257,14285.0,"Thin Blue Line, The (1988)",Documentary,474,4.0,In Netflix queue,"(4.0, None)",False
+1189,96257,14285.0,"Thin Blue Line, The (1988)",Documentary,474,4.0,police,"(4.0, None)",False
+1193,73486,510.0,One Flew Over the Cuckoo's Nest (1975),Drama,424,4.0,emotional,"(4.0, None)",False
+1196,80684,1891.0,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,477,5.0,classic,"(4.0, None)",False
+1196,80684,1891.0,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,477,5.0,George Lucas,"(5.0, None)",False
+1196,80684,1891.0,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,477,5.0,Harrison Ford,"(4.0, None)",False
+1196,80684,1891.0,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,477,5.0,music,"(5.0, None)",False
+1196,80684,1891.0,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,477,5.0,original plot,"(5.0, None)",False
+1198,82971,85.0,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Action|Adventure,474,4.0,ark of the covenant,"(5.0, None)",False
+1198,82971,85.0,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Action|Adventure,474,4.0,indiana jones,"(5.0, None)",False
+1200,90605,679.0,Aliens (1986),Action|Adventure|Horror|Sci-Fi,474,3.5,space,"(5.0, None)",False
+1201,60196,429.0,"Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il) (1966)",Action|Adventure|Western,474,3.5,spaghetti western,"(4.0, None)",False
+1203,50083,389.0,12 Angry Men (1957),Drama,474,4.0,court,"(5.0, None)",False
+1203,50083,389.0,12 Angry Men (1957),Drama,567,4.5,Motivational,"(4.0, None)",False
+1203,50083,389.0,12 Angry Men (1957),Drama,567,4.5,thought-provoking,"(5.0, None)",False
+1204,56172,947.0,Lawrence of Arabia (1962),Adventure|Drama|War,474,4.0,Middle East,"(4.0, None)",False
+1206,66921,185.0,"Clockwork Orange, A (1971)",Crime|Drama|Sci-Fi|Thriller,474,3.5,brainwashing,"(4.0, None)",False
+1210,86190,1892.0,Star Wars: Episode VI - Return of the Jedi (1983),Action|Adventure|Sci-Fi,474,4.0,luke skywalker,"(5.0, None)",False
+1210,86190,1892.0,Star Wars: Episode VI - Return of the Jedi (1983),Action|Adventure|Sci-Fi,474,4.0,space opera,"(4.0, None)",False
+1212,41959,1092.0,"Third Man, The (1949)",Film-Noir|Mystery|Thriller,474,4.0,ferris wheel,"(4.0, None)",False
+1212,41959,1092.0,"Third Man, The (1949)",Film-Noir|Mystery|Thriller,474,4.0,Venice,"(4.0, None)",False
+1212,41959,1092.0,"Third Man, The (1949)",Film-Noir|Mystery|Thriller,474,4.0,zither,"(0, None)",False
+1219,54215,539.0,Psycho (1960),Crime|Horror,424,4.0,tense,"(5.0, None)",False
+1219,54215,539.0,Psycho (1960),Crime|Horror,474,4.5,Norman Bates,"(5.0, None)",False
+1219,54215,539.0,Psycho (1960),Crime|Horror,477,4.0,Alfred Hitchcock,"(5.0, None)",False
+1219,54215,539.0,Psycho (1960),Crime|Horror,477,4.0,black and white,"(5.0, None)",False
+1221,71562,240.0,"Godfather: Part II, The (1974)",Crime|Drama,474,5.0,Mafia,"(4.0, None)",False
+1222,93058,600.0,Full Metal Jacket (1987),Drama|War,474,4.0,Vietnam,"(4.0, None)",False
+1222,93058,600.0,Full Metal Jacket (1987),Drama|War,477,5.0,anti-war,"(4.0, None)",False
+1223,104361,530.0,"Grand Day Out with Wallace and Gromit, A (1989)",Adventure|Animation|Children|Comedy|Sci-Fi,474,4.5,moon,"(4.0, None)",False
+1224,97499,10705.0,Henry V (1989),Action|Drama|Romance|War,474,4.0,Shakespeare,"(4.0, None)",False
+1237,50976,490.0,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",Drama,474,2.5,chess,"(4.0, None)",False
+1243,100519,18971.0,Rosencrantz and Guildenstern Are Dead (1990),Comedy|Drama,474,4.0,Shakespeare sort of,"(4.0, None)",False
+1732,118715,115.0,"Big Lebowski, The (1998)",Comedy|Crime,599,5.0,Nudity (Full Frontal),"(4.0, None)",False
+1732,118715,115.0,"Big Lebowski, The (1998)",Comedy|Crime,599,5.0,off-beat comedy,"(4.0, None)",False
+1732,118715,115.0,"Big Lebowski, The (1998)",Comedy|Crime,599,5.0,Steve Buscemi,"(4.0, None)",False
+1732,118715,115.0,"Big Lebowski, The (1998)",Comedy|Crime,599,5.0,violence,"(4.0, None)",False
+1735,119223,9410.0,Great Expectations (1998),Drama|Romance,474,2.0,Charles Dickens,"(4.0, None)",False
+1748,118929,2666.0,Dark City (1998),Adventure|Film-Noir|Sci-Fi|Thriller,474,4.0,amnesia,"(4.0, None)",False
+1902,116141,32284.0,Dream for an Insomniac (1996),Drama|Romance,474,4.0,generation X,"(4.0, None)",False
+1909,120902,846.0,"X-Files: Fight the Future, The (1998)",Action|Crime|Mystery|Sci-Fi|Thriller,474,4.5,conspiracy,"(4.0, None)",False
+1912,120780,1389.0,Out of Sight (1998),Comedy|Crime|Drama|Romance|Thriller,474,4.0,heist,"(4.0, None)",False
+1913,73540,11020.0,Picnic at Hanging Rock (1975),Drama|Mystery,474,4.0,Australia,"(4.0, None)",False
+1917,120591,95.0,Armageddon (1998),Action|Romance|Sci-Fi|Thriller,474,1.5,space,"(4.0, None)",False
+1921,138704,473.0,Pi (1998),Drama|Sci-Fi|Thriller,424,3.5,hallucinatory,"(3.0, None)",False
+1921,138704,473.0,Pi (1998),Drama|Sci-Fi|Thriller,424,3.5,mental illness,"(0, None)",False
+1921,138704,473.0,Pi (1998),Drama|Sci-Fi|Thriller,424,3.5,mindfuck,"(3.0, None)",False
+1921,138704,473.0,Pi (1998),Drama|Sci-Fi|Thriller,424,3.5,paranoid,"(3.0, None)",False
+1921,138704,473.0,Pi (1998),Drama|Sci-Fi|Thriller,567,3.0,hallucinatory,"(3.0, None)",False
+1921,138704,473.0,Pi (1998),Drama|Sci-Fi|Thriller,567,3.0,insanity,"(3.0, None)",False
+1921,138704,473.0,Pi (1998),Drama|Sci-Fi|Thriller,567,3.0,paranoia,"(4.0, None)",False
+1921,138704,473.0,Pi (1998),Drama|Sci-Fi|Thriller,567,3.0,paranoid,"(0, None)",False
+1923,129387,544.0,There's Something About Mary (1998),Comedy|Romance,424,3.5,crude humor,"(4.0, None)",False
+1931,26752,12311.0,Mutiny on the Bounty (1935),Adventure|Drama,474,4.0,ships,"(4.0, None)",False
+1938,37884,28580.0,"Lost Weekend, The (1945)",Drama,474,4.0,alcoholism,"(4.0, None)",False
+1940,39416,33667.0,Gentleman's Agreement (1947),Drama,474,4.0,anti-Semitism,"(4.0, None)",False
+1947,55614,1725.0,West Side Story (1961),Drama|Musical|Romance,474,5.0,Gangs,"(5.0, None)",False
+1951,63385,17917.0,Oliver! (1968),Drama|Musical,474,4.0,Dickens,"(3.0, None)",False
+1957,82158,9443.0,Chariots of Fire (1981),Drama,474,5.0,sports,"(4.0, None)",False
+1959,89755,606.0,Out of Africa (1985),Drama|Romance,474,4.0,adultery,"(4.0, None)",False
+1959,89755,606.0,Out of Africa (1985),Drama|Romance,474,4.0,Africa,"(4.0, None)",False
+1984,85636,10676.0,Halloween III: Season of the Witch (1982),Horror,474,2.0,halloween,"(4.0, None)",False
+1994,84516,609.0,Poltergeist (1982),Horror|Thriller,474,4.0,ghosts,"(4.0, None)",False
+1995,91778,11133.0,Poltergeist II: The Other Side (1986),Horror|Thriller,474,2.0,ghosts,"(3.0, None)",False
+2022,95497,11051.0,"Last Temptation of Christ, The (1988)",Drama,474,4.0,Bible,"(4.0, None)",False
+2022,95497,11051.0,"Last Temptation of Christ, The (1988)",Drama,474,4.0,Katzanzakis,"(4.0, None)",False
+2023,99674,242.0,"Godfather: Part III, The (1990)",Crime|Drama|Mystery|Thriller,62,5.0,Al Pacino,"(3.0, None)",False
+2059,120783,9820.0,"Parent Trap, The (1998)",Children|Comedy|Romance,474,2.0,twins,"(4.0, None)",False
+2064,98213,1779.0,Roger & Me (1989),Documentary,474,4.0,General Motors,"(4.0, None)",False
+2064,98213,1779.0,Roger & Me (1989),Documentary,474,4.0,Michigan,"(4.0, None)",False
+2097,86336,24808.0,Something Wicked This Way Comes (1983),Children|Drama|Fantasy|Mystery|Thriller,474,3.5,carnival,"(4.0, None)",False
+2097,86336,24808.0,Something Wicked This Way Comes (1983),Children|Drama|Fantasy|Mystery|Thriller,474,3.5,Ray Bradbury,"(4.0, None)",False
+2100,88161,2619.0,Splash (1984),Comedy|Fantasy|Romance,474,4.0,mermaid,"(4.0, None)",False
+2124,101272,2907.0,"Addams Family, The (1991)",Children|Comedy|Fantasy,62,5.0,Christina Ricci,"(4.0, None)",False
+2124,101272,2907.0,"Addams Family, The (1991)",Children|Comedy|Fantasy,62,5.0,Christopher Lloyd,"(4.0, None)",False
+2145,91790,11522.0,Pretty in Pink (1986),Comedy|Drama|Romance,474,4.0,high school,"(4.0, None)",False
+2160,63522,805.0,Rosemary's Baby (1968),Drama|Horror|Thriller,424,4.5,Atmospheric,"(4.0, None)",False
+2171,119778,41469.0,Next Stop Wonderland (1998),Comedy|Drama|Romance,474,5.0,Boston,"(4.0, None)",False
+2171,119778,41469.0,Next Stop Wonderland (1998),Comedy|Drama|Romance,474,5.0,personals ads,"(4.0, None)",False
+2243,92699,12626.0,Broadcast News (1987),Comedy|Drama|Romance,474,4.5,journalism,"(4.0, None)",False
+2247,95593,2321.0,Married to the Mob (1988),Comedy,474,2.0,Mafia,"(4.0, None)",False
+2248,98258,2028.0,Say Anything... (1989),Comedy|Drama|Romance,474,5.0,In Your Eyes,"(4.0, None)",False
+2300,63462,30197.0,"Producers, The (1968)",Comedy,474,4.5,Broadway,"(4.0, None)",False
+2302,104952,10377.0,My Cousin Vinny (1992),Comedy,474,2.0,court,"(4.0, None)",False
+2310,119670,9821.0,"Mighty, The (1998)",Drama,474,4.0,adolescence,"(3.0, None)",False
+2324,118799,637.0,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,567,3.5,tear jerker,"(4.0, None)",False
+2324,118799,637.0,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,567,3.5,tearjerking,"(4.0, None)",False
+2357,140888,666.0,Central Station (Central do Brasil) (1998),Drama,474,4.5,South America,"(4.0, None)",False
+2394,120794,9837.0,"Prince of Egypt, The (1998)",Animation|Musical,474,5.0,Moses,"(4.0, None)",False
+2396,138097,1934.0,Shakespeare in Love (1998),Comedy|Drama|Romance,474,4.0,England,"(4.0, None)",False
+2431,129290,10312.0,Patch Adams (1998),Comedy|Drama,474,1.0,doctors,"(4.0, None)",False
+2553,54443,11773.0,Village of the Damned (1960),Horror|Sci-Fi|Thriller,474,3.5,evil children,"(4.0, None)",False
+2579,154506,11660.0,Following (1998),Crime|Mystery|Thriller,184,4.0,not linear,"(0, None)",False
+2579,154506,11660.0,Following (1998),Crime|Mystery|Thriller,184,4.0,Twist Ending,"(4.0, None)",False
+2628,120915,1893.0,Star Wars: Episode I - The Phantom Menace (1999),Action|Adventure|Sci-Fi,474,4.0,prequel,"(3.0, None)",False
+2628,120915,1893.0,Star Wars: Episode I - The Phantom Menace (1999),Action|Adventure|Sci-Fi,474,4.0,the Force,"(3.0, None)",False
+2640,78346,1924.0,Superman (1978),Action|Adventure|Sci-Fi,474,4.0,superhero,"(5.0, None)",False
+2694,142342,9032.0,Big Daddy (1999),Comedy,477,4.0,Adam Sandler,"(4.0, None)",False
+2700,158983,9473.0,"South Park: Bigger, Longer and Uncut (1999)",Animation|Comedy|Musical,424,5.0,adult humor,"(5.0, None)",False
+2700,158983,9473.0,"South Park: Bigger, Longer and Uncut (1999)",Animation|Comedy|Musical,424,5.0,controversial,"(5.0, None)",False
+2710,185937,2667.0,"Blair Witch Project, The (1999)",Drama|Horror|Thriller,474,4.0,claims to be true,"(4.0, None)",False
+2710,185937,2667.0,"Blair Witch Project, The (1999)",Drama|Horror|Thriller,474,4.0,video,"(4.0, None)",False
+2712,120663,345.0,Eyes Wide Shut (1999),Drama|Mystery|Thriller,474,4.0,sexuality,"(4.0, None)",False
+2716,87332,620.0,Ghostbusters (a.k.a. Ghost Busters) (1984),Action|Comedy|Sci-Fi,474,4.5,ghosts,"(4.0, None)",False
+2728,54331,967.0,Spartacus (1960),Action|Drama|Romance|War,474,4.0,Rome,"(4.0, None)",False
+2728,54331,967.0,Spartacus (1960),Action|Drama|Romance|War,474,4.0,slavery,"(4.0, None)",False
+2731,53198,147.0,"400 Blows, The (Les quatre cents coups) (1959)",Crime|Drama,567,3.5,emotional,"(4.0, None)",False
+2731,53198,147.0,"400 Blows, The (Les quatre cents coups) (1959)",Crime|Drama,567,3.5,gentle,"(4.0, None)",False
+2731,53198,147.0,"400 Blows, The (Les quatre cents coups) (1959)",Crime|Drama,567,3.5,heartwarming,"(4.0, None)",False
+2750,93818,30890.0,Radio Days (1987),Comedy|Drama,474,3.5,radio,"(4.0, None)",False
+2761,129167,10386.0,"Iron Giant, The (1999)",Adventure|Animation|Children|Drama|Sci-Fi,474,4.0,robots,"(5.0, None)",False
+2761,129167,10386.0,"Iron Giant, The (1999)",Adventure|Animation|Children|Drama|Sci-Fi,477,4.0,animation,"(5.0, None)",False
+2787,88889,10552.0,Cat's Eye (1985),Horror,474,2.0,Stephen King,"(4.0, None)",False
+2791,80339,813.0,Airplane! (1980),Comedy,474,4.0,aviation,"(4.0, None)",False
+2791,80339,813.0,Airplane! (1980),Comedy,474,4.0,spoof,"(4.0, None)",False
+2863,58182,704.0,"Hard Day's Night, A (1964)",Adventure|Comedy|Musical,474,4.0,Beatles,"(4.0, None)",False
+2871,68473,10669.0,Deliverance (1972),Adventure|Drama|Thriller,474,4.0,river,"(4.0, None)",False
+2872,82348,11527.0,Excalibur (1981),Adventure|Fantasy,474,4.0,England,"(3.0, None)",False
+2872,82348,11527.0,Excalibur (1981),Adventure|Fantasy,474,4.0,King Arthur,"(3.0, None)",False
+2915,86200,9346.0,Risky Business (1983),Comedy,474,2.0,prostitution,"(4.0, None)",False
+2935,33804,3086.0,"Lady Eve, The (1941)",Comedy|Romance,474,4.0,gambling,"(4.0, None)",False
+2937,35169,32255.0,"Palm Beach Story, The (1942)",Comedy,474,4.5,screwball,"(4.0, None)",False
+2940,38559,3767.0,Gilda (1946),Drama|Film-Noir|Mystery|Romance,474,4.0,nightclub,"(4.0, None)",False
+2941,52225,17352.0,South Pacific (1958),Musical|Romance|War,474,4.0,island,"(4.0, None)",False
+2943,104507,2731.0,Indochine (1992),Drama|Romance,474,3.5,Vietnam,"(3.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,dark comedy,"(5.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,psychology,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,thought-provoking,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,424,4.5,twist ending,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,474,4.0,violence,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,Chuck Palahniuk,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,classic,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,clever,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,complicated,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,consumerism,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,Edward Norton,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,fighting,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,great acting,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,helena bonham carter,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,narrated,"(5.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,Nudity (Topless),"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,Palahnuik,"(5.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,philosophical,"(5.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,philosophy,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,satirical,"(5.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,schizophrenia,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,social commentary,"(5.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,societal criticism,"(5.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,violence,"(4.0, None)",False
+2959,137523,550.0,Fight Club (1999),Action|Crime|Drama|Thriller,599,5.0,violent,"(4.0, None)",False
+2966,166896,404.0,"Straight Story, The (1999)",Adventure|Drama,474,4.0,brothers,"(4.0, None)",False
+2966,166896,404.0,"Straight Story, The (1999)",Adventure|Drama,474,4.0,lawn mower,"(4.0, None)",False
+3000,119698,128.0,Princess Mononoke (Mononoke-hime) (1997),Action|Adventure|Animation|Drama|Fantasy,477,5.0,atmospheric,"(5.0, None)",False
+3000,119698,128.0,Princess Mononoke (Mononoke-hime) (1997),Action|Adventure|Animation|Drama|Fantasy,477,5.0,fantasy world,"(4.0, None)",False
+3000,119698,128.0,Princess Mononoke (Mononoke-hime) (1997),Action|Adventure|Animation|Drama|Fantasy,477,5.0,Studio Ghibli,"(5.0, None)",False
+3000,119698,128.0,Princess Mononoke (Mononoke-hime) (1997),Action|Adventure|Animation|Drama|Fantasy,477,5.0,surreal,"(4.0, None)",False
+3006,140352,9008.0,"Insider, The (1999)",Drama|Thriller,474,4.0,tobacco,"(4.0, None)",False
+3044,101669,11498.0,Dead Again (1991),Mystery|Romance|Thriller,474,5.0,memory,"(4.0, None)",False
+3044,101669,11498.0,Dead Again (1991),Mystery|Romance|Thriller,474,5.0,music,"(3.0, None)",False
+3081,162661,2668.0,Sleepy Hollow (1999),Fantasy|Horror|Mystery|Romance,474,2.0,Ichabod Crane,"(4.0, None)",False
+3087,96061,9647.0,Scrooged (1988),Comedy|Fantasy|Romance,474,1.5,christmas,"(4.0, None)",False
+3087,96061,9647.0,Scrooged (1988),Comedy|Fantasy|Romance,474,1.5,new york,"(4.0, None)",False
+3095,32551,596.0,"Grapes of Wrath, The (1940)",Drama,474,4.5,depression,"(4.0, None)",False
+3095,32551,596.0,"Grapes of Wrath, The (1940)",Drama,474,4.5,dust bowl,"(4.0, None)",False
+3108,101889,177.0,"Fisher King, The (1991)",Comedy|Drama|Fantasy|Romance,474,2.5,homeless,"(4.0, None)",False
+3111,87921,13681.0,Places in the Heart (1984),Drama,474,4.0,racism,"(4.0, None)",False
+3114,120363,863.0,Toy Story 2 (1999),Adventure|Animation|Children|Comedy|Fantasy,62,3.0,animation,"(5.0, None)",False
+3114,120363,863.0,Toy Story 2 (1999),Adventure|Animation|Children|Comedy|Fantasy,62,3.0,Disney,"(4.0, None)",False
+3114,120363,863.0,Toy Story 2 (1999),Adventure|Animation|Children|Comedy|Fantasy,62,3.0,funny,"(5.0, None)",False
+3114,120363,863.0,Toy Story 2 (1999),Adventure|Animation|Children|Comedy|Fantasy,62,3.0,original,"(5.0, None)",False
+3115,155711,31582.0,Flawless (1999),Drama,474,4.0,men in drag,"(0, None)",False
+3125,172396,20024.0,"End of the Affair, The (1999)",Drama,474,4.0,Graham Greene,"(4.0, None)",False
+3134,28950,777.0,Grand Illusion (La grande illusion) (1937),Drama|War,567,3.0,downbeat,"(4.0, None)",False
+3134,28950,777.0,Grand Illusion (La grande illusion) (1937),Drama|War,567,3.0,poignant,"(4.0, None)",False
+3135,79239,21887.0,"Great Santini, The (1979)",Drama,474,4.0,fatherhood,"(4.0, None)",False
+3147,120689,497.0,"Green Mile, The (1999)",Crime|Drama,474,4.0,Stephen King,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,based on a book,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,creepy,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,disturbing,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,Jude Law,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,murder,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,obsession,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,424,5.0,suspense,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,474,5.0,Europe,"(4.0, None)",False
+3176,134119,1213.0,"Talented Mr. Ripley, The (1999)",Drama|Mystery|Thriller,474,5.0,murder,"(4.0, None)",False
+3178,174856,10400.0,"Hurricane, The (1999)",Drama,474,2.0,boxing,"(4.0, None)",False
+3181,120866,12524.0,Titus (1999),Drama,474,4.5,Shakespeare,"(0, None)",False
+3186,172493,3558.0,"Girl, Interrupted (1999)",Drama,424,3.5,asylum,"(4.0, None)",False
+3186,172493,3558.0,"Girl, Interrupted (1999)",Drama,424,3.5,based on a true story,"(4.0, None)",False
+3270,104040,16562.0,"Cutting Edge, The (1992)",Comedy|Drama|Romance,474,2.5,figure skating,"(4.0, None)",False
+3273,134084,4234.0,Scream 3 (2000),Comedy|Horror|Mystery|Thriller,474,4.0,slasher,"(4.0, None)",False
+3307,21749,901.0,City Lights (1931),Comedy|Drama|Romance,474,4.5,blind,"(4.0, None)",False
+3310,12349,10098.0,"Kid, The (1921)",Comedy|Drama,474,4.0,orphans,"(4.0, None)",False
+3317,185014,11004.0,Wonder Boys (2000),Comedy|Drama,474,4.0,writing,"(4.0, None)",False
+3330,55471,28569.0,Splendor in the Grass (1961),Drama|Romance,474,4.0,adolescence,"(4.0, None)",False
+3330,55471,28569.0,Splendor in the Grass (1961),Drama|Romance,474,4.0,sexuality,"(4.0, None)",False
+3341,42276,24481.0,Born Yesterday (1950),Comedy,474,4.0,remade,"(4.0, None)",False
+3386,102138,820.0,JFK (1991),Drama|Mystery|Thriller,474,4.0,president,"(4.0, None)",False
+3408,195685,462.0,Erin Brockovich (2000),Drama,474,4.0,scandal,"(4.0, None)",False
+3408,195685,462.0,Erin Brockovich (2000),Drama,474,4.0,true story,"(4.0, None)",False
+3420,78718,17443.0,...And Justice for All (1979),Drama|Thriller,474,2.5,lawyers,"(4.0, None)",False
+3421,77975,8469.0,Animal House (1978),Comedy,474,2.0,college,"(4.0, None)",False
+3421,77975,8469.0,Animal House (1978),Comedy,474,2.0,TOGA,"(4.0, None)",False
+3447,28944,36652.0,"Good Earth, The (1937)",Drama,474,4.0,Pearl S Buck,"(4.0, None)",False
+3451,61735,1879.0,Guess Who's Coming to Dinner (1967),Drama,474,4.5,Hepburn and Tracy,"(4.0, None)",False
+3451,61735,1879.0,Guess Who's Coming to Dinner (1967),Drama,474,4.5,interracial marriage,"(4.0, None)",False
+3451,61735,1879.0,Guess Who's Coming to Dinner (1967),Drama,474,4.5,prejudice,"(4.0, None)",False
+3451,61735,1879.0,Guess Who's Coming to Dinner (1967),Drama,474,4.5,racism,"(4.0, None)",False
+3461,57261,9960.0,Lord of the Flies (1963),Adventure|Drama|Thriller,474,4.0,island,"(4.0, None)",False
+3469,53946,1908.0,Inherit the Wind (1960),Drama,474,2.5,religion,"(4.0, None)",False
+3475,43924,25673.0,"Place in the Sun, A (1951)",Drama|Romance,474,4.0,class,"(4.0, None)",False
+3481,146882,243.0,High Fidelity (2000),Comedy|Drama|Romance,474,5.0,Nick Hornby,"(4.0, None)",False
+3489,102057,879.0,Hook (1991),Adventure|Comedy|Fantasy,474,4.0,Peter Pan,"(4.0, None)",False
+3498,77928,11327.0,Midnight Express (1978),Drama,474,4.0,In Netflix queue,"(4.0, None)",False
+3499,100157,1700.0,Misery (1990),Drama|Horror|Thriller,424,3.5,stephen king,"(4.0, None)",False
+3499,100157,1700.0,Misery (1990),Drama|Horror|Thriller,424,3.5,suspenseful,"(4.0, None)",False
+3499,100157,1700.0,Misery (1990),Drama|Horror|Thriller,424,3.5,tense,"(4.0, None)",False
+3499,100157,1700.0,Misery (1990),Drama|Horror|Thriller,424,3.5,thriller,"(4.0, None)",False
+3504,74958,10774.0,Network (1976),Comedy|Drama,474,4.0,journalism,"(4.0, None)",False
+3512,122459,2621.0,Return to Me (2000),Drama|Romance,474,4.5,transplants,"(4.0, None)",False
+3527,93773,106.0,Predator (1987),Action|Sci-Fi|Thriller,477,4.0,dialogue,"(None, ""Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"")",False
+3527,93773,106.0,Predator (1987),Action|Sci-Fi|Thriller,477,4.0,guns,"(4.0, None)",False
+3527,93773,106.0,Predator (1987),Action|Sci-Fi|Thriller,477,4.0,Jesse Ventura,"(4.0, None)",False
+3527,93773,106.0,Predator (1987),Action|Sci-Fi|Thriller,477,4.0,macho,"(4.0, None)",False
+3527,93773,106.0,Predator (1987),Action|Sci-Fi|Thriller,477,4.0,sci-fi,"(4.0, None)",False
+3527,93773,106.0,Predator (1987),Action|Sci-Fi|Thriller,477,4.0,scifi cult,"(4.0, None)",False
+3546,56687,10242.0,What Ever Happened to Baby Jane? (1962),Drama|Horror|Thriller,474,4.0,show business,"(None, ""Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"")",False
+3548,51383,16347.0,Auntie Mame (1958),Comedy|Drama,474,4.5,1920s,"(5.0, None)",False
+3549,48140,4825.0,Guys and Dolls (1955),Comedy|Musical|Romance,474,5.0,Gambling,"(4.0, None)",False
+3552,80487,11977.0,Caddyshack (1980),Comedy,474,2.0,golf,"(4.0, None)",False
+3556,159097,1443.0,"Virgin Suicides, The (1999)",Drama|Romance,474,4.0,1970s,"(4.0, None)",False
+3566,189584,15723.0,"Big Kahuna, The (2000)",Comedy|Drama,474,4.5,business,"(3.0, None)",False
+3578,172495,98.0,Gladiator (2000),Action|Adventure|Drama,62,4.5,imdb top 250,"(5.0, None)",False
+3578,172495,98.0,Gladiator (2000),Action|Adventure|Drama,62,4.5,revenge,"(5.0, None)",False
+3578,172495,98.0,Gladiator (2000),Action|Adventure|Drama,62,4.5,Rome,"(5.0, None)",False
+3578,172495,98.0,Gladiator (2000),Action|Adventure|Drama,62,4.5,Russell Crowe,"(5.0, None)",False
+3608,89791,5683.0,Pee-wee's Big Adventure (1985),Adventure|Comedy,474,4.0,Pee Wee Herman,"(4.0, None)",False
+3671,71230,11072.0,Blazing Saddles (1974),Comedy|Western,567,4.5,silly,"(None, ""Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"")",False
+3675,47673,13368.0,White Christmas (1954),Comedy|Musical|Romance,474,4.5,Christmas,"(4.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,art house,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,Atmospheric,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,creepy,"(4.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,cryptic,"(4.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,dark,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,enigmatic,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,fucked up,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,gruesome,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,hallucinatory,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,Insane,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,paranoid,"(3.0, None)",False
+3676,74486,985.0,Eraserhead (1977),Drama|Horror,567,5.0,surreal,"(3.0, None)",False
+3723,99726,10264.0,Hamlet (1990),Drama,474,4.0,Shakespeare,"(4.0, None)",False
+3724,77362,31657.0,Coming Home (1978),Drama|War,474,3.5,Vietnam,"(4.0, None)",False
+3730,71360,592.0,"Conversation, The (1974)",Drama|Mystery,474,4.0,spying,"(4.0, None)",False
+3735,70666,9040.0,Serpico (1973),Crime|Drama,474,4.0,police,"(4.0, None)",False
+3793,120903,36657.0,X-Men (2000),Action|Adventure|Sci-Fi,184,3.5,action,"(4.0, None)",False
+3793,120903,36657.0,X-Men (2000),Action|Adventure|Sci-Fi,184,3.5,comic book,"(4.0, None)",False
+3793,120903,36657.0,X-Men (2000),Action|Adventure|Sci-Fi,184,3.5,hugh jackman,"(4.0, None)",False
+3793,120903,36657.0,X-Men (2000),Action|Adventure|Sci-Fi,474,4.5,superhero,"(4.0, None)",False
+3801,52561,93.0,Anatomy of a Murder (1959),Drama|Mystery,474,4.0,court,"(4.0, None)",False
+3811,80310,13783.0,Breaker Morant (1980),Drama|War,474,4.0,court,"(4.0, None)",False
+3816,89276,29263.0,"Official Story, The (La historia oficial) (1985)",Drama,474,4.0,missing children,"(4.0, None)",False
+3844,98384,10860.0,Steel Magnolias (1989),Drama,474,2.5,diabetes,"(4.0, None)",False
+3849,38975,27452.0,The Spiral Staircase (1945),Horror|Mystery|Thriller,474,4.0,disability,"(4.0, None)",False
+3859,233687,15665.0,"Eyes of Tammy Faye, The (2000)",Documentary,474,4.0,In Netflix queue,"(4.0, None)",False
+3859,233687,15665.0,"Eyes of Tammy Faye, The (2000)",Documentary,474,4.0,televangelist,"(4.0, None)",False
+3897,181875,786.0,Almost Famous (2000),Drama,474,4.5,journalism,"(None, ""Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"")",False
+3897,181875,786.0,Almost Famous (2000),Drama,474,4.5,music,"(4.0, None)",False
+3897,181875,786.0,Almost Famous (2000),Drama,474,4.5,Rolling Stone,"(5.0, None)",False
+3910,168629,16.0,Dancer in the Dark (2000),Drama|Musical,474,4.0,blindness,"(4.0, None)",False
+3910,168629,16.0,Dancer in the Dark (2000),Drama|Musical,474,4.0,factory,"(4.0, None)",False
+3911,218839,13785.0,Best in Show (2000),Comedy,424,3.5,satire,"(4.0, None)",False
+3911,218839,13785.0,Best in Show (2000),Comedy,474,4.5,Dogs,"(4.0, None)",False
+3948,212338,1597.0,Meet the Parents (2000),Comedy,424,4.5,Robert De Niro,"(4.0, None)",False
+3949,180093,641.0,Requiem for a Dream (2000),Drama,474,4.0,drug abuse,"(4.0, None)",False
+3983,203230,14295.0,You Can Count on Me (2000),Drama|Romance,474,4.5,family,"(4.0, None)",False
+3988,170016,8871.0,How the Grinch Stole Christmas (a.k.a. The Grinch) (2000),Children|Comedy|Fantasy,474,1.0,Dr. Seuss,"(4.0, None)",False
+3994,217869,9741.0,Unbreakable (2000),Drama|Sci-Fi,474,4.5,superhero,"(4.0, None)",False
+3994,217869,9741.0,Unbreakable (2000),Drama|Sci-Fi,477,5.0,atmospheric,"(4.0, None)",False
+3994,217869,9741.0,Unbreakable (2000),Drama|Sci-Fi,477,5.0,comics,"(4.0, None)",False
+3994,217869,9741.0,Unbreakable (2000),Drama|Sci-Fi,477,5.0,father-son relationship,"(4.0, None)",False
+3994,217869,9741.0,Unbreakable (2000),Drama|Sci-Fi,477,5.0,unique,"(4.0, None)",False
+3994,217869,9741.0,Unbreakable (2000),Drama|Sci-Fi,567,4.0,atmospheric,"(4.0, None)",False
+3994,217869,9741.0,Unbreakable (2000),Drama|Sci-Fi,567,4.0,somber,"(4.0, None)",False
+3996,190332,146.0,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",Action|Drama|Romance,474,4.0,china,"(4.0, None)",False
+3996,190332,146.0,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",Action|Drama|Romance,474,4.0,martial arts,"(4.0, None)",False
+4007,94291,10673.0,Wall Street (1987),Drama,474,4.0,business,"(4.0, None)",False
+4012,95927,40820.0,Punchline (1988),Comedy|Drama,474,2.0,stand-up comedy,"(4.0, None)",False
+4019,181536,711.0,Finding Forrester (2000),Drama,474,4.0,writing,"(4.0, None)",False
+4024,200720,25520.0,"House of Mirth, The (2000)",Romance,474,2.5,Edith Wharton,"(4.0, None)",False
+4027,190590,134.0,"O Brother, Where Art Thou? (2000)",Adventure|Comedy|Crime,474,4.0,bluegrass,"(None, ""Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"")",False
+4029,120202,21991.0,State and Main (2000),Comedy|Drama,474,4.5,movies,"(4.0, None)",False
+4034,181865,1900.0,Traffic (2000),Crime|Drama|Thriller,474,4.5,based on a TV show,"(0, None)",False
+4046,49233,43258.0,Friendly Persuasion (1956),Drama,474,4.0,Quakers,"(4.0, None)",False
+4077,216800,47943.0,"With a Friend Like Harry... (Harry, un ami qui vous veut du bien) (2000)",Drama|Thriller,474,4.0,psychopaths,"(4.0, None)",False
+4105,83907,764.0,"Evil Dead, The (1981)",Fantasy|Horror|Thriller,474,2.0,zombies,"(5.0, None)",False
+4113,93093,52780.0,"Glass Menagerie, The (1987)",Drama,474,4.0,Tennessee Williams,"(3.0, None)",False
+4138,93589,51521.0,My Demon Lover (1987),Comedy|Horror,474,1.0,demons,"(3.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,atmospheric,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,Beautiful,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,bittersweet,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,dreamy,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,elegant,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,heartbreaking,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,intimate,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,loneliness,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,long takes,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,longing,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,nocturnal,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,romantic,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,Unique,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,visually appealing,"(4.0, None)",False
+4144,118694,843.0,In the Mood For Love (Fa yeung nin wa) (2000),Drama|Romance,567,4.5,visually stunning,"(4.0, None)",False
+4160,191636,48217.0,"Widow of St. Pierre, The (Veuve de Saint-Pierre, La) (2000)",Drama|Romance,474,4.5,death penalty,"(4.0, None)",False
+4164,182000,25208.0,"Caveman's Valentine, The (2001)",Drama,474,4.0,homeless,"(4.0, None)",False
+4189,59245,2428.0,"Greatest Story Ever Told, The (1965)",Drama,474,2.5,religion,"(4.0, None)",False
+4190,53793,22013.0,Elmer Gantry (1960),Drama,474,4.0,preacher,"(4.0, None)",False
+4190,53793,22013.0,Elmer Gantry (1960),Drama,474,4.0,religion,"(4.0, None)",False
+4191,60086,15598.0,Alfie (1966),Comedy|Drama|Romance,474,4.0,sexuality,"(3.0, None)",False
+4204,85868,33676.0,Losin' It (1983),Comedy,474,1.0,virginity,"(3.0, None)",False
+4221,102517,20704.0,Necessary Roughness (1991),Comedy,474,2.0,football,"(None, ""Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"")",False
+4223,215750,853.0,Enemy at the Gates (2001),Drama|War,62,4.5,Ed Harris,"(4.0, None)",False
+4223,215750,853.0,Enemy at the Gates (2001),Drama|War,62,4.5,Jude Law,"(4.0, None)",False
+4223,215750,853.0,Enemy at the Gates (2001),Drama|War,62,4.5,Rachel Weisz,"(4.0, None)",False
+4223,215750,853.0,Enemy at the Gates (2001),Drama|War,62,4.5,sniper,"(4.0, None)",False
+4226,209144,77.0,Memento (2000),Mystery|Thriller,424,4.5,mystery,"(4.0, None)",False
+4226,209144,77.0,Memento (2000),Mystery|Thriller,424,4.5,psychological,"(4.0, None)",False
+4226,209144,77.0,Memento (2000),Mystery|Thriller,424,4.5,twist ending,"(4.0, None)",False
+4226,209144,77.0,Memento (2000),Mystery|Thriller,474,5.0,Backwards. memory,"(4.0, None)",False
+4259,211492,52654.0,"Luzhin Defence, The (2000)",Drama|Romance,474,4.0,Nabokov,"(None, ""Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"")",False
+4262,86250,111.0,Scarface (1983),Action|Crime|Drama,424,3.5,Al Pacino,"(4.0, None)",False
+4263,55895,32488.0,Days of Wine and Roses (1962),Drama,474,4.0,alcoholism,"(4.0, None)",False
+4292,79638,40842.0,Norma Rae (1979),Drama,474,4.0,Union,"(4.0, None)",False
+4333,94142,11896.0,Throw Momma from the Train (1987),Comedy|Crime,474,4.0,Strangers on a Train,"(4.0, None)",False
+4347,234288,29937.0,Divided We Fall (Musíme si pomáhat) (2000),Comedy|Drama,474,4.0,Holocaust,"(4.0, None)",False
+4356,45810,759.0,Gentlemen Prefer Blondes (1953),Comedy|Musical|Romance,474,3.0,In Netflix queue,"(5.0, None)",False
+4359,48605,10653.0,"Seven Year Itch, The (1955)",Comedy,474,4.0,adultery,"(4.0, None)",False
+4361,84805,9576.0,Tootsie (1982),Comedy|Romance,474,4.0,men in drag,"(4.0, None)",False
+4380,203632,9301.0,"Princess and the Warrior, The (Krieger und die Kaiserin, Der) (2000)",Drama|Romance,474,4.0,accident,"(None, ""Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"")",False
+4396,82136,11286.0,"Cannonball Run, The (1981)",Action|Comedy,474,1.0,race,"(4.0, None)",False
+4447,250494,8835.0,Legally Blonde (2001),Comedy|Romance,474,4.0,lawyers,"(4.0, None)",False
+4448,227445,11371.0,"Score, The (2001)",Action|Drama,474,4.0,heist,"(4.0, None)",False
+4454,188913,36107.0,More (1998),Animation|Drama|Sci-Fi|IMAX,477,5.0,claymation,"(0, None)",False
+4454,188913,36107.0,More (1998),Animation|Drama|Sci-Fi|IMAX,477,5.0,no dialogue,"(4.0, None)",False
+4454,188913,36107.0,More (1998),Animation|Drama|Sci-Fi|IMAX,477,5.0,social commentary,"(4.0, None)",False
+4465,94608,10868.0,"Accused, The (1988)",Drama,474,4.0,rape,"(4.0, None)",False
+4476,94739,12710.0,Big Business (1988),Comedy,474,2.0,twins,"(4.0, None)",False
+4477,94744,30502.0,Big Top Pee-Wee (1988),Adventure|Children|Comedy,474,1.0,circus,"(4.0, None)",False
+4489,94898,9602.0,Coming to America (1988),Comedy|Romance,474,2.0,Africa,"(4.0, None)",False
+4545,91949,2605.0,Short Circuit (1986),Comedy|Sci-Fi,474,2.0,robots,"(0, None)",False
+4546,96163,8740.0,"Vanishing, The (Spoorloos) (1988)",Drama|Thriller,474,4.0,kidnapping,"(4.0, None)",False
+4546,96163,8740.0,"Vanishing, The (Spoorloos) (1988)",Drama|Thriller,474,4.0,remade,"(4.0, None)",False
+4552,96251,41428.0,"Tetsuo, the Ironman (Tetsuo) (1988)",Action|Horror|Sci-Fi|Thriller,567,3.5,"""artsy""","(4.0, None)",False
+4552,96251,41428.0,"Tetsuo, the Ironman (Tetsuo) (1988)",Action|Horror|Sci-Fi|Thriller,567,3.5,atmospheric,"(4.0, None)",False
+4552,96251,41428.0,"Tetsuo, the Ironman (Tetsuo) (1988)",Action|Horror|Sci-Fi|Thriller,567,3.5,gritty,"(4.0, None)",False
+4600,97458,17190.0,Gross Anatomy (a.k.a. A Cut Above) (1989),Comedy|Drama,474,2.5,doctors,"(4.0, None)",False
+4612,97635,4486.0,Jesus of Montreal (Jésus de Montréal) (1989),Drama,318,4.5,reciprocal spectator,"(4.0, None)",False
+4621,97778,9494.0,Look Who's Talking (1989),Comedy|Romance,474,2.0,babies,"(4.0, None)",False
+4623,97815,9942.0,Major League (1989),Comedy,474,2.0,baseball,"(4.0, None)",False
+4638,163025,331.0,Jurassic Park III (2001),Action|Adventure|Sci-Fi|Thriller,474,2.0,dinosaurs,"(3.0, None)",False
+4678,98546,11959.0,UHF (1989),Comedy,474,4.0,television,"(4.0, None)",False
+4708,60668,44258.0,Marat/Sade (1966),Drama|Musical,318,5.0,reciprocal spectator,"(4.0, None)",False
+4725,261983,10972.0,Session 9 (2001),Horror|Thriller,477,4.0,mental hospital,"(4.0, None)",False
+4725,261983,10972.0,Session 9 (2001),Horror|Thriller,477,4.0,psychology,"(4.0, None)",False
+4725,261983,10972.0,Session 9 (2001),Horror|Thriller,477,4.0,suspense,"(4.0, None)",False
+4725,261983,10972.0,Session 9 (2001),Horror|Thriller,477,4.0,Well Done,"(3.0, None)",False
+4812,91993,13766.0,SpaceCamp (1986),Adventure|Sci-Fi,474,2.0,NASA,"(4.0, None)",False
+4812,91993,13766.0,SpaceCamp (1986),Adventure|Sci-Fi,474,2.0,space,"(4.0, None)",False
+4816,196229,9398.0,Zoolander (2001),Comedy,424,3.0,ben stiller,"(4.0, None)",False
+4816,196229,9398.0,Zoolander (2001),Comedy,424,3.0,comedy,"(4.0, None)",False
+4816,196229,9398.0,Zoolander (2001),Comedy,424,3.0,David Bowie,"(4.0, None)",False
+4857,67093,14811.0,Fiddler on the Roof (1971),Drama|Musical,474,4.0,Judaism,"(4.0, None)",False
+4857,67093,14811.0,Fiddler on the Roof (1971),Drama|Musical,474,4.0,Tradition!,"(5.0, None)",False
+4874,272152,167.0,K-PAX (2001),Drama|Fantasy|Mystery|Sci-Fi,474,2.5,aliens,"(4.0, None)",False
+4874,272152,167.0,K-PAX (2001),Drama|Fantasy|Mystery|Sci-Fi,474,2.5,psychiatrist,"(4.0, None)",False
+4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,474,4.5,time travel,"(4.0, None)",False
+4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,477,5.0,dreamlike,"(4.0, None)",False
+4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,477,5.0,hallucinatory,"(4.0, None)",False
+4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,477,5.0,mental illness,"(4.0, None)",False
+4878,246578,141.0,Donnie Darko (2001),Drama|Mystery|Sci-Fi|Thriller,477,5.0,teen,"(4.0, None)",False
+5349,145487,557.0,Spider-Man (2002),Action|Adventure|Sci-Fi|Thriller,474,4.5,superhero,"(4.0, None)",False
+6564,325703,1996.0,Lara Croft Tomb Raider: The Cradle of Life (2003),Action|Adventure|Comedy|Romance|Thriller,62,3.5,Angelina Jolie,"(4.0, None)",False
+6620,305206,2771.0,American Splendor (2003),Comedy|Drama,474,4.5,cancer,"(4.0, None)",False
+39234,395972,9701.0,North Country (2005),Drama,474,4.0,In Netflix queue,"(4.0, None)",False
+40815,330373,674.0,Harry Potter and the Goblet of Fire (2005),Adventure|Fantasy|Thriller|IMAX,474,5.0,Magic,"(5.0, None)",False
+45499,376994,36668.0,X-Men: The Last Stand (2006),Action|Sci-Fi|Thriller,477,3.5,Halle Berry,"(3.0, None)",False
+45880,422720,1887.0,Marie Antoinette (2006),Drama|Romance,567,3.0,lyrical,"(4.0, None)",False
+56782,469494,7345.0,There Will Be Blood (2007),Drama|Western,567,5.0,long shots,"(4.0, None)",False
+57669,780536,8321.0,In Bruges (2008),Comedy|Crime|Drama|Thriller,477,5.0,drugs,"(4.0, None)",False
+59501,499448,2454.0,"Chronicles of Narnia: Prince Caspian, The (2008)",Adventure|Children|Fantasy,62,4.0,narnia,"(4.0, None)",False
+60126,425061,11665.0,Get Smart (2008),Action|Comedy,62,3.0,Steve Carell,"(4.0, None)",False
+61024,910936,10189.0,Pineapple Express (2008),Action|Comedy|Crime,62,4.0,comedy,"(4.0, None)",False
+61323,887883,4944.0,Burn After Reading (2008),Comedy|Crime|Drama,477,4.5,George Clooney,"(4.0, None)",False
+66097,327597,14836.0,Coraline (2009),Animation|Fantasy|Thriller,424,4.5,creepy,"(4.0, None)",False
+68319,458525,2080.0,X-Men Origins: Wolverine (2009),Action|Sci-Fi|Thriller,477,3.5,too many characters,"(3.0, None)",False
+116797,2084970,205596.0,The Imitation Game (2014),Drama|Thriller|War,567,3.0,inspirational,"(4.0, None)",False
+148881,4171032,303867.0,World of Tomorrow (2015),Animation|Comedy,567,5.0,surreal,"(4.0, None)",False
