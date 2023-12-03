@@ -182,11 +182,14 @@ def predict_ratings_few_shot_and_save(data,
 
 
 
-def predict_ratings_with_collaborative_filtering_and_save(data, interaction_matrix, user_mapper, item_mapper, user_inv_mapper, model_knn,
-                                                          columns_for_training, columns_for_prediction,
-                                                          title_column_name='title', user_column_name='reviewerID',
+def predict_ratings_with_collaborative_filtering_and_save(data, interaction_matrix, user_mapper, item_mapper, user_inv_mapper, 
+                                                          model_knn, columns_for_training, columns_for_prediction,
+                                                          title_column_name='title', 
+                                                          user_column_name='reviewerID',
                                                           asin_column_name='asin',
-                                                          obs_per_user=None, pause_every_n_users=5, sleep_time=5,
+                                                          obs_per_user=None, 
+                                                          pause_every_n_users=5, 
+                                                          sleep_time=5,
                                                           save_path='collaborative_filtering_predictions.csv'):
     all_similar_users_ratings = get_all_similar_users_ratings(data, user_mapper, user_inv_mapper, model_knn, interaction_matrix, title_column_name)
     results = []

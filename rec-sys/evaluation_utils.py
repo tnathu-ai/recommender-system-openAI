@@ -31,50 +31,6 @@ def calculate_rmse_and_mae(actual_ratings, predicted_ratings):
 
     return rmse, mae
 
-def evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_column, predicted_ratings_column):
-    """
-    Evaluate model predictions with RMSE and MAE, and display a few prediction results.
-
-    Parameters:
-    - data_path (str): Path to the CSV file containing the model's predictions.
-    - num_examples (int): Number of examples to show for debugging purposes.
-    - actual_ratings_column (str): Name of the column in the CSV file containing actual ratings.
-    - predicted_ratings_column (str): Name of the column in the CSV file containing predicted ratings.
-    """
-    # Read the data from the CSV file
-    data = pd.read_csv(data_path)
-
-    # Process predicted ratings to extract valid numerical values
-    data[predicted_ratings_column] = data[predicted_ratings_column].apply(lambda x: x if isinstance(x, float) else None)
-
-    # Extract the actual and predicted ratings
-    actual_ratings = data[actual_ratings_column].tolist()
-    predicted_ratings = data[predicted_ratings_column].tolist()
-
-    # Filter out invalid (None) predictions
-    filtered_ratings = [(actual, predicted) for actual, predicted in zip(actual_ratings, predicted_ratings) if predicted is not None]
-    
-    # Check if there are valid predictions for evaluation
-    if not filtered_ratings:
-        print("No valid predictions available for evaluation.")
-        return
-
-    # Unpack the filtered actual and predicted ratings
-    actual_filtered, predicted_filtered = zip(*filtered_ratings)
-
-    # Calculate RMSE and MAE using the custom function
-    rmse, mae = calculate_rmse_and_mae(actual_filtered, predicted_filtered)
-
-    # Output the evaluation results
-    print(f'RMSE: {rmse}')
-    print(f'MAE: {mae}')
-
-    # Display the first few actual vs. predicted ratings for debugging
-    print("\nFirst few actual vs predicted ratings:")
-    for actual, predicted in actual_vs_predicted[:num_examples]:
-        print(f"Actual: {actual}, Predicted: {predicted}")
-
-        
 
 def calculate_standard_error(values):
     """ Calculate the standard error of the mean (SEM) for a list of values. """
