@@ -202,46 +202,48 @@ Incorporate Embeddings: we can use GPT to generate embeddings for items based on
 # User-Based Collaborative Filtering Recommender System
 
 ## Overview
-User-Based Collaborative Filtering is a technique used in recommender systems to predict the interests of a user by collecting preferences or taste information from many users. The underlying assumption of the user-based collaborative filtering approach is that if a user A has the same opinion as a user B on an issue, A is more likely to have B's opinion on a different issue than that of a random user.
+User-Based Collaborative Filtering with item feature vectors is an advanced technique in recommender systems. It not only considers the ratings given by users to items but also incorporates additional features of the items to enhance the recommendation process.
 
-## User-Item Rating Matrix
-In user-based collaborative filtering, we work with a user-item rating matrix where each entry in the matrix represents the rating given by a user to an item. Let's denote this matrix as \( R \).
+## User-Item Rating Matrix with Item Features
+In this approach, we extend the user-item rating matrix to include a feature vector for each item. Let's denote the extended matrix as \( R \) and the feature vector for item \( i \) as \( \mathbf{f}_i \).
 
 ### Matrix Representation
-The matrix \( R \) is represented as follows, where \( r_{ij} \) is the rating given by user \( j \) to item \( i \):
+The matrix \( R \) is represented as follows, where \( r_{ij} \) is the rating given by user \( j \) to item \( i \), and \( \mathbf{f}_i \) is the feature vector of item \( i \):
 
 $$
 R = 
 \begin{pmatrix}
-r_{11} & r_{12} & \cdots & r_{1n} \\
-r_{21} & r_{22} & \cdots & r_{2n} \\
-\vdots & \vdots & \ddots & \vdots \\
-r_{m1} & r_{m2} & \cdots & r_{mn}
+r_{11} & r_{12} & \cdots & r_{1n} & \mathbf{f}_1 \\
+r_{21} & r_{22} & \cdots & r_{2n} & \mathbf{f}_2 \\
+\vdots & \vdots & \ddots & \vdots & \vdots \\
+r_{m1} & r_{m2} & \cdots & r_{mn} & \mathbf{f}_m
 \end{pmatrix}
 $$
 
-- \( m \) represents the total number of items.
-- \( n \) represents the total number of users.
-- \( r_{ij} \) is the rating of the \( i \)-th item by the \( j \)-th user.
+- m represents the total number of items.
+- n represents the total number of users.
+- r_ij is the rating of the i-th item by the j-th user.
+- f_i represents the feature vector of the i-th item.
 
-### Ratings
-- Ratings can be explicit (e.g., 1-5 star rating) or implicit (e.g., derived from user behavior).
-- Unrated items can be represented by 0, NaN, or another specific indicator.
+### Item Feature Vectors
+- Feature vectors f_i can include various attributes like title, category, price, etc.
+- The dimensionality and nature of these features can vary depending on the application.
 
 ## Methodology
-1. **Similarity Computation**: Compute the similarity between users based on their ratings. Common methods include Pearson correlation, cosine similarity, etc.
-2. **Neighborhood Selection**: Select a subset of users (neighbors) who are most similar to the active user.
-3. **Prediction Computation**: Predict the ratings of items not yet rated by the active user. This is usually done by aggregating the ratings of the neighbors, weighted by their similarity to the active user.
+1. **Feature Vector Integration**: Incorporate item features into the recommendation algorithm, enriching the user-item interactions with additional item information.
+2. **Similarity Computation**: Compute the similarity between users based on their ratings and item features.
+3. **Neighborhood Selection**: Select a subset of users (neighbors) who are most similar to the active user, considering both ratings and item features.
+4. **Prediction Computation**: Predict the ratings of items not yet rated by the active user, using both user similarity and item features.
 
 ## Applications
 - Movie Rating Prediction
 - E-commerce Amazon Beauty Rating Prediction
 
-## Limitations
-- Cold Start Problem: Difficulty in making recommendations for new users or items.
-- Scalability: Challenges in dealing with very large datasets.
-- Sparsity: The matrix may be sparse if many users rate only a few items.
 
+## Limitations
+- Complexity: Increased computational complexity due to additional item features.
+- Feature Selection: The need for effective selection and representation of item features.
+- Cold Start Problem: Difficulty in recommending new items with limited feature information.
 
 </p>
 </details>
