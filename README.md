@@ -210,6 +210,7 @@ In this approach, we extend the user-item rating matrix to include a feature vec
 ### Matrix Representation
 The matrix \( R \) is represented as follows, where \( r_{ij} \) is the rating given by user \( j \) to item \( i \), and \( \mathbf{f}_i \) is the feature vector of item \( i \):
 
+
 $$
 R = 
 \begin{pmatrix}
@@ -219,6 +220,7 @@ r_{21} & r_{22} & \cdots & r_{2n} & \mathbf{f}_2 \\
 r_{m1} & r_{m2} & \cdots & r_{mn} & \mathbf{f}_m
 \end{pmatrix}
 $$
+
 
 - m represents the total number of items.
 - n represents the total number of users.
