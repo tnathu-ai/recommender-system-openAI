@@ -1,0 +1,23 @@
+user_id,item_id,title,actual_rating,predicted_rating
+336,32587,Sin City (2005),4.0,3.5
+474,1367,101 Dalmatians (1996),2.0,3.0
+567,5673,Punch-Drunk Love (2002),3.5,4.0
+62,107348,Anchorman 2: The Legend Continues (2013),4.0,3.5
+424,2505,8MM (1999),3.5,3.0
+477,61323,Burn After Reading (2008),4.5,3.0
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.5
+193,260,Star Wars: Episode IV - A New Hope (1977),5.0,5.0
+166,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),4.5,5.0
+599,296,Pulp Fiction (1994),5.0,4.0
+18,431,Carlito's Way (1993),4.0,3.0
+537,99114,Django Unchained (2012),4.5,4.0
+318,82459,True Grit (2010),5.0,4.0
+573,836,Chain Reaction (1996),3.0,3.0
+327,3481,High Fidelity (2000),5.0,3.5
+606,6107,"Night of the Shooting Stars (Notte di San Lorenzo, La) (1982)",4.0,3.5
+125,58301,Funny Games U.S. (2007),5.0,3.0
+356,44889,Reefer Madness: The Movie Musical (2005),5.0,3.0
+184,5388,Insomnia (2002),3.5,3.5
+305,55721,Elite Squad (Tropa de Elite) (2007),5.0,4.0
+2,89774,Warrior (2011),5.0,4.0
+119,101142,"Croods, The (2013)",4.0,4.5
