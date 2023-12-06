@@ -95,9 +95,13 @@ def rerun_failed_predictions(data, failed_indices, prediction_function, save_pat
 
     # Re-run prediction on failed data
     failed_data = prediction_function(failed_data, **kwargs)
-
-    # Log data shape after prediction
-    print(f"Data shape after re-running predictions: {failed_data.shape}")
+    
+    if failed_data is not None:
+        print(f"Data shape after re-running predictions: {failed_data.shape}")
+        # Update the original dataframe with new predictions
+        data.loc[failed_indices] = failed_data
+    else:
+        print("Failed to update predictions. No data returned from prediction function.")
     
     # Update the original dataframe with new predictions
     data.loc[failed_indices] = failed_data

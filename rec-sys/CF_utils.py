@@ -8,22 +8,10 @@ from tenacity import retry, stop_after_attempt, wait_random_exponential
 import random
 
 
-def create_interaction_matrix(df, user_col, item_col, rating_col, threshold=0):
-    """
-    Create a user-item interaction matrix.
-
-    Args:
-        df (DataFrame): DataFrame containing user-item interactions.
-        user_col (str): Name of the user column.
-        item_col (str): Name of the item column.
-        rating_col (str): Name of the rating column.
-        threshold (float): Minimum rating to consider for interaction.
-
-    Returns:
-        tuple: A tuple containing the interaction matrix and mapper dictionaries.
-    """
+# Create interaction matrix with a lower threshold
+def create_interaction_matrix(df, user_col, item_col, rating_col, threshold=1):
     interactions = df.groupby([user_col, item_col])[rating_col].sum().unstack().reset_index().fillna(0).set_index(user_col)
-    interactions = interactions.applymap(lambda x: 1 if x > threshold else 0)
+    interactions = interactions.applymap(lambda x: 1 if x >= threshold else 0)
     
     user_mapper = dict(zip(np.unique(df[user_col]), list(range(df[user_col].nunique()))))
     item_mapper = dict(zip(np.unique(df[item_col]), list(range(df[item_col].nunique()))))
@@ -31,9 +19,9 @@ def create_interaction_matrix(df, user_col, item_col, rating_col, threshold=0):
     user_inv_mapper = dict(zip(list(range(df[user_col].nunique())), np.unique(df[user_col])))
     item_inv_mapper = dict(zip(list(range(df[item_col].nunique())), np.unique(df[item_col])))
 
-    X = csr_matrix(interactions.values)
+    return csr_matrix(interactions.values), user_mapper, item_mapper, user_inv_mapper, item_inv_mapper
 
-    return X, user_mapper, item_mapper, user_inv_mapper, item_inv_mapper
+
 
 def fit_knn_model(interaction_matrix, n_neighbors=4):
     """
@@ -199,35 +187,45 @@ def format_similar_users_ratings(similar_users_ratings):
 
 
 
-def get_all_similar_users_ratings(data, user_mapper, user_inv_mapper, model_knn, interaction_matrix, title_column_name='title', user_column_name='userId'):
+def get_all_similar_users_ratings(data, 
+                                  user_mapper, 
+                                  user_inv_mapper, 
+                                  model_knn, 
+                                  interaction_matrix, 
+                                  title_column_name='title', 
+                                  user_column_name='userId'):
     all_similar_users_ratings = {}
     for user_id in data[user_column_name].unique():
         similar_users_ratings = []
         user_idx = user_mapper.get(user_id)
         if user_idx is None:
-            print(f"No index found for user_id: {user_id}")
             continue
 
-        n_samples = interaction_matrix.shape[0]
-        n_neighbors = min(10, n_samples)
-        distances, indices = model_knn.kneighbors(interaction_matrix[user_idx], n_neighbors=n_neighbors)
+        distances, indices = model_knn.kneighbors(interaction_matrix[user_idx], n_neighbors=10)  # Adjust neighbors as needed
 
         for idx in indices.flatten():
             if idx == user_idx:
                 continue
-            
+
             similar_user_id = user_inv_mapper[idx]
             similar_user_data = data[data[user_column_name] == similar_user_id]
-            sampled_ratings = similar_user_data.sample(n=min(2, len(similar_user_data)), random_state=RANDOM_STATE)
+            sampled_ratings = similar_user_data.sample(n=min(5, len(similar_user_data)), random_state=42)  # Increased samples
 
             for _, row in sampled_ratings.iterrows():
-                if pd.isna(row[title_column_name]) or pd.isna(row['rating']):
-                    continue
-
                 similar_users_ratings.append(f"{row[title_column_name]} ({row['rating']} stars)")
 
         all_similar_users_ratings[user_id] = similar_users_ratings
 
     return all_similar_users_ratings
+
+
+
+# Function to check data sparsity
+def check_data_sparsity(df, user_col, item_col):
+    total_ratings = len(df)
+    num_users = df[user_col].nunique()
+    num_items = df[item_col].nunique()
+    sparsity = 1 - (total_ratings / (num_users * num_items))
+    print(f"Total Ratings: {total_ratings}, Number of Users: {num_users}, Number of Items: {num_items}, Sparsity: {sparsity}")
 
 
