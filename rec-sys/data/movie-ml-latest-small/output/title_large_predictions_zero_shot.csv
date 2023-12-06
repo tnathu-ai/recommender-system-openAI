@@ -1,0 +1,3399 @@
+user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
+474,1,Toy Story (1995),4.0,5.0,True
+567,1,Toy Story (1995),3.5,5.0,True
+62,2,Jumanji (1995),4.0,4.0,True
+62,2,Jumanji (1995),4.0,4.0,True
+62,2,Jumanji (1995),4.0,4.0,True
+474,2,Jumanji (1995),3.0,4.0,True
+474,5,Father of the Bride Part II (1995),1.5,4.0,True
+474,5,Father of the Bride Part II (1995),1.5,4.0,True
+474,7,Sabrina (1995),3.0,0.0,True
+474,11,"American President, The (1995)",2.5,4.0,True
+474,11,"American President, The (1995)",2.5,4.0,True
+474,14,Nixon (1995),3.0,3.0,True
+474,14,Nixon (1995),3.0,4.0,True
+474,16,Casino (1995),4.0,4.0,True
+474,17,Sense and Sensibility (1995),5.0,4.0,True
+474,21,Get Shorty (1995),4.0,0.0,True
+474,22,Copycat (1995),3.0,0.0,True
+474,25,Leaving Las Vegas (1995),3.5,4.0,True
+474,26,Othello (1995),3.5,4.0,True
+474,28,Persuasion (1995),4.5,4.0,True
+474,28,Persuasion (1995),4.5,4.0,True
+474,29,"City of Lost Children, The (Cité des enfants perdus, La) (1995)",3.5,4.0,True
+474,31,Dangerous Minds (1995),3.0,4.0,True
+474,31,Dangerous Minds (1995),3.0,4.0,True
+424,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),3.5,4.0,True
+474,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.0,4.0,True
+477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.5,4.0,True
+477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.5,4.0,True
+477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.5,4.0,True
+477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.5,4.0,True
+477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.5,4.0,True
+477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.5,4.0,True
+477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.5,4.0,True
+477,32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),4.5,4.0,True
+474,34,Babe (1995),4.5,0.0,True
+474,34,Babe (1995),4.5,4.0,True
+477,34,Babe (1995),4.0,0.0,True
+474,36,Dead Man Walking (1995),5.0,4.0,True
+474,36,Dead Man Walking (1995),5.0,4.0,True
+474,38,It Takes Two (1995),1.0,4.0,True
+357,39,Clueless (1995),4.5,4.0,True
+357,39,Clueless (1995),4.5,4.0,True
+357,39,Clueless (1995),4.5,4.0,True
+357,39,Clueless (1995),4.5,4.0,True
+357,39,Clueless (1995),4.5,4.0,True
+474,39,Clueless (1995),3.5,4.0,True
+474,39,Clueless (1995),3.5,4.0,True
+474,41,Richard III (1995),3.5,4.0,True
+474,43,Restoration (1995),3.5,0.0,True
+474,45,To Die For (1995),4.0,4.0,True
+474,46,How to Make an American Quilt (1995),3.0,4.0,True
+424,47,Seven (a.k.a. Se7en) (1995),5.0,0.0,True
+424,47,Seven (a.k.a. Se7en) (1995),5.0,4.0,True
+474,47,Seven (a.k.a. Se7en) (1995),4.0,4.0,True
+424,50,"Usual Suspects, The (1995)",5.0,4.0,True
+424,50,"Usual Suspects, The (1995)",5.0,4.0,True
+424,50,"Usual Suspects, The (1995)",5.0,4.0,True
+424,50,"Usual Suspects, The (1995)",5.0,4.0,True
+424,50,"Usual Suspects, The (1995)",5.0,4.0,True
+474,50,"Usual Suspects, The (1995)",4.0,4.0,True
+474,52,Mighty Aphrodite (1995),4.0,4.0,True
+474,52,Mighty Aphrodite (1995),4.0,4.0,True
+474,58,"Postman, The (Postino, Il) (1994)",3.5,4.0,True
+474,62,Mr. Holland's Opus (1995),2.5,4.0,True
+474,92,Mary Reilly (1996),3.5,4.0,True
+474,96,In the Bleak Midwinter (1995),3.5,4.0,True
+474,101,Bottle Rocket (1996),3.5,0.0,True
+567,101,Bottle Rocket (1996),3.0,0.0,True
+567,101,Bottle Rocket (1996),3.0,0.0,True
+474,104,Happy Gilmore (1996),2.0,4.0,True
+477,104,Happy Gilmore (1996),4.0,4.0,True
+474,107,Muppet Treasure Island (1996),3.0,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+62,110,Braveheart (1995),4.5,4.0,True
+474,110,Braveheart (1995),3.0,4.0,True
+474,111,Taxi Driver (1976),4.0,4.0,True
+474,116,Anne Frank Remembered (1995),3.5,4.0,True
+474,122,Boomerang (1992),1.0,0.0,True
+474,140,Up Close and Personal (1996),2.5,4.0,True
+424,147,"Basketball Diaries, The (1995)",3.5,4.0,True
+424,147,"Basketball Diaries, The (1995)",3.5,4.0,True
+424,147,"Basketball Diaries, The (1995)",3.5,4.0,True
+424,147,"Basketball Diaries, The (1995)",3.5,4.0,True
+474,150,Apollo 13 (1995),4.5,4.0,True
+474,150,Apollo 13 (1995),4.5,4.0,True
+474,150,Apollo 13 (1995),4.5,4.0,True
+474,153,Batman Forever (1995),3.0,3.0,True
+474,160,Congo (1995),1.0,0.0,True
+474,161,Crimson Tide (1995),3.5,4.0,True
+474,162,Crumb (1994),3.5,0.0,True
+424,175,Kids (1995),4.5,4.0,True
+424,175,Kids (1995),4.5,4.0,True
+424,175,Kids (1995),4.5,0.0,True
+474,185,"Net, The (1995)",3.0,4.0,True
+474,199,"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les) (1964)",4.5,0.0,True
+474,215,Before Sunrise (1995),3.5,4.0,True
+474,216,Billy Madison (1995),1.0,4.0,True
+477,216,Billy Madison (1995),4.0,4.0,True
+477,216,Billy Madison (1995),4.0,4.0,True
+474,222,Circle of Friends (1995),4.0,4.0,True
+424,223,Clerks (1994),3.5,0.0,True
+424,223,Clerks (1994),3.5,0.0,True
+424,223,Clerks (1994),3.5,0.0,True
+424,223,Clerks (1994),3.5,4.0,True
+424,223,Clerks (1994),3.5,4.0,True
+474,223,Clerks (1994),3.5,4.0,True
+474,224,Don Juan DeMarco (1995),3.5,4.0,True
+474,224,Don Juan DeMarco (1995),3.5,4.0,True
+474,230,Dolores Claiborne (1995),3.5,4.0,True
+474,232,Eat Drink Man Woman (Yin shi nan nu) (1994),4.0,4.0,True
+474,235,Ed Wood (1994),4.0,0.0,True
+474,237,Forget Paris (1995),3.5,4.0,True
+474,237,Forget Paris (1995),3.5,4.0,True
+474,237,Forget Paris (1995),3.5,4.0,True
+474,246,Hoop Dreams (1994),4.0,4.0,True
+474,247,Heavenly Creatures (1994),4.0,0.0,True
+474,249,Immortal Beloved (1994),4.0,4.0,True
+474,252,I.Q. (1994),2.0,0.0,True
+474,257,Just Cause (1995),3.0,3.0,True
+103,260,Star Wars: Episode IV - A New Hope (1977),4.0,5.0,True
+103,260,Star Wars: Episode IV - A New Hope (1977),4.0,5.0,True
+193,260,Star Wars: Episode IV - A New Hope (1977),5.0,5.0,True
+193,260,Star Wars: Episode IV - A New Hope (1977),5.0,4.0,True
+193,260,Star Wars: Episode IV - A New Hope (1977),5.0,4.0,True
+474,260,Star Wars: Episode IV - A New Hope (1977),4.0,5.0,True
+474,260,Star Wars: Episode IV - A New Hope (1977),4.0,5.0,True
+474,260,Star Wars: Episode IV - A New Hope (1977),4.0,4.0,True
+474,261,Little Women (1994),4.0,0.0,True
+474,262,"Little Princess, A (1995)",4.0,4.0,True
+474,262,"Little Princess, A (1995)",4.0,4.0,True
+474,262,"Little Princess, A (1995)",4.0,4.0,True
+474,272,"Madness of King George, The (1994)",3.5,4.0,True
+474,272,"Madness of King George, The (1994)",3.5,4.0,True
+474,277,Miracle on 34th Street (1994),2.0,4.0,True
+474,280,Murder in the First (1995),3.0,4.0,True
+474,282,Nell (1994),3.0,0.0,True
+474,282,Nell (1994),3.0,0.0,True
+424,288,Natural Born Killers (1994),4.0,4.0,True
+424,288,Natural Born Killers (1994),4.0,4.0,True
+424,288,Natural Born Killers (1994),4.0,4.0,True
+424,288,Natural Born Killers (1994),4.0,4.0,True
+424,288,Natural Born Killers (1994),4.0,4.0,True
+424,288,Natural Born Killers (1994),4.0,4.0,True
+166,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),4.5,4.0,True
+166,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),4.5,4.0,True
+474,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),3.5,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,5.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,5.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+599,293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),5.0,4.0,True
+103,296,Pulp Fiction (1994),5.0,0.0,True
+103,296,Pulp Fiction (1994),5.0,0.0,True
+103,296,Pulp Fiction (1994),5.0,4.0,True
+424,296,Pulp Fiction (1994),4.5,4.0,True
+424,296,Pulp Fiction (1994),4.5,4.0,True
+424,296,Pulp Fiction (1994),4.5,4.0,True
+424,296,Pulp Fiction (1994),4.5,4.0,True
+474,296,Pulp Fiction (1994),4.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,0.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+599,296,Pulp Fiction (1994),5.0,4.0,True
+474,300,Quiz Show (1994),4.0,4.0,True
+474,307,Three Colors: Blue (Trois couleurs: Bleu) (1993),4.5,0.0,True
+474,308,Three Colors: White (Trzy kolory: Bialy) (1994),4.0,4.0,True
+567,308,Three Colors: White (Trzy kolory: Bialy) (1994),2.5,4.0,True
+474,316,Stargate (1994),3.5,4.0,True
+474,317,"Santa Clause, The (1994)",2.0,4.0,True
+474,318,"Shawshank Redemption, The (1994)",5.0,5.0,True
+474,318,"Shawshank Redemption, The (1994)",5.0,5.0,True
+474,318,"Shawshank Redemption, The (1994)",5.0,5.0,True
+477,318,"Shawshank Redemption, The (1994)",5.0,5.0,True
+474,329,Star Trek: Generations (1994),4.0,4.0,True
+474,337,What's Eating Gilbert Grape (1993),4.0,4.0,True
+474,338,Virtuosity (1995),3.0,0.0,True
+474,339,While You Were Sleeping (1995),3.5,4.0,True
+474,342,Muriel's Wedding (1994),3.5,4.0,True
+474,342,Muriel's Wedding (1994),3.5,4.0,True
+474,345,"Adventures of Priscilla, Queen of the Desert, The (1994)",3.5,4.0,True
+474,345,"Adventures of Priscilla, Queen of the Desert, The (1994)",3.5,4.0,True
+474,345,"Adventures of Priscilla, Queen of the Desert, The (1994)",3.5,4.0,True
+474,349,Clear and Present Danger (1994),3.0,4.0,True
+474,350,"Client, The (1994)",3.0,3.0,True
+474,351,"Corrina, Corrina (1994)",2.0,0.0,True
+474,356,Forrest Gump (1994),3.0,4.0,True
+474,356,Forrest Gump (1994),3.0,4.0,True
+567,356,Forrest Gump (1994),3.0,4.0,True
+567,356,Forrest Gump (1994),3.0,5.0,True
+567,356,Forrest Gump (1994),3.0,5.0,True
+567,356,Forrest Gump (1994),3.0,5.0,True
+474,357,Four Weddings and a Funeral (1994),3.0,4.0,True
+474,361,It Could Happen to You (1994),3.5,4.0,True
+424,364,"Lion King, The (1994)",4.5,5.0,True
+474,364,"Lion King, The (1994)",4.5,5.0,True
+474,371,"Paper, The (1994)",3.0,4.0,True
+474,377,Speed (1994),4.0,0.0,True
+474,380,True Lies (1994),4.0,4.0,True
+474,381,When a Man Loves a Woman (1994),2.5,4.0,True
+62,410,Addams Family Values (1993),4.5,4.0,True
+62,410,Addams Family Values (1993),4.5,4.0,True
+62,410,Addams Family Values (1993),4.5,4.0,True
+62,410,Addams Family Values (1993),4.5,4.0,True
+62,410,Addams Family Values (1993),4.5,4.0,True
+62,410,Addams Family Values (1993),4.5,4.0,True
+474,412,"Age of Innocence, The (1993)",4.0,4.0,True
+474,421,Black Beauty (1994),3.5,0.0,True
+474,425,Blue Sky (1994),3.5,0.0,True
+474,425,Blue Sky (1994),3.5,0.0,True
+18,431,Carlito's Way (1993),4.0,4.0,True
+18,431,Carlito's Way (1993),4.0,4.0,True
+18,431,Carlito's Way (1993),4.0,4.0,True
+474,440,Dave (1993),4.5,0.0,True
+474,454,"Firm, The (1993)",4.0,4.0,True
+474,457,"Fugitive, The (1993)",5.0,4.0,True
+474,471,"Hudsucker Proxy, The (1994)",3.0,4.0,True
+474,474,In the Line of Fire (1993),3.5,4.0,True
+474,475,In the Name of the Father (1993),4.0,4.0,True
+474,477,What's Love Got to Do with It? (1993),3.5,4.0,True
+474,480,Jurassic Park (1993),4.5,0.0,True
+474,488,M. Butterfly (1993),3.0,0.0,True
+474,488,M. Butterfly (1993),3.0,4.0,True
+474,497,Much Ado About Nothing (1993),5.0,4.0,True
+474,500,Mrs. Doubtfire (1993),2.5,4.0,True
+474,500,Mrs. Doubtfire (1993),2.5,4.0,True
+474,500,Mrs. Doubtfire (1993),2.5,4.0,True
+474,508,Philadelphia (1993),3.0,0.0,True
+474,513,Radioland Murders (1994),3.5,3.0,True
+474,513,Radioland Murders (1994),3.5,3.0,True
+474,515,"Remains of the Day, The (1993)",5.0,0.0,True
+474,515,"Remains of the Day, The (1993)",5.0,4.0,True
+474,516,Renaissance Man (1994),2.0,0.0,True
+474,522,Romper Stomper (1992),3.5,3.0,True
+474,522,Romper Stomper (1992),3.5,3.0,True
+474,522,Romper Stomper (1992),3.5,3.0,True
+474,524,Rudy (1993),2.5,0.0,True
+474,527,Schindler's List (1993),5.0,5.0,True
+537,527,Schindler's List (1993),1.0,5.0,True
+537,527,Schindler's List (1993),1.0,5.0,True
+537,527,Schindler's List (1993),1.0,5.0,True
+537,527,Schindler's List (1993),1.0,5.0,True
+474,529,Searching for Bobby Fischer (1993),4.0,4.0,True
+474,534,Shadowlands (1993),5.0,3.0,True
+474,535,Short Cuts (1993),4.0,4.0,True
+474,538,Six Degrees of Separation (1993),3.5,4.0,True
+474,539,Sleepless in Seattle (1993),4.5,4.0,True
+474,541,Blade Runner (1982),3.0,4.0,True
+477,541,Blade Runner (1982),5.0,4.0,True
+477,541,Blade Runner (1982),5.0,4.0,True
+477,541,Blade Runner (1982),5.0,4.0,True
+477,541,Blade Runner (1982),5.0,4.0,True
+477,541,Blade Runner (1982),5.0,4.0,True
+477,541,Blade Runner (1982),5.0,5.0,True
+477,541,Blade Runner (1982),5.0,4.0,True
+567,541,Blade Runner (1982),3.5,4.0,True
+567,541,Blade Runner (1982),3.5,4.0,True
+567,541,Blade Runner (1982),3.5,5.0,True
+567,541,Blade Runner (1982),3.5,5.0,True
+474,543,So I Married an Axe Murderer (1993),4.5,4.0,True
+474,551,"Nightmare Before Christmas, The (1993)",3.0,4.0,True
+474,551,"Nightmare Before Christmas, The (1993)",3.0,4.0,True
+336,552,"Three Musketeers, The (1993)",3.0,4.0,True
+474,556,"War Room, The (1993)",3.0,3.0,True
+474,562,Welcome to the Dollhouse (1995),4.0,3.0,True
+474,586,Home Alone (1990),2.0,0.0,True
+474,587,Ghost (1990),3.0,0.0,True
+474,588,Aladdin (1992),4.0,4.0,True
+424,589,Terminator 2: Judgment Day (1991),2.0,4.0,True
+424,589,Terminator 2: Judgment Day (1991),2.0,4.0,True
+424,589,Terminator 2: Judgment Day (1991),2.0,5.0,True
+424,589,Terminator 2: Judgment Day (1991),2.0,4.0,True
+424,589,Terminator 2: Judgment Day (1991),2.0,4.0,True
+424,589,Terminator 2: Judgment Day (1991),2.0,4.0,True
+474,589,Terminator 2: Judgment Day (1991),4.0,4.0,True
+477,589,Terminator 2: Judgment Day (1991),5.0,4.0,True
+474,590,Dances with Wolves (1990),3.5,4.0,True
+474,590,Dances with Wolves (1990),3.5,4.0,True
+474,592,Batman (1989),4.0,0.0,True
+474,593,"Silence of the Lambs, The (1991)",4.5,4.0,True
+477,593,"Silence of the Lambs, The (1991)",5.0,4.0,True
+477,593,"Silence of the Lambs, The (1991)",5.0,5.0,True
+477,593,"Silence of the Lambs, The (1991)",5.0,4.0,True
+477,593,"Silence of the Lambs, The (1991)",5.0,4.0,True
+477,593,"Silence of the Lambs, The (1991)",5.0,4.0,True
+474,594,Snow White and the Seven Dwarfs (1937),3.0,5.0,True
+474,595,Beauty and the Beast (1991),5.0,0.0,True
+474,596,Pinocchio (1940),2.0,4.0,True
+474,597,Pretty Woman (1990),4.0,0.0,True
+424,608,Fargo (1996),3.5,4.0,True
+424,608,Fargo (1996),3.5,0.0,True
+424,608,Fargo (1996),3.5,4.0,True
+424,608,Fargo (1996),3.5,4.0,True
+474,608,Fargo (1996),4.0,4.0,True
+474,616,"Aristocats, The (1970)",3.5,4.0,True
+424,628,Primal Fear (1996),5.0,4.0,True
+424,628,Primal Fear (1996),5.0,0.0,True
+424,628,Primal Fear (1996),5.0,0.0,True
+424,628,Primal Fear (1996),5.0,0.0,True
+424,628,Primal Fear (1996),5.0,4.0,True
+474,628,Primal Fear (1996),3.0,4.0,True
+474,638,Jack and Sarah (1995),3.0,4.0,True
+474,647,Courage Under Fire (1996),3.0,4.0,True
+474,648,Mission: Impossible (1996),3.5,4.0,True
+474,668,Song of the Little Road (Pather Panchali) (1955),3.5,4.0,True
+474,670,"World of Apu, The (Apur Sansar) (1959)",4.5,4.0,True
+474,671,Mystery Science Theater 3000: The Movie (1996),3.5,4.0,True
+474,673,Space Jam (1996),1.5,4.0,True
+474,708,"Truth About Cats & Dogs, The (1996)",4.5,4.0,True
+474,720,Wallace & Gromit: The Best of Aardman Animation (1996),4.0,4.0,True
+474,728,Cold Comfort Farm (1995),3.5,4.0,True
+474,733,"Rock, The (1996)",4.0,3.0,True
+477,733,"Rock, The (1996)",4.0,3.0,True
+477,733,"Rock, The (1996)",4.0,3.0,True
+474,736,Twister (1996),2.0,0.0,True
+474,745,Wallace & Gromit: A Close Shave (1995),4.0,4.0,True
+474,748,"Arrival, The (1996)",3.5,4.0,True
+474,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),4.5,4.0,True
+477,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),5.0,4.0,True
+477,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),5.0,5.0,True
+477,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),5.0,4.0,True
+567,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),3.0,4.0,True
+567,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),3.0,4.0,True
+567,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),3.0,4.0,True
+318,778,Trainspotting (1996),4.0,4.0,True
+318,778,Trainspotting (1996),4.0,4.0,True
+318,778,Trainspotting (1996),4.0,4.0,True
+474,778,Trainspotting (1996),4.0,4.0,True
+474,780,Independence Day (a.k.a. ID4) (1996),4.0,4.0,True
+474,805,"Time to Kill, A (1996)",3.0,4.0,True
+474,818,"Very Brady Sequel, A (1996)",3.0,4.0,True
+474,830,"First Wives Club, The (1996)",2.0,4.0,True
+474,832,Ransom (1996),2.0,4.0,True
+477,832,Ransom (1996),3.0,4.0,True
+477,832,Ransom (1996),3.0,3.0,True
+477,832,Ransom (1996),3.0,0.0,True
+573,836,Chain Reaction (1996),3.0,4.0,True
+474,838,Emma (1996),3.0,4.0,True
+474,852,Tin Cup (1996),2.0,4.0,True
+474,858,"Godfather, The (1972)",5.0,4.0,True
+474,892,Twelfth Night (1996),3.0,4.0,True
+474,898,"Philadelphia Story, The (1940)",4.0,4.0,True
+474,899,Singin' in the Rain (1952),4.0,4.0,True
+474,900,"American in Paris, An (1951)",3.5,4.0,True
+474,902,Breakfast at Tiffany's (1961),3.5,4.0,True
+474,903,Vertigo (1958),4.5,4.0,True
+477,903,Vertigo (1958),3.5,4.0,True
+477,903,Vertigo (1958),3.5,0.0,True
+477,903,Vertigo (1958),3.5,0.0,True
+477,903,Vertigo (1958),3.5,0.0,True
+474,904,Rear Window (1954),4.0,4.0,True
+477,904,Rear Window (1954),3.5,0.0,True
+477,904,Rear Window (1954),3.5,4.0,True
+477,904,Rear Window (1954),3.5,4.0,True
+477,904,Rear Window (1954),3.5,4.0,True
+477,904,Rear Window (1954),3.5,4.0,True
+474,905,It Happened One Night (1934),5.0,4.0,True
+474,906,Gaslight (1944),5.0,4.0,True
+474,907,"Gay Divorcee, The (1934)",3.0,4.0,True
+474,908,North by Northwest (1959),3.5,4.0,True
+477,908,North by Northwest (1959),4.0,4.0,True
+477,908,North by Northwest (1959),4.0,0.0,True
+474,909,"Apartment, The (1960)",4.0,4.0,True
+474,910,Some Like It Hot (1959),4.0,4.0,True
+474,911,Charade (1963),3.5,4.0,True
+474,912,Casablanca (1942),5.0,0.0,True
+474,913,"Maltese Falcon, The (1941)",4.0,4.0,True
+474,914,My Fair Lady (1964),4.5,0.0,True
+474,915,Sabrina (1954),4.0,0.0,True
+474,916,Roman Holiday (1953),4.0,0.0,True
+474,916,Roman Holiday (1953),4.0,4.0,True
+474,918,Meet Me in St. Louis (1944),3.5,4.0,True
+474,919,"Wizard of Oz, The (1939)",4.5,0.0,True
+474,919,"Wizard of Oz, The (1939)",4.5,0.0,True
+474,920,Gone with the Wind (1939),2.0,5.0,True
+474,921,My Favorite Year (1982),3.0,4.0,True
+474,922,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),4.0,5.0,True
+477,922,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),4.5,4.0,True
+477,922,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),4.5,4.0,True
+474,923,Citizen Kane (1941),4.5,4.0,True
+474,924,2001: A Space Odyssey (1968),4.0,5.0,True
+474,924,2001: A Space Odyssey (1968),4.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,4.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+599,924,2001: A Space Odyssey (1968),5.0,5.0,True
+474,926,All About Eve (1950),4.5,4.0,True
+474,927,"Women, The (1939)",4.0,0.0,True
+474,928,Rebecca (1940),5.0,4.0,True
+474,929,Foreign Correspondent (1940),3.5,4.0,True
+474,929,Foreign Correspondent (1940),3.5,4.0,True
+474,929,Foreign Correspondent (1940),3.5,4.0,True
+474,930,Notorious (1946),4.0,4.0,True
+474,931,Spellbound (1945),3.5,4.0,True
+474,934,Father of the Bride (1950),3.0,4.0,True
+474,936,Ninotchka (1939),4.0,4.0,True
+474,936,Ninotchka (1939),4.0,4.0,True
+474,938,Gigi (1958),2.5,4.0,True
+474,940,"Adventures of Robin Hood, The (1938)",3.5,4.0,True
+474,941,"Mark of Zorro, The (1940)",3.5,4.0,True
+474,943,"Ghost and Mrs. Muir, The (1947)",3.5,4.0,True
+474,944,Lost Horizon (1937),4.0,4.0,True
+474,945,Top Hat (1935),4.5,0.0,True
+474,947,My Man Godfrey (1936),3.5,4.0,True
+474,947,My Man Godfrey (1936),3.5,4.0,True
+474,947,My Man Godfrey (1936),3.5,4.0,True
+474,948,Giant (1956),4.0,0.0,True
+474,950,"Thin Man, The (1934)",4.0,0.0,True
+474,951,His Girl Friday (1940),4.5,4.0,True
+474,952,Around the World in 80 Days (1956),3.0,4.0,True
+474,953,It's a Wonderful Life (1946),3.5,5.0,True
+474,954,Mr. Smith Goes to Washington (1939),4.5,4.0,True
+474,955,Bringing Up Baby (1938),4.0,4.0,True
+474,955,Bringing Up Baby (1938),4.0,4.0,True
+474,956,Penny Serenade (1941),4.0,4.0,True
+474,965,"39 Steps, The (1935)",4.0,4.0,True
+474,968,Night of the Living Dead (1968),4.0,5.0,True
+474,969,"African Queen, The (1951)",5.0,4.0,True
+474,970,Beat the Devil (1953),3.5,4.0,True
+474,971,Cat on a Hot Tin Roof (1958),3.5,5.0,True
+474,973,Meet John Doe (1941),3.5,0.0,True
+474,976,"Farewell to Arms, A (1932)",3.0,4.0,True
+474,986,Fly Away Home (1996),4.0,0.0,True
+474,991,Michael Collins (1996),3.0,3.0,True
+474,994,Big Night (1996),3.5,0.0,True
+474,1006,"Chamber, The (1996)",3.5,4.0,True
+474,1006,"Chamber, The (1996)",3.5,4.0,True
+474,1010,"Love Bug, The (1969)",3.0,4.0,True
+474,1010,"Love Bug, The (1969)",3.0,4.0,True
+474,1013,"Parent Trap, The (1961)",3.0,4.0,True
+474,1022,Cinderella (1950),4.0,4.0,True
+474,1025,"Sword in the Stone, The (1963)",3.0,4.0,True
+474,1025,"Sword in the Stone, The (1963)",3.0,4.0,True
+474,1028,Mary Poppins (1964),3.0,0.0,True
+474,1028,Mary Poppins (1964),3.0,4.0,True
+474,1029,Dumbo (1941),3.0,4.0,True
+474,1030,Pete's Dragon (1977),2.0,4.0,True
+474,1032,Alice in Wonderland (1951),2.0,0.0,True
+474,1033,"Fox and the Hound, The (1981)",4.5,4.0,True
+474,1035,"Sound of Music, The (1965)",5.0,4.0,True
+474,1041,Secrets & Lies (1996),4.5,4.0,True
+474,1042,That Thing You Do! (1996),4.5,0.0,True
+357,1059,William Shakespeare's Romeo + Juliet (1996),4.5,4.0,True
+357,1059,William Shakespeare's Romeo + Juliet (1996),4.5,0.0,True
+357,1059,William Shakespeare's Romeo + Juliet (1996),4.5,4.0,True
+357,1059,William Shakespeare's Romeo + Juliet (1996),4.5,0.0,True
+474,1059,William Shakespeare's Romeo + Juliet (1996),4.5,0.0,True
+474,1066,Shall We Dance (1937),4.0,4.0,True
+474,1068,Crossfire (1947),3.5,4.0,True
+474,1079,"Fish Called Wanda, A (1988)",4.5,4.0,True
+474,1080,Monty Python's Life of Brian (1979),3.0,4.0,True
+474,1080,Monty Python's Life of Brian (1979),3.0,4.0,True
+474,1080,Monty Python's Life of Brian (1979),3.0,4.0,True
+474,1081,Victor/Victoria (1982),3.5,4.0,True
+474,1082,"Candidate, The (1972)",3.5,4.0,True
+474,1084,Bonnie and Clyde (1967),3.5,4.0,True
+474,1084,Bonnie and Clyde (1967),3.5,4.0,True
+474,1088,Dirty Dancing (1987),3.5,4.0,True
+474,1088,Dirty Dancing (1987),3.5,5.0,True
+424,1089,Reservoir Dogs (1992),3.5,4.0,True
+424,1089,Reservoir Dogs (1992),3.5,4.0,True
+424,1089,Reservoir Dogs (1992),3.5,4.0,True
+424,1089,Reservoir Dogs (1992),3.5,4.0,True
+474,1089,Reservoir Dogs (1992),4.0,4.0,True
+474,1089,Reservoir Dogs (1992),4.0,0.0,True
+477,1089,Reservoir Dogs (1992),4.0,4.0,True
+477,1089,Reservoir Dogs (1992),4.0,4.0,True
+477,1089,Reservoir Dogs (1992),4.0,4.0,True
+477,1089,Reservoir Dogs (1992),4.0,4.0,True
+477,1089,Reservoir Dogs (1992),4.0,4.0,True
+474,1090,Platoon (1986),3.5,4.0,True
+474,1093,"Doors, The (1991)",3.0,3.0,True
+474,1093,"Doors, The (1991)",3.0,4.0,True
+474,1093,"Doors, The (1991)",3.0,3.0,True
+474,1096,Sophie's Choice (1982),2.5,4.0,True
+474,1097,E.T. the Extra-Terrestrial (1982),4.0,4.0,True
+474,1101,Top Gun (1986),3.5,4.0,True
+474,1103,Rebel Without a Cause (1955),4.0,0.0,True
+474,1103,Rebel Without a Cause (1955),4.0,4.0,True
+474,1104,"Streetcar Named Desire, A (1951)",4.0,4.0,True
+424,1120,"People vs. Larry Flynt, The (1996)",3.5,4.0,True
+474,1124,On Golden Pond (1981),4.0,4.0,True
+474,1125,"Return of the Pink Panther, The (1975)",3.0,4.0,True
+474,1135,Private Benjamin (1980),2.0,0.0,True
+474,1136,Monty Python and the Holy Grail (1975),4.5,4.0,True
+474,1136,Monty Python and the Holy Grail (1975),4.5,4.0,True
+474,1147,When We Were Kings (1996),3.0,4.0,True
+474,1147,When We Were Kings (1996),3.0,4.0,True
+474,1148,Wallace & Gromit: The Wrong Trousers (1993),4.0,5.0,True
+474,1171,Bob Roberts (1992),4.0,0.0,True
+474,1177,Enchanted April (1992),5.0,4.0,True
+474,1178,Paths of Glory (1957),3.5,4.0,True
+474,1178,Paths of Glory (1957),3.5,4.0,True
+474,1179,"Grifters, The (1990)",3.5,4.0,True
+474,1183,"English Patient, The (1996)",2.0,4.0,True
+474,1185,My Left Foot (1989),4.0,4.0,True
+474,1187,Passion Fish (1992),4.0,4.0,True
+474,1188,Strictly Ballroom (1992),5.0,0.0,True
+474,1188,Strictly Ballroom (1992),5.0,4.0,True
+474,1189,"Thin Blue Line, The (1988)",4.0,0.0,True
+474,1189,"Thin Blue Line, The (1988)",4.0,0.0,True
+424,1193,One Flew Over the Cuckoo's Nest (1975),4.0,4.0,True
+424,1193,One Flew Over the Cuckoo's Nest (1975),4.0,5.0,True
+474,1193,One Flew Over the Cuckoo's Nest (1975),3.5,4.0,True
+474,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,5.0,True
+474,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,5.0,True
+474,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,4.0,True
+477,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,4.0,True
+477,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,5.0,True
+477,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,5.0,True
+477,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,5.0,True
+477,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,5.0,True
+477,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,5.0,True
+477,1196,Star Wars: Episode V - The Empire Strikes Back (1980),5.0,4.0,True
+474,1197,"Princess Bride, The (1987)",4.5,0.0,True
+474,1197,"Princess Bride, The (1987)",4.5,4.0,True
+474,1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.0,5.0,True
+474,1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.0,5.0,True
+474,1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),4.0,5.0,True
+474,1200,Aliens (1986),3.5,0.0,True
+474,1201,"Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il) (1966)",3.5,4.0,True
+474,1203,12 Angry Men (1957),4.0,5.0,True
+567,1203,12 Angry Men (1957),4.5,4.0,True
+567,1203,12 Angry Men (1957),4.5,4.0,True
+567,1203,12 Angry Men (1957),4.5,5.0,True
+567,1203,12 Angry Men (1957),4.5,5.0,True
+567,1203,12 Angry Men (1957),4.5,4.0,True
+567,1203,12 Angry Men (1957),4.5,4.0,True
+567,1203,12 Angry Men (1957),4.5,5.0,True
+567,1203,12 Angry Men (1957),4.5,4.0,True
+474,1204,Lawrence of Arabia (1962),4.0,4.0,True
+474,1206,"Clockwork Orange, A (1971)",3.5,3.0,True
+474,1207,To Kill a Mockingbird (1962),4.0,5.0,True
+474,1207,To Kill a Mockingbird (1962),4.0,4.0,True
+474,1208,Apocalypse Now (1979),3.5,5.0,True
+474,1209,Once Upon a Time in the West (C'era una volta il West) (1968),3.5,4.0,True
+474,1210,Star Wars: Episode VI - Return of the Jedi (1983),4.0,4.0,True
+474,1210,Star Wars: Episode VI - Return of the Jedi (1983),4.0,4.0,True
+474,1210,Star Wars: Episode VI - Return of the Jedi (1983),4.0,4.0,True
+474,1212,"Third Man, The (1949)",4.0,4.0,True
+474,1212,"Third Man, The (1949)",4.0,4.0,True
+474,1212,"Third Man, The (1949)",4.0,4.0,True
+474,1213,Goodfellas (1990),3.5,4.0,True
+474,1214,Alien (1979),4.0,5.0,True
+474,1217,Ran (1985),4.0,0.0,True
+424,1219,Psycho (1960),4.0,0.0,True
+424,1219,Psycho (1960),4.0,0.0,True
+424,1219,Psycho (1960),4.0,0.0,True
+424,1219,Psycho (1960),4.0,0.0,True
+474,1219,Psycho (1960),4.5,0.0,True
+477,1219,Psycho (1960),4.0,0.0,True
+477,1219,Psycho (1960),4.0,0.0,True
+477,1219,Psycho (1960),4.0,0.0,True
+477,1219,Psycho (1960),4.0,0.0,True
+474,1220,"Blues Brothers, The (1980)",3.0,4.0,True
+18,1221,"Godfather: Part II, The (1974)",5.0,4.0,True
+18,1221,"Godfather: Part II, The (1974)",5.0,4.0,True
+474,1221,"Godfather: Part II, The (1974)",5.0,5.0,True
+474,1222,Full Metal Jacket (1987),4.0,4.0,True
+477,1222,Full Metal Jacket (1987),5.0,4.0,True
+474,1223,"Grand Day Out with Wallace and Gromit, A (1989)",4.5,4.0,True
+474,1224,Henry V (1989),4.0,4.0,True
+474,1225,Amadeus (1984),4.5,4.0,True
+474,1225,Amadeus (1984),4.5,5.0,True
+474,1228,Raging Bull (1980),3.0,4.0,True
+474,1230,Annie Hall (1977),4.0,4.0,True
+474,1231,"Right Stuff, The (1983)",4.0,4.0,True
+474,1231,"Right Stuff, The (1983)",4.0,4.0,True
+474,1233,"Boot, Das (Boat, The) (1981)",3.5,0.0,True
+474,1234,"Sting, The (1973)",4.0,4.0,True
+474,1235,Harold and Maude (1971),4.0,0.0,True
+474,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",2.5,4.0,True
+474,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",2.5,4.0,True
+567,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",3.5,4.0,True
+567,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",3.5,4.0,True
+567,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",3.5,4.0,True
+567,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",3.5,4.0,True
+567,1237,"Seventh Seal, The (Sjunde inseglet, Det) (1957)",3.5,4.0,True
+474,1240,"Terminator, The (1984)",4.0,4.0,True
+474,1242,Glory (1989),4.5,0.0,True
+474,1243,Rosencrantz and Guildenstern Are Dead (1990),4.0,4.0,True
+474,1244,Manhattan (1979),3.5,0.0,True
+474,1245,Miller's Crossing (1990),3.0,4.0,True
+336,1246,Dead Poets Society (1989),4.5,4.0,True
+474,1246,Dead Poets Society (1989),4.5,4.0,True
+474,1247,"Graduate, The (1967)",5.0,0.0,True
+474,1249,"Femme Nikita, La (Nikita) (1990)",3.5,0.0,True
+474,1250,"Bridge on the River Kwai, The (1957)",4.0,4.0,True
+474,1252,Chinatown (1974),4.0,4.0,True
+474,1253,"Day the Earth Stood Still, The (1951)",4.0,4.0,True
+474,1254,"Treasure of the Sierra Madre, The (1948)",4.5,4.0,True
+474,1257,Better Off Dead... (1985),3.0,4.0,True
+424,1258,"Shining, The (1980)",4.5,4.0,True
+424,1258,"Shining, The (1980)",4.5,4.0,True
+424,1258,"Shining, The (1980)",4.5,4.0,True
+424,1258,"Shining, The (1980)",4.5,4.0,True
+424,1258,"Shining, The (1980)",4.5,4.0,True
+424,1258,"Shining, The (1980)",4.5,4.0,True
+424,1258,"Shining, The (1980)",4.5,4.0,True
+424,1258,"Shining, The (1980)",4.5,4.0,True
+474,1258,"Shining, The (1980)",4.0,4.0,True
+474,1259,Stand by Me (1986),4.0,4.0,True
+474,1260,M (1931),4.0,3.0,True
+567,1260,M (1931),4.0,0.0,True
+567,1260,M (1931),4.0,4.0,True
+567,1260,M (1931),4.0,3.0,True
+567,1260,M (1931),4.0,3.0,True
+567,1260,M (1931),4.0,4.0,True
+567,1260,M (1931),4.0,3.0,True
+474,1262,"Great Escape, The (1963)",4.0,4.0,True
+474,1263,"Deer Hunter, The (1978)",3.0,4.0,True
+474,1266,Unforgiven (1992),4.0,0.0,True
+474,1267,"Manchurian Candidate, The (1962)",4.0,4.0,True
+474,1267,"Manchurian Candidate, The (1962)",4.0,4.0,True
+474,1269,Arsenic and Old Lace (1944),3.5,5.0,True
+474,1270,Back to the Future (1985),4.5,5.0,True
+474,1272,Patton (1970),4.0,3.0,True
+477,1274,Akira (1988),5.0,0.0,True
+477,1274,Akira (1988),5.0,0.0,True
+477,1274,Akira (1988),5.0,0.0,True
+474,1276,Cool Hand Luke (1967),3.5,4.0,True
+474,1278,Young Frankenstein (1974),4.0,4.0,True
+474,1281,"Great Dictator, The (1940)",4.0,4.0,True
+474,1282,Fantasia (1940),3.0,0.0,True
+474,1283,High Noon (1952),3.5,0.0,True
+474,1284,"Big Sleep, The (1946)",3.5,4.0,True
+474,1285,Heathers (1989),4.0,0.0,True
+327,1288,This Is Spinal Tap (1984),4.0,4.0,True
+474,1288,This Is Spinal Tap (1984),4.0,4.0,True
+474,1288,This Is Spinal Tap (1984),4.0,4.0,True
+474,1288,This Is Spinal Tap (1984),4.0,4.0,True
+474,1291,Indiana Jones and the Last Crusade (1989),4.0,5.0,True
+474,1291,Indiana Jones and the Last Crusade (1989),4.0,4.0,True
+474,1292,Being There (1979),4.0,4.0,True
+474,1293,Gandhi (1982),4.0,4.0,True
+474,1296,"Room with a View, A (1986)",4.0,4.0,True
+474,1299,"Killing Fields, The (1984)",3.5,4.0,True
+474,1299,"Killing Fields, The (1984)",3.5,4.0,True
+474,1301,Forbidden Planet (1956),3.5,4.0,True
+474,1301,Forbidden Planet (1956),3.5,0.0,True
+474,1302,Field of Dreams (1989),3.5,4.0,True
+474,1303,"Man Who Would Be King, The (1975)",4.0,4.0,True
+474,1304,Butch Cassidy and the Sundance Kid (1969),3.5,4.0,True
+474,1307,When Harry Met Sally... (1989),5.0,0.0,True
+474,1333,"Birds, The (1963)",4.5,4.0,True
+424,1343,Cape Fear (1991),4.5,4.0,True
+424,1343,Cape Fear (1991),4.5,4.0,True
+424,1343,Cape Fear (1991),4.5,4.0,True
+424,1343,Cape Fear (1991),4.5,4.0,True
+474,1343,Cape Fear (1991),4.5,4.0,True
+474,1344,Cape Fear (1962),4.5,0.0,True
+474,1345,Carrie (1976),3.5,0.0,True
+474,1345,Carrie (1976),3.5,0.0,True
+474,1345,Carrie (1976),3.5,0.0,True
+474,1348,"Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922)",2.5,4.0,True
+474,1350,"Omen, The (1976)",4.0,4.0,True
+474,1353,"Mirror Has Two Faces, The (1996)",4.5,4.0,True
+474,1354,Breaking the Waves (1996),4.5,3.0,True
+474,1356,Star Trek: First Contact (1996),5.0,4.0,True
+606,1357,Shine (1996),4.0,0.0,True
+474,1358,Sling Blade (1996),4.5,4.0,True
+474,1363,"Preacher's Wife, The (1996)",2.5,4.0,True
+474,1366,"Crucible, The (1996)",4.0,0.0,True
+474,1367,101 Dalmatians (1996),2.0,4.0,True
+474,1367,101 Dalmatians (1996),2.0,4.0,True
+474,1372,Star Trek VI: The Undiscovered Country (1991),4.5,4.0,True
+474,1374,Star Trek II: The Wrath of Khan (1982),4.0,5.0,True
+474,1376,Star Trek IV: The Voyage Home (1986),4.0,4.0,True
+474,1377,Batman Returns (1992),2.0,4.0,True
+474,1380,Grease (1978),4.0,0.0,True
+474,1381,Grease 2 (1982),2.0,3.0,True
+474,1387,Jaws (1975),4.5,4.0,True
+474,1389,Jaws 3-D (1983),1.5,3.0,True
+474,1393,Jerry Maguire (1996),4.5,4.0,True
+474,1394,Raising Arizona (1987),4.5,4.0,True
+474,1396,Sneakers (1992),4.0,0.0,True
+474,1398,In Love and War (1996),2.5,4.0,True
+474,1407,Scream (1996),4.0,0.0,True
+474,1407,Scream (1996),4.0,0.0,True
+474,1408,"Last of the Mohicans, The (1992)",4.0,4.0,True
+474,1408,"Last of the Mohicans, The (1992)",4.0,4.0,True
+474,1411,Hamlet (1996),4.0,0.0,True
+474,1413,"Whole Wide World, The (1996)",4.5,3.0,True
+474,1416,Evita (1996),2.0,0.0,True
+474,1423,Hearts and Minds (1996),4.0,3.0,True
+474,1423,Hearts and Minds (1996),4.0,4.0,True
+474,1441,Benny & Joon (1993),3.0,0.0,True
+474,1449,Waiting for Guffman (1996),4.0,4.0,True
+474,1466,Donnie Brasco (1997),4.0,4.0,True
+474,1474,Jungle2Jungle (a.k.a. Jungle 2 Jungle) (1997),2.0,3.0,True
+474,1485,Liar Liar (1997),3.0,4.0,True
+474,1496,Anna Karenina (1997),4.0,0.0,True
+474,1500,Grosse Pointe Blank (1997),4.0,4.0,True
+474,1500,Grosse Pointe Blank (1997),4.0,4.0,True
+474,1513,Romy and Michele's High School Reunion (1997),3.0,4.0,True
+474,1537,Shall We Dance? (Shall We Dansu?) (1996),4.0,4.0,True
+474,1544,"Lost World: Jurassic Park, The (1997)",1.0,4.0,True
+474,1545,Ponette (1996),4.0,0.0,True
+474,1569,My Best Friend's Wedding (1997),4.0,4.0,True
+474,1573,Face/Off (1997),4.5,4.0,True
+474,1580,Men in Black (a.k.a. MIB) (1997),4.5,4.0,True
+474,1586,G.I. Jane (1997),2.0,4.0,True
+474,1608,Air Force One (1997),3.0,4.0,True
+474,1610,"Hunt for Red October, The (1990)",4.0,0.0,True
+474,1617,L.A. Confidential (1997),5.0,4.0,True
+424,1625,"Game, The (1997)",4.5,4.0,True
+424,1625,"Game, The (1997)",4.5,4.0,True
+424,1625,"Game, The (1997)",4.5,4.0,True
+424,1625,"Game, The (1997)",4.5,0.0,True
+424,1625,"Game, The (1997)",4.5,4.0,True
+424,1625,"Game, The (1997)",4.5,4.0,True
+474,1625,"Game, The (1997)",4.0,4.0,True
+474,1635,"Ice Storm, The (1997)",4.0,4.0,True
+474,1643,"Mrs. Brown (a.k.a. Her Majesty, Mrs. Brown) (1997)",3.0,0.0,True
+474,1643,"Mrs. Brown (a.k.a. Her Majesty, Mrs. Brown) (1997)",3.0,0.0,True
+474,1645,The Devil's Advocate (1997),2.0,4.0,True
+474,1650,Washington Square (1997),4.0,0.0,True
+474,1653,Gattaca (1997),4.5,4.0,True
+567,1653,Gattaca (1997),3.0,4.0,True
+567,1653,Gattaca (1997),3.0,4.0,True
+474,1663,Stripes (1981),3.0,0.0,True
+474,1674,Witness (1985),4.0,0.0,True
+474,1680,Sliding Doors (1998),4.0,4.0,True
+474,1682,"Truman Show, The (1998)",4.5,4.0,True
+474,1683,"Wings of the Dove, The (1997)",4.5,4.0,True
+424,1704,Good Will Hunting (1997),4.0,4.0,True
+567,1704,Good Will Hunting (1997),3.0,4.0,True
+567,1704,Good Will Hunting (1997),3.0,4.0,True
+474,1711,Midnight in the Garden of Good and Evil (1997),2.0,4.0,True
+474,1717,Scream 2 (1997),4.0,2.0,True
+474,1717,Scream 2 (1997),4.0,4.0,True
+474,1717,Scream 2 (1997),4.0,4.0,True
+474,1719,"Sweet Hereafter, The (1997)",4.0,4.0,True
+474,1719,"Sweet Hereafter, The (1997)",4.0,4.0,True
+474,1721,Titanic (1997),4.0,4.0,True
+537,1721,Titanic (1997),3.0,4.0,True
+125,1726,"Postman, The (1997)",4.5,4.0,True
+125,1726,"Postman, The (1997)",4.5,4.0,True
+474,1732,"Big Lebowski, The (1998)",3.5,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,4.0,True
+599,1732,"Big Lebowski, The (1998)",5.0,0.0,True
+474,1735,Great Expectations (1998),2.0,4.0,True
+474,1748,Dark City (1998),4.0,0.0,True
+474,1777,"Wedding Singer, The (1998)",4.5,4.0,True
+474,1797,Everest (1998),4.0,4.0,True
+573,1801,"Man in the Iron Mask, The (1998)",4.0,4.0,True
+474,1810,Primary Colors (1998),2.5,0.0,True
+474,1834,"Spanish Prisoner, The (1997)",4.0,4.0,True
+474,1893,Beyond Silence (Jenseits der Stille) (1996),4.5,4.0,True
+474,1902,Dream for an Insomniac (1996),4.0,4.0,True
+474,1909,"X-Files: Fight the Future, The (1998)",4.5,4.0,True
+474,1912,Out of Sight (1998),4.0,4.0,True
+474,1913,Picnic at Hanging Rock (1975),4.0,4.0,True
+567,1916,Buffalo '66 (a.k.a. Buffalo 66) (1998),5.0,4.0,True
+567,1916,Buffalo '66 (a.k.a. Buffalo 66) (1998),5.0,4.0,True
+567,1916,Buffalo '66 (a.k.a. Buffalo 66) (1998),5.0,4.0,True
+567,1916,Buffalo '66 (a.k.a. Buffalo 66) (1998),5.0,4.0,True
+567,1916,Buffalo '66 (a.k.a. Buffalo 66) (1998),5.0,4.0,True
+474,1917,Armageddon (1998),1.5,4.0,True
+424,1921,Pi (1998),3.5,0.0,True
+424,1921,Pi (1998),3.5,3.0,True
+424,1921,Pi (1998),3.5,0.0,True
+424,1921,Pi (1998),3.5,0.0,True
+474,1921,Pi (1998),4.0,0.0,True
+567,1921,Pi (1998),3.0,4.0,True
+567,1921,Pi (1998),3.0,3.0,True
+567,1921,Pi (1998),3.0,3.0,True
+567,1921,Pi (1998),3.0,0.0,True
+567,1921,Pi (1998),3.0,3.0,True
+567,1921,Pi (1998),3.0,0.0,True
+567,1921,Pi (1998),3.0,0.0,True
+567,1921,Pi (1998),3.0,3.0,True
+567,1921,Pi (1998),3.0,0.0,True
+567,1921,Pi (1998),3.0,0.0,True
+567,1921,Pi (1998),3.0,0.0,True
+567,1921,Pi (1998),3.0,0.0,True
+327,1923,There's Something About Mary (1998),5.0,4.0,True
+424,1923,There's Something About Mary (1998),3.5,4.0,True
+424,1923,There's Something About Mary (1998),3.5,4.0,True
+424,1923,There's Something About Mary (1998),3.5,4.0,True
+474,1931,Mutiny on the Bounty (1935),4.0,4.0,True
+474,1938,"Lost Weekend, The (1945)",4.0,4.0,True
+474,1940,Gentleman's Agreement (1947),4.0,4.0,True
+474,1940,Gentleman's Agreement (1947),4.0,4.0,True
+474,1942,All the King's Men (1949),3.5,4.0,True
+474,1942,All the King's Men (1949),3.5,4.0,True
+474,1942,All the King's Men (1949),3.5,4.0,True
+474,1945,On the Waterfront (1954),4.0,4.0,True
+474,1945,On the Waterfront (1954),4.0,4.0,True
+474,1947,West Side Story (1961),5.0,5.0,True
+606,1948,Tom Jones (1963),3.5,4.0,True
+474,1950,In the Heat of the Night (1967),3.5,4.0,True
+474,1951,Oliver! (1968),4.0,3.0,True
+474,1952,Midnight Cowboy (1969),4.0,4.0,True
+474,1953,"French Connection, The (1971)",4.0,4.0,True
+474,1953,"French Connection, The (1971)",4.0,4.0,True
+474,1954,Rocky (1976),4.0,4.0,True
+474,1954,Rocky (1976),4.0,4.0,True
+474,1955,Kramer vs. Kramer (1979),4.5,4.0,True
+474,1957,Chariots of Fire (1981),5.0,4.0,True
+474,1957,Chariots of Fire (1981),5.0,4.0,True
+474,1959,Out of Africa (1985),4.0,4.0,True
+474,1959,Out of Africa (1985),4.0,0.0,True
+474,1960,"Last Emperor, The (1987)",4.0,4.0,True
+474,1961,Rain Man (1988),4.0,4.0,True
+474,1962,Driving Miss Daisy (1989),4.0,4.0,True
+474,1975,Friday the 13th Part 2 (1981),2.0,3.0,True
+474,1976,Friday the 13th Part 3: 3D (1982),0.5,3.0,True
+474,1977,Friday the 13th Part IV: The Final Chapter (1984),1.5,4.0,True
+474,1983,Halloween II (1981),2.0,4.0,True
+474,1984,Halloween III: Season of the Witch (1982),2.0,4.0,True
+474,1994,Poltergeist (1982),4.0,4.0,True
+474,1995,Poltergeist II: The Other Side (1986),2.0,3.0,True
+474,1996,Poltergeist III (1988),1.0,3.0,True
+474,1997,"Exorcist, The (1973)",4.0,4.0,True
+474,2006,"Mask of Zorro, The (1998)",4.0,4.0,True
+474,2006,"Mask of Zorro, The (1998)",4.0,4.0,True
+474,2011,Back to the Future Part II (1989),2.0,4.0,True
+474,2019,Seven Samurai (Shichinin no samurai) (1954),4.0,5.0,True
+474,2020,Dangerous Liaisons (1988),4.0,4.0,True
+474,2022,"Last Temptation of Christ, The (1988)",4.0,4.0,True
+474,2022,"Last Temptation of Christ, The (1988)",4.0,4.0,True
+62,2023,"Godfather: Part III, The (1990)",5.0,3.0,True
+62,2023,"Godfather: Part III, The (1990)",5.0,3.0,True
+62,2023,"Godfather: Part III, The (1990)",5.0,3.0,True
+62,2023,"Godfather: Part III, The (1990)",5.0,3.0,True
+62,2023,"Godfather: Part III, The (1990)",5.0,3.0,True
+474,2028,Saving Private Ryan (1998),3.0,4.0,True
+474,2054,"Honey, I Shrunk the Kids (1989)",4.0,4.0,True
+474,2058,"Negotiator, The (1998)",4.0,4.0,True
+474,2059,"Parent Trap, The (1998)",2.0,0.0,True
+474,2064,Roger & Me (1989),4.0,4.0,True
+474,2064,Roger & Me (1989),4.0,4.0,True
+474,2066,Out of the Past (1947),4.0,4.0,True
+474,2070,Tender Mercies (1983),4.0,4.0,True
+474,2076,Blue Velvet (1986),4.0,4.0,True
+474,2076,Blue Velvet (1986),4.0,0.0,True
+474,2078,"Jungle Book, The (1967)",4.0,4.0,True
+474,2080,Lady and the Tramp (1955),4.0,4.0,True
+474,2085,101 Dalmatians (One Hundred and One Dalmatians) (1961),4.0,5.0,True
+474,2097,Something Wicked This Way Comes (1983),3.5,4.0,True
+474,2097,Something Wicked This Way Comes (1983),3.5,4.0,True
+474,2100,Splash (1984),4.0,4.0,True
+474,2108,L.A. Story (1991),4.0,4.0,True
+474,2114,"Outsiders, The (1983)",4.0,0.0,True
+474,2115,Indiana Jones and the Temple of Doom (1984),2.0,4.0,True
+474,2116,"Lord of the Rings, The (1978)",2.0,4.0,True
+474,2118,"Dead Zone, The (1983)",4.0,4.0,True
+474,2121,Cujo (1983),2.0,0.0,True
+474,2122,Children of the Corn (1984),1.0,4.0,True
+62,2124,"Addams Family, The (1991)",5.0,4.0,True
+62,2124,"Addams Family, The (1991)",5.0,4.0,True
+62,2124,"Addams Family, The (1991)",5.0,4.0,True
+62,2124,"Addams Family, The (1991)",5.0,4.0,True
+62,2124,"Addams Family, The (1991)",5.0,4.0,True
+62,2124,"Addams Family, The (1991)",5.0,4.0,True
+567,2138,Watership Down (1978),4.5,4.0,True
+567,2138,Watership Down (1978),4.5,4.0,True
+474,2139,"Secret of NIMH, The (1982)",4.0,4.0,True
+474,2145,Pretty in Pink (1986),4.0,4.0,True
+474,2145,Pretty in Pink (1986),4.0,0.0,True
+356,2146,St. Elmo's Fire (1985),4.5,4.0,True
+424,2160,Rosemary's Baby (1968),4.5,4.0,True
+424,2160,Rosemary's Baby (1968),4.5,4.0,True
+424,2160,Rosemary's Baby (1968),4.5,4.0,True
+424,2160,Rosemary's Baby (1968),4.5,4.0,True
+424,2160,Rosemary's Baby (1968),4.5,4.0,True
+474,2160,Rosemary's Baby (1968),4.0,4.0,True
+474,2167,Blade (1998),2.0,0.0,True
+474,2171,Next Stop Wonderland (1998),5.0,4.0,True
+474,2171,Next Stop Wonderland (1998),5.0,4.0,True
+474,2171,Next Stop Wonderland (1998),5.0,4.0,True
+474,2186,Strangers on a Train (1951),4.5,4.0,True
+474,2187,Stage Fright (1950),3.5,4.0,True
+474,2194,"Untouchables, The (1987)",4.0,4.0,True
+474,2194,"Untouchables, The (1987)",4.0,4.0,True
+474,2202,Lifeboat (1944),4.5,4.0,True
+474,2203,Shadow of a Doubt (1943),4.0,4.0,True
+474,2206,Suspicion (1941),4.5,4.0,True
+474,2208,"Lady Vanishes, The (1938)",4.0,3.0,True
+474,2243,Broadcast News (1987),4.5,0.0,True
+474,2247,Married to the Mob (1988),2.0,4.0,True
+474,2248,Say Anything... (1989),5.0,4.0,True
+474,2248,Say Anything... (1989),5.0,4.0,True
+474,2249,My Blue Heaven (1990),2.0,4.0,True
+474,2268,"Few Good Men, A (1992)",4.0,4.0,True
+474,2268,"Few Good Men, A (1992)",4.0,4.0,True
+474,2291,Edward Scissorhands (1990),4.5,4.0,True
+474,2295,"Impostors, The (1998)",5.0,4.0,True
+424,2296,"Night at the Roxbury, A (1998)",3.0,4.0,True
+474,2300,"Producers, The (1968)",4.5,0.0,True
+474,2302,My Cousin Vinny (1992),2.0,4.0,True
+474,2310,"Mighty, The (1998)",4.0,0.0,True
+474,2312,Children of a Lesser God (1986),2.5,4.0,True
+474,2313,"Elephant Man, The (1980)",4.5,4.0,True
+474,2324,Life Is Beautiful (La Vita è bella) (1997),5.0,4.0,True
+567,2324,Life Is Beautiful (La Vita è bella) (1997),3.5,5.0,True
+567,2324,Life Is Beautiful (La Vita è bella) (1997),3.5,0.0,True
+567,2324,Life Is Beautiful (La Vita è bella) (1997),3.5,5.0,True
+567,2324,Life Is Beautiful (La Vita è bella) (1997),3.5,4.0,True
+567,2324,Life Is Beautiful (La Vita è bella) (1997),3.5,4.0,True
+567,2324,Life Is Beautiful (La Vita è bella) (1997),3.5,4.0,True
+567,2324,Life Is Beautiful (La Vita è bella) (1997),3.5,4.0,True
+424,2329,American History X (1998),4.0,0.0,True
+474,2329,American History X (1998),4.0,0.0,True
+537,2329,American History X (1998),4.5,0.0,True
+537,2329,American History X (1998),4.5,0.0,True
+537,2329,American History X (1998),4.5,0.0,True
+474,2334,"Siege, The (1998)",4.0,4.0,True
+474,2335,"Waterboy, The (1998)",2.0,0.0,True
+474,2336,Elizabeth (1998),4.0,0.0,True
+474,2355,"Bug's Life, A (1998)",4.0,0.0,True
+474,2357,Central Station (Central do Brasil) (1998),4.5,4.0,True
+125,2387,Very Bad Things (1998),4.5,0.0,True
+125,2387,Very Bad Things (1998),4.5,0.0,True
+474,2390,Little Voice (1998),3.5,4.0,True
+474,2391,"Simple Plan, A (1998)",4.0,4.0,True
+477,2393,Star Trek: Insurrection (1998),3.5,4.0,True
+477,2393,Star Trek: Insurrection (1998),3.5,4.0,True
+477,2393,Star Trek: Insurrection (1998),3.5,4.0,True
+474,2394,"Prince of Egypt, The (1998)",5.0,5.0,True
+474,2394,"Prince of Egypt, The (1998)",5.0,0.0,True
+474,2396,Shakespeare in Love (1998),4.0,4.0,True
+474,2410,Rocky III (1982),2.0,4.0,True
+474,2411,Rocky IV (1985),1.0,0.0,True
+474,2412,Rocky V (1990),1.5,3.0,True
+474,2420,"Karate Kid, The (1984)",4.0,0.0,True
+474,2421,"Karate Kid, Part II, The (1986)",2.0,0.0,True
+474,2422,"Karate Kid, Part III, The (1989)",2.0,3.0,True
+474,2423,Christmas Vacation (National Lampoon's Christmas Vacation) (1989),1.5,4.0,True
+474,2424,You've Got Mail (1998),5.0,0.0,True
+474,2424,You've Got Mail (1998),5.0,4.0,True
+474,2431,Patch Adams (1998),1.0,0.0,True
+474,2442,Hilary and Jackie (1998),4.0,4.0,True
+474,2463,Ruthless People (1986),2.0,4.0,True
+474,2467,"Name of the Rose, The (Name der Rose, Der) (1986)",3.5,0.0,True
+474,2470,Crocodile Dundee (1986),2.0,4.0,True
+474,2471,Crocodile Dundee II (1988),1.0,4.0,True
+474,2491,Simply Irresistible (1999),2.0,4.0,True
+474,2494,"Last Days, The (1998)",4.0,4.0,True
+474,2494,"Last Days, The (1998)",4.0,4.0,True
+474,2502,Office Space (1999),4.0,0.0,True
+474,2502,Office Space (1999),4.0,4.0,True
+424,2505,8MM (1999),3.5,3.0,True
+474,2506,"Other Sister, The (1999)",2.0,4.0,True
+474,2517,Christine (1983),1.0,0.0,True
+474,2529,Planet of the Apes (1968),4.0,4.0,True
+474,2550,"Haunting, The (1963)",4.0,4.0,True
+474,2553,Village of the Damned (1960),3.5,4.0,True
+474,2554,Children of the Damned (1963),3.5,3.0,True
+474,2565,"King and I, The (1956)",5.0,4.0,True
+424,2571,"Matrix, The (1999)",2.0,4.0,True
+424,2571,"Matrix, The (1999)",2.0,0.0,True
+474,2571,"Matrix, The (1999)",4.5,4.0,True
+537,2571,"Matrix, The (1999)",4.0,4.0,True
+537,2571,"Matrix, The (1999)",4.0,4.0,True
+474,2572,10 Things I Hate About You (1999),2.5,4.0,True
+184,2579,Following (1998),4.0,0.0,True
+184,2579,Following (1998),4.0,0.0,True
+184,2579,Following (1998),4.0,0.0,True
+184,2579,Following (1998),4.0,4.0,True
+184,2579,Following (1998),4.0,4.0,True
+184,2579,Following (1998),4.0,0.0,True
+474,2579,Following (1998),4.0,0.0,True
+474,2581,Never Been Kissed (1999),4.0,4.0,True
+474,2583,Cookie's Fortune (1999),4.0,4.0,True
+474,2598,Pushing Tin (1999),2.0,3.0,True
+474,2600,eXistenZ (1999),4.0,4.0,True
+474,2612,Mildred Pierce (1945),4.0,4.0,True
+327,2616,Dick Tracy (1990),3.5,0.0,True
+474,2628,Star Wars: Episode I - The Phantom Menace (1999),4.0,3.0,True
+474,2628,Star Wars: Episode I - The Phantom Menace (1999),4.0,3.0,True
+474,2640,Superman (1978),4.0,4.0,True
+474,2641,Superman II (1980),4.0,4.0,True
+474,2642,Superman III (1983),1.5,3.0,True
+474,2648,Frankenstein (1931),3.5,0.0,True
+474,2660,"Thing from Another World, The (1951)",3.5,4.0,True
+474,2664,Invasion of the Body Snatchers (1956),4.0,5.0,True
+474,2692,Run Lola Run (Lola rennt) (1998),4.0,4.0,True
+474,2693,Trekkies (1997),4.0,0.0,True
+477,2694,Big Daddy (1999),4.0,0.0,True
+424,2700,"South Park: Bigger, Longer and Uncut (1999)",5.0,4.0,True
+424,2700,"South Park: Bigger, Longer and Uncut (1999)",5.0,5.0,True
+424,2700,"South Park: Bigger, Longer and Uncut (1999)",5.0,4.0,True
+424,2700,"South Park: Bigger, Longer and Uncut (1999)",5.0,4.0,True
+424,2700,"South Park: Bigger, Longer and Uncut (1999)",5.0,4.0,True
+424,2700,"South Park: Bigger, Longer and Uncut (1999)",5.0,4.0,True
+424,2700,"South Park: Bigger, Longer and Uncut (1999)",5.0,4.0,True
+424,2700,"South Park: Bigger, Longer and Uncut (1999)",5.0,5.0,True
+474,2710,"Blair Witch Project, The (1999)",4.0,0.0,True
+474,2710,"Blair Witch Project, The (1999)",4.0,0.0,True
+474,2712,Eyes Wide Shut (1999),4.0,4.0,True
+474,2716,Ghostbusters (a.k.a. Ghost Busters) (1984),4.5,4.0,True
+474,2717,Ghostbusters II (1989),0.5,4.0,True
+474,2719,"Haunting, The (1999)",1.5,0.0,True
+474,2723,Mystery Men (1999),4.5,0.0,True
+474,2726,"Killing, The (1956)",4.5,4.0,True
+474,2728,Spartacus (1960),4.0,4.0,True
+474,2728,Spartacus (1960),4.0,0.0,True
+474,2728,Spartacus (1960),4.0,4.0,True
+567,2731,"400 Blows, The (Les quatre cents coups) (1959)",3.5,4.0,True
+567,2731,"400 Blows, The (Les quatre cents coups) (1959)",3.5,4.0,True
+567,2731,"400 Blows, The (Les quatre cents coups) (1959)",3.5,4.0,True
+567,2731,"400 Blows, The (Les quatre cents coups) (1959)",3.5,4.0,True
+567,2731,"400 Blows, The (Les quatre cents coups) (1959)",3.5,4.0,True
+474,2745,"Mission, The (1986)",5.0,3.0,True
+474,2745,"Mission, The (1986)",5.0,3.0,True
+474,2750,Radio Days (1987),3.5,0.0,True
+474,2750,Radio Days (1987),3.5,0.0,True
+474,2761,"Iron Giant, The (1999)",4.0,4.0,True
+477,2761,"Iron Giant, The (1999)",4.0,4.0,True
+357,2762,"Sixth Sense, The (1999)",5.0,4.0,True
+357,2762,"Sixth Sense, The (1999)",5.0,4.0,True
+357,2762,"Sixth Sense, The (1999)",5.0,4.0,True
+357,2762,"Sixth Sense, The (1999)",5.0,4.0,True
+357,2762,"Sixth Sense, The (1999)",5.0,4.0,True
+357,2762,"Sixth Sense, The (1999)",5.0,0.0,True
+357,2762,"Sixth Sense, The (1999)",5.0,4.0,True
+474,2762,"Sixth Sense, The (1999)",5.0,4.0,True
+474,2762,"Sixth Sense, The (1999)",5.0,4.0,True
+474,2787,Cat's Eye (1985),2.0,4.0,True
+474,2791,Airplane! (1980),4.0,4.0,True
+474,2791,Airplane! (1980),4.0,4.0,True
+474,2797,Big (1988),4.0,0.0,True
+474,2801,Oscar and Lucinda (a.k.a. Oscar & Lucinda) (1997),4.5,0.0,True
+474,2803,"Pelican Brief, The (1993)",2.5,4.0,True
+474,2804,"Christmas Story, A (1983)",4.0,4.0,True
+474,2827,"Astronaut's Wife, The (1999)",2.0,0.0,True
+474,2863,"Hard Day's Night, A (1964)",4.0,4.0,True
+474,2871,Deliverance (1972),4.0,0.0,True
+474,2872,Excalibur (1981),4.0,3.0,True
+474,2872,Excalibur (1981),4.0,3.0,True
+474,2915,Risky Business (1983),2.0,4.0,True
+474,2918,Ferris Bueller's Day Off (1986),4.0,4.0,True
+474,2919,"Year of Living Dangerously, The (1982)",4.0,4.0,True
+474,2919,"Year of Living Dangerously, The (1982)",4.0,4.0,True
+474,2919,"Year of Living Dangerously, The (1982)",4.0,4.0,True
+474,2927,Brief Encounter (1946),4.0,4.0,True
+474,2935,"Lady Eve, The (1941)",4.0,4.0,True
+474,2937,"Palm Beach Story, The (1942)",4.5,4.0,True
+474,2940,Gilda (1946),4.0,0.0,True
+474,2941,South Pacific (1958),4.0,0.0,True
+474,2952,Sydney (Hard Eight) (1996),4.0,0.0,True
+62,2953,Home Alone 2: Lost in New York (1992),3.5,4.0,True
+62,2953,Home Alone 2: Lost in New York (1992),3.5,4.0,True
+62,2953,Home Alone 2: Lost in New York (1992),3.5,4.0,True
+62,2953,Home Alone 2: Lost in New York (1992),3.5,4.0,True
+424,2959,Fight Club (1999),4.5,0.0,True
+424,2959,Fight Club (1999),4.5,0.0,True
+424,2959,Fight Club (1999),4.5,4.0,True
+424,2959,Fight Club (1999),4.5,4.0,True
+474,2959,Fight Club (1999),4.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,5.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,5.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,5.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,5.0,True
+599,2959,Fight Club (1999),5.0,5.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,5.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,0.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+599,2959,Fight Club (1999),5.0,4.0,True
+474,2966,"Straight Story, The (1999)",4.0,4.0,True
+474,2966,"Straight Story, The (1999)",4.0,4.0,True
+474,2967,"Bad Seed, The (1956)",4.0,4.0,True
+474,2968,Time Bandits (1981),4.0,4.0,True
+474,2987,Who Framed Roger Rabbit? (1988),4.0,4.0,True
+474,3000,Princess Mononoke (Mononoke-hime) (1997),4.0,0.0,True
+477,3000,Princess Mononoke (Mononoke-hime) (1997),5.0,0.0,True
+477,3000,Princess Mononoke (Mononoke-hime) (1997),5.0,0.0,True
+477,3000,Princess Mononoke (Mononoke-hime) (1997),5.0,0.0,True
+477,3000,Princess Mononoke (Mononoke-hime) (1997),5.0,0.0,True
+477,3000,Princess Mononoke (Mononoke-hime) (1997),5.0,0.0,True
+474,3006,"Insider, The (1999)",4.0,4.0,True
+474,3006,"Insider, The (1999)",4.0,3.0,True
+474,3011,"They Shoot Horses, Don't They? (1969)",4.0,3.0,True
+474,3028,"Taming of the Shrew, The (1967)",2.0,4.0,True
+474,3030,Yojimbo (1961),4.0,4.0,True
+474,3039,Trading Places (1983),4.0,0.0,True
+474,3040,Meatballs (1979),1.0,4.0,True
+474,3044,Dead Again (1991),5.0,3.0,True
+474,3044,Dead Again (1991),5.0,3.0,True
+125,3052,Dogma (1999),5.0,0.0,True
+125,3052,Dogma (1999),5.0,0.0,True
+125,3052,Dogma (1999),5.0,0.0,True
+125,3052,Dogma (1999),5.0,0.0,True
+474,3052,Dogma (1999),4.0,0.0,True
+474,3071,Stand and Deliver (1988),2.5,4.0,True
+474,3072,Moonstruck (1987),5.0,0.0,True
+474,3081,Sleepy Hollow (1999),2.0,4.0,True
+474,3087,Scrooged (1988),1.5,4.0,True
+474,3087,Scrooged (1988),1.5,0.0,True
+474,3095,"Grapes of Wrath, The (1940)",4.5,4.0,True
+474,3095,"Grapes of Wrath, The (1940)",4.5,0.0,True
+474,3097,"Shop Around the Corner, The (1940)",4.0,4.0,True
+474,3098,"Natural, The (1984)",3.5,4.0,True
+474,3098,"Natural, The (1984)",3.5,0.0,True
+474,3101,Fatal Attraction (1987),4.0,4.0,True
+474,3108,"Fisher King, The (1991)",2.5,4.0,True
+474,3111,Places in the Heart (1984),4.0,4.0,True
+62,3114,Toy Story 2 (1999),3.0,4.0,True
+62,3114,Toy Story 2 (1999),3.0,4.0,True
+62,3114,Toy Story 2 (1999),3.0,4.0,True
+62,3114,Toy Story 2 (1999),3.0,4.0,True
+62,3114,Toy Story 2 (1999),3.0,4.0,True
+62,3114,Toy Story 2 (1999),3.0,5.0,True
+62,3114,Toy Story 2 (1999),3.0,4.0,True
+474,3114,Toy Story 2 (1999),4.0,2.0,True
+474,3115,Flawless (1999),4.0,0.0,True
+474,3125,"End of the Affair, The (1999)",4.0,4.0,True
+567,3134,Grand Illusion (La grande illusion) (1937),3.0,4.0,True
+567,3134,Grand Illusion (La grande illusion) (1937),3.0,4.0,True
+474,3135,"Great Santini, The (1979)",4.0,4.0,True
+474,3147,"Green Mile, The (1999)",4.0,4.0,True
+474,3152,"Last Picture Show, The (1971)",4.0,4.0,True
+474,3160,Magnolia (1999),5.0,0.0,True
+474,3174,Man on the Moon (1999),4.0,4.0,True
+474,3175,Galaxy Quest (1999),4.0,0.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+424,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+474,3176,"Talented Mr. Ripley, The (1999)",5.0,4.0,True
+474,3176,"Talented Mr. Ripley, The (1999)",5.0,0.0,True
+474,3178,"Hurricane, The (1999)",2.0,0.0,True
+474,3181,Titus (1999),4.5,0.0,True
+424,3186,"Girl, Interrupted (1999)",3.5,0.0,True
+424,3186,"Girl, Interrupted (1999)",3.5,4.0,True
+424,3186,"Girl, Interrupted (1999)",3.5,0.0,True
+424,3186,"Girl, Interrupted (1999)",3.5,0.0,True
+424,3186,"Girl, Interrupted (1999)",3.5,0.0,True
+424,3186,"Girl, Interrupted (1999)",3.5,0.0,True
+474,3210,Fast Times at Ridgemont High (1982),2.0,4.0,True
+474,3211,"Cry in the Dark, A (1988)",4.0,4.0,True
+474,3211,"Cry in the Dark, A (1988)",4.0,4.0,True
+474,3247,Sister Act (1992),2.0,4.0,True
+474,3258,Death Becomes Her (1992),2.5,4.0,True
+474,3259,Far and Away (1992),2.5,3.0,True
+474,3260,Howards End (1992),4.5,4.0,True
+474,3263,White Men Can't Jump (1992),2.0,4.0,True
+567,3266,Man Bites Dog (C'est arrivé près de chez vous) (1992),5.0,4.0,True
+567,3266,Man Bites Dog (C'est arrivé près de chez vous) (1992),5.0,3.0,True
+567,3266,Man Bites Dog (C'est arrivé près de chez vous) (1992),5.0,4.0,True
+567,3266,Man Bites Dog (C'est arrivé près de chez vous) (1992),5.0,4.0,True
+567,3266,Man Bites Dog (C'est arrivé près de chez vous) (1992),5.0,4.0,True
+567,3266,Man Bites Dog (C'est arrivé près de chez vous) (1992),5.0,3.0,True
+474,3270,"Cutting Edge, The (1992)",2.5,4.0,True
+474,3273,Scream 3 (2000),4.0,4.0,True
+474,3273,Scream 3 (2000),4.0,3.0,True
+474,3281,"Brandon Teena Story, The (1998)",2.0,4.0,True
+474,3306,"Circus, The (1928)",4.5,4.0,True
+474,3306,"Circus, The (1928)",4.5,4.0,True
+474,3307,City Lights (1931),4.5,0.0,True
+474,3310,"Kid, The (1921)",4.0,4.0,True
+474,3317,Wonder Boys (2000),4.0,4.0,True
+474,3330,Splendor in the Grass (1961),4.0,4.0,True
+474,3330,Splendor in the Grass (1961),4.0,4.0,True
+474,3341,Born Yesterday (1950),4.0,0.0,True
+474,3360,Hoosiers (a.k.a. Best Shot) (1986),3.5,4.0,True
+474,3384,"Taking of Pelham One Two Three, The (1974)",4.0,4.0,True
+474,3385,Volunteers (1985),2.0,4.0,True
+474,3386,JFK (1991),4.0,4.0,True
+474,3386,JFK (1991),4.0,4.0,True
+474,3408,Erin Brockovich (2000),4.0,4.0,True
+474,3408,Erin Brockovich (2000),4.0,4.0,True
+474,3420,...And Justice for All (1979),2.5,4.0,True
+474,3421,Animal House (1978),2.0,0.0,True
+474,3421,Animal House (1978),2.0,4.0,True
+474,3424,Do the Right Thing (1989),4.0,4.0,True
+567,3424,Do the Right Thing (1989),4.0,0.0,True
+474,3429,Creature Comforts (1989),3.5,4.0,True
+474,3435,Double Indemnity (1944),4.0,4.0,True
+474,3447,"Good Earth, The (1937)",4.0,4.0,True
+474,3451,Guess Who's Coming to Dinner (1967),4.5,4.0,True
+474,3451,Guess Who's Coming to Dinner (1967),4.5,4.0,True
+474,3451,Guess Who's Coming to Dinner (1967),4.5,4.0,True
+474,3451,Guess Who's Coming to Dinner (1967),4.5,4.0,True
+474,3461,Lord of the Flies (1963),4.0,4.0,True
+474,3462,Modern Times (1936),4.5,4.0,True
+474,3468,"Hustler, The (1961)",3.5,4.0,True
+474,3469,Inherit the Wind (1960),2.5,4.0,True
+474,3469,Inherit the Wind (1960),2.5,4.0,True
+474,3469,Inherit the Wind (1960),2.5,4.0,True
+474,3475,"Place in the Sun, A (1951)",4.0,4.0,True
+327,3481,High Fidelity (2000),5.0,4.0,True
+474,3481,High Fidelity (2000),5.0,4.0,True
+474,3489,Hook (1991),4.0,0.0,True
+474,3498,Midnight Express (1978),4.0,4.0,True
+424,3499,Misery (1990),3.5,0.0,True
+424,3499,Misery (1990),3.5,0.0,True
+424,3499,Misery (1990),3.5,0.0,True
+424,3499,Misery (1990),3.5,0.0,True
+424,3499,Misery (1990),3.5,0.0,True
+424,3499,Misery (1990),3.5,0.0,True
+424,3499,Misery (1990),3.5,0.0,True
+474,3502,My Life (1993),2.5,0.0,True
+474,3504,Network (1976),4.0,0.0,True
+474,3512,Return to Me (2000),4.5,4.0,True
+474,3515,Me Myself I (2000),4.0,4.0,True
+474,3526,Parenthood (1989),4.0,4.0,True
+477,3527,Predator (1987),4.0,0.0,True
+477,3527,Predator (1987),4.0,4.0,True
+477,3527,Predator (1987),4.0,4.0,True
+477,3527,Predator (1987),4.0,4.0,True
+477,3527,Predator (1987),4.0,0.0,True
+477,3527,Predator (1987),4.0,0.0,True
+477,3527,Predator (1987),4.0,4.0,True
+477,3527,Predator (1987),4.0,0.0,True
+474,3528,"Prince of Tides, The (1991)",2.0,0.0,True
+474,3536,Keeping the Faith (2000),4.5,4.0,True
+474,3536,Keeping the Faith (2000),4.5,4.0,True
+474,3546,What Ever Happened to Baby Jane? (1962),4.0,4.0,True
+474,3548,Auntie Mame (1958),4.5,4.0,True
+474,3549,Guys and Dolls (1955),5.0,0.0,True
+474,3552,Caddyshack (1980),2.0,4.0,True
+474,3556,"Virgin Suicides, The (1999)",4.0,4.0,True
+474,3556,"Virgin Suicides, The (1999)",4.0,4.0,True
+474,3566,"Big Kahuna, The (2000)",4.5,4.0,True
+474,3566,"Big Kahuna, The (2000)",4.5,4.0,True
+62,3578,Gladiator (2000),4.5,0.0,True
+62,3578,Gladiator (2000),4.5,0.0,True
+62,3578,Gladiator (2000),4.5,4.0,True
+62,3578,Gladiator (2000),4.5,4.0,True
+62,3578,Gladiator (2000),4.5,0.0,True
+62,3578,Gladiator (2000),4.5,0.0,True
+62,3578,Gladiator (2000),4.5,4.0,True
+606,3578,Gladiator (2000),3.5,0.0,True
+474,3608,Pee-wee's Big Adventure (1985),4.0,4.0,True
+474,3629,"Gold Rush, The (1925)",4.0,4.0,True
+567,3671,Blazing Saddles (1974),4.5,4.0,True
+567,3671,Blazing Saddles (1974),4.5,4.0,True
+567,3671,Blazing Saddles (1974),4.5,4.0,True
+474,3675,White Christmas (1954),4.5,4.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,0.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+567,3676,Eraserhead (1977),5.0,3.0,True
+474,3683,Blood Simple (1984),3.5,4.0,True
+474,3712,Soapdish (1991),2.5,0.0,True
+474,3723,Hamlet (1990),4.0,4.0,True
+474,3724,Coming Home (1978),3.5,4.0,True
+474,3730,"Conversation, The (1974)",4.0,0.0,True
+474,3735,Serpico (1973),4.0,0.0,True
+184,3793,X-Men (2000),3.5,4.0,True
+184,3793,X-Men (2000),3.5,4.0,True
+184,3793,X-Men (2000),3.5,0.0,True
+184,3793,X-Men (2000),3.5,4.0,True
+184,3793,X-Men (2000),3.5,4.0,True
+474,3793,X-Men (2000),4.5,4.0,True
+474,3801,Anatomy of a Murder (1959),4.0,4.0,True
+474,3811,Breaker Morant (1980),4.0,4.0,True
+474,3816,"Official Story, The (La historia oficial) (1985)",4.0,4.0,True
+474,3844,Steel Magnolias (1989),2.5,0.0,True
+474,3849,The Spiral Staircase (1945),4.0,4.0,True
+474,3859,"Eyes of Tammy Faye, The (2000)",4.0,4.0,True
+474,3859,"Eyes of Tammy Faye, The (2000)",4.0,4.0,True
+474,3877,Supergirl (1984),2.0,3.0,True
+327,3897,Almost Famous (2000),4.0,0.0,True
+474,3897,Almost Famous (2000),4.5,0.0,True
+474,3897,Almost Famous (2000),4.5,0.0,True
+474,3897,Almost Famous (2000),4.5,0.0,True
+474,3910,Dancer in the Dark (2000),4.0,4.0,True
+474,3910,Dancer in the Dark (2000),4.0,0.0,True
+424,3911,Best in Show (2000),3.5,4.0,True
+474,3911,Best in Show (2000),4.5,4.0,True
+474,3932,"Invisible Man, The (1933)",4.0,4.0,True
+424,3948,Meet the Parents (2000),4.5,0.0,True
+424,3948,Meet the Parents (2000),4.5,4.0,True
+474,3949,Requiem for a Dream (2000),4.0,4.0,True
+474,3967,Billy Elliot (2000),4.0,4.0,True
+474,3983,You Can Count on Me (2000),4.5,4.0,True
+474,3988,How the Grinch Stole Christmas (a.k.a. The Grinch) (2000),1.0,4.0,True
+474,3994,Unbreakable (2000),4.5,4.0,True
+477,3994,Unbreakable (2000),5.0,4.0,True
+477,3994,Unbreakable (2000),5.0,4.0,True
+477,3994,Unbreakable (2000),5.0,4.0,True
+477,3994,Unbreakable (2000),5.0,4.0,True
+477,3994,Unbreakable (2000),5.0,4.0,True
+567,3994,Unbreakable (2000),4.0,4.0,True
+567,3994,Unbreakable (2000),4.0,4.0,True
+474,3996,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",4.0,4.0,True
+474,3996,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",4.0,4.0,True
+474,4007,Wall Street (1987),4.0,0.0,True
+474,4012,Punchline (1988),2.0,4.0,True
+474,4019,Finding Forrester (2000),4.0,4.0,True
+474,4024,"House of Mirth, The (2000)",2.5,4.0,True
+474,4025,Miss Congeniality (2000),2.0,4.0,True
+474,4027,"O Brother, Where Art Thou? (2000)",4.0,4.0,True
+474,4029,State and Main (2000),4.5,0.0,True
+305,4034,Traffic (2000),4.5,3.0,True
+474,4034,Traffic (2000),4.5,0.0,True
+474,4046,Friendly Persuasion (1956),4.0,4.0,True
+474,4077,"With a Friend Like Harry... (Harry, un ami qui vous veut du bien) (2000)",4.0,4.0,True
+474,4105,"Evil Dead, The (1981)",2.0,0.0,True
+474,4113,"Glass Menagerie, The (1987)",4.0,4.0,True
+474,4138,My Demon Lover (1987),1.0,3.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,0.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+567,4144,In the Mood For Love (Fa yeung nin wa) (2000),4.5,4.0,True
+474,4160,"Widow of St. Pierre, The (Veuve de Saint-Pierre, La) (2000)",4.5,4.0,True
+474,4164,"Caveman's Valentine, The (2001)",4.0,4.0,True
+474,4164,"Caveman's Valentine, The (2001)",4.0,4.0,True
+474,4166,Series 7: The Contenders (2001),2.0,4.0,True
+474,4171,Long Night's Journey Into Day (2000),4.0,4.0,True
+474,4184,"Bishop's Wife, The (1947)",4.0,4.0,True
+474,4189,"Greatest Story Ever Told, The (1965)",2.5,4.0,True
+474,4189,"Greatest Story Ever Told, The (1965)",2.5,4.0,True
+474,4190,Elmer Gantry (1960),4.0,0.0,True
+474,4190,Elmer Gantry (1960),4.0,0.0,True
+474,4191,Alfie (1966),4.0,4.0,True
+474,4204,Losin' It (1983),1.0,3.0,True
+474,4210,Manhunter (1986),3.5,4.0,True
+474,4210,Manhunter (1986),3.5,4.0,True
+474,4211,Reversal of Fortune (1990),4.0,4.0,True
+474,4214,Revenge of the Nerds (1984),2.0,3.0,True
+474,4218,River's Edge (1986),3.5,4.0,True
+474,4221,Necessary Roughness (1991),2.0,4.0,True
+62,4223,Enemy at the Gates (2001),4.5,4.0,True
+62,4223,Enemy at the Gates (2001),4.5,4.0,True
+62,4223,Enemy at the Gates (2001),4.5,4.0,True
+62,4223,Enemy at the Gates (2001),4.5,4.0,True
+62,4223,Enemy at the Gates (2001),4.5,4.0,True
+184,4226,Memento (2000),5.0,4.0,True
+184,4226,Memento (2000),5.0,4.0,True
+184,4226,Memento (2000),5.0,4.0,True
+184,4226,Memento (2000),5.0,0.0,True
+184,4226,Memento (2000),5.0,4.0,True
+424,4226,Memento (2000),4.5,4.0,True
+424,4226,Memento (2000),4.5,4.0,True
+424,4226,Memento (2000),4.5,4.0,True
+474,4226,Memento (2000),5.0,4.0,True
+477,4226,Memento (2000),4.0,4.0,True
+477,4226,Memento (2000),4.0,4.0,True
+567,4226,Memento (2000),3.5,4.0,True
+567,4226,Memento (2000),3.5,4.0,True
+474,4232,Spy Kids (2001),4.0,4.0,True
+474,4246,Bridget Jones's Diary (2001),4.5,0.0,True
+474,4259,"Luzhin Defence, The (2000)",4.0,4.0,True
+424,4262,Scarface (1983),3.5,0.0,True
+474,4263,Days of Wine and Roses (1962),4.0,4.0,True
+474,4292,Norma Rae (1979),4.0,4.0,True
+474,4296,Love Story (1970),2.0,0.0,True
+474,4306,Shrek (2001),4.5,0.0,True
+474,4316,Ice Castles (1978),2.5,4.0,True
+474,4326,Mississippi Burning (1988),2.5,4.0,True
+474,4326,Mississippi Burning (1988),2.5,0.0,True
+474,4333,Throw Momma from the Train (1987),4.0,4.0,True
+474,4347,Divided We Fall (Musíme si pomáhat) (2000),4.0,0.0,True
+474,4356,Gentlemen Prefer Blondes (1953),3.0,4.0,True
+474,4359,"Seven Year Itch, The (1955)",4.0,4.0,True
+474,4361,Tootsie (1982),4.0,4.0,True
+357,4370,A.I. Artificial Intelligence (2001),4.0,4.0,True
+357,4370,A.I. Artificial Intelligence (2001),4.0,0.0,True
+357,4370,A.I. Artificial Intelligence (2001),4.0,0.0,True
+357,4370,A.I. Artificial Intelligence (2001),4.0,0.0,True
+474,4370,A.I. Artificial Intelligence (2001),4.5,0.0,True
+474,4380,"Princess and the Warrior, The (Krieger und die Kaiserin, Der) (2000)",4.0,4.0,True
+474,4396,"Cannonball Run, The (1981)",1.0,4.0,True
+474,4447,Legally Blonde (2001),4.0,4.0,True
+474,4448,"Score, The (2001)",4.0,4.0,True
+477,4454,More (1998),5.0,0.0,True
+477,4454,More (1998),5.0,0.0,True
+477,4454,More (1998),5.0,0.0,True
+477,4454,More (1998),5.0,0.0,True
+477,4454,More (1998),5.0,0.0,True
+477,4454,More (1998),5.0,0.0,True
+477,4454,More (1998),5.0,0.0,True
+474,4476,Big Business (1988),2.0,4.0,True
+474,4477,Big Top Pee-Wee (1988),1.0,0.0,True
+474,4489,Coming to America (1988),2.0,4.0,True
+474,4489,Coming to America (1988),2.0,4.0,True
+474,4495,Crossing Delancey (1988),5.0,4.0,True
+474,4526,My Stepmother Is an Alien (1988),1.5,4.0,True
+474,4537,Running on Empty (1988),4.5,4.0,True
+474,4545,Short Circuit (1986),2.0,0.0,True
+474,4546,"Vanishing, The (Spoorloos) (1988)",4.0,4.0,True
+474,4546,"Vanishing, The (Spoorloos) (1988)",4.0,4.0,True
+567,4552,"Tetsuo, the Ironman (Tetsuo) (1988)",3.5,4.0,True
+567,4552,"Tetsuo, the Ironman (Tetsuo) (1988)",3.5,4.0,True
+567,4552,"Tetsuo, the Ironman (Tetsuo) (1988)",3.5,4.0,True
+567,4552,"Tetsuo, the Ironman (Tetsuo) (1988)",3.5,4.0,True
+567,4552,"Tetsuo, the Ironman (Tetsuo) (1988)",3.5,4.0,True
+567,4552,"Tetsuo, the Ironman (Tetsuo) (1988)",3.5,4.0,True
+474,4571,Bill & Ted's Excellent Adventure (1989),4.5,4.0,True
+474,4600,Gross Anatomy (a.k.a. A Cut Above) (1989),2.5,4.0,True
+318,4612,Jesus of Montreal (Jésus de Montréal) (1989),4.5,4.0,True
+474,4621,Look Who's Talking (1989),2.0,0.0,True
+474,4623,Major League (1989),2.0,0.0,True
+474,4638,Jurassic Park III (2001),2.0,3.0,True
+474,4639,America's Sweethearts (2001),2.5,4.0,True
+474,4639,America's Sweethearts (2001),2.5,0.0,True
+474,4641,Ghost World (2001),4.0,0.0,True
+474,4677,Turner & Hooch (1989),1.5,4.0,True
+474,4678,UHF (1989),4.0,4.0,True
+318,4708,Marat/Sade (1966),5.0,3.0,True
+477,4725,Session 9 (2001),4.0,4.0,True
+477,4725,Session 9 (2001),4.0,4.0,True
+477,4725,Session 9 (2001),4.0,4.0,True
+477,4725,Session 9 (2001),4.0,4.0,True
+474,4787,Little Man Tate (1991),4.0,4.0,True
+474,4801,"Little Foxes, The (1941)",4.0,4.0,True
+474,4808,"Vanishing, The (1993)",2.0,4.0,True
+474,4809,Silkwood (1983),4.0,4.0,True
+474,4809,Silkwood (1983),4.0,4.0,True
+474,4812,SpaceCamp (1986),2.0,0.0,True
+474,4812,SpaceCamp (1986),2.0,0.0,True
+424,4816,Zoolander (2001),3.0,4.0,True
+424,4816,Zoolander (2001),3.0,0.0,True
+424,4816,Zoolander (2001),3.0,4.0,True
+424,4816,Zoolander (2001),3.0,4.0,True
+424,4816,Zoolander (2001),3.0,4.0,True
+424,4816,Zoolander (2001),3.0,4.0,True
+474,4823,Serendipity (2001),4.0,0.0,True
+474,4835,Coal Miner's Daughter (1980),4.0,4.0,True
+474,4857,Fiddler on the Roof (1971),4.0,5.0,True
+474,4857,Fiddler on the Roof (1971),4.0,5.0,True
+474,4874,K-PAX (2001),2.5,4.0,True
+474,4874,K-PAX (2001),2.5,4.0,True
+193,4878,Donnie Darko (2001),4.0,0.0,True
+193,4878,Donnie Darko (2001),4.0,4.0,True
+193,4878,Donnie Darko (2001),4.0,4.0,True
+193,4878,Donnie Darko (2001),4.0,4.0,True
+193,4878,Donnie Darko (2001),4.0,4.0,True
+193,4878,Donnie Darko (2001),4.0,4.0,True
+193,4878,Donnie Darko (2001),4.0,4.0,True
+474,4878,Donnie Darko (2001),4.5,0.0,True
+477,4878,Donnie Darko (2001),5.0,4.0,True
+477,4878,Donnie Darko (2001),5.0,4.0,True
+477,4878,Donnie Darko (2001),5.0,0.0,True
+477,4878,Donnie Darko (2001),5.0,0.0,True
+477,4878,Donnie Darko (2001),5.0,0.0,True
+477,4878,Donnie Darko (2001),5.0,4.0,True
+477,4878,Donnie Darko (2001),5.0,4.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+567,4878,Donnie Darko (2001),3.5,0.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+567,4878,Donnie Darko (2001),3.5,0.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+567,4878,Donnie Darko (2001),3.5,0.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+567,4878,Donnie Darko (2001),3.5,0.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+567,4878,Donnie Darko (2001),3.5,4.0,True
+474,4881,"Man Who Wasn't There, The (2001)",4.0,4.0,True
+184,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),3.5,4.0,True
+184,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),3.5,4.0,True
+184,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),3.5,0.0,True
+184,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),3.5,5.0,True
+474,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),4.5,0.0,True
+474,4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),4.5,5.0,True
+474,4902,"Devil's Backbone, The (Espinazo del diablo, El) (2001)",4.0,4.0,True
+474,4920,"Now, Voyager (1942)",4.0,0.0,True
+474,4963,Ocean's Eleven (2001),4.0,4.0,True
+474,4969,And Then There Were None (1945),3.5,0.0,True
+474,4970,"Blue Angel, The (Blaue Engel, Der) (1930)",4.0,0.0,True
+474,4970,"Blue Angel, The (Blaue Engel, Der) (1930)",4.0,4.0,True
+474,4973,"Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",5.0,4.0,True
+474,4979,"Royal Tenenbaums, The (2001)",4.0,4.0,True
+474,4980,Bill & Ted's Bogus Journey (1991),4.0,4.0,True
+474,4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",5.0,4.0,True
+305,4995,"Beautiful Mind, A (2001)",5.0,4.0,True
+474,4998,"Defiant Ones, The (1958)",3.5,4.0,True
+474,5008,Witness for the Prosecution (1957),4.0,4.0,True
+474,5008,Witness for the Prosecution (1957),4.0,5.0,True
+474,5012,Yentl (1983),4.0,0.0,True
+474,5012,Yentl (1983),4.0,4.0,True
+474,5015,Monster's Ball (2001),4.0,0.0,True
+474,5034,"Truly, Madly, Deeply (1991)",5.0,4.0,True
+474,5064,The Count of Monte Cristo (2002),4.0,4.0,True
+474,5064,The Count of Monte Cristo (2002),4.0,4.0,True
+573,5064,The Count of Monte Cristo (2002),4.0,0.0,True
+125,5088,"Going Places (Valseuses, Les) (1974)",5.0,4.0,True
+474,5114,"Bad and the Beautiful, The (1952)",4.0,4.0,True
+474,5135,Monsoon Wedding (2001),4.0,4.0,True
+474,5213,"Oh, God! Book II (1980)",1.5,4.0,True
+474,5224,Promises (2001),4.0,4.0,True
+474,5238,Return of the Secaucus 7 (1980),3.5,3.0,True
+573,5254,Blade II (2002),4.5,0.0,True
+573,5254,Blade II (2002),4.5,4.0,True
+474,5266,Panic Room (2002),4.0,0.0,True
+474,5291,Rashomon (Rashômon) (1950),4.0,4.0,True
+474,5291,Rashomon (Rashômon) (1950),4.0,4.0,True
+474,5294,Frailty (2001),4.0,0.0,True
+474,5316,Enigma (2001),2.5,4.0,True
+474,5349,Spider-Man (2002),4.5,4.0,True
+474,5353,Butterflies Are Free (1972),3.0,4.0,True
+474,5377,About a Boy (2002),5.0,0.0,True
+474,5379,"Believer, The (2001)",4.5,0.0,True
+474,5379,"Believer, The (2001)",4.5,0.0,True
+62,5388,Insomnia (2002),4.5,4.0,True
+62,5388,Insomnia (2002),4.5,0.0,True
+62,5388,Insomnia (2002),4.5,0.0,True
+62,5388,Insomnia (2002),4.5,0.0,True
+184,5388,Insomnia (2002),3.5,0.0,True
+184,5388,Insomnia (2002),3.5,0.0,True
+184,5388,Insomnia (2002),3.5,0.0,True
+474,5398,Requiem for a Heavyweight (1962),4.0,4.0,True
+474,5404,84 Charing Cross Road (1987),4.0,4.0,True
+474,5445,Minority Report (2002),4.5,0.0,True
+474,5446,Rabbit-Proof Fence (2002),4.5,4.0,True
+474,5450,Lovely & Amazing (2001),4.0,4.0,True
+474,5450,Lovely & Amazing (2001),4.0,4.0,True
+474,5451,Pumpkin (2002),2.5,3.0,True
+474,5451,Pumpkin (2002),2.5,3.0,True
+477,5459,Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2) (2002),3.0,4.0,True
+477,5459,Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2) (2002),3.0,4.0,True
+477,5459,Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2) (2002),3.0,4.0,True
+357,5464,Road to Perdition (2002),4.0,4.0,True
+357,5464,Road to Perdition (2002),4.0,4.0,True
+474,5470,The Importance of Being Earnest (1952),4.5,4.0,True
+474,5475,Z (1969),3.5,0.0,True
+474,5483,"Kid Stays in the Picture, The (2002)",4.5,4.0,True
+474,5502,Signs (2002),4.5,3.0,True
+474,5505,"Good Girl, The (2002)",4.5,4.0,True
+474,5505,"Good Girl, The (2002)",4.5,4.0,True
+474,5527,Possession (2002),4.0,3.0,True
+474,5527,Possession (2002),4.0,3.0,True
+474,5528,One Hour Photo (2002),4.0,4.0,True
+474,5528,One Hour Photo (2002),4.0,4.0,True
+474,5548,Down and Out in Beverly Hills (1986),2.0,0.0,True
+474,5577,Igby Goes Down (2002),4.0,0.0,True
+474,5601,"Yearling, The (1946)",4.0,3.0,True
+474,5603,"Lavender Hill Mob, The (1951)",4.0,4.0,True
+474,5603,"Lavender Hill Mob, The (1951)",4.0,4.0,True
+474,5618,Spirited Away (Sen to Chihiro no kamikakushi) (2001),4.5,5.0,True
+474,5629,Jonah: A VeggieTales Movie (2002),2.0,4.0,True
+474,5630,Red Dragon (2002),3.5,4.0,True
+474,5633,Heaven (2002),4.0,0.0,True
+474,5644,"Pride of the Yankees, The (1942)",4.0,4.0,True
+474,5644,"Pride of the Yankees, The (1942)",4.0,4.0,True
+474,5669,Bowling for Columbine (2002),4.0,4.0,True
+474,5673,Punch-Drunk Love (2002),4.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+567,5673,Punch-Drunk Love (2002),3.5,4.0,True
+474,5682,"Grey Zone, The (2001)",4.0,4.0,True
+474,5685,Real Women Have Curves (2002),4.5,4.0,True
+474,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.5,4.0,True
+474,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.5,4.0,True
+567,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.0,4.0,True
+567,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.0,0.0,True
+567,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.0,4.0,True
+567,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.0,4.0,True
+567,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.0,4.0,True
+567,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.0,4.0,True
+567,5690,Grave of the Fireflies (Hotaru no haka) (1988),4.0,4.0,True
+606,5694,Staying Alive (1983),3.0,4.0,True
+474,5747,Gallipoli (1981),4.5,4.0,True
+474,5791,Frida (2002),4.0,0.0,True
+474,5792,Roger Dodger (2002),2.5,4.0,True
+474,5802,"World of Henry Orient, The (1964)",4.0,4.0,True
+474,5812,Far from Heaven (2002),4.5,4.0,True
+474,5816,Harry Potter and the Chamber of Secrets (2002),4.5,5.0,True
+474,5816,Harry Potter and the Chamber of Secrets (2002),4.5,4.0,True
+474,5820,Standing in the Shadows of Motown (2002),4.0,4.0,True
+474,5875,Personal Velocity (2002),2.5,4.0,True
+474,5876,"Quiet American, The (2002)",4.0,4.0,True
+474,5878,Talk to Her (Hable con Ella) (2002),4.0,4.0,True
+474,5899,Zulu (1964),3.0,0.0,True
+474,5952,"Lord of the Rings: The Two Towers, The (2002)",5.0,4.0,True
+474,5954,25th Hour (2002),4.0,4.0,True
+474,5954,25th Hour (2002),4.0,4.0,True
+474,5971,My Neighbor Totoro (Tonari no Totoro) (1988),4.0,4.0,True
+474,5989,Catch Me If You Can (2002),4.0,4.0,True
+537,5989,Catch Me If You Can (2002),5.0,4.0,True
+537,5989,Catch Me If You Can (2002),5.0,4.0,True
+537,5989,Catch Me If You Can (2002),5.0,4.0,True
+537,5989,Catch Me If You Can (2002),5.0,4.0,True
+537,5989,Catch Me If You Can (2002),5.0,4.0,True
+537,5989,Catch Me If You Can (2002),5.0,4.0,True
+537,5989,Catch Me If You Can (2002),5.0,4.0,True
+474,5991,Chicago (2002),4.0,0.0,True
+474,5991,Chicago (2002),4.0,0.0,True
+474,5991,Chicago (2002),4.0,0.0,True
+474,5994,Nicholas Nickleby (2002),4.0,4.0,True
+18,5995,"Pianist, The (2002)",4.5,4.0,True
+18,5995,"Pianist, The (2002)",4.5,4.0,True
+474,5995,"Pianist, The (2002)",4.5,4.0,True
+474,6002,Love Liza (2002),3.5,4.0,True
+474,6002,Love Liza (2002),3.5,3.0,True
+474,6002,Love Liza (2002),3.5,3.0,True
+474,6003,Confessions of a Dangerous Mind (2002),3.5,4.0,True
+474,6016,City of God (Cidade de Deus) (2002),4.0,4.0,True
+474,6016,City of God (Cidade de Deus) (2002),4.0,0.0,True
+474,6016,City of God (Cidade de Deus) (2002),4.0,0.0,True
+474,6020,Alice Adams (1935),3.5,3.0,True
+474,6031,Imitation of Life (1959),4.0,4.0,True
+474,6031,Imitation of Life (1959),4.0,4.0,True
+474,6041,Amen. (2002),4.0,4.0,True
+62,6058,Final Destination 2 (2003),3.5,4.0,True
+62,6058,Final Destination 2 (2003),3.5,2.0,True
+474,6063,May (2002),2.5,0.0,True
+474,6090,Kiss Me Goodbye (1982),3.5,0.0,True
+474,6101,Missing (1982),4.0,0.0,True
+474,6101,Missing (1982),4.0,0.0,True
+474,6101,Missing (1982),4.0,0.0,True
+474,6104,Monty Python Live at the Hollywood Bowl (1982),4.0,4.0,True
+606,6107,"Night of the Shooting Stars (Notte di San Lorenzo, La) (1982)",4.0,4.0,True
+474,6156,Shanghai Knights (2003),3.5,0.0,True
+474,6159,All the Real Girls (2003),3.5,4.0,True
+474,6163,He Loves Me... He Loves Me Not (À la folie... pas du tout) (2002),4.5,4.0,True
+474,6170,"Black Stallion, The (1979)",3.5,4.0,True
+474,6178,"Patch of Blue, A (1965)",4.0,4.0,True
+474,6178,"Patch of Blue, A (1965)",4.0,4.0,True
+474,6178,"Patch of Blue, A (1965)",4.0,4.0,True
+474,6181,"Red Badge of Courage, The (1951)",4.0,0.0,True
+474,6181,"Red Badge of Courage, The (1951)",4.0,0.0,True
+474,6183,Pillow Talk (1959),4.0,4.0,True
+474,6183,Pillow Talk (1959),4.0,0.0,True
+424,6188,Old School (2003),4.5,0.0,True
+424,6188,Old School (2003),4.5,4.0,True
+474,6195,Stone Reader (2002),4.0,4.0,True
+474,6195,Stone Reader (2002),4.0,4.0,True
+474,6197,Spider (2002),3.5,0.0,True
+474,6201,Lady Jane (1986),5.0,0.0,True
+567,6214,Irreversible (Irréversible) (2002),3.0,4.0,True
+567,6214,Irreversible (Irréversible) (2002),3.0,0.0,True
+474,6216,Nowhere in Africa (Nirgendwo in Afrika) (2001),3.5,4.0,True
+474,6218,Bend It Like Beckham (2002),4.0,4.0,True
+474,6228,"Talk of the Town, The (1942)",4.0,4.0,True
+474,6232,Born Free (1966),4.0,0.0,True
+474,6232,Born Free (1966),4.0,0.0,True
+474,6235,Europa Europa (Hitlerjunge Salomon) (1990),3.5,4.0,True
+474,6235,Europa Europa (Hitlerjunge Salomon) (1990),3.5,4.0,True
+474,6238,Green Card (1990),3.5,0.0,True
+474,6242,Ringu (Ring) (1998),3.5,0.0,True
+474,6244,Salaam Bombay! (1988),3.0,4.0,True
+474,6245,Sweet Charity (1969),3.5,0.0,True
+474,6254,"Awful Truth, The (1937)",4.5,3.0,True
+474,6268,Raising Victor Vargas (2002),3.5,4.0,True
+474,6269,Stevie (2002),4.5,4.0,True
+474,6273,In a Lonely Place (1950),3.5,4.0,True
+474,6281,Phone Booth (2002),3.5,4.0,True
+184,6283,Cowboy Bebop: The Movie (Cowboy Bebop: Tengoku no Tobira) (2001),4.0,4.0,True
+184,6283,Cowboy Bebop: The Movie (Cowboy Bebop: Tengoku no Tobira) (2001),4.0,4.0,True
+184,6283,Cowboy Bebop: The Movie (Cowboy Bebop: Tengoku no Tobira) (2001),4.0,4.0,True
+474,6286,"Man Without a Past, The (Mies vailla menneisyyttä) (2002)",4.0,4.0,True
+474,6288,Better Luck Tomorrow (2002),3.5,4.0,True
+474,6289,Ghosts of the Abyss (2003),3.5,4.0,True
+424,6290,House of 1000 Corpses (2003),4.5,3.0,True
+474,6291,Lilya 4-Ever (Lilja 4-ever) (2002),4.0,4.0,True
+567,6291,Lilya 4-Ever (Lilja 4-ever) (2002),3.0,4.0,True
+567,6291,Lilya 4-Ever (Lilja 4-ever) (2002),3.0,0.0,True
+567,6291,Lilya 4-Ever (Lilja 4-ever) (2002),3.0,4.0,True
+474,6296,"Mighty Wind, A (2003)",4.0,4.0,True
+474,6297,Holes (2003),3.5,0.0,True
+474,6299,"Winged Migration (Peuple migrateur, Le) (2001)",3.5,4.0,True
+474,6305,Fahrenheit 451 (1966),4.5,4.0,True
+474,6308,Legal Eagles (1986),2.0,3.0,True
+474,6327,"Decade Under the Influence, A (2003)",3.5,4.0,True
+474,6327,"Decade Under the Influence, A (2003)",3.5,4.0,True
+474,6331,Spellbound (2002),4.0,0.0,True
+474,6333,X2: X-Men United (2003),5.0,4.0,True
+474,6333,X2: X-Men United (2003),5.0,4.0,True
+474,6333,X2: X-Men United (2003),5.0,4.0,True
+474,6333,X2: X-Men United (2003),5.0,4.0,True
+474,6333,X2: X-Men United (2003),5.0,4.0,True
+474,6334,Blue Car (2002),4.0,0.0,True
+474,6337,Owning Mahowny (2003),3.5,4.0,True
+474,6339,"Man on the Train (Homme du train, L') (2002)",3.5,4.0,True
+474,6341,"Shape of Things, The (2003)",3.5,4.0,True
+474,6350,Laputa: Castle in the Sky (Tenkû no shiro Rapyuta) (1986),4.0,4.0,True
+474,6367,Down with Love (2003),4.0,4.0,True
+474,6368,Cinemania (2002),3.5,4.0,True
+474,6373,Bruce Almighty (2003),2.5,4.0,True
+573,6373,Bruce Almighty (2003),4.5,4.0,True
+474,6377,Finding Nemo (2003),4.0,5.0,True
+474,6377,Finding Nemo (2003),4.0,5.0,True
+567,6377,Finding Nemo (2003),3.0,5.0,True
+474,6378,"Italian Job, The (2003)",3.5,4.0,True
+474,6380,Capturing the Friedmans (2003),4.5,4.0,True
+474,6385,Whale Rider (2002),5.0,0.0,True
+474,6390,Silk Stockings (1957),3.5,4.0,True
+474,6400,Murder on a Sunday Morning (Un coupable idéal) (2001),3.5,4.0,True
+474,6407,"Walk, Don't Run (1966)",2.0,4.0,True
+474,6407,"Walk, Don't Run (1966)",2.0,4.0,True
+474,6422,Shenandoah (1965),4.0,3.0,True
+474,6440,Barton Fink (1991),3.5,4.0,True
+474,6454,Music Box (1989),3.5,4.0,True
+474,6466,Mississippi Masala (1991),4.5,4.0,True
+305,6502,28 Days Later (2002),5.0,0.0,True
+474,6502,28 Days Later (2002),4.5,4.0,True
+474,6515,You Only Live Once (1937),4.5,4.0,True
+62,6534,Hulk (2003),3.5,3.0,True
+62,6534,Hulk (2003),3.5,0.0,True
+62,6534,Hulk (2003),3.5,0.0,True
+62,6534,Hulk (2003),3.5,0.0,True
+474,6535,"Legally Blonde 2: Red, White & Blonde (2003)",2.0,4.0,True
+474,6536,Sinbad: Legend of the Seven Seas (2003),3.5,4.0,True
+474,6539,Pirates of the Caribbean: The Curse of the Black Pearl (2003),3.5,4.0,True
+62,6541,"League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003)",3.5,3.0,True
+62,6541,"League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003)",3.5,3.0,True
+62,6541,"League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003)",3.5,3.0,True
+62,6541,"League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003)",3.5,3.0,True
+62,6541,"League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003)",3.5,3.0,True
+62,6541,"League of Extraordinary Gentlemen, The (a.k.a. LXG) (2003)",3.5,3.0,True
+474,6545,I Capture the Castle (2003),4.5,4.0,True
+474,6547,Northfork (2003),2.5,0.0,True
+474,6552,Dirty Pretty Things (2002),4.0,4.0,True
+62,6564,Lara Croft Tomb Raider: The Cradle of Life (2003),3.5,4.0,True
+62,6564,Lara Croft Tomb Raider: The Cradle of Life (2003),3.5,4.0,True
+62,6564,Lara Croft Tomb Raider: The Cradle of Life (2003),3.5,4.0,True
+474,6565,Seabiscuit (2003),3.5,4.0,True
+474,6579,"One, Two, Three (1961)",3.5,0.0,True
+474,6591,"Magdalene Sisters, The (2002)",4.0,4.0,True
+474,6592,"Secret Lives of Dentists, The (2002)",4.0,4.0,True
+474,6603,"Double Life, A (1947)",2.5,4.0,True
+474,6609,"Gospel According to St. Matthew, The (Vangelo secondo Matteo, Il) (1964)",3.5,4.0,True
+474,6620,American Splendor (2003),4.5,0.0,True
+474,6636,"Sure Thing, The (1985)",3.5,0.0,True
+474,6639,Wait Until Dark (1967),3.5,4.0,True
+474,6650,Kind Hearts and Coronets (1949),4.0,0.0,True
+474,6650,Kind Hearts and Coronets (1949),4.0,0.0,True
+474,6650,Kind Hearts and Coronets (1949),4.0,0.0,True
+474,6660,"Red Shoes, The (1948)",3.5,4.0,True
+474,6662,"Pink Panther, The (1963)",2.5,4.0,True
+474,6667,Waco: The Rules of Engagement (1997),3.5,4.0,True
+474,6669,Ikiru (1952),4.0,4.0,True
+567,6669,Ikiru (1952),3.5,4.0,True
+567,6669,Ikiru (1952),3.5,4.0,True
+567,6669,Ikiru (1952),3.5,4.0,True
+567,6669,Ikiru (1952),3.5,3.0,True
+474,6708,Matchstick Men (2003),3.5,4.0,True
+474,6708,Matchstick Men (2003),3.5,4.0,True
+474,6710,Dummy (2002),3.5,4.0,True
+474,6711,Lost in Translation (2003),3.5,4.0,True
+474,6713,Millennium Actress (Sennen joyû) (2001),3.5,4.0,True
+474,6724,Paper Moon (1973),3.5,4.0,True
+474,6732,"Hello, Dolly! (1969)",2.5,4.0,True
+474,6744,Once Bitten (1985),2.5,4.0,True
+474,6753,Secondhand Lions (2003),3.5,4.0,True
+474,6768,Luther (2003),4.0,4.0,True
+474,6770,My Life Without Me (2003),3.5,4.0,True
+474,6770,My Life Without Me (2003),3.5,4.0,True
+474,6773,"Triplets of Belleville, The (Les triplettes de Belleville) (2003)",3.5,4.0,True
+474,6776,Lagaan: Once Upon a Time in India (2001),4.5,4.0,True
+474,6785,Seven Brides for Seven Brothers (1954),4.5,4.0,True
+474,6787,All the President's Men (1976),4.0,4.0,True
+474,6787,All the President's Men (1976),4.0,4.0,True
+474,6788,Angie (1994),2.0,0.0,True
+474,6791,Babette's Feast (Babettes gæstebud) (1987),5.0,4.0,True
+474,6807,Monty Python's The Meaning of Life (1983),3.5,4.0,True
+474,6810,Sleeping with the Enemy (1991),3.5,0.0,True
+567,6818,Come and See (Idi i smotri) (1985),5.0,4.0,True
+567,6818,Come and See (Idi i smotri) (1985),5.0,4.0,True
+567,6818,Come and See (Idi i smotri) (1985),5.0,4.0,True
+567,6818,Come and See (Idi i smotri) (1985),5.0,4.0,True
+567,6818,Come and See (Idi i smotri) (1985),5.0,4.0,True
+474,6820,Ginger Snaps (2000),4.0,4.0,True
+474,6832,Regarding Henry (1991),3.5,4.0,True
+474,6852,In Cold Blood (1967),3.5,4.0,True
+474,6852,In Cold Blood (1967),3.5,4.0,True
+474,6852,In Cold Blood (1967),3.5,4.0,True
+474,6852,In Cold Blood (1967),3.5,0.0,True
+474,6852,In Cold Blood (1967),3.5,4.0,True
+474,6856,Yankee Doodle Dandy (1942),4.0,4.0,True
+474,6863,School of Rock (2003),3.5,0.0,True
+474,6867,"Station Agent, The (2003)",4.0,4.0,True
+474,6870,Mystic River (2003),3.5,0.0,True
+474,6870,Mystic River (2003),3.5,0.0,True
+474,6874,Kill Bill: Vol. 1 (2003),4.0,4.0,True
+474,6874,Kill Bill: Vol. 1 (2003),4.0,4.0,True
+474,6881,Pieces of April (2003),4.5,4.0,True
+474,6890,Elephant (2003),4.0,0.0,True
+474,6890,Elephant (2003),4.0,0.0,True
+474,6909,"Eye, The (Gin gwai) (Jian gui) (2002)",4.0,4.0,True
+474,6912,You'll Never Get Rich (1941),3.5,4.0,True
+474,6918,"Unvanquished, The (Aparajito) (1957)",4.0,0.0,True
+474,6932,Shattered Glass (2003),4.5,4.0,True
+474,6936,Elf (2003),4.0,4.0,True
+474,6944,Father of the Bride (1991),2.0,4.0,True
+474,6944,Father of the Bride (1991),2.0,4.0,True
+474,6948,Tupac: Resurrection (2003),4.0,4.0,True
+474,6948,Tupac: Resurrection (2003),4.0,4.0,True
+305,6953,21 Grams (2003),1.0,4.0,True
+474,6963,Devil's Playground (2002),4.5,4.0,True
+474,6970,Desk Set (1957),3.5,4.0,True
+474,6979,WarGames (1983),4.0,0.0,True
+474,6981,"Ordet (Word, The) (1955)",4.0,0.0,True
+474,6984,"Tale of Two Cities, A (1935)",4.0,4.0,True
+474,6985,"Passion of Joan of Arc, The (Passion de Jeanne d'Arc, La) (1928)",4.5,4.0,True
+474,6993,Hannah and Her Sisters (1986),4.0,4.0,True
+474,7013,"Night of the Hunter, The (1955)",4.5,0.0,True
+474,7018,Presumed Innocent (1990),2.5,0.0,True
+474,7018,Presumed Innocent (1990),2.5,0.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,4.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,0.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,4.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,4.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,4.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,0.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,4.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,4.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,4.0,True
+125,7022,Battle Royale (Batoru rowaiaru) (2000),5.0,4.0,True
+567,7024,"Salo, or The 120 Days of Sodom (Salò o le 120 giornate di Sodoma) (1976)",4.0,0.0,True
+567,7024,"Salo, or The 120 Days of Sodom (Salò o le 120 giornate di Sodoma) (1976)",4.0,0.0,True
+567,7024,"Salo, or The 120 Days of Sodom (Salò o le 120 giornate di Sodoma) (1976)",4.0,0.0,True
+567,7024,"Salo, or The 120 Days of Sodom (Salò o le 120 giornate di Sodoma) (1976)",4.0,0.0,True
+567,7024,"Salo, or The 120 Days of Sodom (Salò o le 120 giornate di Sodoma) (1976)",4.0,1.0,True
+567,7024,"Salo, or The 120 Days of Sodom (Salò o le 120 giornate di Sodoma) (1976)",4.0,0.0,True
+567,7024,"Salo, or The 120 Days of Sodom (Salò o le 120 giornate di Sodoma) (1976)",4.0,0.0,True
+474,7049,Flying Down to Rio (1933),3.0,4.0,True
+474,7050,Follow the Fleet (1936),3.5,4.0,True
+474,7053,Roberta (1935),4.0,4.0,True
+474,7055,Swing Time (1936),4.0,0.0,True
+474,7059,National Velvet (1944),4.0,4.0,True
+474,7061,Dark Victory (1939),4.0,4.0,True
+474,7062,Birdman of Alcatraz (1962),4.0,4.0,True
+474,7062,Birdman of Alcatraz (1962),4.0,4.0,True
+474,7069,"Macbeth (a.k.a. Tragedy of Macbeth, The) (1971)",3.5,4.0,True
+474,7069,"Macbeth (a.k.a. Tragedy of Macbeth, The) (1971)",3.5,4.0,True
+474,7070,Red River (1948),4.0,4.0,True
+474,7073,"Shot in the Dark, A (1964)",2.5,4.0,True
+357,7078,Jezebel (1938),5.0,4.0,True
+357,7078,Jezebel (1938),5.0,4.0,True
+474,7079,"Hunchback of Notre Dame, The (1939)",2.5,4.0,True
+474,7086,Pygmalion (1938),3.5,4.0,True
+474,7087,"Passage to India, A (1984)",4.0,4.0,True
+474,7090,Hero (Ying xiong) (2002),4.0,4.0,True
+474,7121,Adam's Rib (1949),5.0,4.0,True
+474,7132,"Night at the Opera, A (1935)",3.5,4.0,True
+474,7132,"Night at the Opera, A (1935)",3.5,4.0,True
+474,7139,In America (2002),4.0,3.0,True
+474,7141,My Flesh and Blood (2003),4.0,4.0,True
+193,7147,Big Fish (2003),3.5,0.0,True
+193,7147,Big Fish (2003),3.5,0.0,True
+193,7147,Big Fish (2003),3.5,4.0,True
+193,7147,Big Fish (2003),3.5,0.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,5.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,5.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,4.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,5.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,5.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,4.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,5.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,5.0,True
+62,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,5.0,True
+474,7153,"Lord of the Rings: The Return of the King, The (2003)",5.0,5.0,True
+474,7156,"Fog of War: Eleven Lessons from the Life of Robert S. McNamara, The (2003)",4.0,4.0,True
+474,7158,House of Sand and Fog (2003),4.5,4.0,True
+474,7160,Monster (2003),4.0,0.0,True
+474,7162,Cold Mountain (2003),4.0,3.0,True
+474,7190,Jane Eyre (1970),3.5,4.0,True
+474,7212,I Was a Male War Bride (1949),4.0,4.0,True
+474,7212,I Was a Male War Bride (1949),4.0,4.0,True
+474,7217,Dark Passage (1947),4.0,4.0,True
+474,7219,They Drive by Night (1940),4.0,4.0,True
+474,7234,"Strada, La (1954)",4.5,3.0,True
+125,7254,The Butterfly Effect (2004),5.0,0.0,True
+125,7254,The Butterfly Effect (2004),5.0,4.0,True
+125,7254,The Butterfly Effect (2004),5.0,4.0,True
+125,7254,The Butterfly Effect (2004),5.0,0.0,True
+474,7256,Touching the Void (2003),4.0,4.0,True
+474,7285,Thirteen (2003),4.0,0.0,True
+474,7301,Diary of a Country Priest (Journal d'un curé de campagne) (1951),3.5,4.0,True
+474,7301,Diary of a Country Priest (Journal d'un curé de campagne) (1951),3.5,4.0,True
+474,7318,"Passion of the Christ, The (2004)",4.0,4.0,True
+474,7323,"Good bye, Lenin! (2003)",4.0,0.0,True
+474,7361,Eternal Sunshine of the Spotless Mind (2004),4.5,4.0,True
+477,7361,Eternal Sunshine of the Spotless Mind (2004),4.0,4.0,True
+477,7361,Eternal Sunshine of the Spotless Mind (2004),4.0,4.0,True
+477,7361,Eternal Sunshine of the Spotless Mind (2004),4.0,4.0,True
+477,7361,Eternal Sunshine of the Spotless Mind (2004),4.0,4.0,True
+477,7361,Eternal Sunshine of the Spotless Mind (2004),4.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,0.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,0.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,0.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,0.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+567,7361,Eternal Sunshine of the Spotless Mind (2004),5.0,4.0,True
+474,7371,Dogville (2003),4.5,0.0,True
+474,7382,I'm Not Scared (Io non ho paura) (2003),4.0,4.0,True
+474,7382,I'm Not Scared (Io non ho paura) (2003),4.0,4.0,True
+606,7382,I'm Not Scared (Io non ho paura) (2003),4.5,4.0,True
+474,7438,Kill Bill: Vol. 2 (2004),4.5,4.0,True
+477,7439,"Punisher, The (2004)",3.0,4.0,True
+474,7440,Paper Clips (2004),4.0,4.0,True
+357,7444,13 Going on 30 (2004),4.5,4.0,True
+357,7451,Mean Girls (2004),4.5,0.0,True
+357,7451,Mean Girls (2004),4.5,0.0,True
+357,7451,Mean Girls (2004),4.5,0.0,True
+474,7451,Mean Girls (2004),4.5,0.0,True
+474,7479,Watch on the Rhine (1943),4.0,4.0,True
+474,7493,"Three Faces of Eve, The (1957)",4.0,4.0,True
+474,7572,Wit (2001),4.5,4.0,True
+474,7584,Woman of the Year (1942),4.0,4.0,True
+474,7584,Woman of the Year (1942),4.0,4.0,True
+474,7614,Oklahoma! (1955),4.0,0.0,True
+474,7618,Chaplin (1992),3.5,4.0,True
+474,7618,Chaplin (1992),3.5,4.0,True
+474,7619,"Miracle Worker, The (1962)",4.0,0.0,True
+474,7619,"Miracle Worker, The (1962)",4.0,4.0,True
+474,7646,Rose Red (2002),2.0,4.0,True
+474,7649,Babylon 5: In the Beginning (1998),4.0,4.0,True
+474,7700,"Wages of Fear, The (Salaire de la peur, Le) (1953)",4.0,4.0,True
+474,7705,Pat and Mike (1952),4.0,4.0,True
+474,7705,Pat and Mike (1952),4.0,4.0,True
+474,7713,Cat People (1942),4.0,4.0,True
+474,7714,Camelot (1967),4.0,4.0,True
+474,7728,"Postman Always Rings Twice, The (1946)",4.0,4.0,True
+474,7766,Throne of Blood (Kumonosu jô) (1957),4.0,4.0,True
+474,7789,"11'09""01 - September 11 (2002)",4.0,3.0,True
+474,7831,Another Thin Man (1939),3.5,4.0,True
+474,7832,"Thin Man Goes Home, The (1945)",3.5,4.0,True
+474,7833,Shadow of the Thin Man (1941),3.5,4.0,True
+474,7834,After the Thin Man (1936),4.0,4.0,True
+474,7835,Song of the Thin Man (1947),3.5,4.0,True
+474,7932,Dark Days (2000),4.0,4.0,True
+474,7932,Dark Days (2000),4.0,4.0,True
+474,7932,Dark Days (2000),4.0,4.0,True
+474,7932,Dark Days (2000),4.0,4.0,True
+474,7932,Dark Days (2000),4.0,4.0,True
+474,7932,Dark Days (2000),4.0,4.0,True
+474,7934,Zelig (1983),4.0,4.0,True
+474,7981,Infernal Affairs (Mou gaan dou) (2002),4.0,4.0,True
+474,7983,Broadway Danny Rose (1984),4.0,0.0,True
+474,8011,"Weather Underground, The (2002)",4.0,4.0,True
+474,8019,Dark Water (Honogurai mizu no soko kara) (2002),4.0,4.0,True
+474,8094,Bad Day at Black Rock (1955),3.5,3.0,True
+474,8153,Lust for Life (1956),2.5,4.0,True
+474,8167,Captain Blood (1935),4.0,0.0,True
+474,8191,Anne of the Thousand Days (1969),4.0,4.0,True
+474,8207,"Day of the Jackal, The (1973)",4.0,0.0,True
+474,8228,"Maltese Falcon, The (a.k.a. Dangerous Female) (1931)",4.0,0.0,True
+474,8235,Safety Last! (1923),5.0,0.0,True
+474,8266,Purple Rain (1984),2.5,4.0,True
+474,8275,College (1927),3.5,3.0,True
+567,8335,Make Way for Tomorrow (1937),3.5,4.0,True
+474,8337,"Caine Mutiny, The (1954)",4.0,4.0,True
+474,8338,Black Narcissus (1947),4.0,0.0,True
+474,8338,Black Narcissus (1947),4.0,4.0,True
+474,8341,Oliver Twist (1948),3.5,4.0,True
+474,8360,Shrek 2 (2004),4.0,4.0,True
+474,8366,Saved! (2004),4.0,4.0,True
+474,8366,Saved! (2004),4.0,4.0,True
+474,8368,Harry Potter and the Prisoner of Azkaban (2004),5.0,4.0,True
+474,8368,Harry Potter and the Prisoner of Azkaban (2004),5.0,4.0,True
+474,8375,"Hunting of the President, The (2004)",2.5,4.0,True
+474,8376,Napoleon Dynamite (2004),4.0,3.0,True
+474,8382,Hello Again (1987),2.5,0.0,True
+474,8424,"Divorcee, The (1930)",4.0,3.0,True
+474,8446,Sands of Iwo Jima (1949),2.5,4.0,True
+474,8463,Johnny Belinda (1948),4.0,4.0,True
+474,8464,Super Size Me (2004),4.0,0.0,True
+474,8464,Super Size Me (2004),4.0,4.0,True
+567,8477,"Jetée, La (1962)",5.0,4.0,True
+474,8507,Freaks (1932),4.0,0.0,True
+474,8530,Dear Frankie (2004),4.0,3.0,True
+537,8533,"Notebook, The (2004)",1.5,4.0,True
+537,8533,"Notebook, The (2004)",1.5,4.0,True
+537,8533,"Notebook, The (2004)",1.5,4.0,True
+474,8607,Tokyo Godfathers (2003),4.0,4.0,True
+474,8609,Our Hospitality (1923),3.5,4.0,True
+474,8622,Fahrenheit 9/11 (2004),4.0,4.0,True
+474,8622,Fahrenheit 9/11 (2004),4.0,4.0,True
+474,8636,Spider-Man 2 (2004),5.0,4.0,True
+474,8638,Before Sunset (2004),4.0,0.0,True
+62,8641,Anchorman: The Legend of Ron Burgundy (2004),4.0,4.0,True
+62,8641,Anchorman: The Legend of Ron Burgundy (2004),4.0,4.0,True
+62,8641,Anchorman: The Legend of Ron Burgundy (2004),4.0,0.0,True
+305,8641,Anchorman: The Legend of Ron Burgundy (2004),3.0,4.0,True
+327,8641,Anchorman: The Legend of Ron Burgundy (2004),5.0,0.0,True
+424,8641,Anchorman: The Legend of Ron Burgundy (2004),4.5,4.0,True
+424,8641,Anchorman: The Legend of Ron Burgundy (2004),4.5,4.0,True
+474,8645,"Maria Full of Grace (Maria, Llena eres de gracia) (2004)",4.0,4.0,True
+474,8645,"Maria Full of Grace (Maria, Llena eres de gracia) (2004)",4.0,4.0,True
+474,8695,"Bachelor and the Bobby-Soxer, The (1947)",2.5,4.0,True
+474,8714,Night and Day (1946),2.5,4.0,True
+474,8754,"Prime of Miss Jean Brodie, The (1969)",4.0,4.0,True
+477,8783,"Village, The (2004)",4.5,4.0,True
+477,8783,"Village, The (2004)",4.5,0.0,True
+477,8783,"Village, The (2004)",4.5,0.0,True
+474,8784,Garden State (2004),4.0,0.0,True
+474,8796,"Funny Thing Happened on the Way to the Forum, A (1966)",2.5,4.0,True
+474,8809,Danny Deckchair (2003),4.0,4.0,True
+474,8827,"Bill Cosby, Himself (1983)",4.0,4.0,True
+474,8874,Shaun of the Dead (2004),4.0,4.0,True
+474,8875,"Come Back, Little Sheba (1952)",4.0,4.0,True
+474,8875,"Come Back, Little Sheba (1952)",4.0,4.0,True
+474,8879,Murder on the Orient Express (1974),3.0,4.0,True
+474,8879,Murder on the Orient Express (1974),3.0,4.0,True
+474,8879,Murder on the Orient Express (1974),3.0,5.0,True
+474,8880,Mask (1985),4.0,0.0,True
+474,8914,Primer (2004),4.0,4.0,True
+474,8920,"Country Girl, The (1954)",3.5,4.0,True
+474,8938,Tarnation (2003),4.0,4.0,True
+474,8938,Tarnation (2003),4.0,4.0,True
+474,8943,Being Julia (2004),2.5,4.0,True
+474,8949,Sideways (2004),4.0,0.0,True
+424,8950,The Machinist (2004),4.5,0.0,True
+424,8950,The Machinist (2004),4.5,0.0,True
+424,8950,The Machinist (2004),4.5,0.0,True
+424,8950,The Machinist (2004),4.5,0.0,True
+424,8950,The Machinist (2004),4.5,0.0,True
+424,8950,The Machinist (2004),4.5,0.0,True
+474,8950,The Machinist (2004),4.0,0.0,True
+474,8951,Vera Drake (2004),4.0,0.0,True
+125,8957,Saw (2004),5.0,0.0,True
+125,8957,Saw (2004),5.0,4.0,True
+125,8957,Saw (2004),5.0,4.0,True
+125,8957,Saw (2004),5.0,4.0,True
+125,8957,Saw (2004),5.0,0.0,True
+125,8957,Saw (2004),5.0,4.0,True
+125,8957,Saw (2004),5.0,0.0,True
+474,8958,Ray (2004),4.0,4.0,True
+474,8961,"Incredibles, The (2004)",4.0,4.0,True
+474,8961,"Incredibles, The (2004)",4.0,4.0,True
+477,8961,"Incredibles, The (2004)",4.0,4.0,True
+477,8961,"Incredibles, The (2004)",4.0,4.0,True
+474,8970,Finding Neverland (2004),4.0,4.0,True
+474,8979,Guerrilla: The Taking of Patty Hearst (2004),4.0,4.0,True
+474,8983,House of Flying Daggers (Shi mian mai fu) (2004),4.0,4.0,True
+125,9010,Love Me If You Dare (Jeux d'enfants) (2003),5.0,4.0,True
+474,9018,Control Room (2004),4.0,0.0,True
+474,25753,Greed (1924),4.0,4.0,True
+567,25771,"Andalusian Dog, An (Chien andalou, Un) (1929)",5.0,4.0,True
+567,25771,"Andalusian Dog, An (Chien andalou, Un) (1929)",5.0,4.0,True
+567,25771,"Andalusian Dog, An (Chien andalou, Un) (1929)",5.0,4.0,True
+474,25825,Fury (1936),4.5,0.0,True
+474,25841,Stage Door (1937),4.0,4.0,True
+474,25865,"Letter, The (1940)",4.0,4.0,True
+474,25886,Random Harvest (1942),4.5,4.0,True
+474,25940,"Lady from Shanghai, The (1947)",3.5,4.0,True
+474,25952,"Letter to Three Wives, A (1949)",4.0,4.0,True
+474,26151,Au Hasard Balthazar (1966),3.5,4.0,True
+474,26662,Kiki's Delivery Service (Majo no takkyûbin) (1989),4.0,4.0,True
+567,26717,Begotten (1990),0.5,3.0,True
+567,26717,Begotten (1990),0.5,0.0,True
+567,26717,Begotten (1990),0.5,0.0,True
+474,26776,Porco Rosso (Crimson Pig) (Kurenai no buta) (1992),3.5,4.0,True
+424,27020,Gia (1998),3.5,0.0,True
+424,27020,Gia (1998),3.5,0.0,True
+184,27156,"Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni) (1997)",4.5,4.0,True
+184,27156,"Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni) (1997)",4.5,4.0,True
+184,27156,"Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni) (1997)",4.5,4.0,True
+184,27156,"Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni) (1997)",4.5,4.0,True
+184,27156,"Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion Gekijô-ban: Air/Magokoro wo, kimi ni) (1997)",4.5,4.0,True
+62,27660,"Animatrix, The (2003)",4.5,4.0,True
+62,27660,"Animatrix, The (2003)",4.5,0.0,True
+62,27660,"Animatrix, The (2003)",4.5,0.0,True
+62,27660,"Animatrix, The (2003)",4.5,0.0,True
+62,27660,"Animatrix, The (2003)",4.5,0.0,True
+62,27660,"Animatrix, The (2003)",4.5,0.0,True
+62,27706,Lemony Snicket's A Series of Unfortunate Events (2004),4.0,4.0,True
+62,27706,Lemony Snicket's A Series of Unfortunate Events (2004),4.0,4.0,True
+62,27706,Lemony Snicket's A Series of Unfortunate Events (2004),4.0,4.0,True
+62,27706,Lemony Snicket's A Series of Unfortunate Events (2004),4.0,4.0,True
+62,27706,Lemony Snicket's A Series of Unfortunate Events (2004),4.0,4.0,True
+474,27731,"Cat Returns, The (Neko no ongaeshi) (2002)",4.0,4.0,True
+474,27741,"Twilight Samurai, The (Tasogare Seibei) (2002)",3.5,4.0,True
+567,27773,Old Boy (2003),4.5,0.0,True
+567,27773,Old Boy (2003),4.5,0.0,True
+567,27773,Old Boy (2003),4.5,0.0,True
+567,27773,Old Boy (2003),4.5,0.0,True
+567,27773,Old Boy (2003),4.5,0.0,True
+567,27773,Old Boy (2003),4.5,0.0,True
+567,27773,Old Boy (2003),4.5,0.0,True
+567,27773,Old Boy (2003),4.5,0.0,True
+474,27790,Millions (2004),4.0,0.0,True
+474,27790,Millions (2004),4.0,4.0,True
+62,27808,Spanglish (2004),4.0,0.0,True
+62,27808,Spanglish (2004),4.0,0.0,True
+62,27808,Spanglish (2004),4.0,0.0,True
+474,27820,"Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",4.0,4.0,True
+474,27820,"Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",4.0,4.0,True
+62,27831,Layer Cake (2004),4.5,0.0,True
+62,27831,Layer Cake (2004),4.5,4.0,True
+62,27831,Layer Cake (2004),4.5,0.0,True
+62,27831,Layer Cake (2004),4.5,0.0,True
+62,27831,Layer Cake (2004),4.5,4.0,True
+62,27831,Layer Cake (2004),4.5,4.0,True
+62,27831,Layer Cake (2004),4.5,0.0,True
+474,27834,"Return, The (Vozvrashcheniye) (2003)",4.0,0.0,True
+474,27838,Mean Creek (2004),4.5,0.0,True
+474,27878,Born into Brothels (2004),4.0,4.0,True
+474,27882,Riding Giants (2004),4.0,4.0,True
+474,30707,Million Dollar Baby (2004),4.0,0.0,True
+474,30749,Hotel Rwanda (2004),4.5,0.0,True
+474,30793,Charlie and the Chocolate Factory (2005),4.0,4.0,True
+567,30810,"Life Aquatic with Steve Zissou, The (2004)",4.0,4.0,True
+567,30810,"Life Aquatic with Steve Zissou, The (2004)",4.0,4.0,True
+567,30810,"Life Aquatic with Steve Zissou, The (2004)",4.0,4.0,True
+567,30810,"Life Aquatic with Steve Zissou, The (2004)",4.0,4.0,True
+567,30810,"Life Aquatic with Steve Zissou, The (2004)",4.0,4.0,True
+567,30810,"Life Aquatic with Steve Zissou, The (2004)",4.0,4.0,True
+474,30812,"Aviator, The (2004)",4.0,4.0,True
+474,30812,"Aviator, The (2004)",4.0,4.0,True
+474,30812,"Aviator, The (2004)",4.0,4.0,True
+474,30820,"Woodsman, The (2004)",4.5,4.0,True
+474,30822,In Good Company (2004),4.5,4.0,True
+424,30825,Meet the Fockers (2004),3.5,3.0,True
+424,30825,Meet the Fockers (2004),3.5,3.0,True
+474,30850,"Merchant of Venice, The (2004)",4.5,4.0,True
+474,31030,I Remember Mama (1948),4.0,4.0,True
+474,31437,Nobody Knows (Dare mo shiranai) (2004),4.0,4.0,True
+62,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),3.5,4.0,True
+62,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),3.5,4.0,True
+62,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),3.5,4.0,True
+62,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),3.5,4.0,True
+474,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),4.0,4.0,True
+474,31658,Howl's Moving Castle (Hauru no ugoku shiro) (2004),4.0,4.0,True
+474,31903,Zelary (2003),4.0,3.0,True
+474,32582,"Wild Parrots of Telegraph Hill, The (2003)",4.5,4.0,True
+474,32582,"Wild Parrots of Telegraph Hill, The (2003)",4.5,4.0,True
+474,32584,"Ballad of Jack and Rose, The (2005)",4.0,3.0,True
+336,32587,Sin City (2005),4.0,4.0,True
+474,33154,Enron: The Smartest Guys in the Room (2005),3.5,4.0,True
+474,33154,Enron: The Smartest Guys in the Room (2005),3.5,4.0,True
+474,33154,Enron: The Smartest Guys in the Room (2005),3.5,4.0,True
+62,33162,Kingdom of Heaven (2005),4.0,3.0,True
+62,33162,Kingdom of Heaven (2005),4.0,4.0,True
+62,33162,Kingdom of Heaven (2005),4.0,3.0,True
+62,33162,Kingdom of Heaven (2005),4.0,3.0,True
+474,33166,Crash (2004),4.0,0.0,True
+474,33493,Star Wars: Episode III - Revenge of the Sith (2005),4.5,4.0,True
+474,33493,Star Wars: Episode III - Revenge of the Sith (2005),4.5,4.0,True
+336,33660,Cinderella Man (2005),4.5,0.0,True
+474,33660,Cinderella Man (2005),4.0,0.0,True
+62,34150,Fantastic Four (2005),3.0,3.0,True
+62,34150,Fantastic Four (2005),3.0,0.0,True
+62,34150,Fantastic Four (2005),3.0,3.0,True
+62,34150,Fantastic Four (2005),3.0,3.0,True
+62,34150,Fantastic Four (2005),3.0,3.0,True
+62,34150,Fantastic Four (2005),3.0,0.0,True
+336,34162,Wedding Crashers (2005),4.0,4.0,True
+474,34271,Hustle & Flow (2005),3.5,3.0,True
+424,34323,"Devil's Rejects, The (2005)",4.5,0.0,True
+474,34359,Georgy Girl (1966),4.0,0.0,True
+474,34405,Serenity (2005),4.5,0.0,True
+474,34437,Broken Flowers (2005),4.0,4.0,True
+474,34528,Junebug (2005),4.0,0.0,True
+474,34542,Grizzly Man (2005),4.0,4.0,True
+474,34542,Grizzly Man (2005),4.0,4.0,True
+474,35015,Duma (2005),3.5,0.0,True
+474,35015,Duma (2005),3.5,0.0,True
+573,35836,"40-Year-Old Virgin, The (2005)",5.0,4.0,True
+573,35836,"40-Year-Old Virgin, The (2005)",5.0,4.0,True
+573,35836,"40-Year-Old Virgin, The (2005)",5.0,4.0,True
+573,35836,"40-Year-Old Virgin, The (2005)",5.0,4.0,True
+474,36517,"Constant Gardener, The (2005)",4.0,4.0,True
+474,36517,"Constant Gardener, The (2005)",4.0,4.0,True
+474,36517,"Constant Gardener, The (2005)",4.0,4.0,True
+474,36527,Proof (2005),3.5,0.0,True
+336,36529,Lord of War (2005),4.0,4.0,True
+474,36535,Everything Is Illuminated (2005),3.5,4.0,True
+356,37384,Waiting... (2005),5.0,0.0,True
+62,37729,Corpse Bride (2005),4.0,0.0,True
+62,37729,Corpse Bride (2005),4.0,0.0,True
+62,37729,Corpse Bride (2005),4.0,0.0,True
+62,37729,Corpse Bride (2005),4.0,0.0,True
+62,37729,Corpse Bride (2005),4.0,0.0,True
+336,37729,Corpse Bride (2005),2.5,0.0,True
+474,37729,Corpse Bride (2005),4.0,0.0,True
+474,37733,"History of Violence, A (2005)",4.0,3.0,True
+474,37736,Oliver Twist (2005),3.5,3.0,True
+474,37741,Capote (2005),4.5,0.0,True
+474,38038,Wallace & Gromit in The Curse of the Were-Rabbit (2005),4.5,4.0,True
+474,38038,Wallace & Gromit in The Curse of the Were-Rabbit (2005),4.5,4.0,True
+62,38061,Kiss Kiss Bang Bang (2005),4.0,4.0,True
+62,38061,Kiss Kiss Bang Bang (2005),4.0,4.0,True
+62,38061,Kiss Kiss Bang Bang (2005),4.0,4.0,True
+62,38061,Kiss Kiss Bang Bang (2005),4.0,4.0,True
+62,38061,Kiss Kiss Bang Bang (2005),4.0,4.0,True
+62,38061,Kiss Kiss Bang Bang (2005),4.0,4.0,True
+474,38886,"Squid and the Whale, The (2005)",4.0,3.0,True
+474,39234,North Country (2005),4.0,0.0,True
+474,39234,North Country (2005),4.0,0.0,True
+474,39292,"Good Night, and Good Luck. (2005)",4.0,4.0,True
+474,39292,"Good Night, and Good Luck. (2005)",4.0,4.0,True
+474,39292,"Good Night, and Good Luck. (2005)",4.0,4.0,True
+474,39292,"Good Night, and Good Luck. (2005)",4.0,4.0,True
+424,40278,Jarhead (2005),4.0,0.0,True
+424,40278,Jarhead (2005),4.0,0.0,True
+567,40491,"Match Factory Girl, The (Tulitikkutehtaan tyttö) (1990)",5.0,4.0,True
+474,40583,Syriana (2005),3.5,4.0,True
+474,40629,Pride & Prejudice (2005),3.5,4.0,True
+474,40815,Harry Potter and the Goblet of Fire (2005),5.0,4.0,True
+474,40815,Harry Potter and the Goblet of Fire (2005),5.0,4.0,True
+474,40819,Walk the Line (2005),4.0,0.0,True
+356,40955,Breakfast on Pluto (2005),4.0,4.0,True
+474,41566,"Chronicles of Narnia: The Lion, the Witch and the Wardrobe, The (2005)",4.5,4.0,True
+477,41569,King Kong (2005),4.0,0.0,True
+474,41997,Munich (2005),4.0,0.0,True
+474,42002,"Producers, The (2005)",4.0,0.0,True
+477,42422,Voices of a Distant Star (Hoshi no koe) (2003),4.5,4.0,True
+125,42632,Lady Vengeance (Sympathy for Lady Vengeance) (Chinjeolhan geumjassi) (2005),5.0,4.0,True
+474,42740,Looking for Comedy in the Muslim World (2005),3.5,4.0,True
+18,44665,Lucky Number Slevin (2006),4.5,4.0,True
+356,44889,Reefer Madness: The Movie Musical (2005),5.0,4.0,True
+62,45447,"Da Vinci Code, The (2006)",3.5,4.0,True
+62,45447,"Da Vinci Code, The (2006)",3.5,4.0,True
+62,45447,"Da Vinci Code, The (2006)",3.5,4.0,True
+62,45447,"Da Vinci Code, The (2006)",3.5,4.0,True
+62,45447,"Da Vinci Code, The (2006)",3.5,4.0,True
+62,45447,"Da Vinci Code, The (2006)",3.5,0.0,True
+62,45447,"Da Vinci Code, The (2006)",3.5,4.0,True
+477,45499,X-Men: The Last Stand (2006),3.5,3.0,True
+477,45499,X-Men: The Last Stand (2006),3.5,3.0,True
+477,45730,Lady in the Water (2006),3.0,3.0,True
+477,45730,Lady in the Water (2006),3.0,3.0,True
+477,45730,Lady in the Water (2006),3.0,3.0,True
+477,45730,Lady in the Water (2006),3.0,3.0,True
+477,45730,Lady in the Water (2006),3.0,3.0,True
+477,45730,Lady in the Water (2006),3.0,3.0,True
+477,45730,Lady in the Water (2006),3.0,3.0,True
+567,45880,Marie Antoinette (2006),3.0,0.0,True
+567,45880,Marie Antoinette (2006),3.0,4.0,True
+62,46723,Babel (2006),3.0,0.0,True
+62,46723,Babel (2006),3.0,0.0,True
+62,46723,Babel (2006),3.0,0.0,True
+62,46723,Babel (2006),3.0,0.0,True
+62,46972,Night at the Museum (2006),4.0,4.0,True
+62,46972,Night at the Museum (2006),4.0,4.0,True
+62,46976,Stranger than Fiction (2006),4.0,4.0,True
+62,46976,Stranger than Fiction (2006),4.0,4.0,True
+62,46976,Stranger than Fiction (2006),4.0,4.0,True
+62,46976,Stranger than Fiction (2006),4.0,4.0,True
+62,46976,Stranger than Fiction (2006),4.0,4.0,True
+62,46976,Stranger than Fiction (2006),4.0,4.0,True
+477,47610,"Illusionist, The (2006)",4.0,4.0,True
+477,47610,"Illusionist, The (2006)",4.0,4.0,True
+477,47610,"Illusionist, The (2006)",4.0,4.0,True
+477,47610,"Illusionist, The (2006)",4.0,4.0,True
+567,48394,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",3.0,4.0,True
+567,48394,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",3.0,4.0,True
+567,48394,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",3.0,4.0,True
+357,48516,"Departed, The (2006)",4.0,4.0,True
+357,48516,"Departed, The (2006)",4.0,4.0,True
+357,48516,"Departed, The (2006)",4.0,4.0,True
+357,48516,"Departed, The (2006)",4.0,4.0,True
+424,48516,"Departed, The (2006)",4.5,4.0,True
+424,48516,"Departed, The (2006)",4.5,4.0,True
+424,48516,"Departed, The (2006)",4.5,4.0,True
+424,48516,"Departed, The (2006)",4.5,4.0,True
+424,48516,"Departed, The (2006)",4.5,4.0,True
+567,48780,"Prestige, The (2006)",3.5,4.0,True
+567,48780,"Prestige, The (2006)",3.5,4.0,True
+62,49130,"Good Year, A (2006)",4.0,3.0,True
+62,49530,Blood Diamond (2006),4.5,0.0,True
+62,49530,Blood Diamond (2006),4.5,0.0,True
+62,49530,Blood Diamond (2006),4.5,0.0,True
+62,49530,Blood Diamond (2006),4.5,0.0,True
+62,49530,Blood Diamond (2006),4.5,0.0,True
+567,50872,Ratatouille (2007),4.0,4.0,True
+567,50872,Ratatouille (2007),4.0,0.0,True
+327,51255,Hot Fuzz (2007),3.5,4.0,True
+18,52604,Fracture (2007),4.5,4.0,True
+18,52604,Fracture (2007),4.5,3.0,True
+18,52604,Fracture (2007),4.5,4.0,True
+573,52712,"Invisible, The (2007)",0.5,0.0,True
+573,52712,"Invisible, The (2007)",0.5,0.0,True
+477,52885,Paprika (Papurika) (2006),4.5,4.0,True
+424,53127,Bug (2007),3.5,4.0,True
+424,53127,Bug (2007),3.5,0.0,True
+424,53127,Bug (2007),3.5,0.0,True
+424,53127,Bug (2007),3.5,0.0,True
+424,53127,Bug (2007),3.5,0.0,True
+424,53127,Bug (2007),3.5,0.0,True
+62,53464,Fantastic Four: Rise of the Silver Surfer (2007),3.0,3.0,True
+62,53464,Fantastic Four: Rise of the Silver Surfer (2007),3.0,3.0,True
+62,53464,Fantastic Four: Rise of the Silver Surfer (2007),3.0,3.0,True
+62,53464,Fantastic Four: Rise of the Silver Surfer (2007),3.0,3.0,True
+62,53464,Fantastic Four: Rise of the Silver Surfer (2007),3.0,3.0,True
+62,53464,Fantastic Four: Rise of the Silver Surfer (2007),3.0,3.0,True
+62,53464,Fantastic Four: Rise of the Silver Surfer (2007),3.0,3.0,True
+477,53468,Fido (2006),4.0,3.0,True
+166,54286,"Bourne Ultimatum, The (2007)",5.0,4.0,True
+166,54286,"Bourne Ultimatum, The (2007)",5.0,4.0,True
+166,54286,"Bourne Ultimatum, The (2007)",5.0,0.0,True
+166,54286,"Bourne Ultimatum, The (2007)",5.0,4.0,True
+477,54503,Superbad (2007),5.0,0.0,True
+477,54503,Superbad (2007),5.0,0.0,True
+477,54503,Superbad (2007),5.0,0.0,True
+477,54503,Superbad (2007),5.0,0.0,True
+477,54503,Superbad (2007),5.0,0.0,True
+477,54503,Superbad (2007),5.0,0.0,True
+477,54503,Superbad (2007),5.0,0.0,True
+357,54997,3:10 to Yuma (2007),4.0,4.0,True
+477,55167,Tekkonkinkreet (Tekkon kinkurîto) (2006),4.5,4.0,True
+357,55290,Gone Baby Gone (2007),5.0,4.0,True
+357,55290,Gone Baby Gone (2007),5.0,4.0,True
+357,55290,Gone Baby Gone (2007),5.0,4.0,True
+305,55721,Elite Squad (Tropa de Elite) (2007),5.0,4.0,True
+537,55765,American Gangster (2007),5.0,4.0,True
+537,55765,American Gangster (2007),5.0,4.0,True
+537,55765,American Gangster (2007),5.0,4.0,True
+537,55765,American Gangster (2007),5.0,4.0,True
+477,56174,I Am Legend (2007),4.0,4.0,True
+477,56174,I Am Legend (2007),4.0,0.0,True
+477,56174,I Am Legend (2007),4.0,0.0,True
+477,56174,I Am Legend (2007),4.0,4.0,True
+477,56174,I Am Legend (2007),4.0,0.0,True
+477,56174,I Am Legend (2007),4.0,0.0,True
+477,56174,I Am Legend (2007),4.0,0.0,True
+477,56174,I Am Legend (2007),4.0,0.0,True
+477,56174,I Am Legend (2007),4.0,4.0,True
+477,56367,Juno (2007),4.0,0.0,True
+477,56367,Juno (2007),4.0,4.0,True
+477,56367,Juno (2007),4.0,0.0,True
+477,56367,Juno (2007),4.0,0.0,True
+477,56367,Juno (2007),4.0,0.0,True
+567,56782,There Will Be Blood (2007),5.0,0.0,True
+567,56782,There Will Be Blood (2007),5.0,0.0,True
+567,56782,There Will Be Blood (2007),5.0,4.0,True
+567,56782,There Will Be Blood (2007),5.0,0.0,True
+567,56782,There Will Be Blood (2007),5.0,0.0,True
+567,56782,There Will Be Blood (2007),5.0,4.0,True
+567,56782,There Will Be Blood (2007),5.0,0.0,True
+567,56782,There Will Be Blood (2007),5.0,0.0,True
+567,57502,Cat Soup (Nekojiru-so) (2001),4.0,4.0,True
+567,57502,Cat Soup (Nekojiru-so) (2001),4.0,4.0,True
+567,57502,Cat Soup (Nekojiru-so) (2001),4.0,4.0,True
+567,57502,Cat Soup (Nekojiru-so) (2001),4.0,4.0,True
+477,57669,In Bruges (2008),5.0,4.0,True
+477,57669,In Bruges (2008),5.0,4.0,True
+477,57669,In Bruges (2008),5.0,4.0,True
+477,57669,In Bruges (2008),5.0,4.0,True
+477,57669,In Bruges (2008),5.0,4.0,True
+477,57669,In Bruges (2008),5.0,4.0,True
+477,57669,In Bruges (2008),5.0,4.0,True
+477,57669,In Bruges (2008),5.0,4.0,True
+62,58047,"Definitely, Maybe (2008)",3.5,4.0,True
+62,58047,"Definitely, Maybe (2008)",3.5,4.0,True
+537,58295,"Bank Job, The (2008)",5.0,4.0,True
+537,58295,"Bank Job, The (2008)",5.0,0.0,True
+537,58295,"Bank Job, The (2008)",5.0,4.0,True
+125,58301,Funny Games U.S. (2007),5.0,4.0,True
+567,58301,Funny Games U.S. (2007),4.5,4.0,True
+567,58301,Funny Games U.S. (2007),4.5,4.0,True
+567,58301,Funny Games U.S. (2007),4.5,4.0,True
+567,58301,Funny Games U.S. (2007),4.5,4.0,True
+567,58559,"Dark Knight, The (2008)",4.0,4.0,True
+567,58559,"Dark Knight, The (2008)",4.0,4.0,True
+477,59141,Son of Rambow (2007),4.5,4.0,True
+62,59501,"Chronicles of Narnia: Prince Caspian, The (2008)",4.0,4.0,True
+62,59501,"Chronicles of Narnia: Prince Caspian, The (2008)",4.0,4.0,True
+62,59501,"Chronicles of Narnia: Prince Caspian, The (2008)",4.0,4.0,True
+62,59501,"Chronicles of Narnia: Prince Caspian, The (2008)",4.0,4.0,True
+477,60069,WALL·E (2008),5.0,0.0,True
+477,60069,WALL·E (2008),5.0,4.0,True
+477,60069,WALL·E (2008),5.0,0.0,True
+477,60069,WALL·E (2008),5.0,4.0,True
+62,60074,Hancock (2008),3.0,4.0,True
+62,60074,Hancock (2008),3.0,0.0,True
+62,60074,Hancock (2008),3.0,0.0,True
+62,60126,Get Smart (2008),3.0,0.0,True
+62,60126,Get Smart (2008),3.0,0.0,True
+2,60756,Step Brothers (2008),5.0,4.0,True
+2,60756,Step Brothers (2008),5.0,4.0,True
+2,60756,Step Brothers (2008),5.0,4.0,True
+62,60756,Step Brothers (2008),3.5,4.0,True
+62,60756,Step Brothers (2008),3.5,4.0,True
+62,60756,Step Brothers (2008),3.5,4.0,True
+424,60756,Step Brothers (2008),4.0,4.0,True
+424,60756,Step Brothers (2008),4.0,4.0,True
+125,60950,Vicky Cristina Barcelona (2008),5.0,4.0,True
+62,61024,Pineapple Express (2008),4.0,4.0,True
+62,61024,Pineapple Express (2008),4.0,4.0,True
+62,61024,Pineapple Express (2008),4.0,4.0,True
+62,61024,Pineapple Express (2008),4.0,4.0,True
+356,61323,Burn After Reading (2008),5.0,3.0,True
+477,61323,Burn After Reading (2008),4.5,4.0,True
+477,61323,Burn After Reading (2008),4.5,3.0,True
+477,61323,Burn After Reading (2008),4.5,4.0,True
+477,61323,Burn After Reading (2008),4.5,3.0,True
+477,61323,Burn After Reading (2008),4.5,3.0,True
+477,61323,Burn After Reading (2008),4.5,3.0,True
+477,61323,Burn After Reading (2008),4.5,4.0,True
+477,61323,Burn After Reading (2008),4.5,3.0,True
+477,61323,Burn After Reading (2008),4.5,3.0,True
+477,61323,Burn After Reading (2008),4.5,3.0,True
+477,62336,FLCL (2000),5.0,0.0,True
+477,62336,FLCL (2000),5.0,4.0,True
+477,62336,FLCL (2000),5.0,4.0,True
+477,62336,FLCL (2000),5.0,0.0,True
+125,62434,Zack and Miri Make a Porno (2008),4.5,3.0,True
+125,62434,Zack and Miri Make a Porno (2008),4.5,3.0,True
+567,63062,Changeling (2008),3.5,4.0,True
+62,63992,Twilight (2008),1.0,0.0,True
+62,63992,Twilight (2008),1.0,0.0,True
+62,63992,Twilight (2008),1.0,0.0,True
+62,63992,Twilight (2008),1.0,0.0,True
+62,63992,Twilight (2008),1.0,0.0,True
+318,64034,"Boy in the Striped Pajamas, The (Boy in the Striped Pyjamas, The) (2008)",4.0,0.0,True
+318,64034,"Boy in the Striped Pajamas, The (Boy in the Striped Pyjamas, The) (2008)",4.0,4.0,True
+424,66097,Coraline (2009),4.5,0.0,True
+424,66097,Coraline (2009),4.5,0.0,True
+424,66097,Coraline (2009),4.5,0.0,True
+424,66097,Coraline (2009),4.5,0.0,True
+424,66097,Coraline (2009),4.5,0.0,True
+424,66097,Coraline (2009),4.5,0.0,True
+477,66934,Dr. Horrible's Sing-Along Blog (2008),5.0,4.0,True
+477,66934,Dr. Horrible's Sing-Along Blog (2008),5.0,4.0,True
+477,66934,Dr. Horrible's Sing-Along Blog (2008),5.0,4.0,True
+477,66934,Dr. Horrible's Sing-Along Blog (2008),5.0,4.0,True
+477,67087,"I Love You, Man (2009)",3.5,4.0,True
+477,67087,"I Love You, Man (2009)",3.5,4.0,True
+477,67087,"I Love You, Man (2009)",3.5,4.0,True
+477,67087,"I Love You, Man (2009)",3.5,4.0,True
+477,67087,"I Love You, Man (2009)",3.5,4.0,True
+477,67087,"I Love You, Man (2009)",3.5,4.0,True
+477,67087,"I Love You, Man (2009)",3.5,4.0,True
+477,67087,"I Love You, Man (2009)",3.5,4.0,True
+125,67695,Observe and Report (2009),5.0,3.0,True
+424,68157,Inglourious Basterds (2009),4.5,4.0,True
+424,68157,Inglourious Basterds (2009),4.5,4.0,True
+424,68157,Inglourious Basterds (2009),4.5,4.0,True
+424,68157,Inglourious Basterds (2009),4.5,4.0,True
+424,68157,Inglourious Basterds (2009),4.5,4.0,True
+477,68237,Moon (2009),4.5,4.0,True
+477,68237,Moon (2009),4.5,3.0,True
+477,68237,Moon (2009),4.5,0.0,True
+477,68319,X-Men Origins: Wolverine (2009),3.5,3.0,True
+477,68319,X-Men Origins: Wolverine (2009),3.5,3.0,True
+477,68319,X-Men Origins: Wolverine (2009),3.5,3.0,True
+477,68319,X-Men Origins: Wolverine (2009),3.5,3.0,True
+477,68319,X-Men Origins: Wolverine (2009),3.5,3.0,True
+477,68358,Star Trek (2009),4.5,0.0,True
+477,68358,Star Trek (2009),4.5,0.0,True
+477,68358,Star Trek (2009),4.5,4.0,True
+477,68358,Star Trek (2009),4.5,4.0,True
+477,68358,Star Trek (2009),4.5,4.0,True
+477,68358,Star Trek (2009),4.5,4.0,True
+477,68358,Star Trek (2009),4.5,4.0,True
+477,68358,Star Trek (2009),4.5,4.0,True
+477,68358,Star Trek (2009),4.5,4.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,0.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+477,68791,Terminator Salvation (2009),4.0,3.0,True
+62,68848,"Brothers Bloom, The (2008)",4.0,3.0,True
+62,68848,"Brothers Bloom, The (2008)",4.0,4.0,True
+62,68848,"Brothers Bloom, The (2008)",4.0,0.0,True
+62,68848,"Brothers Bloom, The (2008)",4.0,4.0,True
+62,68848,"Brothers Bloom, The (2008)",4.0,0.0,True
+62,68848,"Brothers Bloom, The (2008)",4.0,4.0,True
+477,68945,Neon Genesis Evangelion: Death & Rebirth (Shin seiki Evangelion Gekijô-ban: Shito shinsei) (1997),3.5,4.0,True
+318,68954,Up (2009),4.0,0.0,True
+318,68954,Up (2009),4.0,4.0,True
+318,68954,Up (2009),4.0,4.0,True
+318,68954,Up (2009),4.0,4.0,True
+318,68954,Up (2009),4.0,4.0,True
+318,68954,Up (2009),4.0,4.0,True
+318,68954,Up (2009),4.0,0.0,True
+318,68954,Up (2009),4.0,0.0,True
+318,68954,Up (2009),4.0,4.0,True
+567,68954,Up (2009),3.0,4.0,True
+567,68954,Up (2009),3.0,4.0,True
+567,68954,Up (2009),3.0,4.0,True
+567,68954,Up (2009),3.0,4.0,True
+537,69122,"Hangover, The (2009)",4.0,4.0,True
+537,69122,"Hangover, The (2009)",4.0,0.0,True
+537,69122,"Hangover, The (2009)",4.0,4.0,True
+537,69122,"Hangover, The (2009)",4.0,4.0,True
+537,69122,"Hangover, The (2009)",4.0,4.0,True
+537,69481,"Hurt Locker, The (2008)",3.5,0.0,True
+477,69526,Transformers: Revenge of the Fallen (2009),3.0,3.0,True
+477,69526,Transformers: Revenge of the Fallen (2009),3.0,3.0,True
+477,69526,Transformers: Revenge of the Fallen (2009),3.0,3.0,True
+477,69526,Transformers: Revenge of the Fallen (2009),3.0,3.0,True
+477,69526,Transformers: Revenge of the Fallen (2009),3.0,3.0,True
+477,69526,Transformers: Revenge of the Fallen (2009),3.0,3.0,True
+477,69526,Transformers: Revenge of the Fallen (2009),3.0,3.0,True
+477,69757,(500) Days of Summer (2009),5.0,0.0,True
+477,69757,(500) Days of Summer (2009),5.0,0.0,True
+477,69757,(500) Days of Summer (2009),5.0,0.0,True
+477,69757,(500) Days of Summer (2009),5.0,0.0,True
+477,69757,(500) Days of Summer (2009),5.0,4.0,True
+477,69757,(500) Days of Summer (2009),5.0,0.0,True
+477,69757,(500) Days of Summer (2009),5.0,0.0,True
+477,69757,(500) Days of Summer (2009),5.0,0.0,True
+477,70286,District 9 (2009),4.5,4.0,True
+318,71494,"Haunted World of El Superbeasto, The (2009)",3.5,3.0,True
+62,71535,Zombieland (2009),3.5,0.0,True
+62,71535,Zombieland (2009),3.5,4.0,True
+62,71535,Zombieland (2009),3.5,0.0,True
+62,71535,Zombieland (2009),3.5,0.0,True
+62,71535,Zombieland (2009),3.5,0.0,True
+62,71535,Zombieland (2009),3.5,0.0,True
+567,71899,Mary and Max (2009),5.0,4.0,True
+567,71899,Mary and Max (2009),5.0,4.0,True
+567,71899,Mary and Max (2009),5.0,0.0,True
+567,71899,Mary and Max (2009),5.0,0.0,True
+567,71899,Mary and Max (2009),5.0,0.0,True
+567,71899,Mary and Max (2009),5.0,0.0,True
+567,71899,Mary and Max (2009),5.0,0.0,True
+567,71899,Mary and Max (2009),5.0,4.0,True
+567,71899,Mary and Max (2009),5.0,0.0,True
+567,71899,Mary and Max (2009),5.0,0.0,True
+567,71899,Mary and Max (2009),5.0,4.0,True
+567,71899,Mary and Max (2009),5.0,4.0,True
+567,71899,Mary and Max (2009),5.0,0.0,True
+477,72224,Gentlemen Broncos (2009),3.5,3.0,True
+477,72998,Avatar (2009),4.0,0.0,True
+477,72998,Avatar (2009),4.0,0.0,True
+477,72998,Avatar (2009),4.0,0.0,True
+477,72998,Avatar (2009),4.0,4.0,True
+477,72998,Avatar (2009),4.0,0.0,True
+477,72998,Avatar (2009),4.0,0.0,True
+477,72998,Avatar (2009),4.0,4.0,True
+477,72998,Avatar (2009),4.0,4.0,True
+477,72998,Avatar (2009),4.0,4.0,True
+477,72998,Avatar (2009),4.0,0.0,True
+537,72998,Avatar (2009),5.0,0.0,True
+537,72998,Avatar (2009),5.0,4.0,True
+537,72998,Avatar (2009),5.0,0.0,True
+537,72998,Avatar (2009),5.0,0.0,True
+537,72998,Avatar (2009),5.0,0.0,True
+537,72998,Avatar (2009),5.0,0.0,True
+537,72998,Avatar (2009),5.0,0.0,True
+537,72998,Avatar (2009),5.0,4.0,True
+424,74458,Shutter Island (2010),5.0,4.0,True
+424,74458,Shutter Island (2010),5.0,4.0,True
+424,74458,Shutter Island (2010),5.0,4.0,True
+424,74458,Shutter Island (2010),5.0,4.0,True
+424,74458,Shutter Island (2010),5.0,4.0,True
+424,74458,Shutter Island (2010),5.0,4.0,True
+424,74458,Shutter Island (2010),5.0,4.0,True
+567,74791,"Town Called Panic, A (Panique au village) (2009)",3.5,4.0,True
+567,74791,"Town Called Panic, A (Panique au village) (2009)",3.5,4.0,True
+424,79132,Inception (2010),2.5,4.0,True
+424,79132,Inception (2010),2.5,4.0,True
+424,79132,Inception (2010),2.5,4.0,True
+424,79132,Inception (2010),2.5,4.0,True
+424,79132,Inception (2010),2.5,4.0,True
+424,79132,Inception (2010),2.5,4.0,True
+477,79132,Inception (2010),4.5,0.0,True
+477,79132,Inception (2010),4.5,4.0,True
+477,79132,Inception (2010),4.5,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,0.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,0.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+537,79132,Inception (2010),5.0,4.0,True
+567,79132,Inception (2010),3.0,4.0,True
+567,79132,Inception (2010),3.0,4.0,True
+567,79132,Inception (2010),3.0,4.0,True
+567,79132,Inception (2010),3.0,4.0,True
+477,79702,Scott Pilgrim vs. the World (2010),5.0,4.0,True
+477,79702,Scott Pilgrim vs. the World (2010),5.0,4.0,True
+477,79702,Scott Pilgrim vs. the World (2010),5.0,4.0,True
+477,79702,Scott Pilgrim vs. the World (2010),5.0,4.0,True
+567,80463,"Social Network, The (2010)",3.5,4.0,True
+567,80463,"Social Network, The (2010)",3.5,4.0,True
+567,80463,"Social Network, The (2010)",3.5,4.0,True
+537,80906,Inside Job (2010),5.0,4.0,True
+537,80906,Inside Job (2010),5.0,4.0,True
+537,80906,Inside Job (2010),5.0,4.0,True
+537,80906,Inside Job (2010),5.0,4.0,True
+537,80906,Inside Job (2010),5.0,4.0,True
+537,80906,Inside Job (2010),5.0,4.0,True
+318,81158,Restrepo (2010),3.0,4.0,True
+424,81591,Black Swan (2010),3.5,4.0,True
+424,81591,Black Swan (2010),3.5,4.0,True
+424,81591,Black Swan (2010),3.5,0.0,True
+424,81591,Black Swan (2010),3.5,4.0,True
+424,81591,Black Swan (2010),3.5,4.0,True
+424,81591,Black Swan (2010),3.5,4.0,True
+477,82242,Rare Exports: A Christmas Tale (Rare Exports) (2010),5.0,4.0,True
+318,82459,True Grit (2010),5.0,4.0,True
+318,82459,True Grit (2010),5.0,4.0,True
+318,82459,True Grit (2010),5.0,4.0,True
+318,82459,True Grit (2010),5.0,0.0,True
+318,82459,True Grit (2010),5.0,4.0,True
+305,83134,Tucker & Dale vs Evil (2010),5.0,4.0,True
+62,87430,Green Lantern (2011),3.5,3.0,True
+62,87430,Green Lantern (2011),3.5,3.0,True
+62,87430,Green Lantern (2011),3.5,0.0,True
+62,87430,Green Lantern (2011),3.5,3.0,True
+62,87430,Green Lantern (2011),3.5,0.0,True
+62,87430,Green Lantern (2011),3.5,3.0,True
+62,87430,Green Lantern (2011),3.5,3.0,True
+62,87430,Green Lantern (2011),3.5,3.0,True
+62,87430,Green Lantern (2011),3.5,3.0,True
+18,88094,Upside Down: The Creation Records Story (2010),3.0,4.0,True
+18,88094,Upside Down: The Creation Records Story (2010),3.0,4.0,True
+18,88094,Upside Down: The Creation Records Story (2010),3.0,4.0,True
+62,88405,Friends with Benefits (2011),3.5,4.0,True
+62,88405,Friends with Benefits (2011),3.5,4.0,True
+62,88405,Friends with Benefits (2011),3.5,4.0,True
+62,88405,Friends with Benefits (2011),3.5,4.0,True
+62,88405,Friends with Benefits (2011),3.5,4.0,True
+62,88405,Friends with Benefits (2011),3.5,4.0,True
+62,88405,Friends with Benefits (2011),3.5,0.0,True
+62,88405,Friends with Benefits (2011),3.5,4.0,True
+62,88405,Friends with Benefits (2011),3.5,4.0,True
+537,89745,"Avengers, The (2012)",1.5,4.0,True
+537,89745,"Avengers, The (2012)",1.5,4.0,True
+537,89745,"Avengers, The (2012)",1.5,4.0,True
+537,89745,"Avengers, The (2012)",1.5,5.0,True
+567,89745,"Avengers, The (2012)",4.0,4.0,True
+567,89745,"Avengers, The (2012)",4.0,4.0,True
+567,89745,"Avengers, The (2012)",4.0,4.0,True
+2,89774,Warrior (2011),5.0,0.0,True
+2,89774,Warrior (2011),5.0,5.0,True
+2,89774,Warrior (2011),5.0,0.0,True
+537,90439,Margin Call (2011),5.0,4.0,True
+537,90439,Margin Call (2011),5.0,4.0,True
+537,90439,Margin Call (2011),5.0,4.0,True
+537,90439,Margin Call (2011),5.0,4.0,True
+537,90439,Margin Call (2011),5.0,4.0,True
+537,90439,Margin Call (2011),5.0,4.0,True
+537,90439,Margin Call (2011),5.0,0.0,True
+537,90439,Margin Call (2011),5.0,0.0,True
+537,90439,Margin Call (2011),5.0,4.0,True
+318,90769,Starsuckers (2009),4.0,0.0,True
+318,90769,Starsuckers (2009),4.0,4.0,True
+318,90769,Starsuckers (2009),4.0,0.0,True
+357,91500,The Hunger Games (2012),4.5,4.0,True
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.0,True
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.0,True
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.0,True
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.0,True
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.0,True
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.0,True
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.0,True
+357,91529,"Dark Knight Rises, The (2012)",4.5,4.0,True
+567,94959,Moonrise Kingdom (2012),3.5,4.0,True
+537,95067,"Thousand Words, A (2012)",3.0,4.0,True
+567,95558,Beasts of the Southern Wild (2012),3.0,4.0,True
+567,95558,Beasts of the Southern Wild (2012),3.0,4.0,True
+567,95558,Beasts of the Southern Wild (2012),3.0,4.0,True
+567,96079,Skyfall (2012),3.0,0.0,True
+567,96079,Skyfall (2012),3.0,0.0,True
+567,96079,Skyfall (2012),3.0,0.0,True
+318,96084,Hands Over the City (Le mani sulla città) (1963),4.5,4.0,True
+318,96084,Hands Over the City (Le mani sulla città) (1963),4.5,0.0,True
+318,96084,Hands Over the City (Le mani sulla città) (1963),4.5,4.0,True
+62,96861,Taken 2 (2012),3.5,4.0,True
+62,96861,Taken 2 (2012),3.5,4.0,True
+62,96861,Taken 2 (2012),3.5,4.0,True
+62,96861,Taken 2 (2012),3.5,4.0,True
+62,96861,Taken 2 (2012),3.5,4.0,True
+537,97304,Argo (2012),4.5,0.0,True
+537,97304,Argo (2012),4.5,0.0,True
+537,97304,Argo (2012),4.5,0.0,True
+193,97938,Life of Pi (2012),4.0,4.0,True
+193,97938,Life of Pi (2012),4.0,4.0,True
+193,97938,Life of Pi (2012),4.0,4.0,True
+419,98961,Zero Dark Thirty (2012),5.0,4.0,True
+419,98961,Zero Dark Thirty (2012),5.0,4.0,True
+419,98961,Zero Dark Thirty (2012),5.0,4.0,True
+419,98961,Zero Dark Thirty (2012),5.0,4.0,True
+419,98961,Zero Dark Thirty (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+62,99114,Django Unchained (2012),5.0,4.0,True
+537,99114,Django Unchained (2012),4.5,4.0,True
+567,99764,It's Such a Beautiful Day (2012),5.0,4.0,True
+567,99764,It's Such a Beautiful Day (2012),5.0,4.0,True
+567,99764,It's Such a Beautiful Day (2012),5.0,4.0,True
+567,99764,It's Such a Beautiful Day (2012),5.0,4.0,True
+567,99917,Upstream Color (2013),3.5,4.0,True
+567,99917,Upstream Color (2013),3.5,4.0,True
+567,99917,Upstream Color (2013),3.5,4.0,True
+567,99917,Upstream Color (2013),3.5,4.0,True
+567,99917,Upstream Color (2013),3.5,4.0,True
+567,99917,Upstream Color (2013),3.5,4.0,True
+125,100083,Movie 43 (2013),5.0,0.0,True
+125,100083,Movie 43 (2013),5.0,2.0,True
+125,100083,Movie 43 (2013),5.0,0.0,True
+125,100083,Movie 43 (2013),5.0,0.0,True
+125,100083,Movie 43 (2013),5.0,2.0,True
+119,101142,"Croods, The (2013)",4.0,4.0,True
+119,101142,"Croods, The (2013)",4.0,4.0,True
+119,101142,"Croods, The (2013)",4.0,0.0,True
+424,102903,Now You See Me (2013),1.5,0.0,True
+424,102903,Now You See Me (2013),1.5,4.0,True
+424,102903,Now You See Me (2013),1.5,4.0,True
+424,102903,Now You See Me (2013),1.5,0.0,True
+62,103042,Man of Steel (2013),3.5,0.0,True
+62,103042,Man of Steel (2013),3.5,0.0,True
+537,104218,Grown Ups 2 (2013),3.5,3.0,True
+537,104841,Gravity (2013),3.0,0.0,True
+537,104841,Gravity (2013),3.0,0.0,True
+537,104841,Gravity (2013),3.0,0.0,True
+537,104841,Gravity (2013),3.0,0.0,True
+537,104841,Gravity (2013),3.0,0.0,True
+537,104841,Gravity (2013),3.0,0.0,True
+62,104863,What If (2013),4.0,4.0,True
+62,104863,What If (2013),4.0,3.0,True
+567,104875,"History of Future Folk, The (2012)",3.5,4.0,True
+424,104879,Prisoners (2013),5.0,4.0,True
+424,104879,Prisoners (2013),5.0,4.0,True
+424,104879,Prisoners (2013),5.0,4.0,True
+424,104879,Prisoners (2013),5.0,4.0,True
+424,104879,Prisoners (2013),5.0,4.0,True
+424,104879,Prisoners (2013),5.0,4.0,True
+424,104879,Prisoners (2013),5.0,0.0,True
+424,104879,Prisoners (2013),5.0,4.0,True
+567,104944,Short Term 12 (2013),3.5,4.0,True
+567,104944,Short Term 12 (2013),3.5,4.0,True
+567,104944,Short Term 12 (2013),3.5,4.0,True
+567,104944,Short Term 12 (2013),3.5,4.0,True
+567,104944,Short Term 12 (2013),3.5,4.0,True
+537,105504,Captain Phillips (2013),5.0,4.0,True
+537,105504,Captain Phillips (2013),5.0,4.0,True
+537,105504,Captain Phillips (2013),5.0,4.0,True
+567,105504,Captain Phillips (2013),3.0,4.0,True
+567,105504,Captain Phillips (2013),3.0,4.0,True
+424,106100,Dallas Buyers Club (2013),4.0,0.0,True
+424,106100,Dallas Buyers Club (2013),4.0,4.0,True
+424,106100,Dallas Buyers Club (2013),4.0,4.0,True
+567,106766,Inside Llewyn Davis (2013),4.0,0.0,True
+567,106766,Inside Llewyn Davis (2013),4.0,4.0,True
+567,106766,Inside Llewyn Davis (2013),4.0,4.0,True
+567,106766,Inside Llewyn Davis (2013),4.0,4.0,True
+2,106782,"Wolf of Wall Street, The (2013)",5.0,4.0,True
+2,106782,"Wolf of Wall Street, The (2013)",5.0,4.0,True
+2,106782,"Wolf of Wall Street, The (2013)",5.0,4.0,True
+537,106782,"Wolf of Wall Street, The (2013)",5.0,4.0,True
+537,106782,"Wolf of Wall Street, The (2013)",5.0,4.0,True
+62,107348,Anchorman 2: The Legend Continues (2013),4.0,3.0,True
+62,107348,Anchorman 2: The Legend Continues (2013),4.0,4.0,True
+62,107348,Anchorman 2: The Legend Continues (2013),4.0,4.0,True
+62,107348,Anchorman 2: The Legend Continues (2013),4.0,4.0,True
+567,107406,Snowpiercer (2013),3.0,0.0,True
+62,108190,Divergent (2014),3.0,4.0,True
+62,108190,Divergent (2014),3.0,4.0,True
+62,108190,Divergent (2014),3.0,4.0,True
+62,108190,Divergent (2014),3.0,4.0,True
+62,108190,Divergent (2014),3.0,4.0,True
+62,108190,Divergent (2014),3.0,4.0,True
+62,108190,Divergent (2014),3.0,4.0,True
+62,108190,Divergent (2014),3.0,4.0,True
+567,108932,The Lego Movie (2014),4.5,4.0,True
+567,108932,The Lego Movie (2014),4.5,4.0,True
+567,108932,The Lego Movie (2014),4.5,4.0,True
+567,108932,The Lego Movie (2014),4.5,4.0,True
+567,108932,The Lego Movie (2014),4.5,4.0,True
+567,108932,The Lego Movie (2014),4.5,4.0,True
+567,108932,The Lego Movie (2014),4.5,4.0,True
+567,109487,Interstellar (2014),3.0,4.0,True
+567,109487,Interstellar (2014),3.0,4.0,True
+567,109487,Interstellar (2014),3.0,4.0,True
+567,109487,Interstellar (2014),3.0,4.0,True
+318,111364,Godzilla (2014),3.0,4.0,True
+62,111743,A Million Ways to Die in the West (2014),3.5,3.0,True
+62,111743,A Million Ways to Die in the West (2014),3.5,0.0,True
+62,111743,A Million Ways to Die in the West (2014),3.5,3.0,True
+62,111743,A Million Ways to Die in the West (2014),3.5,3.0,True
+567,112421,Frank (2014),4.5,4.0,True
+567,112421,Frank (2014),4.5,4.0,True
+567,112421,Frank (2014),4.5,0.0,True
+567,112421,Frank (2014),4.5,4.0,True
+567,112421,Frank (2014),4.5,4.0,True
+567,112421,Frank (2014),4.5,4.0,True
+424,112515,"Babadook, The (2014)",4.5,4.0,True
+424,112515,"Babadook, The (2014)",4.5,4.0,True
+424,112515,"Babadook, The (2014)",4.5,4.0,True
+424,112515,"Babadook, The (2014)",4.5,4.0,True
+567,112552,Whiplash (2014),3.5,4.0,True
+567,112552,Whiplash (2014),3.5,4.0,True
+567,112552,Whiplash (2014),3.5,4.0,True
+424,112556,Gone Girl (2014),1.0,4.0,True
+424,112556,Gone Girl (2014),1.0,4.0,True
+567,112852,Guardians of the Galaxy (2014),3.5,4.0,True
+567,112852,Guardians of the Galaxy (2014),3.5,4.0,True
+567,112852,Guardians of the Galaxy (2014),3.5,0.0,True
+567,112852,Guardians of the Galaxy (2014),3.5,4.0,True
+567,113705,"Two Days, One Night (Deux jours, une nuit) (2014)",3.5,4.0,True
+62,114180,"Maze Runner, The (2014)",3.5,4.0,True
+62,114180,"Maze Runner, The (2014)",3.5,4.0,True
+62,114180,"Maze Runner, The (2014)",3.5,0.0,True
+62,114180,"Maze Runner, The (2014)",3.5,4.0,True
+62,114180,"Maze Runner, The (2014)",3.5,4.0,True
+62,114180,"Maze Runner, The (2014)",3.5,4.0,True
+62,114180,"Maze Runner, The (2014)",3.5,4.0,True
+62,114180,"Maze Runner, The (2014)",3.5,4.0,True
+567,114627,Angel's Egg (Tenshi no tamago) (1985),3.5,4.0,True
+567,114627,Angel's Egg (Tenshi no tamago) (1985),3.5,3.0,True
+567,114627,Angel's Egg (Tenshi no tamago) (1985),3.5,4.0,True
+567,114627,Angel's Egg (Tenshi no tamago) (1985),3.5,4.0,True
+62,115149,John Wick (2014),5.0,4.0,True
+62,115149,John Wick (2014),5.0,5.0,True
+62,115149,John Wick (2014),5.0,4.0,True
+62,115149,John Wick (2014),5.0,4.0,True
+62,115149,John Wick (2014),5.0,4.0,True
+62,115149,John Wick (2014),5.0,5.0,True
+119,115149,John Wick (2014),4.5,4.0,True
+119,115149,John Wick (2014),4.5,4.0,True
+119,115149,John Wick (2014),4.5,4.0,True
+119,115617,Big Hero 6 (2014),5.0,0.0,True
+119,115617,Big Hero 6 (2014),5.0,0.0,True
+119,115617,Big Hero 6 (2014),5.0,0.0,True
+567,116797,The Imitation Game (2014),3.0,4.0,True
+567,116797,The Imitation Game (2014),3.0,4.0,True
+62,116897,Wild Tales (2014),4.0,0.0,True
+62,116897,Wild Tales (2014),4.0,4.0,True
+62,116897,Wild Tales (2014),4.0,0.0,True
+62,116897,Wild Tales (2014),4.0,0.0,True
+62,116897,Wild Tales (2014),4.0,0.0,True
+62,116897,Wild Tales (2014),4.0,4.0,True
+567,117877,The Rabbi's Cat (Le chat du rabbin) (2011),3.0,4.0,True
+567,117877,The Rabbi's Cat (Le chat du rabbin) (2011),3.0,4.0,True
+567,117887,Paddington (2014),3.5,4.0,True
+318,118784,Good Copy Bad Copy (2007),3.5,4.0,True
+318,118784,Good Copy Bad Copy (2007),3.5,4.0,True
+318,118784,Good Copy Bad Copy (2007),3.5,4.0,True
+62,119141,The Interview (2014),3.0,0.0,True
+62,119141,The Interview (2014),3.0,0.0,True
+62,119141,The Interview (2014),3.0,0.0,True
+62,119141,The Interview (2014),3.0,0.0,True
+62,119141,The Interview (2014),3.0,0.0,True
+567,119145,Kingsman: The Secret Service (2015),3.0,4.0,True
+119,120635,Taken 3 (2015),4.5,3.0,True
+119,120635,Taken 3 (2015),4.5,4.0,True
+119,120635,Taken 3 (2015),4.5,4.0,True
+567,122882,Mad Max: Fury Road (2015),4.0,4.0,True
+567,122882,Mad Max: Fury Road (2015),4.0,4.0,True
+567,122882,Mad Max: Fury Road (2015),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+62,122912,Avengers: Infinity War - Part I (2018),4.0,4.0,True
+567,122912,Avengers: Infinity War - Part I (2018),3.0,4.0,True
+567,122912,Avengers: Infinity War - Part I (2018),3.0,4.0,True
+567,122912,Avengers: Infinity War - Part I (2018),3.0,4.0,True
+567,122912,Avengers: Infinity War - Part I (2018),3.0,4.0,True
+567,122912,Avengers: Infinity War - Part I (2018),3.0,4.0,True
+567,122916,Thor: Ragnarok (2017),3.0,4.0,True
+567,122916,Thor: Ragnarok (2017),3.0,4.0,True
+567,122916,Thor: Ragnarok (2017),3.0,4.0,True
+567,122916,Thor: Ragnarok (2017),3.0,4.0,True
+567,122916,Thor: Ragnarok (2017),3.0,4.0,True
+567,122918,Guardians of the Galaxy 2 (2017),3.5,4.0,True
+567,122922,Doctor Strange (2016),3.0,4.0,True
+318,127172,A Story of Children and Film (2013),3.5,4.0,True
+318,127172,A Story of Children and Film (2013),3.5,4.0,True
+318,127172,A Story of Children and Film (2013),3.5,4.0,True
+567,127298,A Pigeon Sat on a Branch Reflecting on Existence (2014),3.5,4.0,True
+567,127298,A Pigeon Sat on a Branch Reflecting on Existence (2014),3.5,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+62,128360,The Hateful Eight (2015),5.0,4.0,True
+567,134130,The Martian (2015),3.0,4.0,True
+567,134170,Kung Fury (2015),4.5,4.0,True
+567,134170,Kung Fury (2015),4.5,0.0,True
+567,134170,Kung Fury (2015),4.5,0.0,True
+62,135133,The Hunger Games: Mockingjay - Part 2 (2015),3.5,4.0,True
+62,135133,The Hunger Games: Mockingjay - Part 2 (2015),3.5,4.0,True
+62,135133,The Hunger Games: Mockingjay - Part 2 (2015),3.5,4.0,True
+62,135133,The Hunger Games: Mockingjay - Part 2 (2015),3.5,4.0,True
+62,135133,The Hunger Games: Mockingjay - Part 2 (2015),3.5,4.0,True
+62,135133,The Hunger Games: Mockingjay - Part 2 (2015),3.5,4.0,True
+62,135133,The Hunger Games: Mockingjay - Part 2 (2015),3.5,4.0,True
+62,135518,Self/less (2015),3.5,4.0,True
+62,135518,Self/less (2015),3.5,3.0,True
+62,135518,Self/less (2015),3.5,4.0,True
+62,135518,Self/less (2015),3.5,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,0.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,135536,Suicide Squad (2016),4.0,4.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+62,136864,Batman v Superman: Dawn of Justice (2016),4.0,3.0,True
+567,138036,The Man from U.N.C.L.E. (2015),3.0,4.0,True
+567,138036,The Man from U.N.C.L.E. (2015),3.0,4.0,True
+62,139385,The Revenant (2015),4.0,4.0,True
+62,139385,The Revenant (2015),4.0,4.0,True
+62,139385,The Revenant (2015),4.0,4.0,True
+62,139385,The Revenant (2015),4.0,4.0,True
+567,139385,The Revenant (2015),3.0,0.0,True
+567,139385,The Revenant (2015),3.0,0.0,True
+567,139385,The Revenant (2015),3.0,0.0,True
+567,139644,Sicario (2015),3.5,4.0,True
+567,139644,Sicario (2015),3.5,4.0,True
+567,140174,Room (2015),3.0,4.0,True
+567,140174,Room (2015),3.0,4.0,True
+567,141890,Beasts of No Nation (2015),3.0,4.0,True
+567,143367,Silence (2016),4.5,3.0,True
+567,143367,Silence (2016),4.5,0.0,True
+567,143367,Silence (2016),4.5,3.0,True
+567,143367,Silence (2016),4.5,3.0,True
+18,144210,Just Eat It: A Food Waste Story (2014),4.0,4.0,True
+18,144210,Just Eat It: A Food Waste Story (2014),4.0,4.0,True
+567,148626,"Big Short, The (2015)",3.0,4.0,True
+567,148626,"Big Short, The (2015)",3.0,4.0,True
+567,148626,"Big Short, The (2015)",3.0,4.0,True
+567,148881,World of Tomorrow (2015),5.0,4.0,True
+567,148881,World of Tomorrow (2015),5.0,4.0,True
+567,152077,10 Cloverfield Lane (2016),3.0,4.0,True
+567,152077,10 Cloverfield Lane (2016),3.0,4.0,True
+462,152711,Who Killed Chea Vichea? (2010),5.0,4.0,True
+462,152711,Who Killed Chea Vichea? (2010),5.0,4.0,True
+462,152711,Who Killed Chea Vichea? (2010),5.0,4.0,True
+462,152711,Who Killed Chea Vichea? (2010),5.0,4.0,True
+462,152711,Who Killed Chea Vichea? (2010),5.0,4.0,True
+567,153070,Rabbits (2002),3.5,0.0,True
+567,155288,Eye in the Sky (2016),3.5,4.0,True
+567,155288,Eye in the Sky (2016),3.5,4.0,True
+125,156371,Everybody Wants Some (2016),4.0,4.0,True
+567,156605,Paterson,4.5,4.0,True
+567,156605,Paterson,4.5,4.0,True
+567,156605,Paterson,4.5,4.0,True
+125,158872,Sausage Party (2016),5.0,0.0,True
+125,158872,Sausage Party (2016),5.0,0.0,True
+125,158872,Sausage Party (2016),5.0,3.0,True
+125,158872,Sausage Party (2016),5.0,0.0,True
+125,158872,Sausage Party (2016),5.0,3.0,True
+62,158966,Captain Fantastic (2016),4.5,4.0,True
+62,158966,Captain Fantastic (2016),4.5,4.0,True
+62,158966,Captain Fantastic (2016),4.5,4.0,True
+62,158966,Captain Fantastic (2016),4.5,4.0,True
+62,158966,Captain Fantastic (2016),4.5,4.0,True
+62,158966,Captain Fantastic (2016),4.5,0.0,True
+567,161634,Don't Breathe (2016),3.0,4.0,True
+567,164179,Arrival (2016),4.0,0.0,True
+567,164179,Arrival (2016),4.0,0.0,True
+567,164179,Arrival (2016),4.0,0.0,True
+567,164179,Arrival (2016),4.0,0.0,True
+567,164179,Arrival (2016),4.0,0.0,True
+567,164179,Arrival (2016),4.0,0.0,True
+567,164179,Arrival (2016),4.0,0.0,True
+567,164909,La La Land (2016),3.0,0.0,True
+567,164909,La La Land (2016),3.0,0.0,True
+567,167746,The Lego Batman Movie (2017),3.5,4.0,True
+567,167746,The Lego Batman Movie (2017),3.5,4.0,True
+62,168248,John Wick: Chapter Two (2017),4.5,4.0,True
+62,168248,John Wick: Chapter Two (2017),4.5,4.0,True
+62,168248,John Wick: Chapter Two (2017),4.5,4.0,True
+62,168248,John Wick: Chapter Two (2017),4.5,4.0,True
+62,168248,John Wick: Chapter Two (2017),4.5,4.0,True
+62,168248,John Wick: Chapter Two (2017),4.5,4.0,True
+62,168248,John Wick: Chapter Two (2017),4.5,4.0,True
+567,168252,Logan (2017),4.0,0.0,True
+567,168252,Logan (2017),4.0,4.0,True
+567,168252,Logan (2017),4.0,0.0,True
+567,168252,Logan (2017),4.0,0.0,True
+567,168252,Logan (2017),4.0,0.0,True
+567,170945,It Comes at Night (2017),3.5,4.0,True
+567,170945,It Comes at Night (2017),3.5,4.0,True
+62,174053,Black Mirror: White Christmas (2014),5.0,4.0,True
+62,174053,Black Mirror: White Christmas (2014),5.0,4.0,True
+62,174053,Black Mirror: White Christmas (2014),5.0,4.0,True
+62,174053,Black Mirror: White Christmas (2014),5.0,4.0,True
+62,174053,Black Mirror: White Christmas (2014),5.0,5.0,True
+567,174055,Dunkirk (2017),3.5,4.0,True
+567,174055,Dunkirk (2017),3.5,0.0,True
+567,174055,Dunkirk (2017),3.5,4.0,True
+567,176371,Blade Runner 2049 (2017),5.0,0.0,True
+567,176371,Blade Runner 2049 (2017),5.0,0.0,True
+567,176371,Blade Runner 2049 (2017),5.0,4.0,True
+567,176371,Blade Runner 2049 (2017),5.0,0.0,True
+567,176371,Blade Runner 2049 (2017),5.0,0.0,True
+567,176371,Blade Runner 2049 (2017),5.0,0.0,True
+567,176371,Blade Runner 2049 (2017),5.0,4.0,True
+567,176371,Blade Runner 2049 (2017),5.0,4.0,True
+567,176419,Mother! (2017),3.0,0.0,True
+567,176419,Mother! (2017),3.0,3.0,True
+567,176419,Mother! (2017),3.0,0.0,True
+62,179401,Jumanji: Welcome to the Jungle (2017),3.5,4.0,True
+62,179401,Jumanji: Welcome to the Jungle (2017),3.5,4.0,True
+62,179401,Jumanji: Welcome to the Jungle (2017),3.5,4.0,True
+62,179401,Jumanji: Welcome to the Jungle (2017),3.5,4.0,True
+567,180031,The Shape of Water (2017),4.0,4.0,True
+567,180031,The Shape of Water (2017),4.0,4.0,True
+567,180985,The Greatest Showman (2017),1.0,4.0,True
+62,183611,Game Night (2018),4.0,4.0,True
+62,183611,Game Night (2018),4.0,4.0,True
+62,183611,Game Night (2018),4.0,4.0,True
+62,184471,Tomb Raider (2018),3.5,4.0,True
+62,184471,Tomb Raider (2018),3.5,4.0,True
+62,184471,Tomb Raider (2018),3.5,4.0,True
+62,187593,Deadpool 2 (2018),4.0,4.0,True
+62,187593,Deadpool 2 (2018),4.0,4.0,True
+62,187593,Deadpool 2 (2018),4.0,4.0,True
+62,187595,Solo: A Star Wars Story (2018),4.0,4.0,True
+62,187595,Solo: A Star Wars Story (2018),4.0,4.0,True
+184,193565,Gintama: The Movie (2010),3.5,4.0,True
+184,193565,Gintama: The Movie (2010),3.5,4.0,True
+184,193565,Gintama: The Movie (2010),3.5,4.0,True
+184,193565,Gintama: The Movie (2010),3.5,4.0,True

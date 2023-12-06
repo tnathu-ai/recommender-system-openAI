@@ -119,6 +119,35 @@ def predict_ratings_zero_shot_and_save(data,
     results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
     results_df.to_csv(save_path, index=False)
     print(f"Predictions saved to {save_path}")
+    return results_df
+
+
+
+def rerun_failed_zero_shot_predictions(data, 
+                                       save_path, 
+                                       rerun_save_path, 
+                                       columns_for_prediction, 
+                                       pause_every_n_users, 
+                                       sleep_time,
+                                       user_column_name='user_id', 
+                                       asin_column_name='item_id'):
+    # Identify failed predictions
+    data['is_rating_float'] = pd.to_numeric(data['predicted_rating'], errors='coerce').notna()
+    failed_indices = data[~data['is_rating_float']].index
+
+    if len(failed_indices) > 0:
+        print(f"Re-running predictions for {len(failed_indices)} failed cases.")
+        failed_data = data.loc[failed_indices]
+        updated_data = predict_ratings_zero_shot_and_save(
+            failed_data, 
+            columns_for_prediction=columns_for_prediction, 
+            save_path=rerun_save_path, 
+            pause_every_n_users=pause_every_n_users, 
+            sleep_time=sleep_time, user_column_name=user_column_name, asin_column_name=asin_column_name)
+        data.loc[failed_indices, 'predicted_rating'] = updated_data['predicted_rating']
+
+    data.to_csv(save_path, index=False)
+    return data
 
 
 def predict_ratings_few_shot_and_save(data, 
@@ -249,3 +278,5 @@ def predict_ratings_with_collaborative_filtering_and_save(data, interaction_matr
     results_df.to_csv(save_path, index=False)
 
     print("Predictions completed and saved.")
+
+
