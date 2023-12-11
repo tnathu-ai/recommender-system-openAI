@@ -306,7 +306,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 1090,1894,Six Days Seven Nights (1998),1,3.0
 1094,2617,"Mummy, The (1999)",3,3.0
 1098,1214,Alien (1979),4,4.0
-1099,161,Crimson Tide (1995),3,0
+1099,161,Crimson Tide (1995),3,0.0
 1101,546,Super Mario Bros. (1993),2,2.0
 1105,2279,Urban Legend (1998),3,3.0
 1108,451,Flesh and Bone (1993),3,3.0
@@ -427,7 +427,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 1547,2858,American Beauty (1999),5,4.0
 1551,1235,Harold and Maude (1971),5,2.0
 1552,1674,Witness (1985),5,3.0
-1556,2273,Rush Hour (1998),4,0
+1556,2273,Rush Hour (1998),4,0.0
 1565,3614,Honeymoon in Vegas (1992),4,3.0
 1569,615,Bread and Chocolate (Pane e cioccolata) (1973),5,3.0
 1571,6,Heat (1995),4,3.0
@@ -771,7 +771,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 2838,1228,Raging Bull (1980),5,3.0
 2843,369,Mrs. Parker and the Vicious Circle (1994),1,4.0
 2847,3452,Romeo Must Die (2000),1,3.0
-2848,481,Kalifornia (1993),1,0
+2848,481,Kalifornia (1993),1,0.0
 2854,1219,Psycho (1960),4,3.0
 2855,3858,Cecil B. Demented (2000),4,4.0
 2857,3499,Misery (1990),4,3.0
@@ -1202,7 +1202,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 4290,2106,Swing Kids (1993),4,4.0
 4303,25,Leaving Las Vegas (1995),5,2.0
 4305,2918,Ferris Bueller's Day Off (1986),5,4.0
-4310,2028,Saving Private Ryan (1998),5,"(None, 'The server is overloaded or not ready yet.')"
+4310,2028,Saving Private Ryan (1998),5,4.0
 4312,3190,Supernova (2000),2,3.0
 4313,1247,"Graduate, The (1967)",4,3.0
 4318,1079,"Fish Called Wanda, A (1988)",4,3.0
@@ -1306,7 +1306,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 4647,3100,"River Runs Through It, A (1992)",5,3.0
 4650,2042,D2: The Mighty Ducks (1994),3,3.0
 4653,3855,"Affair of Love, An (Une Liaison Pornographique) (1999)",4,3.0
-4659,736,Twister (1996),5,0
+4659,736,Twister (1996),5,0.0
 4666,1269,Arsenic and Old Lace (1944),4,3.0
 4667,1594,In the Company of Men (1997),5,2.0
 4669,2713,Lake Placid (1999),2,3.0
@@ -1509,7 +1509,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 5355,2268,"Few Good Men, A (1992)",2,3.0
 5356,2784,"Masque of the Red Death, The (1964)",2,3.0
 5359,599,"Wild Bunch, The (1969)",3,3.0
-5361,1032,Alice in Wonderland (1951),3,0
+5361,1032,Alice in Wonderland (1951),3,0.0
 5367,1499,Anaconda (1997),1,3.0
 5368,2959,Fight Club (1999),5,3.0
 5369,1663,Stripes (1981),5,3.0
@@ -1572,7 +1572,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 5541,2440,Another Day in Paradise (1998),4,2.0
 5542,858,"Godfather, The (1972)",5,5.0
 5543,2628,Star Wars: Episode I - The Phantom Menace (1999),5,2.0
-5545,1374,Star Trek: The Wrath of Khan (1982),4,0
+5545,1374,Star Trek: The Wrath of Khan (1982),4,0.0
 5548,2269,Indecent Proposal (1993),2,2.0
 5550,2467,"Name of the Rose, The (1986)",4,3.0
 5553,1104,"Streetcar Named Desire, A (1951)",4,2.0
@@ -1686,7 +1686,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 5917,1307,When Harry Met Sally... (1989),4,4.0
 5920,11,"American President, The (1995)",4,2.0
 5922,750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963),2,4.0
-5924,1214,Alien (1979),5,0
+5924,1214,Alien (1979),5,0.0
 5934,1294,M*A*S*H (1970),4,3.0
 5937,593,"Silence of the Lambs, The (1991)",3,4.0
 5942,3201,Five Easy Pieces (1970),5,4.0
@@ -1720,7 +1720,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 6021,1580,Men in Black (1997),4,4.0
 6032,3198,Papillon (1973),2,4.0
 6033,780,Independence Day (ID4) (1996),4,3.0
-6035,1760,Spice World (1997),1,0
+6035,1760,Spice World (1997),1,0.0
 6036,1177,Enchanted April (1991),3,3.0
 6037,2728,Spartacus (1960),3,5.0
 6040,2852,"Soldier's Story, A (1984)",3,4.0
@@ -2016,7 +2016,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 5420,2566,Doug's 1st Movie (1999),3,4.0
 5450,2640,Superman (1978),2,4.0
 5455,2490,Payback (1999),3,3.0
-5460,1371,Star Trek: The Motion Picture (1979),3,0
+5460,1371,Star Trek: The Motion Picture (1979),3,0.0
 5490,648,Mission: Impossible (1996),3,5.0
 5530,3257,"Bodyguard, The (1992)",1,3.0
 5539,2871,Deliverance (1972),4,3.0
@@ -2776,7 +2776,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 3368,2947,Goldfinger (1964),5,3.0
 3370,1921,Pi (1998),4,3.0
 3381,3882,Bring It On (2000),4,3.0
-3382,3553,Gossip (2000),4,0
+3382,3553,Gossip (2000),4,0.0
 3386,2106,Swing Kids (1993),3,3.0
 3387,2858,American Beauty (1999),5,4.0
 3392,2052,Hocus Pocus (1993),3,3.0
@@ -2839,7 +2839,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 4005,3897,Almost Famous (2000),3,3.0
 4033,2791,Airplane! (1980),5,4.0
 4039,1912,Out of Sight (1998),5,3.0
-4067,2723,Mystery Men (1999),3,0
+4067,2723,Mystery Men (1999),3,0.0
 4079,1307,When Harry Met Sally... (1989),3,3.0
 4094,3355,"Ninth Gate, The (2000)",3,3.0
 4101,296,Pulp Fiction (1994),5,4.0
@@ -3094,7 +3094,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 1000,2087,Peter Pan (1953),4,3.0
 1004,3421,Animal House (1978),4,3.0
 1005,246,Hoop Dreams (1994),5,3.0
-1016,300,Quiz Show (1994),4,0
+1016,300,Quiz Show (1994),4,0.0
 1057,2394,"Prince of Egypt, The (1998)",4,3.0
 1076,2860,Blue Streak (1999),4,4.0
 1107,3831,Saving Grace (2000),4,4.0
@@ -3402,7 +3402,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 4126,2142,"American Tail: Fievel Goes West, An (1991)",4,3.0
 4133,1105,Children of the Corn IV: The Gathering (1996),1,2.0
 4137,3705,Bird on a Wire (1990),2,3.0
-4149,1873,"Misérables, Les (1998)",3,0
+4149,1873,"Misérables, Les (1998)",3,0.0
 4157,3384,"Taking of Pelham One Two Three, The (1974)",3,4.0
 4163,2699,Arachnophobia (1990),4,3.0
 4171,1883,Bulworth (1998),4,3.0
@@ -3447,7 +3447,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 4419,2355,"Bug's Life, A (1998)",3,3.0
 4428,1339,Bram Stoker's Dracula (1992),4,4.0
 4434,2413,Clue (1985),3,4.0
-4438,3135,"Great Santini, The (1979)",2,"(None, 'The server is overloaded or not ready yet.')"
+4438,3135,"Great Santini, The (1979)",2,4.0
 4439,3384,"Taking of Pelham One Two Three, The (1974)",3,3.0
 4444,349,Clear and Present Danger (1994),2,3.0
 4449,2384,Babe: Pig in the City (1998),4,3.0
@@ -4261,7 +4261,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 5908,1408,"Last of the Mohicans, The (1992)",5,3.0
 5909,1340,Bride of Frankenstein (1935),3,3.0
 5912,318,"Shawshank Redemption, The (1994)",5,5.0
-5933,170,Hackers (1995),5,0
+5933,170,Hackers (1995),5,0.0
 5936,913,"Maltese Falcon, The (1941)",5,4.0
 5938,1261,Evil Dead II (Dead By Dawn) (1987),4,3.0
 5941,50,"Usual Suspects, The (1995)",4,3.0
@@ -4697,7 +4697,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 2805,2670,"Run Silent, Run Deep (1958)",3,4.0
 2910,2513,Pet Sematary (1989),2,2.0
 2916,246,Hoop Dreams (1994),5,4.0
-3053,1200,Aliens (1986),3,0
+3053,1200,Aliens (1986),3,0.0
 3114,1211,Wings of Desire (Der Himmel über Berlin) (1987),3,3.0
 3142,1729,Jackie Brown (1997),4,3.0
 3212,1569,My Best Friend's Wedding (1997),2,3.0
@@ -5112,7 +5112,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 1518,1199,Brazil (1985),4,3.0
 1522,2363,Godzilla (Gojira) (1954),3,2.0
 1567,978,"Blue Angel, The (Blaue Engel, Der) (1930)",5,3.0
-1623,1079,"Fish Called Wanda, A (1988)",5,0
+1623,1079,"Fish Called Wanda, A (1988)",5,0.0
 1649,2105,Tron (1982),3,3.0
 1651,1200,Aliens (1986),4,3.0
 1665,2455,"Fly, The (1986)",4,3.0
@@ -5297,7 +5297,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 1456,1006,"Chamber, The (1996)",3,3.0
 1521,3901,Duets (2000),1,3.0
 1541,1635,"Ice Storm, The (1997)",4,3.0
-1548,3510,Frequency (2000),3,0
+1548,3510,Frequency (2000),3,0.0
 1550,1422,Murder at 1600 (1997),2,3.0
 1596,2541,Cruel Intentions (1999),5,3.0
 1604,535,Short Cuts (1993),5,3.0
@@ -5616,7 +5616,7 @@ user_id,item_id,title,actual_rating,predicted_rating
 5039,293,"Professional, The (a.k.a. Leon: The Professional) (1994)",1,3.0
 5051,2505,8MM (1999),5,3.0
 5125,947,My Man Godfrey (1936),4,3.0
-1152,798,Daylight (1996),2,0
+1152,798,Daylight (1996),2,0.0
 1881,2574,"Out-of-Towners, The (1999)",5,3.0
 4106,2857,Yellow Submarine (1968),2,3.0
 2295,2522,Airport '77 (1977),4,3.0
