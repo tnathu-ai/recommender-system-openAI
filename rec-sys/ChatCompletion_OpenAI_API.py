@@ -91,6 +91,7 @@ def predict_ratings_zero_shot_and_save(data,
                                        user_column_name='reviewerID',
                                        title_column_name='title',
                                        asin_column_name='asin',
+                                       rating_column_name='rating',
                                        pause_every_n_users=PAUSE_EVERY_N_USERS,
                                        sleep_time=SLEEP_TIME,
                                        save_path='zero_shot_predictions.csv'):
@@ -106,7 +107,7 @@ def predict_ratings_zero_shot_and_save(data,
         predicted_rating = predict_rating_combined_ChatCompletion(combined_text, approach="zero-shot")
         user_id = row[user_column_name]
         item_id = row[asin_column_name]
-        actual_rating = row['rating']
+        actual_rating = row[rating_column_name]
         title = row[title_column_name]
 
         results.append([user_id, item_id, title, actual_rating, predicted_rating])
@@ -156,6 +157,7 @@ def predict_ratings_few_shot_and_save(data,
                                       user_column_name='reviewerID', 
                                       title_column_name='title', 
                                       asin_column_name='asin', 
+                                      rating_column_name='rating',
                                       obs_per_user=None, 
                                       pause_every_n_users=PAUSE_EVERY_N_USERS, 
                                       sleep_time=SLEEP_TIME, 
@@ -181,18 +183,18 @@ def predict_ratings_few_shot_and_save(data,
             else:
                 continue  # Skip if there are not enough historical ratings
 
-            prediction_data = {col: test_row[col] for col in columns_for_prediction if col != 'rating'}
+            prediction_data = {col: test_row[col] for col in columns_for_prediction if col != rating_column_name}
             combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
 
             rating_history_str = '\n'.join([
-                '* ' + ' | '.join(f"{col}: {row[col]}" for col in columns_for_training) + f" - Rating: {row['rating']} stars"
+                '* ' + ' | '.join(f"{col}: {row[col]}" for col in columns_for_training) + f" - Rating: {row[rating_column_name]} stars"
                 for _, row in train_data.iterrows()
             ])
 
             predicted_rating = predict_rating_combined_ChatCompletion(combined_text, rating_history=rating_history_str, approach="few-shot")
 
             item_id = test_row[asin_column_name]
-            actual_rating = test_row['rating']
+            actual_rating = test_row[rating_column_name]
             title = test_row[title_column_name]
 
             results.append([user_id, item_id, title, actual_rating, predicted_rating])

@@ -143,3 +143,41 @@ Method, ,# of cases ChatGP does not work
 Baleine 1 : 20
 baselin 2: 15
 V1: 2
+
+
+
+
+
+
+
+-------------
+
+CF:
+How will user rate this Title: Kordon Oasis (Novalek) Bell Bottle 8oz? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
+
+Here are the rating history from users who are similar to this user:
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+
+
+Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
+
+
+Few-shot:
+How will user rate this title: Braun Clean &amp; Renew Refill Cartridges CCR - 2 Count (Packaging May Vary)? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
+
+Here is user rating history:
+* title: Braun 8000 Activator Combi-Pack Foil and Cutterblock Replacement Parts for Braun's Activator Razor Models 8595 and 8585 - Rating: 1.0 stars
+* title: Braun 8000 Activator Combi-Pack Foil and Cutterblock Replacement Parts for Braun's Activator Razor Models 8595 and 8585 - Rating: 1.0 stars
+* title: Philips Norelco BG2020 BodyGroom - Rating: 4.0 stars
+* title: Norelco 6885XL Deluxe Quadra Action Cord/Cordless Rechargeable Men's Shaver - Rating: 5.0 stars
+
+Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
+
+
+Zero-shot:
+How will user rate this title: Norelco 6885XL Deluxe Quadra Action Cord/Cordless Rechargeable Men's Shaver? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
+
+Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
