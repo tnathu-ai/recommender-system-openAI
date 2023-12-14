@@ -85,7 +85,6 @@ def predict_rating_combined_ChatCompletion(combined_text,
         return None, str(e)
 
 
-
 def predict_ratings_zero_shot_and_save(data,
                                        columns_for_prediction=['title'],
                                        user_column_name='reviewerID',
@@ -94,32 +93,60 @@ def predict_ratings_zero_shot_and_save(data,
                                        rating_column_name='rating',
                                        pause_every_n_users=PAUSE_EVERY_N_USERS,
                                        sleep_time=SLEEP_TIME,
-                                       save_path='zero_shot_predictions.csv'):
+                                       save_path='zero_shot_predictions.csv',
+                                       seed=RANDOM_STATE):
+    """
+    Predicts a single random rating per user using a zero-shot approach and saves the predictions to a CSV file.
+
+    Parameters:
+    - data (DataFrame): Dataset containing user ratings.
+    - columns_for_prediction (list of str): Columns to use for prediction.
+    - user_column_name (str): Column name for user IDs.
+    - title_column_name (str): Column name for item titles.
+    - asin_column_name (str): Column name for item IDs.
+    - rating_column_name (str): Column name for actual ratings.
+    - pause_every_n_users (int): Number of users to process before pausing.
+    - sleep_time (int): Sleep time in seconds during pause.
+    - save_path (str): Path to save the predictions CSV file.
+    - seed (int): Seed for random number generation.
+
+    Returns:
+    - DataFrame: DataFrame containing prediction results.
+    """
+
     results = []
+    random.seed(seed)
 
     # Group data by user and filter users with at least 5 records
     grouped_data = data.groupby(user_column_name).filter(lambda x: len(x) >= 5)
+    unique_users = grouped_data[user_column_name].unique()
 
-    for idx, row in grouped_data.iterrows():
-        # Generate combined text for prediction with column names
-        combined_text = ' | '.join([f"{col}: {row[col]}" for col in columns_for_prediction])
+    for i, user_id in enumerate(unique_users):
+        user_data = grouped_data[grouped_data[user_column_name] == user_id]
+        # Select a random record for each user
+        random_row = user_data.sample(n=1, random_state=seed).iloc[0]
 
+        # Generate combined text for prediction using specified columns
+        combined_text = ' | '.join([f"{col}: {random_row[col]}" for col in columns_for_prediction])
+
+        # Predict rating using zero-shot approach
         predicted_rating = predict_rating_combined_ChatCompletion(combined_text, approach="zero-shot")
-        user_id = row[user_column_name]
-        item_id = row[asin_column_name]
-        actual_rating = row[rating_column_name]
-        title = row[title_column_name]
+        item_id = random_row[asin_column_name]
+        actual_rating = random_row[rating_column_name]
+        title = random_row[title_column_name]
 
         results.append([user_id, item_id, title, actual_rating, predicted_rating])
 
-        if (idx + 1) % pause_every_n_users == 0:
-            print(f"Pausing for {sleep_time} seconds...")
+        # Print progress and pause if necessary
+        if (i + 1) % pause_every_n_users == 0:
+            print(f"Processed {i + 1} users. Pausing for {sleep_time} seconds...")
             time.sleep(sleep_time)
 
     # Save results to CSV
     results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
     results_df.to_csv(save_path, index=False)
     print(f"Predictions saved to {save_path}")
+
     return results_df
 
 

@@ -52,8 +52,9 @@ def extract_numeric_rating(rating_text):
         float: Extracted rating value. Returns 0 for unexpected responses.
     """
     try:
-        # Updated regex to capture standalone digit rating
-        rating_match = re.search(r'(\d+(\.\d+)?)', rating_text)
+        # Updated regex to capture ratings in sentences
+        # Looks for a number followed by the word 'stars' or a percentage sign
+        rating_match = re.search(r'\b(\d+(\.\d+)?)\s*(stars|%)\b', rating_text)
         if rating_match:
             rating = float(rating_match.group(1))
             if 1 <= rating <= 5:
