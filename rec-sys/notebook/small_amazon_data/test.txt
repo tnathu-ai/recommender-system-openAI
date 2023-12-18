@@ -174,6 +174,12 @@ Here is user rating history:
 * title: Philips Norelco BG2020 BodyGroom - Rating: 4.0 stars
 * title: Norelco 6885XL Deluxe Quadra Action Cord/Cordless Rechargeable Men's Shaver - Rating: 5.0 stars
 
+Here are the rating history from users who are similar to this user:
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+
 Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
 
 

@@ -43,6 +43,8 @@ def predict_rating_combined_ChatCompletion(combined_text,
         prompt += f"\n\nHere is user rating history:\n{rating_history}"
 
     elif approach == "CF":
+        rating_history = check_and_reduce_length(rating_history, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
+        prompt += f"\n\nHere is user rating history:\n{rating_history}"
         similar_users_ratings = check_and_reduce_length(similar_users_ratings, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
         prompt += f"\n\nHere are the rating history from users who are similar to this user:\n{similar_users_ratings}"
 
