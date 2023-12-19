@@ -323,78 +323,80 @@ def predict_ratings_with_collaborative_filtering_and_save(data,
     return results_df
 
 
-def predict_ratings_with_collaborative_filtering_and_save(data, 
-                                                          pcc_matrix, 
-                                                          user_column_name='UserID', 
-                                                          movie_column_name='Title', 
-                                                          movie_id_column='MovieID',
-                                                          rating_column_name='Rating', 
+def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix, 
+                                                          user_column_name='reviewerID', 
+                                                          movie_column_name='title', 
+                                                          movie_id_column='asin',
+                                                          rating_column_name='rating', 
+                                                          timestamp_column_name='Timestamp',
                                                           num_ratings_per_user=1, 
-                                                          num_similar_users=4, 
+                                                          num_similar_users=4,
+                                                          num_main_user_ratings=1,
                                                           save_path='cf_predictions.csv', 
                                                           seed=RANDOM_STATE):
-    """
-    Predicts movie ratings using a user-based collaborative filtering approach 
-    and saves the predictions to a CSV file.
-
-    Parameters:
-    - data (DataFrame): The dataset containing user ratings.
-    - pcc_matrix (ndarray): Pearson Correlation Coefficient matrix.
-    - user_column_name (str): Name of the column representing user IDs.
-    - movie_column_name (str): Name of the column representing movie titles.
-    - movie_id_column (str): Name of the column representing movie IDs.
-    - rating_column_name (str): Name of the column representing ratings.
-    - num_ratings_per_user (int): Number of historical ratings to consider per similar user.
-    - num_similar_users (int): Number of similar users to consider for prediction.
-    - save_path (str): Path to save the predictions CSV file.
-    - seed (int): Seed for random number generation.
-
-    Returns:
-    - DataFrame: A DataFrame containing the prediction results.
-    """
-
     results = []
-    users = data[user_column_name].unique()
+    unique_users = data[user_column_name].unique()
+    user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
+
     random.seed(seed)
 
-    for user_id in users:
-        user_idx = user_id - 1  # Adjust for zero-based indexing
+    for user_id in unique_users:
+        user_idx = user_id_to_index[user_id]
 
-        # Identify top similar users
+        print(f"Processing user {user_id} (Index: {user_idx})")
+
+        # Retrieve the main user's historical ratings
+        main_user_data = data[data[user_column_name] == user_id]
+        main_user_ratings = main_user_data.nlargest(num_main_user_ratings, timestamp_column_name)
+
+        main_user_ratings_str = '\n'.join([
+            f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
+            for _, row in main_user_ratings.iterrows()
+        ])
+
+        # Find the top similar users based on Pearson Correlation Coefficient
         similar_users_idx = np.argsort(-pcc_matrix[user_idx])[:num_similar_users + 1]
         similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
+
+        print(f"Top similar users for {user_id}: {[unique_users[idx] for idx in similar_users_idx]}")
 
         # Collect historical ratings from similar users
         similar_users_ratings = ""
         for idx in similar_users_idx:
-            similar_user_id = idx + 1
+            similar_user_id = unique_users[idx]
             similar_user_data = data[data[user_column_name] == similar_user_id]
-            historical_ratings = similar_user_data.head(num_ratings_per_user)
+            historical_ratings = similar_user_data.nlargest(num_ratings_per_user, timestamp_column_name)
             for _, row in historical_ratings.iterrows():
-                rating_info = f"* title: {row[movie_column_name]} - Rating: {row[rating_column_name]} stars"
+                rating_info = f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
                 similar_users_ratings += rating_info + "\n"
 
         # Select a random movie from the user's data for prediction
-        user_data = data[data[user_column_name] == user_id]
-        random_movie_row = user_data.sample(n=1, random_state=seed).iloc[0]
+        random_movie_row = main_user_data.sample(n=1, random_state=seed).iloc[0]
         random_movie_title = random_movie_row[movie_column_name]
         random_movie_id = random_movie_row[movie_id_column]
         actual_rating = random_movie_row[rating_column_name]
 
-        # Predict rating using collaborative filtering
-        combined_text = f"title: {random_movie_title}"
+        # Construct prompt for API call
+        combined_text = f"Title: {random_movie_title}"
+        prompt = f"Main User Ratings:\n{main_user_ratings_str}\n\nSimilar Users' Ratings:\n{similar_users_ratings}\n\nPredict rating for '{combined_text}':"
+
+        print(f"Generated prompt for user {user_id}:\n{prompt}")
+
         predicted_rating = predict_rating_combined_ChatCompletion(
             combined_text, 
             approach="CF", 
-            similar_users_ratings=similar_users_ratings
+            similar_users_ratings=similar_users_ratings,
+            rating_history=main_user_ratings_str
         )
 
         # Store prediction results
         results.append([user_id, random_movie_id, random_movie_title, actual_rating, predicted_rating])
 
-    # Save predictions to CSV file
+        print(f"User {user_id}: Predicted rating for '{random_movie_title}' is {predicted_rating}.")
+
     results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
     results_df.to_csv(save_path, index=False)
     print(f"Predictions saved to {save_path}")
 
     return results_df
+
