@@ -242,86 +242,61 @@ def predict_ratings_few_shot_and_save(data,
     return results_df
 
 
-
-def predict_ratings_with_collaborative_filtering_and_save(data, 
-                                                          pcc_matrix, 
-                                                          user_column_name='reviewerID', 
-                                                          movie_column_name='title', 
-                                                          movie_id_column='asin',
-                                                          rating_column_name='rating', 
-                                                          num_ratings_per_user=1, 
-                                                          num_similar_users=4, 
-                                                          save_path='cf_predictions.csv', 
-                                                          seed=RANDOM_STATE):
+def rerun_failed_few_shot_predictions(data, 
+                                      columns_for_training,
+                                      columns_for_prediction, 
+                                      save_path, 
+                                      rerun_save_path, 
+                                      user_column_name='reviewerID', 
+                                      title_column_name='title', 
+                                      asin_column_name='asin', 
+                                      rating_column_name='rating',
+                                      pause_every_n_users=PAUSE_EVERY_N_USERS, 
+                                      sleep_time=SLEEP_TIME,
+                                      obs_per_user=None):
     """
-    Predicts movie ratings using a user-based collaborative filtering approach 
-    and saves the predictions to a CSV file.
+    Reruns few-shot predictions for entries where previous predictions failed, and saves the updated results.
 
     Parameters:
-    - data (DataFrame): Dataset containing user ratings.
-    - pcc_matrix (ndarray): Pearson Correlation Coefficient matrix.
+    - data (DataFrame): DataFrame containing initial prediction results.
+    - columns_for_training (list of str): Columns to use for training in few-shot approach.
+    - columns_for_prediction (list of str): Columns to use for prediction.
+    - save_path (str): Path to save the original predictions CSV file.
+    - rerun_save_path (str): Path to save the rerun predictions CSV file.
     - user_column_name (str): Column name for user IDs.
-    - movie_column_name (str): Column name for movie titles.
-    - movie_id_column (str): Column name for movie IDs.
-    - rating_column_name (str): Column name for ratings.
-    - num_ratings_per_user (int): Number of historical ratings to consider per similar user.
-    - num_similar_users (int): Number of similar users to consider for prediction.
-    - save_path (str): Path to save the predictions CSV file.
-    - seed (int): Seed for random number generation.
-
-    Returns:
-    - DataFrame: DataFrame containing prediction results.
+    - title_column_name (str): Column name for item titles.
+    - asin_column_name (str): Column name for item IDs.
+    - rating_column_name (str): Column name for actual ratings.
+    - pause_every_n_users (int): Number of users to process before pausing.
+    - sleep_time (int): Sleep time in seconds during pause.
+    - obs_per_user (int): Number of observations per user to consider in few-shot approach.
     """
+    # Identify failed predictions
+    data['is_rating_float'] = pd.to_numeric(data['predicted_rating'], errors='coerce').notna()
+    failed_indices = data[~data['is_rating_float']].index
 
-    results = []
-    unique_users = data[user_column_name].unique()
-    user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
+    if len(failed_indices) > 0:
+        print(f"Re-running predictions for {len(failed_indices)} failed cases.")
+        failed_data = data.loc[failed_indices]
+        updated_data = predict_ratings_few_shot_and_save(
+            failed_data, 
+            columns_for_training=columns_for_training,
+            columns_for_prediction=columns_for_prediction, 
+            user_column_name=user_column_name,
+            title_column_name=title_column_name, 
+            asin_column_name=asin_column_name, 
+            rating_column_name=rating_column_name,
+            pause_every_n_users=pause_every_n_users, 
+            sleep_time=sleep_time, 
+            save_path=rerun_save_path,
+            obs_per_user=obs_per_user)
+        data.loc[failed_indices, 'predicted_rating'] = updated_data['predicted_rating']
 
-    random.seed(seed)
+    data.to_csv(save_path, index=False)
+    print(f"Updated predictions saved to {save_path}")
+    return data
 
-    for user_id in unique_users:
-        user_idx = user_id_to_index[user_id]
 
-        # Find the top similar users based on Pearson Correlation Coefficient
-        similar_users_idx = np.argsort(-pcc_matrix[user_idx])[:num_similar_users + 1]
-        similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
-
-        print(f"User {user_id} - Similar Users: {[unique_users[idx] for idx in similar_users_idx]}")
-
-        # Collect historical ratings from similar users
-        similar_users_ratings = ""
-        for idx in similar_users_idx:
-            similar_user_id = unique_users[idx]
-            similar_user_data = data[data[user_column_name] == similar_user_id]
-            historical_ratings = similar_user_data.head(num_ratings_per_user)
-            for _, row in historical_ratings.iterrows():
-                rating_info = f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
-                print(f"    Similar User {similar_user_id} - Historical Rating: {rating_info}")
-                similar_users_ratings += rating_info + "\n"
-
-        # Select a random movie from the user's data for prediction
-        user_data = data[data[user_column_name] == user_id]
-        random_movie_row = user_data.sample(n=1, random_state=seed).iloc[0]
-        random_movie_title = random_movie_row[movie_column_name]
-        random_movie_id = random_movie_row[movie_id_column]
-        actual_rating = random_movie_row[rating_column_name]
-
-        # Predict rating using collaborative filtering
-        combined_text = f"Title: {random_movie_title}"
-        predicted_rating = predict_rating_combined_ChatCompletion(
-            combined_text, 
-            approach="CF", 
-            similar_users_ratings=similar_users_ratings
-        )
-
-        # Store prediction results
-        results.append([user_id, random_movie_id, random_movie_title, actual_rating, predicted_rating])
-
-    results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
-    results_df.to_csv(save_path, index=False)
-    print(f"Predictions saved to {save_path}")
-
-    return results_df
 
 
 def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix, 

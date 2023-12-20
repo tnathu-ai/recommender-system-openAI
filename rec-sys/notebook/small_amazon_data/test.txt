@@ -165,6 +165,28 @@ Here are the rating history from users who are similar to this user:
 Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
 
 
+Few-shot+CF:
+
+How will user rate this Title: Pleasantville (1998)? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
+
+Here is user rating history:
+* Title: Pleasantville (1998), Rating: 3 stars
+* Title: Antz (1998), Rating: 4 stars
+* Title: Dead Poets Society (1989), Rating: 4 stars
+* Title: Sixth Sense, The (1999), Rating: 4 stars
+
+Here are the rating history from users who are similar to this user:
+* Title: Back to the Future (1985), Rating: 4 stars
+* Title: Badlands (1973), Rating: 3 stars
+* Title: Laura (1944), Rating: 5 stars
+* Title: Almost Famous (2000), Rating: 4 stars
+
+
+Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
+
+
+
+
 Few-shot:
 How will user rate this title: Braun Clean &amp; Renew Refill Cartridges CCR - 2 Count (Packaging May Vary)? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
 
@@ -187,3 +209,6 @@ Zero-shot:
 How will user rate this title: Norelco 6885XL Deluxe Quadra Action Cord/Cordless Rechargeable Men's Shaver? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
 
 Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
+
+
+

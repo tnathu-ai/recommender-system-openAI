@@ -23,21 +23,6 @@ def create_interaction_matrix(df, user_col, item_col, rating_col, threshold=1):
 
 
 
-def fit_knn_model(interaction_matrix, n_neighbors=4):
-    """
-    Fit the k-Nearest Neighbors model.
-
-    Args:
-        interaction_matrix (csr_matrix): User-item interaction matrix.
-        n_neighbors (int): Number of neighbors to consider.
-
-    Returns:
-        NearestNeighbors: Trained kNN model.
-    """
-    model_knn = NearestNeighbors(metric='cosine', algorithm='brute', n_neighbors=n_neighbors, n_jobs=-1)
-    model_knn.fit(interaction_matrix)
-    return model_knn
-
 def recommend_items(user_id, interaction_matrix, user_mapper, item_inv_mapper, model_knn, n_recommendations=4):
     """
     Recommend items for a given user based on kNN model.
