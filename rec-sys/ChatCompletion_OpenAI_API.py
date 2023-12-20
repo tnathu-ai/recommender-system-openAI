@@ -239,6 +239,7 @@ def predict_ratings_few_shot_and_save(data,
     results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
     results_df.to_csv(save_path, index=False)
     print("Predictions saved to", save_path)
+    return results_df
 
 
 
