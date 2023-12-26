@@ -97,3 +97,13 @@ def export_predictions_to_csv(predictions, filename):
     """
     predictions_df = pd.DataFrame(predictions)
     predictions_df.to_csv(filename, index=False)
+
+# Read and Merge Data
+def load_and_merge_data(movies_path, ratings_path, users_path):
+    # Load each file
+    movies = pd.read_csv(movies_path, delimiter='::', engine= 'python', header=None, names=['MovieID', 'Title', 'Genres'], encoding='ISO-8859-1')
+    ratings = pd.read_csv(ratings_path, delimiter='::', engine= 'python', header=None, names=['UserID', 'MovieID', 'Rating', 'Timestamp'], encoding='ISO-8859-1')
+    users = pd.read_csv(users_path,delimiter='::', engine= 'python', header=None, names=['UserID', 'Gender', 'Age', 'Occupation', 'Zip-code'], encoding='ISO-8859-1')
+    # Merge datasets
+    merged_data = pd.merge(pd.merge(ratings, users, on='UserID'), movies, on='MovieID')
+    return merged_data

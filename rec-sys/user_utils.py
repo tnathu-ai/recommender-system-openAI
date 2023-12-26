@@ -78,3 +78,10 @@ def all_but_one(df, user_col, random_state=None):
     train_df = df.drop(test_df.index)
 
     return train_df, test_df
+
+
+# Filter Users with ≥ 5 Ratings
+def filter_users(data):
+    user_rating_counts = data['UserID'].value_counts()
+    valid_users = user_rating_counts[user_rating_counts >= 5].index.tolist()
+    return data[data['UserID'].isin(valid_users)]

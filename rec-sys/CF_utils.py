@@ -48,23 +48,27 @@ def recommend_items(user_id, interaction_matrix, user_mapper, item_inv_mapper, m
 
 
 
+
+# Calculate Pearson Correlation Coefficient
 # source RMIT courses
 def pearson_correlation(interaction_matrix):
     """
     Compute the Pearson Correlation Coefficient matrix for the user-item interaction matrix.
 
     Args:
-    interaction_matrix (numpy.ndarray): A 2D array where rows represent users and columns represent items.
-                                        The values in the matrix are the ratings given by users to items.
+    interaction_matrix (csr_matrix): A sparse matrix where rows represent users and columns represent items.
+                                     The values in the matrix are the ratings given by users to items.
 
     Returns:
     numpy.ndarray: A 2D array representing the Pearson Correlation Coefficients between each pair of users.
     """
-
+    # Convert sparse matrix to dense format for processing
+    dense_matrix = interaction_matrix.toarray()
+    
     # Get the number of users
-    n_users = interaction_matrix.shape[0]
+    n_users = dense_matrix.shape[0]
 
-    # Initialize the Pearson Correlation matrix with zeros
+    # Initialize the Pearson Correlation matrix
     pearson_corr_matrix = np.zeros((n_users, n_users))
 
     # Small constant to avoid division by zero
@@ -74,15 +78,15 @@ def pearson_correlation(interaction_matrix):
     for i in range(n_users):
         for j in range(n_users):
             # Get the rating vectors for the current pair of users
-            user_i_vec = interaction_matrix[i, :]
-            user_j_vec = interaction_matrix[j, :]
+            user_i_vec = dense_matrix[i, :]
+            user_j_vec = dense_matrix[j, :]
 
-            # Create masks for ratings greater than 0 (indicating rated items)
+            # Masks for rated items
             mask_i = user_i_vec > 0
             mask_j = user_j_vec > 0
 
-            # Find indices of corrated items (items rated by both users)
-            corrated_index = np.intersect1d(np.where(mask_i), np.where(mask_j))
+            # Find indices of corrated items
+            corrated_index = np.intersect1d(np.where(mask_i)[0], np.where(mask_j)[0])
 
             # Skip if no items are corrated
             if len(corrated_index) == 0:
@@ -92,7 +96,7 @@ def pearson_correlation(interaction_matrix):
             mean_user_i = np.mean(user_i_vec[corrated_index])
             mean_user_j = np.mean(user_j_vec[corrated_index])
 
-            # Compute the deviations from the mean for each user
+            # Compute the deviations from the mean
             user_i_sub_mean = user_i_vec[corrated_index] - mean_user_i
             user_j_sub_mean = user_j_vec[corrated_index] - mean_user_j
 
@@ -103,7 +107,7 @@ def pearson_correlation(interaction_matrix):
             r_ui_sum_sqrt = np.sqrt(np.sum(r_ui_sub_r_i_sq))
             r_uj_sum_sqrt = np.sqrt(np.sum(r_uj_sub_r_j_sq))
 
-            # Calculate Pearson correlation and handle division by zero
+            # Calculate Pearson correlation
             sim = np.sum(user_i_sub_mean * user_j_sub_mean) / (r_ui_sum_sqrt * r_uj_sum_sqrt + EPSILON)
 
             # Store the similarity in the matrix
@@ -214,3 +218,10 @@ def check_data_sparsity(df, user_col, item_col):
     print(f"Total Ratings: {total_ratings}, Number of Users: {num_users}, Number of Items: {num_items}, Sparsity: {sparsity}")
 
 
+
+# Find Valid Neighbors
+def get_valid_neighbors(pcc_matrix, threshold=0.6):
+    valid_neighbors = {}
+    for i, row in enumerate(pcc_matrix):
+        valid_neighbors[i] = np.where(row > threshold)[0]
+    return valid_neighbors
