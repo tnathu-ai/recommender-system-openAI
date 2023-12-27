@@ -377,7 +377,6 @@ def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix,
     return results_df
 
 
-
 def rerun_failed_CF_fewshot_predictions(data, pcc_matrix, 
                                         save_path, 
                                         user_column_name, 
@@ -389,19 +388,24 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
                                         num_similar_users, 
                                         new_path, 
                                         rerun_indices):
+    # Load original predictions and standardize column names
     original_data = pd.read_csv(save_path)
     original_data.columns = ['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating']
     
+    # Map unique users to their index for quick access
     unique_users = data[user_column_name].unique()
     user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
 
+    # Process each failed prediction index
     for index in rerun_indices:
+        # Extract user ID and item ID for the current failed prediction
         user_id = original_data.at[index, 'user_id']
         item_id = original_data.at[index, 'item_id']
         user_idx = user_id_to_index[user_id]
 
         print(f"Rerunning prediction for User ID: {user_id}, Item ID: {item_id} (Index: {index})")
 
+        # Retrieve the main user's historical ratings for context
         main_user_data = data[data[user_column_name] == user_id]
         main_user_ratings = main_user_data.sample(n=num_main_user_ratings)
         main_user_ratings_str = '\n'.join([
@@ -409,9 +413,11 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
             for _, row in main_user_ratings.iterrows()
         ])
 
+        # Identify similar users based on Pearson Correlation Coefficients
         similar_users_idx = np.argsort(-pcc_matrix[user_idx])[:num_similar_users + 1]
         similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
 
+        # Compile historical ratings from similar users for context
         similar_users_ratings = ""
         for idx in similar_users_idx:
             similar_user_id = unique_users[idx]
@@ -422,13 +428,14 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
                 rating_info = f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
                 similar_users_ratings += rating_info + "\n"
 
-        # Select the specific movie that failed prediction
+        # Select the specific item that had a failed prediction
         failed_movie_row = data[(data[user_column_name] == user_id) & (data[movie_id_column] == item_id)].iloc[0]
         failed_movie_title = failed_movie_row[movie_column_name]
 
+        # Construct text for re-prediction
         combined_text = f"Title: {failed_movie_title}"
         
-        # Call to your prediction function
+        # Call prediction function with the constructed context
         predicted_rating = predict_rating_combined_ChatCompletion(
             combined_text, 
             approach="CF", 
