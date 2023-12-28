@@ -5,7 +5,7 @@ import pandas as pd
 import sys
 
 # ----------------------------------------------------------------------------------------------------------------------
-# Utility functions for path management and data handling in a recommender system project
+# Utility functions for path management and data handling 
 # ----------------------------------------------------------------------------------------------------------------------
 
 def get_rec_sys_directory():

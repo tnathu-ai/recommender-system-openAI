@@ -82,31 +82,3 @@ def generate_combined_text_for_prediction(columns, *args):
         str: Combined text string for prediction.
     """
     return ". ".join([f"{col}: {val}" for col, val in zip(columns, args)])
-
-
-def rerun_failed_predictions(data, failed_indices, prediction_function, save_path, **kwargs):
-    # Log the number of failed indices
-    print(f"Re-running predictions for {len(failed_indices)} failed cases.")
-    
-    # Filter the data to get only failed rows
-    failed_data = data.iloc[failed_indices]
-    
-    # Check if failed_data is empty or not as expected
-    print(f"Number of rows in failed data: {len(failed_data)}")
-
-    # Re-run prediction on failed data
-    failed_data = prediction_function(failed_data, **kwargs)
-    
-    if failed_data is not None:
-        print(f"Data shape after re-running predictions: {failed_data.shape}")
-        # Update the original dataframe with new predictions
-        data.loc[failed_indices] = failed_data
-    else:
-        print("Failed to update predictions. No data returned from prediction function.")
-    
-    # Update the original dataframe with new predictions
-    data.loc[failed_indices] = failed_data
-
-    # Save the updated dataframe
-    data.to_csv(save_path, index=False)
-    return data

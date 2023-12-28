@@ -298,13 +298,11 @@ def rerun_failed_few_shot_predictions(data,
 
 
 
-
 def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix, 
                                                           user_column_name='reviewerID', 
                                                           movie_column_name='title', 
                                                           movie_id_column='asin',
                                                           rating_column_name='rating', 
-                                                          timestamp_column_name='Timestamp',
                                                           num_ratings_per_user=1, 
                                                           num_similar_users=4,
                                                           num_main_user_ratings=1,
@@ -321,9 +319,9 @@ def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix,
 
         print(f"Processing user {user_id} (Index: {user_idx})")
 
-        # Retrieve the main user's historical ratings
+        # Retrieve the main user's historical ratings randomly
         main_user_data = data[data[user_column_name] == user_id]
-        main_user_ratings = main_user_data.nlargest(num_main_user_ratings, timestamp_column_name)
+        main_user_ratings = main_user_data.sample(n=num_main_user_ratings, random_state=seed)
 
         main_user_ratings_str = '\n'.join([
             f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
@@ -336,12 +334,12 @@ def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix,
 
         print(f"Top similar users for {user_id}: {[unique_users[idx] for idx in similar_users_idx]}")
 
-        # Collect historical ratings from similar users
+        # Collect historical ratings from similar users randomly
         similar_users_ratings = ""
         for idx in similar_users_idx:
             similar_user_id = unique_users[idx]
             similar_user_data = data[data[user_column_name] == similar_user_id]
-            historical_ratings = similar_user_data.nlargest(num_ratings_per_user, timestamp_column_name)
+            historical_ratings = similar_user_data.sample(n=num_ratings_per_user, random_state=seed)
             for _, row in historical_ratings.iterrows():
                 rating_info = f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
                 similar_users_ratings += rating_info + "\n"
@@ -375,6 +373,7 @@ def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix,
     print(f"Predictions saved to {save_path}")
 
     return results_df
+
 
 
 def rerun_failed_CF_fewshot_predictions(data, pcc_matrix, 
