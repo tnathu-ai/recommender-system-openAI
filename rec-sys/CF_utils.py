@@ -160,40 +160,6 @@ def recommend_items(user_id, interaction_matrix, user_mapper, item_inv_mapper, m
     return recommendations
 
 
-
-def get_all_similar_users_ratings(data, 
-                                  user_mapper, 
-                                  user_inv_mapper, 
-                                  model_knn, 
-                                  interaction_matrix, 
-                                  title_column_name='title', 
-                                  user_column_name='userId'):
-    all_similar_users_ratings = {}
-    for user_id in data[user_column_name].unique():
-        similar_users_ratings = []
-        user_idx = user_mapper.get(user_id)
-        if user_idx is None:
-            continue
-
-        distances, indices = model_knn.kneighbors(interaction_matrix[user_idx], n_neighbors=10)  # Adjust neighbors as needed
-
-        for idx in indices.flatten():
-            if idx == user_idx:
-                continue
-
-            similar_user_id = user_inv_mapper[idx]
-            similar_user_data = data[data[user_column_name] == similar_user_id]
-            sampled_ratings = similar_user_data.sample(n=min(5, len(similar_user_data)), random_state=42)  # Increased samples
-
-            for _, row in sampled_ratings.iterrows():
-                similar_users_ratings.append(f"{row[title_column_name]} ({row['rating']} stars)")
-
-        all_similar_users_ratings[user_id] = similar_users_ratings
-
-    return all_similar_users_ratings
-
-
-
 # Function to check data sparsity
 def check_data_sparsity(df, user_col, item_col):
     total_ratings = len(df)
