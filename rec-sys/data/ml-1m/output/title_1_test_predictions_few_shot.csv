@@ -29,7 +29,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 99,1416,Evita (1996),1,2.0,True
 102,3786,But I'm a Cheerleader (1999),1,3.0,True
 104,2976,Bringing Out the Dead (1999),3,3.0,True
-107,910,Some Like It Hot (1959),4,,False
+107,910,Some Like It Hot (1959),3,,True
 109,3061,Holiday Inn (1942),4,3.0,True
 120,903,Vertigo (1958),3,3.0,True
 123,2378,Police Academy (1984),3,3.0,True
@@ -152,11 +152,11 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 516,588,Aladdin (1992),3,3.0,True
 520,2109,"Jerk, The (1979)",5,2.0,True
 524,3408,Erin Brockovich (2000),4,2.0,True
-526,2905,Sanjuro (1962),5,,False
+526,2905,Sanjuro (1962),3,,True
 529,1953,"French Connection, The (1971)",4,3.0,True
 531,2804,"Christmas Story, A (1983)",3,3.0,True
 533,372,Reality Bites (1994),2,3.0,True
-537,2908,Boys Don't Cry (1999),4,,False
+537,2908,Boys Don't Cry (1999),4,,True
 540,2146,St. Elmo's Fire (1985),3,3.0,True
 541,3147,"Green Mile, The (1999)",5,4.0,True
 549,89,Nick of Time (1995),1,3.0,True
@@ -324,7 +324,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 1134,940,"Adventures of Robin Hood, The (1938)",5,3.0,True
 1137,2706,American Pie (1999),4,3.0,True
 1142,1020,Cool Runnings (1993),2,3.0,True
-1150,2511,"Long Goodbye, The (1973)",3,,False
+1150,2511,"Long Goodbye, The (1973)",3,,True
 1162,2243,Broadcast News (1987),4,2.0,True
 1165,589,Terminator 2: Judgment Day (1991),3,5.0,True
 1169,3041,Meatballs Part II (1984),1,3.0,True
@@ -354,7 +354,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 1242,997,Caught (1996),3,3.0,True
 1243,3261,Singles (1992),4,3.0,True
 1244,2411,Rocky IV (1985),2,3.0,True
-1246,533,"Shadow, The (1994)",2,,False
+1246,533,"Shadow, The (1994)",3,,True
 1248,17,Sense and Sensibility (1995),5,4.0,True
 1249,2154,How Stella Got Her Groove Back (1998),3,3.0,True
 1260,1580,Men in Black (1997),4,3.0,True
@@ -510,14 +510,14 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 1890,1265,Groundhog Day (1993),4,3.0,True
 1892,1362,"Garden of Finzi-Contini, The (Giardino dei Finzi-Contini, Il) (1970)",5,2.0,True
 1894,1554,"Pillow Book, The (1995)",4,4.0,True
-1895,969,"African Queen, The (1951)",4,,False
+1895,969,"African Queen, The (1951)",0,,True
 1896,3037,Little Big Man (1970),2,3.0,True
 1897,3855,"Affair of Love, An (Une Liaison Pornographique) (1999)",3,2.0,True
 1899,1013,"Parent Trap, The (1961)",4,3.0,True
 1908,208,Waterworld (1995),2,2.0,True
-1909,293,"Professional, The (a.k.a. Leon: The Professional) (1994)",4,,False
+1909,293,"Professional, The (a.k.a. Leon: The Professional) (1994)",3,,True
 1911,2568,"Mod Squad, The (1999)",2,3.0,True
-1912,3095,"Grapes of Wrath, The (1940)",2,,False
+1912,3095,"Grapes of Wrath, The (1940)",2,,True
 1914,39,Clueless (1995),5,3.0,True
 1916,246,Hoop Dreams (1994),4,3.0,True
 1920,2571,"Matrix, The (1999)",5,4.0,True
@@ -548,7 +548,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2013,968,Night of the Living Dead (1968),5,2.0,True
 2015,172,Johnny Mnemonic (1995),2,2.0,True
 2018,2000,Lethal Weapon (1987),4,4.0,True
-2020,3168,Easy Rider (1969),4,,False
+2020,3168,Easy Rider (1969),3,,True
 2023,1449,Waiting for Guffman (1996),5,3.0,True
 2030,2531,Battle for the Planet of the Apes (1973),3,3.0,True
 2038,2019,Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954),4,4.0,True
@@ -560,7 +560,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2050,608,Fargo (1996),4,3.0,True
 2063,2105,Tron (1982),3,3.0,True
 2064,1265,Groundhog Day (1993),3,3.0,True
-2071,1234,"Sting, The (1973)",4,,False
+2071,1234,"Sting, The (1973)",0,,True
 2073,2268,"Few Good Men, A (1992)",4,3.0,True
 2083,3572,Carnosaur (1993),1,2.0,True
 2084,3421,Animal House (1978),4,3.0,True
@@ -571,7 +571,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2105,260,Star Wars: Episode IV - A New Hope (1977),5,4.0,True
 2106,2443,Playing by Heart (1998),4,3.0,True
 2109,2633,"Mummy, The (1932)",4,2.0,True
-2110,952,Around the World in 80 Days (1956),2,,False
+2110,952,Around the World in 80 Days (1956),2,,True
 2119,3555,U-571 (2000),3,3.0,True
 2122,1674,Witness (1985),4,3.0,True
 2139,2174,Beetlejuice (1988),5,3.0,True
@@ -580,13 +580,13 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2153,25,Leaving Las Vegas (1995),5,3.0,True
 2154,1222,Full Metal Jacket (1987),3,3.0,True
 2157,1073,Willy Wonka and the Chocolate Factory (1971),3,4.0,True
-2164,3527,Predator (1987),5,,False
+2164,3527,Predator (1987),0,,True
 2165,1307,When Harry Met Sally... (1989),4,3.0,True
-2168,529,Searching for Bobby Fischer (1993),4,,False
+2168,529,Searching for Bobby Fischer (1993),0,,True
 2173,608,Fargo (1996),5,5.0,True
 2175,1394,Raising Arizona (1987),5,3.0,True
 2176,441,Dazed and Confused (1993),3,3.0,True
-2179,3512,Return to Me (2000),4,,False
+2179,3512,Return to Me (2000),0,,True
 2181,2054,"Honey, I Shrunk the Kids (1989)",3,2.0,True
 2185,720,Wallace & Gromit: The Best of Aardman Animation (1996),4,3.0,True
 2188,179,Mad Love (1995),2,2.0,True
@@ -637,15 +637,15 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2356,2729,Lolita (1962),4,2.0,True
 2360,2871,Deliverance (1972),4,2.0,True
 2368,3298,Boiler Room (2000),4,5.0,True
-2376,3823,Wonderland (1999),5,,False
+2376,3823,Wonderland (1999),3,,True
 2385,3250,Alive (1993),3,2.0,True
-2387,866,Bound (1996),3,,False
+2387,866,Bound (1996),0,,True
 2392,2975,"Best Man, The (1999)",1,3.0,True
 2393,1280,Raise the Red Lantern (1991),3,3.0,True
 2395,1678,"Joy Luck Club, The (1993)",3,3.0,True
 2406,3157,Stuart Little (1999),2,3.0,True
 2408,50,"Usual Suspects, The (1995)",4,3.0,True
-2410,1393,Jerry Maguire (1996),3,,False
+2410,1393,Jerry Maguire (1996),3,,True
 2417,2174,Beetlejuice (1988),5,4.0,True
 2421,296,Pulp Fiction (1994),5,0.0,True
 2428,1014,Pollyanna (1960),4,3.0,True
@@ -665,7 +665,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2478,1097,E.T. the Extra-Terrestrial (1982),3,3.0,True
 2481,2947,Goldfinger (1964),4,3.0,True
 2484,2398,Miracle on 34th Street (1947),4,3.0,True
-2485,2532,Conquest of the Planet of the Apes (1972),4,,False
+2485,2532,Conquest of the Planet of the Apes (1972),3,,True
 2489,3608,Pee-wee's Big Adventure (1985),4,4.0,True
 2496,3015,Coma (1978),3,2.0,True
 2497,616,"Aristocats, The (1970)",4,4.0,True
@@ -679,7 +679,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2532,1956,Ordinary People (1980),4,4.0,True
 2534,2937,"Palm Beach Story, The (1942)",4,3.0,True
 2535,3424,Do the Right Thing (1989),5,4.0,True
-2536,276,Milk Money (1994),3,,False
+2536,276,Milk Money (1994),2,,True
 2542,3870,Our Town (1940),3,3.0,True
 2543,616,"Aristocats, The (1970)",4,3.0,True
 2544,150,Apollo 13 (1995),4,3.0,True
@@ -699,7 +699,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2602,2747,"Little Shop of Horrors, The (1960)",2,3.0,True
 2604,1394,Raising Arizona (1987),5,3.0,True
 2605,1294,M*A*S*H (1970),3,3.0,True
-2607,457,"Fugitive, The (1993)",3,,False
+2607,457,"Fugitive, The (1993)",3,,True
 2608,1080,Monty Python's Life of Brian (1979),5,4.0,True
 2611,36,Dead Man Walking (1995),5,3.0,True
 2613,433,Clean Slate (1994),3,3.0,True
@@ -719,7 +719,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2643,943,"Ghost and Mrs. Muir, The (1947)",4,3.0,True
 2646,480,Jurassic Park (1993),5,3.0,True
 2650,62,Mr. Holland's Opus (1995),4,2.0,True
-2652,1238,Local Hero (1983),4,,False
+2652,1238,Local Hero (1983),3,,True
 2659,514,"Ref, The (1994)",3,3.0,True
 2662,898,"Philadelphia Story, The (1940)",5,3.0,True
 2664,3263,White Men Can't Jump (1992),3,3.0,True
@@ -739,7 +739,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2709,3868,"Naked Gun: From the Files of Police Squad!, The (1988)",1,3.0,True
 2731,3152,"Last Picture Show, The (1971)",4,3.0,True
 2733,3679,"Decline of Western Civilization, The (1981)",5,5.0,True
-2735,785,Kingpin (1996),5,,False
+2735,785,Kingpin (1996),3,,True
 2736,1111,Microcosmos (Microcosmos: Le peuple de l'herbe) (1996),5,3.0,True
 2749,1199,Brazil (1985),4,3.0,True
 2750,1377,Batman Returns (1992),3,3.0,True
@@ -759,7 +759,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2786,1343,Cape Fear (1991),4,3.0,True
 2788,2858,American Beauty (1999),4,3.0,True
 2790,2987,Who Framed Roger Rabbit? (1988),3,4.0,True
-2793,3,Grumpier Old Men (1995),2,,False
+2793,3,Grumpier Old Men (1995),0,,True
 2803,296,Pulp Fiction (1994),5,3.0,True
 2807,1242,Glory (1989),4,3.0,True
 2814,1299,"Killing Fields, The (1984)",5,3.0,True
@@ -779,7 +779,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2860,322,Swimming with Sharks (1995),3,3.0,True
 2866,1225,Amadeus (1984),3,3.0,True
 2877,858,"Godfather, The (1972)",3,3.0,True
-2878,1282,Fantasia (1940),5,,False
+2878,1282,Fantasia (1940),3,,True
 2880,2713,Lake Placid (1999),2,3.0,True
 2889,1387,Jaws (1975),4,3.0,True
 2892,3175,Galaxy Quest (1999),4,3.0,True
@@ -809,7 +809,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2975,615,Bread and Chocolate (Pane e cioccolata) (1973),3,3.0,True
 2978,1939,"Best Years of Our Lives, The (1946)",4,3.0,True
 2989,2411,Rocky IV (1985),1,4.0,True
-2990,2858,American Beauty (1999),5,,False
+2990,2858,American Beauty (1999),0,,True
 3000,1381,Grease 2 (1982),1,2.0,True
 3001,432,City Slickers II: The Legend of Curly's Gold (1994),4,2.0,True
 3002,2450,Howard the Duck (1986),1,3.0,True
@@ -829,7 +829,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 3054,2300,"Producers, The (1968)",5,3.0,True
 3067,3763,F/X (1986),3,3.0,True
 3069,89,Nick of Time (1995),1,3.0,True
-3072,150,Apollo 13 (1995),3,,False
+3072,150,Apollo 13 (1995),0,,True
 3075,1584,Contact (1997),3,2.0,True
 3078,318,"Shawshank Redemption, The (1994)",3,4.0,True
 3080,2997,Being John Malkovich (1999),5,4.0,True
@@ -3568,7 +3568,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 5560,1267,"Manchurian Candidate, The (1962)",5,3.0,True
 5565,1777,"Wedding Singer, The (1998)",4,3.0,True
 5575,2253,Toys (1992),1,3.0,True
-5579,1950,In the Heat of the Night (1967),4,,False
+5579,1950,In the Heat of the Night (1967),0,,True
 5587,3219,Pacific Heights (1990),4,3.0,True
 5607,500,Mrs. Doubtfire (1993),4,5.0,True
 5613,1080,Monty Python's Life of Brian (1979),3,3.0,True
@@ -3768,7 +3768,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 1323,1965,Repo Man (1984),4,2.0,True
 1328,653,Dragonheart (1996),3,3.0,True
 1329,3253,Wayne's World (1992),4,3.0,True
-1350,733,"Rock, The (1996)",2,,False
+1350,733,"Rock, The (1996)",2,,True
 1351,1197,"Princess Bride, The (1987)",5,4.0,True
 1358,2091,Return from Witch Mountain (1978),1,3.0,True
 1367,1097,E.T. the Extra-Terrestrial (1982),5,4.0,True
@@ -4279,11 +4279,11 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 67,1939,"Best Years of Our Lives, The (1946)",5,4.0,True
 101,2524,"Towering Inferno, The (1974)",4,4.0,True
 125,1291,Indiana Jones and the Last Crusade (1989),4,5.0,True
-130,2353,Enemy of the State (1998),5,,False
+130,2353,Enemy of the State (1998),2,,True
 240,1224,Henry V (1989),3,3.0,True
 615,457,"Fugitive, The (1993)",4,5.0,True
 763,2329,American History X (1998),3,3.0,True
-767,2203,Shadow of a Doubt (1943),4,,False
+767,2203,Shadow of a Doubt (1943),0,,True
 873,3260,Howards End (1992),4,3.0,True
 953,2571,"Matrix, The (1999)",5,4.0,True
 1071,3185,Snow Falling on Cedars (1999),5,5.0,True
@@ -5319,16 +5319,16 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 2142,1625,"Game, The (1997)",4,3.0,True
 2238,1354,Breaking the Waves (1996),5,2.0,True
 2339,3948,Meet the Parents (2000),5,5.0,True
-2388,3104,Midnight Run (1988),4,,False
-2397,1101,Top Gun (1986),3,,False
-2413,3716,Fatal Beauty (1987),1,,False
-2416,3555,U-571 (2000),4,,False
-2498,587,Ghost (1990),3,,False
-2509,2332,Belly (1998),4,,False
-2514,930,Notorious (1946),5,,False
-2557,1111,Microcosmos (Microcosmos: Le peuple de l'herbe) (1996),3,,False
-2573,1214,Alien (1979),4,,False
-2578,2076,Blue Velvet (1986),4,,False
+2388,3104,Midnight Run (1988),3,,True
+2397,1101,Top Gun (1986),3,,True
+2413,3716,Fatal Beauty (1987),0,,True
+2416,3555,U-571 (2000),3,,True
+2498,587,Ghost (1990),2,,True
+2509,2332,Belly (1998),3,,True
+2514,930,Notorious (1946),0,,True
+2557,1111,Microcosmos (Microcosmos: Le peuple de l'herbe) (1996),3,,True
+2573,1214,Alien (1979),3,,True
+2578,2076,Blue Velvet (1986),0,,True
 2603,231,Dumb & Dumber (1994),4,3.0,True
 2614,3062,"Longest Day, The (1962)",5,4.0,True
 2677,2741,No Mercy (1986),4,4.0,True
@@ -5376,7 +5376,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 4250,1821,"Object of My Affection, The (1998)",3,3.0,True
 4275,3175,Galaxy Quest (1999),3,3.0,True
 4301,1178,Paths of Glory (1957),5,4.0,True
-4365,527,Schindler's List (1993),4,,False
+4365,527,Schindler's List (1993),3,,True
 4499,1250,"Bridge on the River Kwai, The (1957)",4,2.0,True
 4525,527,Schindler's List (1993),5,3.0,True
 4530,2583,Cookie's Fortune (1999),4,3.0,True
@@ -5912,7 +5912,7 @@ user_id,item_id,title,actual_rating,predicted_rating,is_rating_float
 782,3510,Frequency (2000),4,2.0,True
 799,3626,8 1/2 Women (1999),4,3.0,True
 883,3623,Mission: Impossible 2 (2000),4,3.0,True
-1060,2617,"Mummy, The (1999)",4,,False
+1060,2617,"Mummy, The (1999)",3,,True
 1529,1215,Army of Darkness (1993),5,3.0,True
 2441,2267,Mortal Thoughts (1991),2,3.0,True
 3897,648,Mission: Impossible (1996),3,3.0,True
