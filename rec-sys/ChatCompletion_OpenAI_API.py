@@ -243,58 +243,89 @@ def predict_ratings_few_shot_and_save(data,
 
 
 def rerun_failed_few_shot_predictions(data, 
-                                      columns_for_training,
+                                      columns_for_training, 
                                       columns_for_prediction, 
+                                      user_column_name, 
+                                      title_column_name, 
+                                      asin_column_name, 
+                                      rating_column_name,
+                                      obs_per_user, 
+                                      pause_every_n_users, 
+                                      sleep_time, 
                                       save_path, 
-                                      rerun_save_path, 
-                                      user_column_name='reviewerID', 
-                                      title_column_name='title', 
-                                      asin_column_name='asin', 
-                                      rating_column_name='rating',
-                                      pause_every_n_users=PAUSE_EVERY_N_USERS, 
-                                      sleep_time=SLEEP_TIME,
-                                      obs_per_user=None):
-    """
-    Reruns few-shot predictions for entries where previous predictions failed, and saves the updated results.
+                                      new_path,
+                                      rerun_indices):
+    # Load the original predictions
+    original_data = pd.read_csv(save_path)
 
-    Parameters:
-    - data (DataFrame): DataFrame containing initial prediction results.
-    - columns_for_training (list of str): Columns to use for training in few-shot approach.
-    - columns_for_prediction (list of str): Columns to use for prediction.
-    - save_path (str): Path to save the original predictions CSV file.
-    - rerun_save_path (str): Path to save the rerun predictions CSV file.
-    - user_column_name (str): Column name for user IDs.
-    - title_column_name (str): Column name for item titles.
-    - asin_column_name (str): Column name for item IDs.
-    - rating_column_name (str): Column name for actual ratings.
-    - pause_every_n_users (int): Number of users to process before pausing.
-    - sleep_time (int): Sleep time in seconds during pause.
-    - obs_per_user (int): Number of observations per user to consider in few-shot approach.
-    """
-    # Identify failed predictions
-    data['is_rating_float'] = pd.to_numeric(data['predicted_rating'], errors='coerce').notna()
-    failed_indices = data[~data['is_rating_float']].index
+    # Define fixed column names for output
+    fixed_columns = ['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating', 'is_rating_float']
 
-    if len(failed_indices) > 0:
-        print(f"Re-running predictions for {len(failed_indices)} failed cases.")
-        failed_data = data.loc[failed_indices]
-        updated_data = predict_ratings_few_shot_and_save(
-            failed_data, 
-            columns_for_training=columns_for_training,
-            columns_for_prediction=columns_for_prediction, 
-            user_column_name=user_column_name,
-            title_column_name=title_column_name, 
-            asin_column_name=asin_column_name, 
-            rating_column_name=rating_column_name,
-            pause_every_n_users=pause_every_n_users, 
-            sleep_time=sleep_time, 
-            save_path=rerun_save_path,
-            obs_per_user=obs_per_user)
-        data.loc[failed_indices, 'predicted_rating'] = updated_data['predicted_rating']
+    # Map dynamic column names to fixed column names
+    column_mapping = {
+        user_column_name: 'user_id',
+        asin_column_name: 'item_id',
+        title_column_name: 'title',
+        rating_column_name: 'actual_rating'
+    }
 
-    data.to_csv(save_path, index=False)
-    print(f"Updated predictions saved to {save_path}")
-    return data
+    # Rerun predictions for each failed index
+    for idx in rerun_indices:
+        user_id = original_data.loc[idx, column_mapping[user_column_name]]
+        item_id = original_data.loc[idx, column_mapping[asin_column_name]]
+
+        print(f"Rerunning prediction for User ID: {user_id}, Item ID: {item_id} (Index: {idx})")
+
+        # Retrieve user's data
+        user_data = data[data[user_column_name] == user_id]
+
+        if len(user_data) < 5:
+            print(f"Skipping User ID: {user_id} - Insufficient data")
+            continue
+
+        user_data = user_data.sample(frac=1, random_state=RANDOM_STATE).reset_index(drop=True)
+        
+        # Find the row that needs prediction
+        test_row = user_data[user_data[asin_column_name] == item_id].iloc[0]
+
+        # Skip the current item being predicted
+        train_data = user_data[user_data[asin_column_name] != test_row[asin_column_name]]
+
+        # Select 4 distinct previous ratings
+        if len(train_data) >= 4:
+            train_data = train_data.head(4)
+        else:
+            print(f"Skipping User ID: {user_id}, Item ID: {item_id} - Not enough historical ratings")
+            continue
+
+        prediction_data = {col: test_row[col] for col in columns_for_prediction if col != rating_column_name}
+        combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
+
+        rating_history_str = '\n'.join([
+            '* ' + ' | '.join(f"{col}: {row[col]}" for col in columns_for_training) + f" - Rating: {row[rating_column_name]} stars"
+            for _, row in train_data.iterrows()
+        ])
+
+        print(f"Rerunning prediction with historical ratings:\n{rating_history_str}\nPredicting rating for: '{combined_text}'")
+
+        predicted_rating = predict_rating_combined_ChatCompletion(combined_text, rating_history=rating_history_str, approach="few-shot")
+
+        # Update the prediction in the original dataframe
+        original_data.loc[idx, 'predicted_rating'] = predicted_rating
+        original_data.loc[idx, 'is_rating_float'] = pd.notna(pd.to_numeric(predicted_rating, errors='coerce'))
+
+        print(f"Updated prediction for User ID: {user_id}, Item ID: {item_id}: {predicted_rating}")
+
+        if (idx + 1) % pause_every_n_users == 0:
+            print(f"Processed {idx + 1} indices. Pausing for {sleep_time} seconds...")
+            time.sleep(sleep_time)
+
+    # Save the updated dataframe with fixed column names
+    original_data = original_data.rename(columns=column_mapping)
+    original_data = original_data[fixed_columns]
+    original_data.to_csv(new_path, index=False)
+    print(f"Updated predictions saved to {new_path}")
+
 
 
 
