@@ -79,7 +79,7 @@ def evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_
     # Check if there are valid predictions for evaluation
     if not filtered_ratings:
         print("No valid predictions available for evaluation.")
-        return
+        return None, None
 
     # Unpack the filtered actual and predicted ratings
     actual_filtered, predicted_filtered = zip(*filtered_ratings)
@@ -95,4 +95,29 @@ def evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_
     print("\nFirst few actual vs predicted ratings:")
     for actual, predicted in list(zip(actual_filtered, predicted_filtered))[:num_examples]:
         print(f"Actual: {actual}, Predicted: {predicted:.4f}")
+        
+    return rmse, mae
+
+
+def calculate_average_rmse_mae(num_iterations, data_template, num_examples, actual_ratings_column, predicted_ratings_column):
+    total_rmse = 0
+    total_mae = 0
+    count = 0
+
+    for i in range(1, num_iterations + 1):
+        data_path = data_template.format(i)
+        rmse, mae = evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_column, predicted_ratings_column, print_results=False)
+        if rmse is not None and mae is not None:
+            total_rmse += rmse
+            total_mae += mae
+            count += 1
+
+    if count > 0:
+        average_rmse = total_rmse / count
+        average_mae = total_mae / count
+        print(f"\nAverage RMSE across {count} iterations: {average_rmse:.4f}")
+        print(f"Average MAE across {count} iterations: {average_mae:.4f}")
+    else:
+        print("No valid iterations for averaging.")
+
 
