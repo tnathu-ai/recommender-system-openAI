@@ -59,7 +59,7 @@ def rerun_failed_predictions(data, pcc_matrix, output_path, iteration_num):
         movie_id_column=ITEM_ID_COLUMN, rating_column_name=RATING_COLUMN_NAME, 
         num_ratings_per_user=NUM_RATINGS_PER_USER,
         num_main_user_ratings=NUM_MAIN_USER_RATINGS,
-     ''   num_similar_users=NUM_SIMILAR_USERS,
+        num_similar_users=NUM_SIMILAR_USERS,
         new_path=rerun_path, rerun_indices=get_rerun_indices(output_path)
     )
     return rerun_path
