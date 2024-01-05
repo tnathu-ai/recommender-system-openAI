@@ -76,63 +76,57 @@ def pearson_correlation(interaction_matrix):
     return pearson_corr_matrix
 
 
-
-
-def cosine_similarity_manual(interaction_matrix):
+def item_pearson_correlation(interaction_matrix):
     """
-    Compute the Cosine Similarity matrix for the user-item interaction matrix.
+    Compute the Pearson Correlation Coefficient matrix for the item-item interaction matrix.
 
     Args:
-    interaction_matrix (numpy.ndarray): A 2D array where rows represent users and columns represent items.
-                                        The values in the matrix are the ratings given by users to items.
+    interaction_matrix (csr_matrix): A sparse matrix where rows represent users and columns represent items.
+                                     The values in the matrix are the ratings given by users to items.
 
     Returns:
-    numpy.ndarray: A 2D array representing the Cosine Similarities between each pair of users.
+    numpy.ndarray: A 2D array representing the Pearson Correlation Coefficients between each pair of items.
     """
+    # Convert sparse matrix to dense format for processing
+    dense_matrix = interaction_matrix.toarray()
+    n_items = dense_matrix.shape[1]
 
-    # Get the number of users
-    n_users = interaction_matrix.shape[0]
+    # Initialize the Pearson Correlation matrix
+    pearson_corr_matrix = np.zeros((n_items, n_items))
+    EPSILON = 1e-9
 
-    # Initialize the Cosine Similarity matrix with zeros
-    cosine_sim_matrix = np.zeros((n_users, n_users))
+    # Iterate over each pair of items
+    for i in range(n_items):
+        for j in range(n_items):
+            item_i_vec = dense_matrix[:, i]
+            item_j_vec = dense_matrix[:, j]
 
-    # Iterate over each pair of users
-    for i in range(n_users):
-        for j in range(n_users):
-            # Get the rating vectors for the current pair of users
-            user_i_vec = interaction_matrix[i, :]
-            user_j_vec = interaction_matrix[j, :]
+            mask_i = item_i_vec > 0
+            mask_j = item_j_vec > 0
 
-            # Compute the dot product between the two vectors
-            dot_product = np.dot(user_i_vec, user_j_vec)
+            corrated_index = np.intersect1d(np.where(mask_i)[0], np.where(mask_j)[0])
 
-            # Compute the magnitude (norm) of each vector
-            norm_i = np.linalg.norm(user_i_vec)
-            norm_j = np.linalg.norm(user_j_vec)
+            if len(corrated_index) == 0:
+                continue
 
-            # Calculate cosine similarity (handling division by zero)
-            if norm_i == 0 or norm_j == 0:
-                # If a vector has magnitude 0, the similarity is set to 0
-                similarity = 0
-            else:
-                similarity = dot_product / (norm_i * norm_j)
+            mean_item_i = np.mean(item_i_vec[corrated_index])
+            mean_item_j = np.mean(item_j_vec[corrated_index])
 
-            # Store the similarity in the matrix
-            cosine_sim_matrix[i, j] = similarity
+            item_i_sub_mean = item_i_vec[corrated_index] - mean_item_i
+            item_j_sub_mean = item_j_vec[corrated_index] - mean_item_j
 
-    return cosine_sim_matrix
+            r_ui_sub_r_i_sq = np.square(item_i_sub_mean)
+            r_uj_sub_r_j_sq = np.square(item_j_sub_mean)
 
-def format_similar_users_ratings(similar_users_ratings):
-    if not isinstance(similar_users_ratings, dict):
-        return ''
+            r_ui_sum_sqrt = np.sqrt(np.sum(r_ui_sub_r_i_sq))
+            r_uj_sum_sqrt = np.sqrt(np.sum(r_uj_sub_r_j_sq))
 
-    formatted_ratings = []
-    for user_id, ratings in similar_users_ratings.items():
-        formatted_ratings.append(f"\n\n{user_id}:")
-        for rating in ratings:
-            formatted_ratings.append(f"+ {rating}")
+            sim = np.sum(item_i_sub_mean * item_j_sub_mean) / (r_ui_sum_sqrt * r_uj_sum_sqrt + EPSILON)
 
-    return '\n'.join(formatted_ratings)
+            pearson_corr_matrix[i, j] = sim
+
+    return pearson_corr_matrix
+
 
 
 

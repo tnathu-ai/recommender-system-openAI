@@ -2,7 +2,11 @@
 
 A collection of performance comparisons on rating prediction for various recommender system methods.
 
-**Latest Update**: To enhance the predict_ratings_with_collaborative_filtering_and_save function so that it prioritizes items from similar users that are most correlated with the predicted item, you need to modify the approach of selecting historical ratings from similar users. Instead of randomly sampling their ratings, you should select ratings for items that are most similar (based on the Pearson Correlation Coefficient) to the item for which you are making the prediction.
+**Latest Update**: To enhance the predict_ratings_with_collaborative_filtering_and_save function so that it prioritizes items from similar users that are most correlated with the predicted item, we need to modify the approach of selecting historical ratings from similar users. Instead of randomly sampling their ratings, we should select ratings for items that are most similar (based on the Pearson Correlation Coefficient) to the item for which we are making the prediction.
+
+In this updated version, for each similar user, the function finds the item most correlated to the predicted item and uses its rating. This approach assumes that similar users' preferences for items highly correlated to the predicted item will be more indicative of their potential rating for the predicted item.
+
+Note: This code assumes that pcc_matrix contains item-item Pearson correlations, which might not be the case in our original setup. If pcc_matrix represents user-user correlations, we need to compute a separate item-item Pearson correlation matrix to find the most similar items.
 
 ![performance](rec-sys/notebook/images/comparison_plot.png)
 
