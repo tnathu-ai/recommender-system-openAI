@@ -35,21 +35,24 @@ def predict_rating_combined_ChatCompletion(combined_text,
 
     # Check and reduce length of combined_text
     combined_text = check_and_reduce_length(combined_text, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
-    prompt = f"How will user rate this {combined_text}? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text."
+    # prompt = f"How will user rate this {combined_text}? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text."
 
     # Construct the prompt based on the approach
     if approach == "few-shot":
         rating_history = check_and_reduce_length(rating_history, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
         prompt += f"\n\nHere is user rating history:\n{rating_history}"
+        prompt += "\n\nBased on above rating history, please predict user's rating for the product: {combined_text}, (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)"
 
     elif approach == "CF":
         rating_history = check_and_reduce_length(rating_history, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
         prompt += f"\n\nHere is user rating history:\n{rating_history}"
         similar_users_ratings = check_and_reduce_length(similar_users_ratings, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
-        prompt += f"\n\nHere are the rating history from users who are similar to this user:\n{similar_users_ratings}"
-
-    # Adding end of the prompt
-    prompt += "\n\nBased on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)"
+        prompt += f"\n\nHere is the rating history from users who are similar to this user:\n{similar_users_ratings}"
+        prompt += "\n\nBased on above rating history and similar users' rating history, please predict user's rating for the product: {combined_text}, (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)"
+        
+    else:
+        prompt = f"How will user rate this product {combined_text}? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text."
+        
 
     print(f"Constructed Prompt for {approach} approach:\n")
     print(f'The prompt:\n**********\n{prompt}\n**********\n')

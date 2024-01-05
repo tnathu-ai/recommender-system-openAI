@@ -2,7 +2,7 @@
 
 A collection of performance comparisons on rating prediction for various recommender system methods.
 
-**Latest Update**: Added system_fingerprint for the reproducibility
+**Latest Update**: To enhance the predict_ratings_with_collaborative_filtering_and_save function so that it prioritizes items from similar users that are most correlated with the predicted item, you need to modify the approach of selecting historical ratings from similar users. Instead of randomly sampling their ratings, you should select ratings for items that are most similar (based on the Pearson Correlation Coefficient) to the item for which you are making the prediction.
 
 ![performance](rec-sys/notebook/images/comparison_plot.png)
 
