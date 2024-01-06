@@ -6,7 +6,6 @@ A collection of performance comparisons on rating prediction for various recomme
 
 In this updated version, for each similar user, the function finds the item most correlated to the predicted item and uses its rating. This approach assumes that similar users' preferences for items highly correlated to the predicted item will be more indicative of their potential rating for the predicted item.
 
-Note: This code assumes that pcc_matrix contains item-item Pearson correlations, which might not be the case in our original setup. If pcc_matrix represents user-user correlations, we need to compute a separate item-item Pearson correlation matrix to find the most similar items.
 
 ![performance](rec-sys/notebook/images/comparison_plot.png)
 

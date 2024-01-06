@@ -41,6 +41,7 @@ def check_and_reduce_length(text, max_tokens=MAX_TOKENS_CHAT_GPT, tokenizer=TOKE
     return truncated_text
 
 
+
 def extract_numeric_rating(rating_text):
     """
     Extract numeric rating from response text.
@@ -52,9 +53,11 @@ def extract_numeric_rating(rating_text):
         float: Extracted rating value. Returns 0 for unexpected responses.
     """
     try:
-        # Updated regex to capture ratings in sentences
-        # Looks for a number followed by the word 'stars' or a percentage sign
-        rating_match = re.search(r'\b(\d+(\.\d+)?)\s*(stars|%)\b', rating_text)
+        # Trim whitespace and convert to string if it's not already
+        rating_text = str(rating_text).strip()
+
+        # Updated regex to capture whole numbers or decimal numbers, optionally followed by 'stars', 'star', or '%'
+        rating_match = re.search(r'\b(\d+(\.\d+)?)(\s*(stars|star|%))?$', rating_text)
         if rating_match:
             rating = float(rating_match.group(1))
             if 1 <= rating <= 5:
@@ -68,7 +71,7 @@ def extract_numeric_rating(rating_text):
     except Exception as e:
         print(f"Error extracting rating: {e}. Full response: {rating_text}")
         return 0
-
+    
 
 def generate_combined_text_for_prediction(columns, *args):
     """
