@@ -452,7 +452,6 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
 
     # Process each failed prediction index
     for index in rerun_indices:
-        # Extract user ID and item ID for the current failed prediction
         user_id = original_data.at[index, 'user_id']
         item_id = original_data.at[index, 'item_id']
         user_idx = user_id_to_index[user_id]
@@ -461,7 +460,15 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
 
         # Retrieve the main user's historical ratings for context
         main_user_data = data[data[user_column_name] == user_id]
-        main_user_ratings = main_user_data.sample(n=num_main_user_ratings)
+        # Exclude the failed movie item from the historical ratings
+        main_user_data_without_failed_item = main_user_data[main_user_data[movie_id_column] != item_id]
+        
+        # If there are not enough ratings to sample from, skip this user
+        if len(main_user_data_without_failed_item) < num_main_user_ratings:
+            print(f"Not enough historical data to rerun prediction for User ID: {user_id}. Skipping.")
+            continue
+
+        main_user_ratings = main_user_data_without_failed_item.sample(n=num_main_user_ratings)
         main_user_ratings_str = '\n'.join([
             f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
             for _, row in main_user_ratings.iterrows()
