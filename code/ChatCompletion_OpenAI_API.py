@@ -44,14 +44,14 @@ def predict_rating_combined_ChatCompletion(combined_text,
     if approach == "few-shot":
         rating_history = check_and_reduce_length(rating_history, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
         prompt += f"\n\nHere is user rating history:\n{rating_history}"
-        prompt += "\n\nBased on above rating history, please predict user's rating for the product: {combined_text}, (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)"
+        prompt += f"\n\nBased on above rating history, please predict user's rating for the product {combined_text}, (1 being lowest and 5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)"
 
     elif approach == "CF":
         rating_history = check_and_reduce_length(rating_history, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
         prompt += f"\n\nHere is user rating history:\n{rating_history}"
         similar_users_ratings = check_and_reduce_length(similar_users_ratings, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
         prompt += f"\n\nHere is the rating history from users who are similar to this user:\n{similar_users_ratings}"
-        prompt += "\n\nBased on above rating history and similar users' rating history, please predict user's rating for the product: {combined_text}, (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)"
+        prompt += f"\n\nBased on above rating history and similar users' rating history, please predict user's rating for the product {combined_text}, (1 being lowest and 5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)"
         
     else:
         prompt = f"How will user rate this product {combined_text}? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text."
@@ -74,12 +74,13 @@ def predict_rating_combined_ChatCompletion(combined_text,
         )
         # Extract the system fingerprint and print it
         system_fingerprint = response.get('system_fingerprint')
-        print(f"\n\nSystem Fingerprint: {system_fingerprint}")
+        print(f"\nSystem Fingerprint: {system_fingerprint}")
         # Extract and return the rating
         rating_text = response.choices[0].message['content'].strip()
         print(f'\nAPI call response: "{rating_text}"')
         extracted_rating = extract_numeric_rating(rating_text)
-        print(f'Extracted rating: {extracted_rating}')
+        print(f'Extracted rating: {extracted_rating}\n\n\n')
+        print("----------------------------------------------------------------------------------")
         return extracted_rating  # Ensure this is a float
     
     except APIError as api_err:
@@ -222,11 +223,13 @@ def predict_ratings_few_shot_and_save(data,
 
             prediction_data = {col: test_row[col] for col in columns_for_prediction if col != rating_column_name}
             combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
+            print(f'Predicting rating for: "{combined_text}"')
 
             rating_history_str = '\n'.join([
                 '* ' + ' | '.join(f"{col}: {row[col]}" for col in columns_for_training) + f" - Rating: {row[rating_column_name]} stars"
                 for _, row in train_data.iterrows()
             ])
+            print(f"Rating history:\n{rating_history_str}")
 
             predicted_rating = predict_rating_combined_ChatCompletion(combined_text, 
                                                                       rating_history=rating_history_str, 
