@@ -38,7 +38,6 @@ def predict_rating_combined_ChatCompletion(combined_text,
 
     # Check and reduce length of combined_text
     combined_text = check_and_reduce_length(combined_text, MAX_TOKENS_CHAT_GPT // 3, TOKENIZER)
-    # prompt = f"How will user rate this {combined_text}? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text."
 
     # Construct the prompt based on the approach
     if approach == "few-shot":
@@ -81,7 +80,7 @@ def predict_rating_combined_ChatCompletion(combined_text,
         extracted_rating = extract_numeric_rating(rating_text)
         print(f'Extracted rating: {extracted_rating}\n\n\n')
         print("----------------------------------------------------------------------------------")
-        return extracted_rating  # Ensure this is a float
+        return extracted_rating  # A float
     
     except APIError as api_err:
         print(f"API Error occurred: {api_err}")
