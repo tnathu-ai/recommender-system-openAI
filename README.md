@@ -8,10 +8,8 @@ In this updated version, for each similar user, the function finds the item most
 
 The system's core functionality revolves around the `predict_rating_combined_ChatCompletion` function, which is equipped to handle different prediction strategies—'zero-shot', 'few-shot', and collaborative filtering (CF). Depending on the chosen strategy, the function dynamically requires user rating history or similar users' ratings. Critical to its operation, a tokenizer setup efficiently processes text to align with API input requirements, managing text length to fit within the API's token limitations. The system's ability to adapt prompts according to the prediction strategy enhances the accuracy and relevance of the API's output, ensuring the delivery of precise and contextually appropriate rating predictions.
 
-![performance](rec-sys/notebook/images/comparison_plot.png)
+![performance](code/notebook/images/comparison_plot.png)
 
-<details><summary><b> Prompting Strategy for Rating Predictions </b></summary>
-<p>
 
 ### Overview
 
@@ -21,27 +19,12 @@ The system_fingerprint in OpenAI's API response is used to identify the specific
 
 ### Zero-Shot Prompting
 
-In the zero-shot approach, the model is prompted without any prior examples or context. It relies solely on the given prompt to make a prediction.
-
-**Example:**
-```python
-    prompt = f"How will users rate this product based on the following details: '{combined_text}'? (1 being lowest and 5 being highest) Attention! Just give me back the exact whole number as a result, and we don't need a lot of text."
-```
+![Few-Shot Prompt](code/notebook/images/prompts/zero_shot_prompt.png)
 
 ### Few-Shot Prompting
 
-In the few-shot approach, the model is provided with a user's past rating history along with the product title. This additional context helps the model make more informed predictions.
+![Few-Shot Prompt](code/notebook/images/prompts/few_shot_prompt.png)
 
-**Example:**
-```python
-    prompt = (f"Here is the user's rating history: {rating_history}. "
-              f"Based on the above rating history and the following information: '{combined_text}', "
-              f"how many stars would we rate the product? "
-              "(Provide a number between 1 and 5, either followed by the word 'stars' or preceded by the words 'would be'). "
-              "Attention! Keep the response concise.")
-```
-</p>
-</details>
 
 <details><summary><b> Data </b></summary>
 <p>
@@ -71,7 +54,7 @@ Dataset Statistics:
 
 Source: https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/
 
-![](rec-sys/notebook/images/interaction_venn_diagram.png)
+![](code/notebook/images/interaction_venn_diagram.png)
 
 We're attempting to predict product ratings based on item attributes, while avoiding interaction and user-specific details. This makes sense for a zero-shot prediction approach.
 
@@ -152,25 +135,6 @@ https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction
 <details><summary><b> OpenAI API Performance Comparison on Rating Prediction</b></summary>
 <p>
 
-| **Methods**                                          | **Dataset**           | **Feature(s)** | **Model Name**        | **Hyperparameter(s)**                                    | **RMSE** | **MAE** | **Wall Time** |
-|------------------------------------------------------|-----------------------|--------------|-----------------------|---------------------------------------------------|------------|-----------|----------------|
-| MF [1]                                               | Unknown               | title        | -                     | -                                                 | 1.1973     | 0.9461    | -              |
-| MLP [2]                                              | Unknown               | title        | -                     | -                                                 | 1.3078     | 0.9597    | -              |
-| Paper's (zero-shot) [3]                              | Unknown Amazon        | title        | GPT-3.5-turbo                     | -                                                 | 1.4059     | 1.1861    | -              |
-| Paper's (few-shot) [3]                               | Unknown Amazon        | title        | GPT-3.5-turbo                     | -                                                 | 1.0751     | 0.6977    | -              |
-| Thu's OpenAI embedding                               | Small Amazon          | title        | RandomForestRegressor | BATCH_SIZE=10, N_ESTIMATORS=10, MAX_TOKENS=8000    | 1.6036       | 1.1429      | 47.9 ms        |
-| Thu's zero-shot GPT                                  | Small Amazon          | title        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 1.3351     | 1.2609    | 13.6 s              |
-| Thu's few-shot GPT                                   | Small Amazon          | title        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 1.9086     | 1.0714    | 16.4 s              |
-| Thu's OpenAI embedding                               | Large Amazon          | title        | RandomForestRegressor | BATCH_SIZE=10, N_ESTIMATORS=10, MAX_TOKENS=8000    | 0.6240       | 0.3107      | 1h 25min 35s              |
-| Thu's zero-shot GPT                                  | Large Amazon          | title        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 1.1344     | 1.0118    | 13h 14min 39s              |
-| Thu's few-shot GPT                                   | Large Amazon          | title        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 0.7185     | 0.3259    | 9h 36min 7s             | 
-| Thu's few-shot GPT (1 test/user)                                    | Large Amazon          | title        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 0.6445     | 0.2226    | 15h 37s              | 
-| Thu's zero-shot GPT                                  | Small Amazon            | title, reviewText        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 1.3758     | 1.0118    | 12min 21s              |
-| Thu's few-shot GPT                                   | Small Amazon           | title, reviewText        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 1.9457     | 0.9286    | 10min 30s              | 
-| Thu's few-shot GPT (1 test/user)                                  | Small Amazon           | title, reviewText        | GPT-3.5-turbo         | TEMPERATURE=0, MAX_TOKENS=8000                     | 0.6325     | 0.4   | 9.59 s             | 
-| Thu's OpenAI embedding                                 | Small Amazon           | title, reviewText        | RandomForestRegressor         | BATCH_SIZE=10, N_ESTIMATORS=10, MAX_TOKENS=8000                    | 0.8856     | 0.4714   | 10.8 s             | 
-
-
 
 **References:**
 
@@ -199,7 +163,7 @@ Matrix Factorization: A more advanced approach, often used in modern recommender
 
 Incorporate Embeddings: we can use GPT to generate embeddings for items based on their descriptions and other features, and then use these embeddings to find similar items or to enhance the user-item interaction matrix.
 
-![user similarity heat map](rec-sys/notebook/images/user_similarity_heatmap.png)
+![user similarity heat map](code/notebook/images/user_similarity_heatmap.png)
 
 
 
