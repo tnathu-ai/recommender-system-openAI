@@ -25,6 +25,9 @@ The system_fingerprint in OpenAI's API response is used to identify the specific
 
 ![Few-Shot Prompt](code/notebook/images/prompts/few_shot_prompt.png)
 
+### Few-Shot Collaborative Filtering Prompting
+
+![Few-Shot Collaborative Filtering Prompt](code/notebook/images/prompts/fewshot_CF_prompt.png)
 
 <details><summary><b> Data </b></summary>
 <p>
