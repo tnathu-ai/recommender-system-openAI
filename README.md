@@ -9,7 +9,7 @@ In this updated version, for each similar user, the function finds the item most
 The system's core functionality revolves around the `predict_rating_combined_ChatCompletion` function, which is equipped to handle different prediction strategies—'zero-shot', 'few-shot', and collaborative filtering (CF). Depending on the chosen strategy, the function dynamically requires user rating history or similar users' ratings. Critical to its operation, a tokenizer setup efficiently processes text to align with API input requirements, managing text length to fit within the API's token limitations. The system's ability to adapt prompts according to the prediction strategy enhances the accuracy and relevance of the API's output, ensuring the delivery of precise and contextually appropriate rating predictions.
 
 ![performance](code/notebook/images/comparison_plot.png)
-![performance](code/notebook/images/diagrams/CF_fewshot_diagram.png)
+![performance](code/notebook/images/diagrams/fewshot_CF_diagram.png)
 
 
 ### Overview
