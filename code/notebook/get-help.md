@@ -7,9 +7,7 @@ assignees: ''
 
 ---
 
-**Please do not use the issues page to ask general questions about the OpenAI API.** Questions asked here will usually not receive answers.
 
-Feel free to report problems with code examples, suggest new code examples, or ask narrow questions about specific code examples.
 
 For general discussion, try:
 
