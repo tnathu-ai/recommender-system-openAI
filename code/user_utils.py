@@ -4,6 +4,24 @@ from sklearn.model_selection import train_test_split
 import json
 import gzip
 
+def select_test_set_for_user(user_data, num_tests=TEST_OBSERVATION_PER_USER, seed=RANDOM_STATE):
+    """
+    Select a consistent test set for a given user.
+
+    Args:
+    - user_data (DataFrame): Data for the specific user.
+    - num_tests (int): Number of test samples to select.
+    - seed (int): Random state seed for consistency.
+
+    Returns:
+    - DataFrame: Test set for the user.
+    - DataFrame: Remaining data after removing the test set.
+    """
+    test_set = user_data.sample(n=num_tests, random_state=seed)
+    remaining_data = user_data.drop(test_set.index)
+    return test_set, remaining_data
+
+
 def split_data_by_rated_items(df, user_col, test_size, given_n, random_state=RANDOM_STATE):
     """
     Splits the dataset into training and testing sets while ensuring a specified number of items 

@@ -6,6 +6,7 @@ import re
 import time
 from constants import *
 from evaluation_utils import *
+from user_utils import *
 from utils import *
 from CF_utils import *
 from tenacity import retry, wait_random_exponential, stop_after_attempt
@@ -125,6 +126,9 @@ def predict_ratings_zero_shot_and_save(data,
 
     results = []
     random.seed(seed)
+    
+    # drop duplicates
+    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
 
     # Group data by user and filter users with at least 5 records
     grouped_data = data.groupby(user_column_name).filter(lambda x: len(x) >= 5)
@@ -132,8 +136,9 @@ def predict_ratings_zero_shot_and_save(data,
 
     for i, user_id in enumerate(unique_users):
         user_data = grouped_data[grouped_data[user_column_name] == user_id]
-        # Select a random record for each user
-        random_row = user_data.sample(n=1, random_state=seed).iloc[0]
+        # Select test set for the user
+        test_set, _ = select_test_set_for_user(user_data, num_tests=1, seed=seed)
+        random_row = test_set.iloc[0]
 
         # Generate combined text for prediction using specified columns
         combined_text = ' | '.join([f"{col}: {random_row[col]}" for col in columns_for_prediction])
@@ -200,6 +205,8 @@ def predict_ratings_few_shot_and_save(data,
                                       save_path='few_shot_predictions.csv',
                                       system_content=AMAZON_CONTENT_SYSTEM):
     results = []
+    # drop duplicates
+    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
     users = data[user_column_name].unique()
 
     for idx, user_id in enumerate(users):
@@ -271,6 +278,9 @@ def rerun_failed_few_shot_predictions(data,
                                       system_content=AMAZON_CONTENT_SYSTEM):
     # Load the original predictions
     original_data = pd.read_csv(save_path)
+    
+    # drop duplicates
+    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
 
     # Define fixed column names for output
     fixed_columns = ['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating', 'is_rating_float']
@@ -357,6 +367,10 @@ def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix,
     results = []
     unique_users = data[user_column_name].unique()
     user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
+    
+    # drop duplicates
+    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
+    
 
     random.seed(seed)
 
@@ -447,6 +461,8 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
     # Load original predictions and standardize column names
     original_data = pd.read_csv(save_path)
     original_data.columns = ['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating']
+    # drop duplicates
+    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
     
     # Map unique users to their index for quick access
     unique_users = data[user_column_name].unique()
@@ -528,16 +544,16 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
 
 
 def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_matrix,
-                                                          user_column_name='reviewerID', 
-                                                          movie_column_name='title', 
-                                                          movie_id_column='asin',
-                                                          rating_column_name='rating', 
-                                                          num_ratings_per_user=1, 
-                                                          num_similar_users=4,
-                                                          num_main_user_ratings=1,
-                                                          save_path='cf_predictions.csv', 
-                                                          seed=RANDOM_STATE,
-                                                          system_content=AMAZON_CONTENT_SYSTEM):
+                                              user_column_name='reviewerID', 
+                                              movie_column_name='title', 
+                                              movie_id_column='asin',
+                                              rating_column_name='rating', 
+                                              num_ratings_per_user=1, 
+                                              num_similar_users=4,
+                                              num_main_user_ratings=1,
+                                              save_path='cf_predictions.csv', 
+                                              seed=RANDOM_STATE,
+                                              system_content=AMAZON_CONTENT_SYSTEM):
     results = []
     unique_users = data[user_column_name].unique()
     unique_items = data[movie_id_column].unique()
@@ -545,49 +561,40 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
     item_id_to_index = {item_id: idx for idx, item_id in enumerate(unique_items)}
 
     random.seed(seed)
+    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
 
     for user_id in unique_users:
         user_idx = user_id_to_index[user_id]
 
         print(f"Processing user {user_id} (Index: {user_idx})")
 
-        # Retrieve the main user's historical ratings randomly
+        # Retrieve the main user's historical ratings
         main_user_data = data[data[user_column_name] == user_id]
-        main_user_ratings = main_user_data.sample(n=num_main_user_ratings, random_state=seed)
+        test_set, remaining_data = select_test_set_for_user(main_user_data, num_tests=1, seed=seed)
+        if test_set.empty:
+            print(f"No test data available for user {user_id}.")
+            continue
+        random_movie_row = test_set.iloc[0]
 
+        main_user_ratings = remaining_data.sample(n=num_main_user_ratings, random_state=seed)
         main_user_ratings_str = '\n'.join([
             f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
             for _, row in main_user_ratings.iterrows()
         ])
 
-        # List of movie IDs already rated by the user
-        rated_movie_ids = main_user_ratings[movie_id_column].tolist()
-
-        # Find the top similar users based on Pearson Correlation Coefficient
-        similar_users_idx = np.argsort(-user_pcc_matrix[user_idx])[:num_similar_users + 1]
-        similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
-
-        print(f"Top similar users for {user_id}: {[unique_users[idx] for idx in similar_users_idx]}")
-
-        # Select a random movie from the user's data for prediction, excluding already rated movies
-        potential_movies_for_prediction = main_user_data[~main_user_data[movie_id_column].isin(rated_movie_ids)]
-        if potential_movies_for_prediction.empty:
-            print(f"No unrated movies available for user {user_id} for prediction.")
-            continue
-
-        random_movie_row = potential_movies_for_prediction.sample(n=1, random_state=seed).iloc[0]
         random_movie_title = random_movie_row[movie_column_name]
         random_movie_id = random_movie_row[movie_id_column]
         random_movie_index = item_id_to_index[random_movie_id]
         actual_rating = random_movie_row[rating_column_name]
 
-        # Collect ratings from similar users for the most correlated items
+        similar_users_idx = np.argsort(-user_pcc_matrix[user_idx])[:num_similar_users + 1]
+        similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
+
         similar_users_ratings = ""
         for idx in similar_users_idx:
             similar_user_id = unique_users[idx]
             similar_user_data = data[data[user_column_name] == similar_user_id]
 
-            # Sort items based on similarity to the predicted item
             similar_items_indices = np.argsort(-item_pcc_matrix[random_movie_index, :])
             for similar_item_index in similar_items_indices[:num_ratings_per_user]:
                 if similar_item_index == random_movie_index:
@@ -598,11 +605,8 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
                     rating_info = f"* Title: {most_similar_item_id}, Rating: {most_similar_item_ratings.iloc[0]} stars"
                     similar_users_ratings += rating_info + "\n"
 
-        # Construct prompt for API call
         combined_text = f"Title: {random_movie_title}"
         prompt = f"Main User Ratings:\n{main_user_ratings_str}\n\nSimilar Users' Ratings:\n{similar_users_ratings}\n\nPredict rating for '{combined_text}':"
-
-        print(f"Generated prompt for user {user_id}:\n{prompt}")
 
         predicted_rating = predict_rating_combined_ChatCompletion(
             combined_text, 
@@ -612,9 +616,7 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
             system_content=system_content
         )
 
-        # Store prediction results
         results.append([user_id, random_movie_id, random_movie_title, actual_rating, predicted_rating])
-
         print(f"User {user_id}: Predicted rating for '{random_movie_title}' is {predicted_rating}.")
 
     results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])

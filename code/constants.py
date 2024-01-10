@@ -11,6 +11,7 @@ STOP_AFTER_N_ATTEMPTS = 7  # Maximum number of retry attempts for a function
 RANDOM_STATE = 2002  # Seed value for random number generation
 NUM_SAMPLES = 100    # Number of samples to consider in operations
 TEST_SIZE = 0.2      # Proportion of the dataset to include in the test split
+TEST_OBSERVATION_PER_USER = 1
 
 # =============================================================================
 # Machine Learning Model Parameters
@@ -78,3 +79,14 @@ CONFIDENCE_MULTIPLIER = 1.96
 # =============================================================================
 AMAZON_CONTENT_SYSTEM = "Amazon Beauty products critic"
 MOVIELENS_CONTENT_SYSTEM = "MovieLens movies critic"
+
+
+# =============================================================================
+# Default parameters in CF methods
+# =============================================================================
+# num_ratings_per_user
+NUM_RATINGS_PER_USER = 1
+# num_main_user_ratings
+NUM_MAIN_USER_RATINGS = 4
+# num_similar_users
+NUM_SIMILAR_USERS = 4
