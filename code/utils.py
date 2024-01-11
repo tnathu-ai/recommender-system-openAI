@@ -55,29 +55,26 @@ def extract_numeric_rating(rating_text):
         float: Extracted rating value. Returns 0 for unexpected responses.
     """
     try:
-        # Trim whitespace and convert to string if it's not already
         rating_text = str(rating_text).strip()
 
-        # Check if the response is just a number (possibly a whole number or a decimal)
-        if re.match(r'^\d+(\.\d+)?$', rating_text):
-            rating = float(rating_text)
-        else:
-            # If not, attempt to extract a rating from a longer string
-            rating_match = re.search(r'(\d+(\.\d+)?)(\s*(stars|star|%))?', rating_text)
-            if rating_match:
-                rating = float(rating_match.group(1))
+        # Updated regex pattern to match numeric ratings followed by the word 'stars' or 'star'
+        rating_match = re.search(r'(\d+(\.\d+)?)\s*(stars|star)\b', rating_text, re.IGNORECASE)
+
+        if rating_match:
+            rating = float(rating_match.group(1))
+            if 1 <= rating <= 5:
+                return rating
             else:
-                print(f"No valid rating found in the response: {rating_text}")
+                print(f"Rating out of expected range (1-5): {rating_text}")
                 return 0
-        
-        if 1 <= rating <= 5:
-            return rating
         else:
-            print(f"Rating out of expected range (1-5): {rating_text}")
+            print(f"No valid rating found in the response: {rating_text}")
             return 0
+
     except Exception as e:
         print(f"Error extracting rating: {e}. Full response: {rating_text}")
         return 0
+
 
 
     
