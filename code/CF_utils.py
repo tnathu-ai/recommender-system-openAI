@@ -80,49 +80,63 @@ def item_pearson_correlation(interaction_matrix):
     """
     Compute the Pearson Correlation Coefficient matrix for the item-item interaction matrix.
 
+    This function calculates the Pearson Correlation Coefficients between each pair of items based on user ratings,
+    forming a square matrix where each cell (i, j) represents the correlation between items i and j.
+
     Args:
-    interaction_matrix (csr_matrix): A sparse matrix where rows represent users and columns represent items.
-                                     The values in the matrix are the ratings given by users to items.
+        interaction_matrix (csr_matrix): A sparse matrix where rows represent users and columns represent items.
+                                         The values in the matrix are the ratings given by users to items.
 
     Returns:
-    numpy.ndarray: A 2D array representing the Pearson Correlation Coefficients between each pair of items.
+        numpy.ndarray: A 2D array representing the Pearson Correlation Coefficients between each pair of items.
     """
-    # Convert sparse matrix to dense format for processing
+
+    # Convert the sparse matrix to a dense format for easier processing
     dense_matrix = interaction_matrix.toarray()
-    n_items = dense_matrix.shape[1]
+    n_items = dense_matrix.shape[1]  # Number of items
 
-    # Initialize the Pearson Correlation matrix
+    # Initialize the Pearson Correlation matrix as a square matrix with dimensions equal to the number of items
     pearson_corr_matrix = np.zeros((n_items, n_items))
-    EPSILON = 1e-9
+    EPSILON = 1e-9  # Small constant to avoid division by zero in correlation calculation
 
-    # Iterate over each pair of items
+    # Iterate over each pair of items to compute their correlation
     for i in range(n_items):
         for j in range(n_items):
+            # Extract rating vectors for the current pair of items
             item_i_vec = dense_matrix[:, i]
             item_j_vec = dense_matrix[:, j]
 
+            # Create masks for filtering rated items (items with ratings greater than 0)
             mask_i = item_i_vec > 0
             mask_j = item_j_vec > 0
 
+            # Identify indices where both items have been rated (corrated items)
             corrated_index = np.intersect1d(np.where(mask_i)[0], np.where(mask_j)[0])
 
+            # Skip the calculation if no users have rated both items
             if len(corrated_index) == 0:
                 continue
 
+            # Calculate mean ratings for each item over all users who rated both items
             mean_item_i = np.mean(item_i_vec[corrated_index])
             mean_item_j = np.mean(item_j_vec[corrated_index])
 
+            # Compute deviations from the mean for each item
             item_i_sub_mean = item_i_vec[corrated_index] - mean_item_i
             item_j_sub_mean = item_j_vec[corrated_index] - mean_item_j
 
+            # Compute the squares of deviations
             r_ui_sub_r_i_sq = np.square(item_i_sub_mean)
             r_uj_sub_r_j_sq = np.square(item_j_sub_mean)
 
+            # Calculate the square roots of the sum of squared deviations
             r_ui_sum_sqrt = np.sqrt(np.sum(r_ui_sub_r_i_sq))
             r_uj_sum_sqrt = np.sqrt(np.sum(r_uj_sub_r_j_sq))
 
+            # Calculate the Pearson correlation coefficient
             sim = np.sum(item_i_sub_mean * item_j_sub_mean) / (r_ui_sum_sqrt * r_uj_sum_sqrt + EPSILON)
 
+            # Store the computed similarity in the matrix
             pearson_corr_matrix[i, j] = sim
 
     return pearson_corr_matrix

@@ -530,7 +530,6 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
     
     
 
-
 def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_matrix,
                                               user_column_name='reviewerID', 
                                               movie_column_name='title', 
@@ -542,48 +541,62 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
                                               save_path='cf_predictions.csv', 
                                               seed=RANDOM_STATE,
                                               system_content=AMAZON_CONTENT_SYSTEM):
-    results = []
+    results = []  # List to store prediction results
+
+    # Extract unique user and item identifiers
     unique_users = data[user_column_name].unique()
     unique_items = data[movie_id_column].unique()
+
+    # Create mappings from user/item IDs to their index in the matrix
     user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
     item_id_to_index = {item_id: idx for idx, item_id in enumerate(unique_items)}
 
-    random.seed(seed)
+    random.seed(seed)  # Set the seed for reproducibility
 
+    # Iterate over each unique user
     for user_id in unique_users:
-        user_idx = user_id_to_index[user_id]
+        user_idx = user_id_to_index[user_id]  # Get the user's index
 
-        print(f"Processing user {user_id} (Index: {user_idx})")
-
-        # Retrieve the main user's historical ratings
+        # Retrieve data related to the current user
         main_user_data = data[data[user_column_name] == user_id]
+
+        # Select a test set for evaluation and remaining data for prediction
         test_set, remaining_data = select_test_set_for_user(main_user_data, num_tests=TEST_OBSERVATION_PER_USER, seed=seed)
+
+        # Check if there is enough data for the test set
         if test_set.empty:
             print(f"No test data available for user {user_id}.")
             continue
+
+        # Randomly select a movie from the test set for prediction
         random_movie_row = test_set.iloc[0]
 
+        # Sample a subset of the user's historical ratings
         main_user_ratings = remaining_data.sample(n=num_main_user_ratings, random_state=seed)
+
+        # Format the user's historical ratings as a string
         main_user_ratings_str = '\n'.join([
             f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
             for _, row in main_user_ratings.iterrows()
         ])
 
+        # Extract details of the movie selected for prediction
         random_movie_title = random_movie_row[movie_column_name]
         random_movie_id = random_movie_row[movie_id_column]
         random_movie_index = item_id_to_index[random_movie_id]
         actual_rating = random_movie_row[rating_column_name]
 
+        # Find the indices of the top similar users based on Pearson Correlation Coefficient
         similar_users_idx = np.argsort(-user_pcc_matrix[user_idx])[:num_similar_users + 1]
         similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
 
+        # Collect ratings of the most correlated items from similar users
         similar_users_ratings = ""
         for idx in similar_users_idx:
             similar_user_id = unique_users[idx]
             similar_user_data = data[data[user_column_name] == similar_user_id]
 
-            print(f"Processing similar user: {similar_user_id}")  # Debug statement
-
+            # Find indices of items most similar to the predicted item
             similar_items_indices = np.argsort(-item_pcc_matrix[random_movie_index, :])
             for similar_item_index in similar_items_indices[:num_ratings_per_user]:
                 if similar_item_index == random_movie_index:
@@ -591,15 +604,16 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
                 most_similar_item_id = unique_items[similar_item_index]
                 most_similar_item_ratings = similar_user_data[similar_user_data[movie_id_column] == most_similar_item_id][rating_column_name]
 
+                # If ratings are found for the similar item, append to the string
                 if not most_similar_item_ratings.empty:
                     rating_info = f"* Title: {most_similar_item_id}, Rating: {most_similar_item_ratings.iloc[0]} stars"
                     similar_users_ratings += rating_info + "\n"
-                else:
-                    print(f"No ratings found for similar user {similar_user_id} for item {most_similar_item_id}")  # Debug statement
 
+        # Construct the prompt for the prediction API
         combined_text = f"Title: {random_movie_title}"
         prompt = f"Main User Ratings:\n{main_user_ratings_str}\n\nSimilar Users' Ratings:\n{similar_users_ratings}\n\nPredict rating for '{combined_text}':"
 
+        # Call the prediction function
         predicted_rating = predict_rating_combined_ChatCompletion(
             combined_text, 
             approach="CF", 
@@ -608,9 +622,11 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
             system_content=system_content
         )
 
+        # Append the result to the results list
         results.append([user_id, random_movie_id, random_movie_title, actual_rating, predicted_rating])
         print(f"User {user_id}: Predicted rating for '{random_movie_title}' is {predicted_rating}.")
 
+    # Convert results to DataFrame and save to CSV
     results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
     results_df.to_csv(save_path, index=False)
     print(f"Predictions saved to {save_path}")
