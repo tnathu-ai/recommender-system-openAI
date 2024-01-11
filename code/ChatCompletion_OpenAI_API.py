@@ -127,9 +127,6 @@ def predict_ratings_zero_shot_and_save(data,
     results = []
     random.seed(seed)
     
-    # drop duplicates
-    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
-
     # Group data by user and filter users with at least 5 records
     grouped_data = data.groupby(user_column_name).filter(lambda x: len(x) >= 5)
     unique_users = grouped_data[user_column_name].unique()
@@ -137,7 +134,7 @@ def predict_ratings_zero_shot_and_save(data,
     for i, user_id in enumerate(unique_users):
         user_data = grouped_data[grouped_data[user_column_name] == user_id]
         # Select test set for the user
-        test_set, _ = select_test_set_for_user(user_data, num_tests=1, seed=seed)
+        test_set, _ = select_test_set_for_user(user_data, num_tests=TEST_OBSERVATION_PER_USER, seed=seed)
         random_row = test_set.iloc[0]
 
         # Generate combined text for prediction using specified columns
@@ -192,6 +189,7 @@ def rerun_failed_zero_shot_predictions(data,
     return data
 
 
+
 def predict_ratings_few_shot_and_save(data, 
                                       columns_for_training, 
                                       columns_for_prediction, 
@@ -204,10 +202,9 @@ def predict_ratings_few_shot_and_save(data,
                                       sleep_time=SLEEP_TIME, 
                                       save_path='few_shot_predictions.csv',
                                       system_content=AMAZON_CONTENT_SYSTEM):
-    results = []
-    # drop duplicates
-    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
+
     users = data[user_column_name].unique()
+    print(f"Total number of users: {len(users)}")
 
     for idx, user_id in enumerate(users):
         user_data = data[data[user_column_name] == user_id]
@@ -215,42 +212,40 @@ def predict_ratings_few_shot_and_save(data,
         if len(user_data) < 5:
             continue
 
-        user_data = user_data.sample(frac=1, random_state=RANDOM_STATE).reset_index(drop=True)
-        
-        for test_idx, test_row in user_data.iterrows():
-            # Skip the current item being predicted
-            train_data = user_data[user_data[asin_column_name] != test_row[asin_column_name]]
+        # Select test set for the user
+        test_set, remaining_data = select_test_set_for_user(user_data, num_tests=TEST_OBSERVATION_PER_USER, seed=RANDOM_STATE)
+        if test_set.empty:
+            continue
+        test_row = test_set.iloc[0]
 
-            # Select 4 distinct previous ratings
-            if len(train_data) < 4:
-                continue  # Skip if there are not enough historical ratings
+        # Use remaining_data for training
+        train_data = remaining_data.head(4)  # Select 4 distinct previous ratings
 
-            train_data = train_data.head(4)
+        if len(train_data) < 4:
+            continue  # Skip if there are not enough historical ratings
 
-            prediction_data = {col: test_row[col] for col in columns_for_prediction if col != rating_column_name}
-            combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
-            print(f'Predicting rating for: "{combined_text}"')
+        prediction_data = {col: test_row[col] for col in columns_for_prediction if col != rating_column_name}
+        combined_text = generate_combined_text_for_prediction(columns_for_prediction, *prediction_data.values())
+        print(f'Predicting rating for: "{combined_text}"')
 
-            rating_history_str = '\n'.join([
-                '* ' + ' | '.join(f"{col}: {row[col]}" for col in columns_for_training) + f" - Rating: {row[rating_column_name]} stars"
-                for _, row in train_data.iterrows()
-            ])
-            print(f"Rating history:\n{rating_history_str}")
+        rating_history_str = '\n'.join([
+            '* ' + ' | '.join(f"{col}: {row[col]}" for col in columns_for_training) + f" - Rating: {row[rating_column_name]} stars"
+            for _, row in train_data.iterrows()
+        ])
+        print(f"Rating history:\n{rating_history_str}")
 
-            predicted_rating = predict_rating_combined_ChatCompletion(combined_text, 
-                                                                      rating_history=rating_history_str, 
-                                                                      approach="few-shot", 
-                                                                      system_content=system_content)
+        predicted_rating = predict_rating_combined_ChatCompletion(combined_text, 
+                                                                  rating_history=rating_history_str, 
+                                                                  approach="few-shot", 
+                                                                  system_content=system_content)
 
-            item_id = test_row[asin_column_name]
-            actual_rating = test_row[rating_column_name]
-            title = test_row[title_column_name]
+        item_id = test_row[asin_column_name]
+        actual_rating = test_row[rating_column_name]
+        title = test_row[title_column_name]
 
-            results.append([user_id, item_id, title, actual_rating, predicted_rating])
+        results.append([user_id, item_id, title, actual_rating, predicted_rating])
 
-            if obs_per_user and len(results) >= obs_per_user:
-                break
-
+   
         if (idx + 1) % pause_every_n_users == 0:
             print(f"Processed {idx + 1} users. Pausing for {sleep_time} seconds...")
             time.sleep(sleep_time)
@@ -259,7 +254,8 @@ def predict_ratings_few_shot_and_save(data,
     results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
     results_df.to_csv(save_path, index=False)
     print("Predictions saved to", save_path)
-    return results_df
+    return results_df 
+
 
 
 def rerun_failed_few_shot_predictions(data, 
@@ -269,7 +265,6 @@ def rerun_failed_few_shot_predictions(data,
                                       title_column_name, 
                                       asin_column_name, 
                                       rating_column_name,
-                                      obs_per_user, 
                                       pause_every_n_users, 
                                       sleep_time, 
                                       save_path, 
@@ -279,8 +274,6 @@ def rerun_failed_few_shot_predictions(data,
     # Load the original predictions
     original_data = pd.read_csv(save_path)
     
-    # drop duplicates
-    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
 
     # Define fixed column names for output
     fixed_columns = ['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating', 'is_rating_float']
@@ -367,9 +360,6 @@ def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix,
     results = []
     unique_users = data[user_column_name].unique()
     user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
-    
-    # drop duplicates
-    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
     
 
     random.seed(seed)
@@ -461,8 +451,6 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
     # Load original predictions and standardize column names
     original_data = pd.read_csv(save_path)
     original_data.columns = ['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating']
-    # drop duplicates
-    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
     
     # Map unique users to their index for quick access
     unique_users = data[user_column_name].unique()
@@ -561,7 +549,6 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
     item_id_to_index = {item_id: idx for idx, item_id in enumerate(unique_items)}
 
     random.seed(seed)
-    data = data.drop_duplicates(subset=['reviewerID', 'title', 'rating'], keep='first')
 
     for user_id in unique_users:
         user_idx = user_id_to_index[user_id]
@@ -570,7 +557,7 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
 
         # Retrieve the main user's historical ratings
         main_user_data = data[data[user_column_name] == user_id]
-        test_set, remaining_data = select_test_set_for_user(main_user_data, num_tests=1, seed=seed)
+        test_set, remaining_data = select_test_set_for_user(main_user_data, num_tests=TEST_OBSERVATION_PER_USER, seed=seed)
         if test_set.empty:
             print(f"No test data available for user {user_id}.")
             continue
@@ -595,15 +582,20 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
             similar_user_id = unique_users[idx]
             similar_user_data = data[data[user_column_name] == similar_user_id]
 
+            print(f"Processing similar user: {similar_user_id}")  # Debug statement
+
             similar_items_indices = np.argsort(-item_pcc_matrix[random_movie_index, :])
             for similar_item_index in similar_items_indices[:num_ratings_per_user]:
                 if similar_item_index == random_movie_index:
                     continue
                 most_similar_item_id = unique_items[similar_item_index]
                 most_similar_item_ratings = similar_user_data[similar_user_data[movie_id_column] == most_similar_item_id][rating_column_name]
+
                 if not most_similar_item_ratings.empty:
                     rating_info = f"* Title: {most_similar_item_id}, Rating: {most_similar_item_ratings.iloc[0]} stars"
                     similar_users_ratings += rating_info + "\n"
+                else:
+                    print(f"No ratings found for similar user {similar_user_id} for item {most_similar_item_id}")  # Debug statement
 
         combined_text = f"Title: {random_movie_title}"
         prompt = f"Main User Ratings:\n{main_user_ratings_str}\n\nSimilar Users' Ratings:\n{similar_users_ratings}\n\nPredict rating for '{combined_text}':"
