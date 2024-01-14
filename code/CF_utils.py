@@ -11,7 +11,7 @@ import random
 
 # Calculate Pearson Correlation Coefficient
 # source RMIT courses
-def pearson_correlation(interaction_matrix):
+def pearson_correlation(interaction_matrix, epsilon_constant = EPSILON_CONSTANT):
     """
     Compute the Pearson Correlation Coefficient matrix for the user-item interaction matrix.
 
@@ -32,7 +32,7 @@ def pearson_correlation(interaction_matrix):
     pearson_corr_matrix = np.zeros((n_users, n_users))
 
     # Small constant to avoid division by zero
-    EPSILON = 1e-9
+    EPSILON = epsilon_constant
 
     # Iterate over each pair of users
     for i in range(n_users):
@@ -76,7 +76,7 @@ def pearson_correlation(interaction_matrix):
     return pearson_corr_matrix
 
 
-def item_pearson_correlation(interaction_matrix):
+def item_pearson_correlation(interaction_matrix, epsilon_constant = EPSILON_CONSTANT):
     """
     Compute the Pearson Correlation Coefficient matrix for the item-item interaction matrix.
 
@@ -97,7 +97,7 @@ def item_pearson_correlation(interaction_matrix):
 
     # Initialize the Pearson Correlation matrix as a square matrix with dimensions equal to the number of items
     pearson_corr_matrix = np.zeros((n_items, n_items))
-    EPSILON = 1e-9  # Small constant to avoid division by zero in correlation calculation
+    EPSILON = epsilon_constant  # Small constant to avoid division by zero in correlation calculation
 
     # Iterate over each pair of items to compute their correlation
     for i in range(n_items):
