@@ -47,22 +47,35 @@ SLEEP_TIME = 60        # Duration to pause in seconds (e.g., 60 seconds)
 # Dataset Specific Constants for Amazon Beauty dataset
 # =============================================================================
 # Item-side attributes useful for prediction and training
-ITEM_SIDE = [
+ITEM_SIDE_AMAZON_BEAUTY = [
     "asin", "title", "feature", "description", "price", "brand", "category",
     "tech1", "tech2", "also_buy", "also_view", "details", "main_cat",
     "similar_item", "date", "rank"
 ]
 
 # Interaction-side attributes for training (not for prediction)
-INTERACTION_SIDE = [
+INTERACTION_SIDE_AMAZON_BEAUTY = [
     "reviewText", "rating", "summary", "unixReviewTime", "reviewTime", "vote",
     "style"
 ]
 
 # User-side attributes for training (not for prediction)
-USER_SIDE = [
+USER_SIDE_AMAZON_BEAUTY = [
     "reviewerID", "reviewerName", "verified"
 ]
+
+# =============================================================================
+# Dataset Specific Constants for MovieLens dataset ml-1m
+# =============================================================================
+# Item-side attributes useful for prediction and training
+ITEM_SIDE_MOVIELENS = ["MovieID", "Title", "Genres"]
+
+# Interaction-side attributes for training (not for prediction)
+INTERACTION_SIDE_MOVIELENS = ["Rating", "Timestamp"]
+
+# User-side attributes for training (not for prediction)
+USER_SIDE_MOVIELENS = ["UserID", "Gender", "Age", "Occupation", "Zip-code"]
+
 
 # =============================================================================
 # Evaluation Metrics Parameters
