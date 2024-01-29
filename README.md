@@ -28,9 +28,6 @@ The datasets & benchmarks for LLM-related RS topics should maintain the original
 
 | **Benchmarks** | **Webcite Link** | **Paper** |
 |:---:|:---:|:---:|
-| Amazon-M2 (KDD Cup 2023) | [[Link]](https://www.aicrowd.com/challenges/amazon-kdd-cup-23-multilingual-recommendation-challenge) | [[Paper]](https://arxiv.org/abs/2307.09688) |
-| OpenP5 | [[Link]](https://github.com/agiresearch/OpenP5) | [[Paper]](https://arxiv.org/abs/2306.11134) |
-| TABLET | [[Link]](https://dylanslacks.website/Tablet) | [[Paper]](https://arxiv.org/abs/2304.13188) |
 
 
 ### Overview
