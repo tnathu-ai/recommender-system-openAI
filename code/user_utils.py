@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 import json
 import gzip
 
+# Random train-test split
 def select_test_set_for_user(user_data, num_tests=TEST_OBSERVATION_PER_USER, seed=RANDOM_STATE):
     """
     Select a consistent test set for a given user.
@@ -20,6 +21,33 @@ def select_test_set_for_user(user_data, num_tests=TEST_OBSERVATION_PER_USER, see
     test_set = user_data.sample(n=num_tests, random_state=seed)
     remaining_data = user_data.drop(test_set.index)
     return test_set, remaining_data
+
+# sequential train-test split
+def sequential_train_test_split(user_data, train_ratio=0.8, time_column='Timestamp'):
+    """
+    Sequentially split user data into training and test sets based on timestamps.
+
+    Args:
+    - user_data (DataFrame): Data for the specific user, containing a timestamp column.
+    - train_ratio (float): Proportion of the dataset to include in the train split.
+    - time_column (str): Name of the column containing the timestamp.
+
+    Returns:
+    - DataFrame: Training set for the user.
+    - DataFrame: Test set for the user.
+    """
+    # Sort the data by timestamp
+    user_data_sorted = user_data.sort_values(by=time_column)
+
+    # Calculate the index at which to split the data
+    split_index = int(len(user_data_sorted) * train_ratio)
+
+    # Split the data into training and test sets
+    remaining_data = user_data_sorted.iloc[:split_index]
+    test_set = user_data_sorted.iloc[split_index:]
+
+    return test_set, remaining_data
+
 
 
 def split_data_by_rated_items(df, user_col, test_size, given_n, random_state=RANDOM_STATE):
