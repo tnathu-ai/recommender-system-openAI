@@ -630,3 +630,87 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
     print(f"Predictions saved to {save_path}")
 
     return results_df
+
+
+
+def rerun_failed_CF_item_PCC_predictions(data, user_pcc_matrix, item_pcc_matrix,
+                                         save_path, user_column_name, movie_column_name,
+                                         movie_id_column, rating_column_name,
+                                         num_ratings_per_user, num_main_user_ratings, num_similar_users,
+                                         new_path, rerun_indices, seed=RANDOM_STATE,
+                                         system_content=AMAZON_CONTENT_SYSTEM):
+    # Load the original predictions
+    original_data = pd.read_csv(save_path)
+    original_data.columns = ['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating']
+
+    # Re-seed for reproducibility
+    random.seed(seed)
+
+    # Map unique users and items to their indices for quick access
+    unique_users = data[user_column_name].unique()
+    unique_items = data[movie_id_column].unique()
+    user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
+    item_id_to_index = {item_id: idx for idx, item_id in enumerate(unique_items)}
+
+    for index in rerun_indices:
+        user_id = original_data.at[index, 'user_id']
+        item_id = original_data.at[index, 'item_id']
+        user_idx = user_id_to_index.get(user_id)
+        item_idx = item_id_to_index.get(item_id)
+
+        if user_idx is None or item_idx is None:
+            print(f"User ID: {user_id} or Item ID: {item_id} not found in index. Skipping.")
+            continue
+
+        print(f"Rerunning prediction for User ID: {user_id}, Item ID: {item_id} (Index: {index})")
+
+        # Retrieve user's and item's data
+        user_data = data[data[user_column_name] == user_id]
+        item_data = data[data[movie_id_column] == item_id]
+
+        if item_data.empty:
+            print(f"Item data for ID: {item_id} not found. Skipping.")
+            continue
+
+        # Sample user's historical ratings
+        if len(user_data) < num_main_user_ratings:
+            main_user_ratings = user_data
+        else:
+            main_user_ratings = user_data.sample(n=num_main_user_ratings, random_state=seed)
+
+        # Construct the context from the user's ratings
+        main_user_ratings_str = '\n'.join([
+            f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
+            for _, row in main_user_ratings.iterrows()
+        ])
+
+        # Identify similar users and items
+        similar_users_idx = np.argsort(-user_pcc_matrix[user_idx])[:num_similar_users + 1]
+        similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
+
+        similar_items_idx = np.argsort(-item_pcc_matrix[item_idx])[:num_similar_users + 1]
+        similar_items_idx = similar_items_idx[similar_items_idx != item_idx][:num_similar_users]
+
+        # Compile ratings from similar users and items
+        similar_users_ratings = ""
+        for idx in similar_users_idx:
+            similar_user_id = unique_users[idx]
+            similar_user_data = data[data[user_column_name] == similar_user_id]
+            for _, row in similar_user_data.iterrows():
+                similar_users_ratings += f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars\n"
+
+        # Predict the rating
+        combined_text = f"Title: {item_data.iloc[0][movie_column_name]}"
+        prompt = f"Main User Ratings:\n{main_user_ratings_str}\n\nSimilar Users' Ratings:\n{similar_users_ratings}\n\nPredict rating for '{combined_text}':"
+        predicted_rating = predict_rating_combined_ChatCompletion(
+            combined_text, approach="CF", similar_users_ratings=similar_users_ratings,
+            rating_history=main_user_ratings_str, system_content=system_content
+        )
+
+        # Update the original data with the new prediction
+        original_data.at[index, 'predicted_rating'] = predicted_rating
+        print(f"Updated prediction for User ID: {user_id}, Item ID: {item_id}: {predicted_rating}")
+
+    # Save the updated predictions to a new file
+    original_data.to_csv(new_path, index=False)
+    print(f"Updated predictions saved to {new_path}")
