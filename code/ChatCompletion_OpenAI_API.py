@@ -541,7 +541,6 @@ def predict_ratings_with_CF_item_PCC_and_save_sequential(data, user_pcc_matrix, 
                                               num_similar_users=NUM_SIMILAR_USERS,
                                               num_main_user_ratings=NUM_MAIN_USER_RATINGS,
                                               test_selection_method='random',
-                                              similarity_threshold=0,  # Lowered threshold
                                               save_path='cf_predictions.csv', 
                                               seed=RANDOM_STATE,
                                               system_content=AMAZON_CONTENT_SYSTEM):
