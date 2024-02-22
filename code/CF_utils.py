@@ -10,7 +10,7 @@ import random
 
 
 # Calculate Pearson Correlation Coefficient
-# source RMIT courses
+# source: Yongli Ren. (2023) ' KNN_based_CF_final ' [python file], RMIT University, Melbourne
 def pearson_correlation(interaction_matrix, epsilon_constant = EPSILON_CONSTANT):
     """
     Compute the Pearson Correlation Coefficient matrix for the user-item interaction matrix.

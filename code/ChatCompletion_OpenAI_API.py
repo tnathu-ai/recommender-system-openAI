@@ -16,7 +16,7 @@ from scipy.sparse import csr_matrix
 import openai
 from openai.error import APIError, APIConnectionError, RateLimitError
 
-
+# Configure agent
 @retry_decorator
 def predict_rating_combined_ChatCompletion(combined_text, 
                                            model=GPT_MODEL_NAME, 
@@ -531,7 +531,7 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
     
 
 
-def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_matrix,
+def predict_ratings_with_CF_item_PCC_and_save_sequential(data, user_pcc_matrix, item_pcc_matrix,
                                               user_column_name='reviewerID', 
                                               movie_column_name='title', 
                                               movie_id_column='asin',
@@ -632,8 +632,11 @@ def predict_ratings_with_CF_item_PCC_and_save(data, user_pcc_matrix, item_pcc_ma
     return results_df
 
 
+    
 
-def rerun_failed_CF_item_PCC_predictions(data, user_pcc_matrix, item_pcc_matrix,
+
+
+def rerun_failed_CF_item_PCC_predictions_sequential(data, user_pcc_matrix, item_pcc_matrix,
                                          save_path, user_column_name, movie_column_name,
                                          movie_id_column, rating_column_name,
                                          num_ratings_per_user, num_main_user_ratings, num_similar_users,
