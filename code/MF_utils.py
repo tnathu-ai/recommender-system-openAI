@@ -35,8 +35,6 @@ Details:
 import argparse
 # Dataset and evaluation protocols reused from
 # https://github.com/hexiangnan/neural_collaborative_filtering
-from Dataset import Dataset
-from evaluate import evaluate_model
 import numpy as np
 
 
@@ -182,6 +180,71 @@ def evaluate(model, test_ratings, test_negatives, K=10):
   (hits, ndcgs) = evaluate_model(model, test_ratings, test_negatives, K=K,
                                  num_thread=1)
   return np.array(hits).mean(), np.array(ndcgs).mean()
+
+
+'''
+Created on Aug 9, 2016
+Keras Implementation of Neural Matrix Factorization (NeuMF) recommender model in:
+He Xiangnan et al. Neural Collaborative Filtering. In WWW 2017.  
+
+@author: Xiangnan He (xiangnanhe@gmail.com)
+'''
+import numpy as np
+import keras
+from keras import backend as K
+from keras import initializations
+from keras.regularizers import l1, l2, l1l2
+from keras.models import Sequential, Model
+from keras.layers.core import Dense, Lambda, Activation
+from keras.layers import Embedding, Input, Dense, merge, Reshape, Merge, Flatten, Dropout
+from keras.optimizers import Adagrad, Adam, SGD, RMSprop
+from time import time
+import sys
+import argparse
+
+def get_NCF_model(num_users, num_items, mf_dim=10, layers=[10], reg_layers=[0], reg_mf=0):
+    assert len(layers) == len(reg_layers)
+    num_layer = len(layers) #Number of layers in the MLP
+    # Input variables
+    user_input = Input(shape=(1,), dtype='int32', name = 'user_input')
+    item_input = Input(shape=(1,), dtype='int32', name = 'item_input')
+    
+    # Embedding layer
+    MF_Embedding_User = Embedding(input_dim = num_users, output_dim = mf_dim, name = 'mf_embedding_user',
+                                  init = init_normal, W_regularizer = l2(reg_mf), input_length=1)
+    MF_Embedding_Item = Embedding(input_dim = num_items, output_dim = mf_dim, name = 'mf_embedding_item',
+                                  init = init_normal, W_regularizer = l2(reg_mf), input_length=1)   
+
+    MLP_Embedding_User = Embedding(input_dim = num_users, output_dim = layers[0]/2, name = "mlp_embedding_user",
+                                  init = init_normal, W_regularizer = l2(reg_layers[0]), input_length=1)
+    MLP_Embedding_Item = Embedding(input_dim = num_items, output_dim = layers[0]/2, name = 'mlp_embedding_item',
+                                  init = init_normal, W_regularizer = l2(reg_layers[0]), input_length=1)   
+    
+    # MF part
+    mf_user_latent = Flatten()(MF_Embedding_User(user_input))
+    mf_item_latent = Flatten()(MF_Embedding_Item(item_input))
+    mf_vector = merge([mf_user_latent, mf_item_latent], mode = 'mul') # element-wise multiply
+
+    # MLP part 
+    mlp_user_latent = Flatten()(MLP_Embedding_User(user_input))
+    mlp_item_latent = Flatten()(MLP_Embedding_Item(item_input))
+    mlp_vector = merge([mlp_user_latent, mlp_item_latent], mode = 'concat')
+    for idx in xrange(1, num_layer):
+        layer = Dense(layers[idx], W_regularizer= l2(reg_layers[idx]), activation='relu', name="layer%d" %idx)
+        mlp_vector = layer(mlp_vector)
+
+    # Concatenate MF and MLP parts
+    #mf_vector = Lambda(lambda x: x * alpha)(mf_vector)
+    #mlp_vector = Lambda(lambda x : x * (1-alpha))(mlp_vector)
+    predict_vector = merge([mf_vector, mlp_vector], mode = 'concat')
+    
+    # Final prediction layer
+    prediction = Dense(1, activation='sigmoid', init='lecun_uniform', name = "prediction")(predict_vector)
+    
+    model = Model(input=[user_input, item_input], 
+                  output=prediction)
+    
+    return model
 
 
 # Similarity Scores for Users
