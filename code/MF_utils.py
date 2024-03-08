@@ -36,7 +36,19 @@ import argparse
 # Dataset and evaluation protocols reused from
 # https://github.com/hexiangnan/neural_collaborative_filtering
 import numpy as np
-
+# NCF evaluation protocol
+import numpy as np
+import keras
+from keras import backend as K
+from keras import initializations
+from keras.regularizers import l1, l2, l1l2
+from keras.models import Sequential, Model
+from keras.layers.core import Dense, Lambda, Activation
+from keras.layers import Embedding, Input, Dense, merge, Reshape, Merge, Flatten, Dropout
+from keras.optimizers import Adagrad, Adam, SGD, RMSprop
+from time import time
+import sys
+import argparse
 
 class MFModel(object):
   """A matrix factorization model trained using SGD and negative sampling."""
@@ -189,19 +201,6 @@ He Xiangnan et al. Neural Collaborative Filtering. In WWW 2017.
 
 @author: Xiangnan He (xiangnanhe@gmail.com)
 '''
-import numpy as np
-import keras
-from keras import backend as K
-from keras import initializations
-from keras.regularizers import l1, l2, l1l2
-from keras.models import Sequential, Model
-from keras.layers.core import Dense, Lambda, Activation
-from keras.layers import Embedding, Input, Dense, merge, Reshape, Merge, Flatten, Dropout
-from keras.optimizers import Adagrad, Adam, SGD, RMSprop
-from time import time
-import sys
-import argparse
-
 def get_NCF_model(num_users, num_items, mf_dim=10, layers=[10], reg_layers=[0], reg_mf=0):
     assert len(layers) == len(reg_layers)
     num_layer = len(layers) #Number of layers in the MLP
@@ -266,7 +265,7 @@ def calculate_MF_similarity_user(user_factors):
     return user_similarity_matrix
 
 
-# Similarity Scores for Users
+# Similarity Scores for Items
 def calculate_MF_similarity_item(item_factors):
     """
     Calculate the cosine similarity between items based on their latent factors from MF.
