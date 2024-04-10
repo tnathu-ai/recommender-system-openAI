@@ -10,10 +10,10 @@ import sys
 
 def get_rec_sys_directory():
     """
-    Get the 'rec-sys' directory, assuming this script is within the 'rec-sys' hierarchy.
+    Get the 'code' directory, assuming this script is within the 'code' hierarchy.
     
     Returns:
-        str: Absolute path to the 'rec-sys' directory.
+        str: Absolute path to the 'code' directory.
     """
     current_dir = os.getcwd()
     rec_sys_dir = os.path.abspath(os.path.join(current_dir, '..', '..'))
