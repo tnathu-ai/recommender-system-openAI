@@ -4,7 +4,6 @@ import argparse
 import numpy as np
 import pandas as pd
 from scipy.sparse import csr_matrix
-from sklearn.metrics.pairwise import cosine_similarity
 from evaluation_utils import evaluate_model_predictions_rmse_mae
 from CF_utils import pearson_correlation, get_rec_sys_directory
 from path_utils import *
@@ -47,10 +46,18 @@ def preprocess_data(data):
     return csr_interaction_matrix, interaction_matrix
 
 def compute_similarities(interaction_matrix, method):
+    # Pearson Correlation Coefficient (PCC)
     if method == 'pearson':
         return pearson_correlation(interaction_matrix)
+    # Cosine Similar-ity (COS)
     elif method == 'cosine':
         return cosine_similarity(interaction_matrix)
+    # Jaccard Similarity (JS)
+    elif method == 'jaccard':
+        return jaccard_similarity(interaction_matrix)
+    # weighted-PCC
+    elif method == 'weighted-pearson':
+        return weighted_pearson_correlation(interaction_matrix)
     else:
         raise ValueError(f"Unknown similarity computation method: {method}")
 

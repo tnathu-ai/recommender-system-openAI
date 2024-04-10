@@ -2,12 +2,13 @@ import numpy as np
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 from scipy.sparse import csr_matrix
-from utils import *
-from constants import *
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 import random
-
-
+from sklearn.metrics.pairwise import cosine_similarity
+from scipy.sparse import csr_matrix
+from utils import *
+from constants import *
+from scipy.sparse import csr_matrix
 
 # Calculate Pearson Correlation Coefficient
 # source: Yongli Ren. (2023) ' KNN_based_CF_final ' [python file], RMIT University, Melbourne
@@ -132,6 +133,171 @@ def item_pearson_correlation(interaction_matrix):
     print("Item-item Pearson Correlation computation completed.")
     return np_item_pearson_corr
 
+
+#--------------------------------------------
+
+def weighted_pearson_correlation(interaction_matrix, epsilon_constant=EPSILON_CONSTANT, delta_constant=DELTA_CONSTANT):
+    """
+    Compute the weighted Pearson Correlation Coefficient matrix for the user-item interaction matrix.
+
+    Args:
+        interaction_matrix (numpy.ndarray): A dense array where rows represent users and columns represent items.
+                                            The values in the array are the ratings given by users to items.
+        epsilon_constant (float): A small constant to avoid division by zero.
+        delta_constant (int): The threshold for significance weighting.
+
+    Returns:
+        numpy.ndarray: A 2D array representing the weighted Pearson Correlation Coefficients between each pair of users.
+    """
+    n_users = interaction_matrix.shape[0]
+    weighted_pearson_corr_matrix = np.zeros((n_users, n_users))
+
+    for i in range(n_users):
+        for j in range(n_users):
+            user_i_vec = interaction_matrix[i, :]
+            user_j_vec = interaction_matrix[j, :]
+
+            mask_i = user_i_vec > 0
+            mask_j = user_j_vec > 0
+            corrated_index = np.intersect1d(np.where(mask_i)[0], np.where(mask_j)[0])
+
+            if len(corrated_index) == 0:
+                continue
+
+            mean_user_i = np.mean(user_i_vec[corrated_index])
+            mean_user_j = np.mean(user_j_vec[corrated_index])
+
+            user_i_sub_mean = user_i_vec[corrated_index] - mean_user_i
+            user_j_sub_mean = user_j_vec[corrated_index] - mean_user_j
+
+            numerator = np.sum(user_i_sub_mean * user_j_sub_mean)
+            denominator = np.sqrt(np.sum(np.square(user_i_sub_mean))) * np.sqrt(np.sum(np.square(user_j_sub_mean)))
+
+            if denominator == 0:
+                continue
+
+            correlation = numerator / (denominator + epsilon_constant)
+            
+            # Apply significance weighting
+            weight = min(len(corrated_index), delta_constant) / delta_constant
+            weighted_pearson_corr_matrix[i, j] = correlation * weight
+
+    return weighted_pearson_corr_matrix
+
+/*
+# interaction_matrix = csr_matrix.toarray() if  matrix is in CSR format
+# epsilon_constant and delta_constant should be predefined or passed as parameters
+#weighted_user_pearson_corr = weighted_pearson_correlation(interaction_matrix, epsilon_constant=1e-9, delta_constant=DELTA_CONSTANT)
+
+# For item-item correlation, transpose the interaction matrix before passing it to the function
+#weighted_item_pearson_corr = weighted_pearson_correlation(interaction_matrix.T, epsilon_constant=1e-9, delta_constant=DELTA_CONSTANT)
+
+
+#--------------------------------------------
+
+def user_cosine_similarity(interaction_matrix):
+    """
+    Compute the Cosine Similarity matrix for the user-user interaction matrix.
+
+    Args:
+    interaction_matrix (csr_matrix): A sparse matrix where rows represent users and columns represent items.
+                                     The values in the matrix are the ratings given by users to items.
+
+    Returns:
+    numpy.ndarray: A 2D array representing the Cosine Similarities between each pair of users.
+    """
+    # Convert sparse matrix to dense format for cosine similarity computation
+    dense_matrix = interaction_matrix.toarray()
+
+    # Compute cosine similarity
+    cosine_sim_matrix = cosine_similarity(dense_matrix)
+
+    return cosine_sim_matrix
+
+def item_cosine_similarity(interaction_matrix):
+    """
+    Compute the Cosine Similarity matrix for the item-item interaction matrix.
+
+    Args:
+    interaction_matrix (csr_matrix): A sparse matrix where rows represent users and columns represent items.
+                                     The values in the matrix are the ratings given by users to items.
+
+    Returns:
+    numpy.ndarray: A 2D array representing the Cosine Similarities between each pair of items.
+    """
+    # Convert sparse matrix to dense format for cosine similarity computation
+    dense_matrix = interaction_matrix.toarray()
+
+    # Compute cosine similarity on the transpose of the matrix to calculate item-item similarities
+    cosine_sim_matrix = cosine_similarity(dense_matrix.T)
+
+    return cosine_sim_matrix
+
+# user_cos_sim = user_cosine_similarity(interaction_matrix)
+# item_cos_sim = item_cosine_similarity(interaction_matrix)
+
+#--------------------------------------------
+
+
+def jaccard_similarity(matrix, axis=1):
+    """
+    Compute the Jaccard Similarity matrix for the interaction matrix.
+
+    Args:
+    matrix (csr_matrix): A sparse matrix where rows represent users or items.
+    axis (int): Axis to compute the similarity on. 1 for user-user, 0 for item-item.
+
+    Returns:
+    numpy.ndarray: A 2D array representing the Jaccard Similarities.
+    """
+    # Ensure matrix is in dense format
+    dense_matrix = matrix.toarray()
+    
+    # If computing item-item similarity, transpose the matrix
+    if axis == 0:
+        dense_matrix = dense_matrix.T
+
+    # Initialize the Jaccard Similarity matrix
+    size = dense_matrix.shape[0]
+    jaccard_sim_matrix = np.zeros((size, size))
+
+    for i in range(size):
+        for j in range(size):
+            intersection = np.logical_and(dense_matrix[i], dense_matrix[j]).sum()
+            union = np.logical_or(dense_matrix[i], dense_matrix[j]).sum()
+            jaccard_sim_matrix[i, j] = intersection / float(union) if union != 0 else 0
+
+    return jaccard_sim_matrix
+
+def user_jaccard_similarity(interaction_matrix):
+    """
+    Compute the Jaccard Similarity matrix for the user-user interaction matrix.
+
+    Args:
+    interaction_matrix (csr_matrix): A sparse matrix where rows represent users and columns represent items.
+
+    Returns:
+    numpy.ndarray: A 2D array representing the Jaccard Similarities between each pair of users.
+    """
+    return jaccard_similarity(interaction_matrix, axis=1)
+
+def item_jaccard_similarity(interaction_matrix):
+    """
+    Compute the Jaccard Similarity matrix for the item-item interaction matrix.
+
+    Args:
+    interaction_matrix (csr_matrix): A sparse matrix where rows represent users and columns represent items.
+
+    Returns:
+    numpy.ndarray: A 2D array representing the Jaccard Similarities between each pair of items.
+    """
+    return jaccard_similarity(interaction_matrix, axis=0)
+
+# interaction_matrix = csr_matrix(...)  # Load or create your interaction matrix here
+# user_jaccard_sim = user_jaccard_similarity(interaction_matrix)
+# item_jaccard_sim = item_jaccard_similarity(interaction_matrix)
+
+#--------------------------------------------
 
 # Function to check data sparsity
 def check_data_sparsity(df, user_col, item_col):
