@@ -99,25 +99,21 @@ def evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_
     return rmse, mae
 
 
-def calculate_average_rmse_mae(num_iterations, data_template, num_examples, actual_ratings_column, predicted_ratings_column):
-    total_rmse = 0
-    total_mae = 0
-    count = 0
+# file paths containing the prediction results from different runs
+def calculate_average_rmse_mae_over_runs(runs_data_paths, actual_ratings_column, predicted_ratings_column):
+    rmses = []
+    maes = []
 
-    for i in range(1, num_iterations + 1):
-        data_path = data_template.format(i)
-        rmse, mae = evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_column, predicted_ratings_column, print_results=False)
+    for data_path in runs_data_paths:
+        data = pd.read_csv(data_path)
+        rmse, mae = evaluate_model_predictions_rmse_mae(data, actual_ratings_column, predicted_ratings_column, print_results=False)
         if rmse is not None and mae is not None:
-            total_rmse += rmse
-            total_mae += mae
-            count += 1
+            rmses.append(rmse)
+            maes.append(mae)
 
-    if count > 0:
-        average_rmse = total_rmse / count
-        average_mae = total_mae / count
-        print(f"\nAverage RMSE across {count} iterations: {average_rmse:.4f}")
-        print(f"Average MAE across {count} iterations: {average_mae:.4f}")
-    else:
-        print("No valid iterations for averaging.")
+    average_rmse = np.mean(rmses) if rmses else None
+    average_mae = np.mean(maes) if maes else None
+    print(f"Average RMSE over {len(rmses)} runs: {average_rmse:.4f}")
+    print(f"Average MAE over {len(maes)} runs: {average_mae:.4f}")
 
-
+    return average_rmse, average_mae

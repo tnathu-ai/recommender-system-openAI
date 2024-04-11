@@ -531,7 +531,7 @@ def rerun_failed_CF_fewshot_predictions(data, pcc_matrix,
     
 
 
-def predict_ratings_with_CF_item_PCC_and_save_sequential(data, user_pcc_matrix, item_pcc_matrix,
+def predict_ratings_with_CF_item_and_save(data, user_pcc_matrix, item_pcc_matrix,
                                               user_column_name='reviewerID', 
                                               movie_column_name='title', 
                                               movie_id_column='asin',
