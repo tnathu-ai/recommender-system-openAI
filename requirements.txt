@@ -23,7 +23,7 @@ GitPython==3.1.41
 grpcio==1.54.3
 h5py==3.8.0
 huggingface-hub==0.15.1
-idna==3.4
+idna==3.7
 imageio==2.28.0
 importlib-metadata==6.7.0
 iniconfig==2.0.0
