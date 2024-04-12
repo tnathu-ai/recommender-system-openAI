@@ -149,6 +149,7 @@ def weighted_pearson_correlation(interaction_matrix, epsilon_constant=EPSILON_CO
     Returns:
         numpy.ndarray: A 2D array representing the weighted Pearson Correlation Coefficients between each pair of users.
     """
+    interaction_matrix = csr_matrix.toarray()
     n_users = interaction_matrix.shape[0]
     weighted_pearson_corr_matrix = np.zeros((n_users, n_users))
 
@@ -184,7 +185,6 @@ def weighted_pearson_correlation(interaction_matrix, epsilon_constant=EPSILON_CO
 
     return weighted_pearson_corr_matrix
 
-# interaction_matrix = csr_matrix.toarray() if  matrix is in CSR format
 # epsilon_constant and delta_constant should be predefined or passed as parameters
 #weighted_user_pearson_corr = weighted_pearson_correlation(interaction_matrix, epsilon_constant=1e-9, delta_constant=DELTA_CONSTANT)
 
