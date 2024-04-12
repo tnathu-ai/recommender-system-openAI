@@ -292,20 +292,10 @@ def item_jaccard_similarity(interaction_matrix):
     """
     return jaccard_similarity(interaction_matrix, axis=0)
 
-# interaction_matrix = csr_matrix(...)  # Load or create your interaction matrix here
 # user_jaccard_sim = user_jaccard_similarity(interaction_matrix)
 # item_jaccard_sim = item_jaccard_similarity(interaction_matrix)
 
 #--------------------------------------------
-
-# Function to check data sparsity
-def check_data_sparsity(df, user_col, item_col):
-    total_ratings = len(df)
-    num_users = df[user_col].nunique()
-    num_items = df[item_col].nunique()
-    sparsity = 1 - (total_ratings / (num_users * num_items))
-    print(f"Total Ratings: {total_ratings}, Number of Users: {num_users}, Number of Items: {num_items}, Sparsity: {sparsity}")
-
 
 
 # Find Valid Neighbors
