@@ -1,0 +1,9 @@
+Methods	Features	RMSE	CI_RMSE	StdError_RMSE	MAE	CI_MAE	StdError_MAE	Wall Time
+Thu's sorted timestamp Few shot CF PCC GPT	title	0.7736	(0.7145, 0.8338)	0.0006	0.3858	(0.3543, 0.4184)	0.0003	1h 19min 41s
+Thu's sorted timestamp MF Few shot CF Cosine GPT	title	0.7817	(0.7269, 0.8380)	0.0006	0.3873	(0.3580, 0.4195)	0.0003	29min 44s
+Thu's sorted timestamp MF Few shot CF PCC GPT	title	0.786	(0.7275, 0.8452)	0.0006	0.3767	(0.3459, 0.4087)	0.0003	28min 30s
+Thu's sorted timestamp MF Few shot CF Jaccard GPT	title	0.782	(0.7235, 0.8404)	0.0006	0.3794	(0.3491, 0.4106)	0.0003	27min 28s
+Thu's sorted timestamp MF Few shot CF Weighted PCC GPT	title	0.7913	(0.7308, 0.8519)	0.0006	0.3695	(0.3376, 0.4019)	0.0003	27min 48s
+Thu's sorted timestamp Few shot CF Cosine GPT	title	0.757	(0.6965, 0.8181)	0.0006	0.3495	(0.3186, 0.3818)	0.0003	26min 18s
+Thu's sorted timestamp Few shot CF Jaccard GPT	title	0.768	(0.7082, 0.8298)	0.0006	0.3539	(0.3224, 0.3868)	0.0003	1h 52min 22s
+Thu's sorted timestamp Few shot CF WeightPCC GPT	title	0.7633	(0.7013, 0.8249)	0.0006	0.3238	(0.2920, 0.3561)	0.0003	1h 52min 22s
