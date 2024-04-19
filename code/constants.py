@@ -107,3 +107,18 @@ NUM_SIMILAR_USERS = 4
 # PCC Constants
 EPSILON_CONSTANT = 1e-9
 DELTA_CONSTANT = 25
+
+
+# MF Constants
+# Number of latent factors
+NUM_FACTORS = 10
+# Number of embeddings for users and items
+NUM_EMBEDDINGS = 20
+# Regularization parameter
+REGULARIZATION = 0.0
+# Standard deviation for initialization
+STDV = 0.1
+# Learning rate
+LEARNING_RATE = 0.01
+# Number of nagative samples
+NUM_NEGATIVES = 4
