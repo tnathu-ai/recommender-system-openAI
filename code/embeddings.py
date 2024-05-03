@@ -13,7 +13,7 @@ def get_embeddings(texts: list[str], model="text-embedding-ada-002") -> list[lis
 
 
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
-def train_and_evaluate_embeddings_model(df, columns_for_unique_pairs=['title'], batch_size=100, RANDOM_STATE=RANDOM_STATE, TEST_SIZE=TEST_SIZE, N_ESTIMATORS=N_ESTIMATORS):
+def train_and_evaluate_embeddings_model(df, columns_for_unique_pairs=['title'], batch_size=100, RANDOM_STATE=RANDOM_STATE, TEST_RATIO=TEST_RATIO, N_ESTIMATORS=N_ESTIMATORS):
     # Assuming the user column is named 'reviewerID'
 
     embeddings = {}
@@ -44,7 +44,7 @@ def train_and_evaluate_embeddings_model(df, columns_for_unique_pairs=['title'], 
 
     # Splitting the dataset
     X_train_openai, X_test_openai, y_train, y_test = train_test_split(
-        X_openai, df['rating'], test_size=TEST_SIZE, random_state=RANDOM_STATE)
+        X_openai, df['rating'], test_size=TEST_RATIO, random_state=RANDOM_STATE)
 
     # Train RandomForest on OpenAI embeddings
     rfr_openai = RandomForestRegressor(n_estimators=N_ESTIMATORS)

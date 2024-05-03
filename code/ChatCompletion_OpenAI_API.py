@@ -346,93 +346,93 @@ def rerun_failed_few_shot_predictions(data,
 
 
 
-def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix, 
-                                                          user_column_name='reviewerID', 
-                                                          movie_column_name='title', 
-                                                          movie_id_column='asin',
-                                                          rating_column_name='rating', 
-                                                          num_ratings_per_user=NUM_RATINGS_PER_USER, 
-                                                          num_similar_users=NUM_SIMILAR_USERS,
-                                                          num_main_user_ratings=NUM_MAIN_USER_RATINGS,
-                                                          save_path='cf_predictions.csv', 
-                                                          seed=RANDOM_STATE,
-                                                          system_content=AMAZON_CONTENT_SYSTEM):
-    results = []
-    unique_users = data[user_column_name].unique()
-    user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
+# def predict_ratings_with_collaborative_filtering_and_save(data, pcc_matrix, 
+#                                                           user_column_name='reviewerID', 
+#                                                           movie_column_name='title', 
+#                                                           movie_id_column='asin',
+#                                                           rating_column_name='rating', 
+#                                                           num_ratings_per_user=NUM_RATINGS_PER_USER, 
+#                                                           num_similar_users=NUM_SIMILAR_USERS,
+#                                                           num_main_user_ratings=NUM_MAIN_USER_RATINGS,
+#                                                           save_path='cf_predictions.csv', 
+#                                                           seed=RANDOM_STATE,
+#                                                           system_content=AMAZON_CONTENT_SYSTEM):
+#     results = []
+#     unique_users = data[user_column_name].unique()
+#     user_id_to_index = {user_id: idx for idx, user_id in enumerate(unique_users)}
     
 
-    random.seed(seed)
+#     random.seed(seed)
 
-    for user_id in unique_users:
-        user_idx = user_id_to_index[user_id]
+#     for user_id in unique_users:
+#         user_idx = user_id_to_index[user_id]
 
-        print(f"Processing user {user_id} (Index: {user_idx})")
+#         print(f"Processing user {user_id} (Index: {user_idx})")
 
-        # Retrieve the main user's historical ratings randomly
-        main_user_data = data[data[user_column_name] == user_id]
-        main_user_ratings = main_user_data.sample(n=num_main_user_ratings, random_state=seed)
+#         # Retrieve the main user's historical ratings randomly
+#         main_user_data = data[data[user_column_name] == user_id]
+#         main_user_ratings = main_user_data.sample(n=num_main_user_ratings, random_state=seed)
 
-        main_user_ratings_str = '\n'.join([
-            f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
-            for _, row in main_user_ratings.iterrows()
-        ])
+#         main_user_ratings_str = '\n'.join([
+#             f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
+#             for _, row in main_user_ratings.iterrows()
+#         ])
 
-        # Find the top similar users based on Pearson Correlation Coefficient
-        similar_users_idx = np.argsort(-pcc_matrix[user_idx])[:num_similar_users + 1]
-        similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
+#         # Find the top similar users based on Pearson Correlation Coefficient
+#         similar_users_idx = np.argsort(-pcc_matrix[user_idx])[:num_similar_users + 1]
+#         similar_users_idx = similar_users_idx[similar_users_idx != user_idx][:num_similar_users]
 
-        print(f"Top similar users for {user_id}: {[unique_users[idx] for idx in similar_users_idx]}")
+#         print(f"Top similar users for {user_id}: {[unique_users[idx] for idx in similar_users_idx]}")
 
-        # Collect historical ratings from similar users randomly
-        similar_users_ratings = ""
-        for idx in similar_users_idx:
-            similar_user_id = unique_users[idx]
-            similar_user_data = data[data[user_column_name] == similar_user_id]
-            historical_ratings = similar_user_data.sample(n=num_ratings_per_user, random_state=seed)
-            for _, row in historical_ratings.iterrows():
-                rating_info = f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
-                similar_users_ratings += rating_info + "\n"
+#         # Collect historical ratings from similar users randomly
+#         similar_users_ratings = ""
+#         for idx in similar_users_idx:
+#             similar_user_id = unique_users[idx]
+#             similar_user_data = data[data[user_column_name] == similar_user_id]
+#             historical_ratings = similar_user_data.sample(n=num_ratings_per_user, random_state=seed)
+#             for _, row in historical_ratings.iterrows():
+#                 rating_info = f"* Title: {row[movie_column_name]}, Rating: {row[rating_column_name]} stars"
+#                 similar_users_ratings += rating_info + "\n"
                 
-        # List of movie IDs already rated by the user
-        rated_movie_ids = main_user_ratings[movie_id_column].tolist()
+#         # List of movie IDs already rated by the user
+#         rated_movie_ids = main_user_ratings[movie_id_column].tolist()
 
-        # Exclude already rated movies and select a random movie for prediction
-        potential_movies_for_prediction = main_user_data[~main_user_data[movie_id_column].isin(rated_movie_ids)]
-        if potential_movies_for_prediction.empty:
-            print(f"No unrated movies available for user {user_id} for prediction.")
-            continue
+#         # Exclude already rated movies and select a random movie for prediction
+#         potential_movies_for_prediction = main_user_data[~main_user_data[movie_id_column].isin(rated_movie_ids)]
+#         if potential_movies_for_prediction.empty:
+#             print(f"No unrated movies available for user {user_id} for prediction.")
+#             continue
 
-        random_movie_row = potential_movies_for_prediction.sample(n=1, random_state=seed).iloc[0]
-        random_movie_title = random_movie_row[movie_column_name]
-        random_movie_id = random_movie_row[movie_id_column]
-        actual_rating = random_movie_row[rating_column_name]
+#         random_movie_row = potential_movies_for_prediction.sample(n=1, random_state=seed).iloc[0]
+#         random_movie_title = random_movie_row[movie_column_name]
+#         random_movie_id = random_movie_row[movie_id_column]
+#         actual_rating = random_movie_row[rating_column_name]
 
 
-        # Construct prompt for API call
-        combined_text = f"Title: {random_movie_title}"
-        prompt = f"Main User Ratings:\n{main_user_ratings_str}\n\nSimilar Users' Ratings:\n{similar_users_ratings}\n\nPredict rating for '{combined_text}':"
+#         # Construct prompt for API call
+#         combined_text = f"Title: {random_movie_title}"
+#         prompt = f"Main User Ratings:\n{main_user_ratings_str}\n\nSimilar Users' Ratings:\n{similar_users_ratings}\n\nPredict rating for '{combined_text}':"
 
-        print(f"Generated prompt for user {user_id}:\n{prompt}")
+#         print(f"Generated prompt for user {user_id}:\n{prompt}")
 
-        predicted_rating = predict_rating_combined_ChatCompletion(
-            combined_text, 
-            approach="CF", 
-            similar_users_ratings=similar_users_ratings,
-            rating_history=main_user_ratings_str,
-            system_content=system_content
-        )
+#         predicted_rating = predict_rating_combined_ChatCompletion(
+#             combined_text, 
+#             approach="CF", 
+#             similar_users_ratings=similar_users_ratings,
+#             rating_history=main_user_ratings_str,
+#             system_content=system_content
+#         )
 
-        # Store prediction results
-        results.append([user_id, random_movie_id, random_movie_title, actual_rating, predicted_rating])
+#         # Store prediction results
+#         results.append([user_id, random_movie_id, random_movie_title, actual_rating, predicted_rating])
 
-        print(f"User {user_id}: Predicted rating for '{random_movie_title}' is {predicted_rating}.")
+#         print(f"User {user_id}: Predicted rating for '{random_movie_title}' is {predicted_rating}.")
 
-    results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
-    results_df.to_csv(save_path, index=False)
-    print(f"Predictions saved to {save_path}")
+#     results_df = pd.DataFrame(results, columns=['user_id', 'item_id', 'title', 'actual_rating', 'predicted_rating'])
+#     results_df.to_csv(save_path, index=False)
+#     print(f"Predictions saved to {save_path}")
 
-    return results_df
+#     return results_df
 
 
 
@@ -562,10 +562,11 @@ def predict_ratings_with_CF_item_and_save(data, user_pcc_matrix, item_pcc_matrix
         
         # Select test set based on the specified method
         if test_selection_method == 'random':
-            test_set, remaining_data = select_test_set_for_user(main_user_data, num_tests=TEST_OBSERVATION_PER_USER, seed=seed)
+            test_set, remaining_data = select_test_set_for_user(main_user_data, num_tests=num_main_user_ratings, seed=seed)
         elif test_selection_method == 'sequential':
             test_set, remaining_data = sequential_train_test_split(main_user_data, time_column=timestamp_column_name)
-
+        elif test_selection_method == 'popularity':
+            test_set, remaining_data = popularity_based_sequential_split(main_user_data, item_column=movie_id_column, review_column=rating_column_name, time_column=timestamp_column_name)
 
         if test_set.empty:
             print(f"No test data available for user {user_id}.")
