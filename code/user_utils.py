@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import json
 import gzip
-TEST_RATIO = 0.2      # Proportion of the dataset to include in the test split
 
 
 # sequential train-test split
