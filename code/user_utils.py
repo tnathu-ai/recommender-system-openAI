@@ -3,7 +3,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import json
 import gzip
-
+import pandas as pd
+from sklearn.utils import resample
 
 # sequential train-test split
 def sequential_train_test_split(user_data, train_ratio=0.8, time_column='Timestamp'):
@@ -49,44 +50,61 @@ def select_test_set_for_user(user_data, num_tests=TEST_OBSERVATION_PER_USER, see
     remaining_data = user_data.drop(test_set.index)
     return test_set, remaining_data
 
-# # Sequential train-test split with fixed test set size
-# def sequential_train_test_split(user_data, num_tests=TEST_OBSERVATION_PER_USER, time_column='Timestamp'):
-#     """
-#     Sequentially split user data into training and test sets based on timestamps,
-#     ensuring a fixed number of observations in the test set, matching the random split method.
-
-#     Args:
-#     - user_data (DataFrame): Data for the specific user, containing a timestamp column.
-#     - num_tests (int): Number of test samples to include in the test set.
-#     - time_column (str): Name of the column containing the timestamp.
-
-#     Returns:
-#     - DataFrame: Training set for the user.
-#     - DataFrame: Test set for the user.
-#     """
-#     # Sort the data by timestamp
-#     user_data_sorted = user_data.sort_values(by=time_column)
-
-#     # Calculate the starting index for the test set to ensure it has num_tests elements
-#     start_index = len(user_data_sorted) - num_tests
-
-#     # Split the data into training and test sets
-#     remaining_data = user_data_sorted.iloc[:start_index]
-#     test_set = user_data_sorted.iloc[start_index:]
-
-#     return test_set, remaining_data
-
-
-def popularity_based_sequential_split(data, item_column='asin', review_column='reviewText', time_column='Timestamp', test_ratio=TEST_RATIO):
+# Random Popularity Split
+def popularity_based_random_split(data, item_column='asin', review_column='reviewText', rating_column='rating', test_ratio=0.2, seed=42):
     """
-    Split user data into training and test sets based on item popularity,
-    ensuring the test set contains the top 20% most popular items and
-    preserving the temporal sequence within the training data.
+    Randomly split user data into training and test sets based on item popularity,
+    ensuring the test set contains a subset of the top 20% most popular items along with a subset of unpopular items.
 
     Args:
     - data (DataFrame): Dataset containing user data, item identifiers, and timestamps.
     - item_column (str): Name of the column containing the item identifier.
     - review_column (str): Name of the column containing review content to ensure valid entries.
+    - rating_column (str): Name of the column containing ratings.
+    - test_ratio (float): Proportion of the dataset to include in the test split.
+    - seed (int): Seed for the random number generator for reproducibility.
+
+    Returns:
+    - DataFrame: Training set.
+    - DataFrame: Test set.
+    """
+    # Preprocessing
+    data = data.dropna(subset=[item_column, review_column, rating_column])
+
+    # Calculate popularity
+    item_counts = data[item_column].value_counts()
+    average_ratings = data.groupby(item_column)[rating_column].mean()
+    popularity_score = (item_counts * 0.5) + (average_ratings * 0.5 * item_counts.max() / average_ratings.max())
+    popularity_score = popularity_score.sort_values(ascending=False)
+
+    # Identify top 20% popular items
+    top_20_percent_cutoff = int(len(popularity_score) * 0.2)
+    popular_items = popularity_score.head(top_20_percent_cutoff).index
+
+    # Split entire dataset randomly first
+    train_data, test_data = train_test_split(data, test_size=test_ratio, random_state=seed)
+
+    # Filter test set for popular and unpopular items
+    popular_test_set = test_data[test_data[item_column].isin(popular_items)]
+    unpopular_test_set = test_data[~test_data[item_column].isin(popular_items)]
+
+    # Combine the popular and unpopular parts for the final test set
+    final_test_set = pd.concat([popular_test_set, unpopular_test_set])
+
+    return train_data, final_test_set
+
+# Sequential Popularity Split
+def popularity_based_sequential_split(data, item_column='asin', review_column='reviewText', rating_column='rating', time_column='Timestamp', test_ratio=0.2):
+    """
+    Split user data into training and test sets based on item popularity,
+    ensuring the test set contains the top 20% most popular items along with some unpopular items,
+    preserving the temporal sequence within the test data.
+
+    Args:
+    - data (DataFrame): Dataset containing user data, item identifiers, and timestamps.
+    - item_column (str): Name of the column containing the item identifier.
+    - review_column (str): Name of the column containing review content to ensure valid entries.
+    - rating_column (str): Name of the column containing ratings.
     - time_column (str): Name of the column containing the timestamp.
     - test_ratio (float): Proportion of the dataset to include in the test split.
 
@@ -95,28 +113,29 @@ def popularity_based_sequential_split(data, item_column='asin', review_column='r
     - DataFrame: Test set for the user.
     """
     # Preprocessing
-    # Drop rows where 'asin' is null or 'reviewText' is empty
-    item_popularity = data.dropna(subset=[item_column, review_column])
+    data = data.dropna(subset=[item_column, review_column, rating_column])
 
-    # Calculate the popularity of each item (number of reviews per item)
-    item_popularity = item_popularity[item_column].value_counts()
+    # Calculate popularity
+    item_counts = data[item_column].value_counts()
+    average_ratings = data.groupby(item_column)[rating_column].mean()
+    popularity_score = (item_counts * 0.5) + (average_ratings * 0.5 * item_counts.max() / average_ratings.max())
+    popularity_score = popularity_score.sort_values(ascending=False)
 
-    # Determine the cutoff for top 20% popular items
-    top_20_percent_cutoff = int(len(item_popularity) * 0.2)
-    popular_items = item_popularity.head(top_20_percent_cutoff).index
+    # Identify top 20% popular items
+    top_20_percent_cutoff = int(len(popularity_score) * 0.2)
+    popular_items = popularity_score.head(top_20_percent_cutoff).index
 
-    # Filter the dataset for top 20% most popular items
-    test_set = data[data[item_column].isin(popular_items)].sort_values(by=time_column)
+    # Sequentially split the entire dataset first
+    train_data, test_data = data[:int(len(data) * (1 - test_ratio))], data[int(len(data) * (1 - test_ratio)):]
 
-    # Further split the popular items to ensure test set is exactly 20% of the original dataset
-    split_index = int(len(test_set) * test_ratio)
-    if len(test_set) > split_index:
-        test_set = test_set.iloc[:split_index]
+    # Filter test set for popular and unpopular items
+    popular_test_set = test_data[test_data[item_column].isin(popular_items)]
+    unpopular_test_set = test_data[~test_data[item_column].isin(popular_items)]
 
-    # Determine training set by excluding the test set indices from the original dataset
-    remaining_data = data.drop(test_set.index)
+    # Combine the popular and unpopular parts for the final test set
+    final_test_set = pd.concat([popular_test_set, unpopular_test_set])
 
-    return test_set, remaining_data
+    return train_data, final_test_set
 
 
 

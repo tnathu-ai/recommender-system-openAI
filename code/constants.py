@@ -90,8 +90,8 @@ CONFIDENCE_MULTIPLIER = 1.96
 # =============================================================================
 # OpenAI API chat completion response parameters
 # =============================================================================
-AMAZON_CONTENT_SYSTEM = "Amazon Beauty products critic"
-MOVIELENS_CONTENT_SYSTEM = "MovieLens movies critic"
+AMAZON_CONTENT_SYSTEM = "You are an Amazon Beauty products critic"
+MOVIELENS_CONTENT_SYSTEM = "You are a MovieLens movies critic"
 
 
 # =============================================================================
