@@ -7,7 +7,7 @@ import pandas as pd
 from sklearn.utils import resample
 
 # sequential train-test split
-def sequential_train_test_split(user_data, train_ratio=0.8, time_column='Timestamp'):
+def sequential_train_test_split(user_data, train_ratio=TRAIN_RATIO, time_column='Timestamp'):
     """
     Sequentially split user data into training and test sets based on timestamps.
 
@@ -51,10 +51,16 @@ def select_test_set_for_user(user_data, num_tests=TEST_OBSERVATION_PER_USER, see
     return test_set, remaining_data
 
 # Random Popularity Split
-def popularity_based_random_split(data, item_column='asin', review_column='reviewText', rating_column='rating', test_ratio=0.2, seed=42):
+def popularity_based_random_split(data, 
+                                  item_column='asin', 
+                                  review_column='reviewText', 
+                                  rating_column='rating', 
+                                  test_ratio=TEST_RATIO, 
+                                  seed=RANDOM_STATE, 
+                                  test_set_type='both'):
     """
     Randomly split user data into training and test sets based on item popularity,
-    ensuring the test set contains a subset of the top 20% most popular items along with a subset of unpopular items.
+    allowing selection of either popular, unpopular, or both types of items in the test set.
 
     Args:
     - data (DataFrame): Dataset containing user data, item identifiers, and timestamps.
@@ -63,6 +69,7 @@ def popularity_based_random_split(data, item_column='asin', review_column='revie
     - rating_column (str): Name of the column containing ratings.
     - test_ratio (float): Proportion of the dataset to include in the test split.
     - seed (int): Seed for the random number generator for reproducibility.
+    - test_set_type (str): Type of test set to return ('popular', 'unpopular', 'both').
 
     Returns:
     - DataFrame: Training set.
@@ -84,20 +91,31 @@ def popularity_based_random_split(data, item_column='asin', review_column='revie
     # Split entire dataset randomly first
     train_data, test_data = train_test_split(data, test_size=test_ratio, random_state=seed)
 
-    # Filter test set for popular and unpopular items
-    popular_test_set = test_data[test_data[item_column].isin(popular_items)]
-    unpopular_test_set = test_data[~test_data[item_column].isin(popular_items)]
+    # Filter test set based on type
+    if test_set_type == 'popular':
+        test_set = test_data[test_data[item_column].isin(popular_items)]
+    elif test_set_type == 'unpopular':
+        test_set = test_data[~test_data[item_column].isin(popular_items)]
+    else:
+        popular_test_set = test_data[test_data[item_column].isin(popular_items)]
+        unpopular_test_set = test_data[~test_data[item_column].isin(popular_items)]
+        test_set = pd.concat([popular_test_set, unpopular_test_set])
 
-    # Combine the popular and unpopular parts for the final test set
-    final_test_set = pd.concat([popular_test_set, unpopular_test_set])
+    return train_data, test_set
 
-    return train_data, final_test_set
+
 
 # Sequential Popularity Split
-def popularity_based_sequential_split(data, item_column='asin', review_column='reviewText', rating_column='rating', time_column='Timestamp', test_ratio=0.2):
+def popularity_based_sequential_split(data, 
+                                      item_column='asin', 
+                                      review_column='reviewText', 
+                                      rating_column='rating', 
+                                      time_column='Timestamp', 
+                                      test_ratio=TEST_RATIO, 
+                                      test_set_type='both'):
     """
     Split user data into training and test sets based on item popularity,
-    ensuring the test set contains the top 20% most popular items along with some unpopular items,
+    allowing selection of either popular, unpopular, or both types of items in the test set,
     preserving the temporal sequence within the test data.
 
     Args:
@@ -107,6 +125,7 @@ def popularity_based_sequential_split(data, item_column='asin', review_column='r
     - rating_column (str): Name of the column containing ratings.
     - time_column (str): Name of the column containing the timestamp.
     - test_ratio (float): Proportion of the dataset to include in the test split.
+    - test_set_type (str): Type of test set to return ('popular', 'unpopular', 'both').
 
     Returns:
     - DataFrame: Training set for the user.
@@ -128,14 +147,17 @@ def popularity_based_sequential_split(data, item_column='asin', review_column='r
     # Sequentially split the entire dataset first
     train_data, test_data = data[:int(len(data) * (1 - test_ratio))], data[int(len(data) * (1 - test_ratio)):]
 
-    # Filter test set for popular and unpopular items
-    popular_test_set = test_data[test_data[item_column].isin(popular_items)]
-    unpopular_test_set = test_data[~test_data[item_column].isin(popular_items)]
+    # Filter test set based on type
+    if test_set_type == 'popular':
+        test_set = test_data[test_data[item_column].isin(popular_items)]
+    elif test_set_type == 'unpopular':
+        test_set = test_data[~test_data[item_column].isin(popular_items)]
+    else:
+        popular_test_set = test_data[test_data[item_column].isin(popular_items)]
+        unpopular_test_set = test_data[~test_data[item_column].isin(popular_items)]
+        test_set = pd.concat([popular_test_set, unpopular_test_set])
 
-    # Combine the popular and unpopular parts for the final test set
-    final_test_set = pd.concat([popular_test_set, unpopular_test_set])
-
-    return train_data, final_test_set
+    return train_data, test_set
 
 
 

@@ -11,6 +11,7 @@ STOP_AFTER_N_ATTEMPTS = 7  # Maximum number of retry attempts for a function
 RANDOM_STATE = 2002  # Seed value for random number generation
 NUM_SAMPLES = 100    # Number of samples to consider in operations
 TEST_RATIO = 0.2      # Proportion of the dataset to include in the test split
+TRAIN_RATIO = 0.8      # Proportion of the dataset to include in the test split
 TEST_OBSERVATION_PER_USER = 1
 
 # =============================================================================
