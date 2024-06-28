@@ -19,7 +19,6 @@ retry_decorator = retry(wait=wait_random_exponential(min=1, max=20), stop=stop_a
 TOKENIZER = tiktoken.get_encoding(EMBEDDING_ENCODING)
 
 
-
 def check_and_reduce_length(text, max_tokens=MAX_TOKENS_CHAT_GPT, tokenizer=TOKENIZER):
     """
     Check and reduce the length of the text to be within the max_tokens limit.
@@ -41,7 +40,6 @@ def check_and_reduce_length(text, max_tokens=MAX_TOKENS_CHAT_GPT, tokenizer=TOKE
         truncated_text += tokenizer.decode([token])
 
     return truncated_text
-
 
 
 def extract_numeric_rating(rating_text):
@@ -74,7 +72,6 @@ def extract_numeric_rating(rating_text):
     except Exception as e:
         print(f"Error extracting rating: {e}. Full response: {rating_text}")
         return 0
-
 
 
     

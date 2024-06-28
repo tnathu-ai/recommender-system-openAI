@@ -1,20 +1,21 @@
 import numpy as np
-import openai
 import pandas as pd
-from sklearn.metrics import mean_squared_error, mean_absolute_error
-import re
+import random
 import time
+from scipy.sparse import csr_matrix
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.neighbors import NearestNeighbors
+from tenacity import retry, wait_random_exponential, stop_after_attempt
+
+import openai
+from openai.error import APIError, RateLimitError
+
 from constants import *
 from evaluation_utils import *
 from user_utils import *
 from utils import *
 from CF_utils import *
-from tenacity import retry, wait_random_exponential, stop_after_attempt
-import tiktoken
-from sklearn.neighbors import NearestNeighbors
-from scipy.sparse import csr_matrix
-import openai
-from openai.error import APIError, APIConnectionError, RateLimitError
+
 
 # Configure agent
 @retry_decorator
@@ -543,7 +544,8 @@ def predict_ratings_with_CF_item_and_save(data, user_pcc_matrix, item_pcc_matrix
                                               test_selection_method='random',
                                               save_path='cf_predictions.csv', 
                                               seed=RANDOM_STATE,
-                                              system_content=AMAZON_CONTENT_SYSTEM):
+                                              system_content=AMAZON_CONTENT_SYSTEM,
+                                              test_set_type='popular'):
     results = []
 
     unique_users = data[user_column_name].unique()
@@ -566,7 +568,11 @@ def predict_ratings_with_CF_item_and_save(data, user_pcc_matrix, item_pcc_matrix
         elif test_selection_method == 'sequential':
             test_set, remaining_data = sequential_train_test_split(main_user_data, time_column=timestamp_column_name)
         elif test_selection_method == 'popularity':
-            test_set, remaining_data = popularity_based_sequential_split(main_user_data, item_column=movie_id_column, review_column=rating_column_name, time_column=timestamp_column_name)
+            test_set, remaining_data = popularity_based_sequential_split(main_user_data, 
+                                                                         item_column=movie_id_column, 
+                                                                         review_column=rating_column_name, 
+                                                                         time_column=timestamp_column_name,
+                                                                         test_set_type=test_set_type)
 
         if test_set.empty:
             print(f"No test data available for user {user_id}.")
