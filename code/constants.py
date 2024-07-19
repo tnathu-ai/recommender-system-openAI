@@ -1,5 +1,8 @@
 import os
 
+
+
+
 # =============================================================================
 # General Constants
 # =============================================================================
@@ -87,6 +90,8 @@ CONFIDENCE_LEVEL = 0.95
 BOOSTRAP_RESAMPLING_ITERATIONS = 10000
 # confidence_multiplier
 CONFIDENCE_MULTIPLIER = 1.96
+# Set the confidence multiplier
+CONFIDENCE_MULTIPLIER = 1.96  # Standard for a 95% confidence level
 
 # =============================================================================
 # OpenAI API chat completion response parameters

@@ -2,6 +2,9 @@ from constants import *
 import numpy as np
 import pandas as pd
 
+# Set the confidence multiplier
+CONFIDENCE_MULTIPLIER = 1.96  # Standard for a 95% confidence level
+
 def calculate_rmse_and_mae(actual_ratings, predicted_ratings):
     differences = [actual - predicted for actual, predicted in zip(actual_ratings, predicted_ratings)]
 
@@ -16,7 +19,7 @@ def calculate_rmse_and_mae(actual_ratings, predicted_ratings):
 
     return rmse, mae
 
-def calculate_confidence_interval(data, confidence_level):
+def calculate_confidence_interval(data, confidence_multiplier):
     n = len(data)
     mean = np.mean(data)
     std_err = np.std(data, ddof=1) / np.sqrt(n)
@@ -48,9 +51,9 @@ def evaluate_model_predictions_rmse_mae(data_path, num_examples, actual_ratings_
     # Calculate RMSE and MAE
     rmse, mae = calculate_rmse_and_mae(actual_filtered, predicted_filtered)
 
-    # Confidence intervals
-    rmse_conf_interval = calculate_confidence_interval([rmse], CONFIDENCE_LEVEL)
-    mae_conf_interval = calculate_confidence_interval([mae], CONFIDENCE_LEVEL)
+    # Confidence intervals for RMSE and MAE
+    rmse_conf_interval = calculate_confidence_interval([rmse] * len(filtered_ratings), CONFIDENCE_MULTIPLIER)
+    mae_conf_interval = calculate_confidence_interval([mae] * len(filtered_ratings), CONFIDENCE_MULTIPLIER)
 
     # Margins of error
     rmse_error = (rmse_conf_interval[1] - rmse_conf_interval[0]) / 2
