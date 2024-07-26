@@ -51,6 +51,7 @@ def select_test_set_for_user(user_data, num_tests=TEST_OBSERVATION_PER_USER, see
     return test_set, remaining_data
 
 # Random Popularity Split
+# where the popularity is calculated solely based on the number of times an item is rated by users
 def popularity_based_random_split(data, 
                                   item_column='asin', 
                                   review_column='reviewText', 
@@ -78,11 +79,9 @@ def popularity_based_random_split(data,
     # Preprocessing
     data = data.dropna(subset=[item_column, review_column, rating_column])
 
-    # Calculate popularity
+    # Calculate popularity based on the number of ratings
     item_counts = data[item_column].value_counts()
-    average_ratings = data.groupby(item_column)[rating_column].mean()
-    popularity_score = (item_counts * 0.5) + (average_ratings * 0.5 * item_counts.max() / average_ratings.max())
-    popularity_score = popularity_score.sort_values(ascending=False)
+    popularity_score = item_counts.sort_values(ascending=False)
 
     # Identify top 20% popular items
     top_20_percent_cutoff = int(len(popularity_score) * 0.2)
@@ -102,6 +101,7 @@ def popularity_based_random_split(data,
         test_set = pd.concat([popular_test_set, unpopular_test_set])
 
     return train_data, test_set
+
 
 
 
@@ -134,11 +134,9 @@ def popularity_based_sequential_split(data,
     # Preprocessing
     data = data.dropna(subset=[item_column, review_column, rating_column])
 
-    # Calculate popularity
+    # Calculate popularity based on the number of ratings
     item_counts = data[item_column].value_counts()
-    average_ratings = data.groupby(item_column)[rating_column].mean()
-    popularity_score = (item_counts * 0.5) + (average_ratings * 0.5 * item_counts.max() / average_ratings.max())
-    popularity_score = popularity_score.sort_values(ascending=False)
+    popularity_score = item_counts.sort_values(ascending=False)
 
     # Identify top 20% popular items
     top_20_percent_cutoff = int(len(popularity_score) * 0.2)
@@ -158,6 +156,7 @@ def popularity_based_sequential_split(data,
         test_set = pd.concat([popular_test_set, unpopular_test_set])
 
     return train_data, test_set
+
 
 
 

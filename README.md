@@ -51,7 +51,7 @@ The system_fingerprint in OpenAI's API response is used to identify the specific
 
 
 # Configuration
-Create environment variables file .env to configure the service (environment variables take precedence over .env), the default configuration items are as follows:
+Create environment variables file `code/notebook/.env` to configure the service (environment variables take precedence over .env), the default configuration items are as follows:
 ```
 OPENAI_API_KEY=ENTER-YOUR-API-KEY-HERE
 ```
