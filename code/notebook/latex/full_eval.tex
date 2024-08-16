@@ -1,0 +1,38 @@
+\begin{tabular}{llllrllrlll}
+ & Methods & Dataset & Features & RMSE & CI_RMSE & StdError_RMSE & MAE & CI_MAE & StdError_MAE & Wall Time \\
+0 & Paper's MF & Unknown & title & 1.197300 & - & - & 0.946100 & - & - & - \\
+1 & Paper's MLP & Unknown & title & 1.307800 & - & - & 0.959700 & - & - & - \\
+2 & Paper's (zero-shot) & Unknown Amazon Beauty & title & 1.405900 & - & - & 1.186100 & - & - & - \\
+3 & Paper's (few-shot) & Unknown Amazon Beauty & title & 1.075100 & - & - & 0.697700 & - & - & - \\
+4 & Thu's zero-shot GPT & Amazon Beauty & title & 1.131500 & (1.1148, 1.1482) & 0.000200 & 0.992200 & (0.9814, 1.0030) & 0.000100 & 1d 4h 38min 52s \\
+5 & Thu's few-shot GPT (1 test/user) & Amazon Beauty & title & 0.936200 & (0.8892, 0.9846) & 0.000500 & 0.580900 & (0.5453, 0.6166) & 0.000400 & 3h 3min 8s \\
+6 & Thu's CF GPT & Amazon Beauty & title & 2.079400 & (2.0328, 2.1269) & 0.000500 & 1.835400 & (1.7879, 1.8840) & 0.000500 & 28min 40s \\
+7 & Thu's CF GPT & MovieLens ML-1M & title & 1.288500 & (1.2672, 1.3102) & 0.000200 & 1.003200 & (0.9826, 1.0238) & 0.000200 & 1h 20min 18s \\
+8 & Thu's Few shot CF GPT & MovieLens ML-1M & title & 0.425800 & (0.4119, 0.4399) & 0.000100 & 0.174400 & (0.1646, 0.1843) & 0.000100 & 7h 44min 46s \\
+9 & Thu's Few shot CF GPT & Amazon Beauty & title & 0.418200 & (0.3067, 0.5258) & 0.001100 & 0.060000 & (0.0410, 0.0821) & 0.000200 & 7h 44min 46s \\
+10 & Thu's zero-shot & MovieLens ML-1M & title & 1.564100 & (1.5259, 1.6030) & 0.000400 & 1.081600 & (1.0534, 1.1109) & 0.000300 & 1d 6h 11min 18s \\
+11 & Thu's zero-shot & MovieLens ML-1M & title & 1.403300 & (1.3795, 1.4271) & 0.000200 & 1.107900 & (1.0863, 1.1293) & 0.000200 & 1d 1h 20min 27s \\
+12 & Thu's Few shot CF PCC GPT: 6 similar users, 3/similar user & MovieLens ML-1M & title & 0.472600 & (0.4569, 0.4891) & 0.000200 & 0.203200 & (0.1925, 0.2139) & 0.000100 & 1h 29min 7s \\
+13 & Thu's Few shot CF PCC GPT: 6 similar users & MovieLens ML-1M & title & 0.436400 & (0.4225, 0.4507) & 0.000100 & 0.181300 & (0.1714, 0.1911) & 0.000100 & 1h 31min 47s \\
+14 & Thu's Few shot CF PCC GPT: 3/similar user & MovieLens ML-1M & title & 0.475600 & (0.4598, 0.4922) & 0.000200 & 0.206700 & (0.1960, 0.2174) & 0.000100 & 3h 16min 48s \\
+15 & Thu's Few shot CF PCC GPT: 3/similar user & Amazon Beauty & title & 0.336700 & (0.2686, 0.4044) & 0.000700 & 0.063700 & (0.0479, 0.0808) & 0.000200 & 28min 4s \\
+16 & Thu's Few shot CF PCC GPT: 6 similar users & Amazon Beauty & title & 0.245600 & (0.1668, 0.3278) & 0.000800 & 0.034200 & (0.0230, 0.0470) & 0.000100 & 26min 41s \\
+17 & Thu's sorted Few shot CF PCC GPT & Amazon Beauty & title & 0.705500 & (0.6435, 0.7674) & 0.000600 & 0.335400 & (0.3042, 0.3673) & 0.000300 & 1h 31min 4s \\
+18 & Thu's sorted timestamp Few shot CF PCC GPT & Amazon Beauty & title & 0.773600 & (0.7145, 0.8338) & 0.000600 & 0.385800 & (0.3543, 0.4184) & 0.000300 & 1h 19min 41s \\
+19 & Thu's sorted timestamp MF Few shot CF Cosine GPT & Amazon Beauty & title & 0.781700 & (0.7269, 0.8380) & 0.000600 & 0.387300 & (0.3580, 0.4195) & 0.000300 & 29min 44s \\
+20 & Thu's random MF Few shot CF Cosine GPT & Amazon Beauty & title & 0.744500 & (0.6824, 0.8058) & 0.000600 & 0.340900 & (0.3094, 0.3734) & 0.000300 & 25min 6s \\
+21 & Thu's sorted timestamp MF Few shot CF PCC GPT & Amazon Beauty & title & 0.786000 & (0.7275, 0.8452) & 0.000600 & 0.376700 & (0.3459, 0.4087) & 0.000300 & 28min 30s \\
+22 & Thu's random MF Few shot CF PCC GPT & Amazon Beauty & title & 0.709300 & (0.6487, 0.7705) & 0.000600 & 0.322200 & (0.2920, 0.3539) & 0.000300 & 23min 23s \\
+23 & Thu's sorted timestamp MF Few shot CF Jaccard GPT & Amazon Beauty & title & 0.782000 & (0.7235, 0.8404) & 0.000600 & 0.379400 & (0.3491, 0.4106) & 0.000300 & 27min 28s \\
+24 & Thu's random MF Few shot CF Jaccard GPT & Amazon Beauty & title & 0.754300 & (0.6917, 0.8171) & 0.000600 & 0.351500 & (0.3197, 0.3846) & 0.000300 & 22min 53s \\
+25 & Thu's sorted timestamp MF Few shot CF Weighted PCC GPT & Amazon Beauty & title & 0.791300 & (0.7308, 0.8519) & 0.000600 & 0.369500 & (0.3376, 0.4019) & 0.000300 & 27min 48s \\
+26 & Thu's random MF Few shot CF Weighted PCC GPT & Amazon Beauty & title & 0.720600 & (0.6591, 0.7824) & 0.000600 & 0.325700 & (0.2945, 0.3576) & 0.000300 & 24min 4s \\
+27 & Thu's Few shot CF Cosine GPT & Amazon Beauty & title & 0.701500 & (0.6363, 0.7673) & 0.000700 & 0.302400 & (0.2709, 0.3346) & 0.000300 & 26min 7s \\
+28 & Thu's sorted timestamp Few shot CF Cosine GPT & Amazon Beauty & title & 0.757000 & (0.6965, 0.8181) & 0.000600 & 0.349500 & (0.3186, 0.3818) & 0.000300 & 26min 18s \\
+29 & Thu's Few shot CF Jaccard GPT & Amazon Beauty & title & 0.727300 & (0.6659, 0.7917) & 0.000600 & 0.317300 & (0.2858, 0.3502) & 0.000300 & 1h 1min 14s \\
+30 & Thu's sorted timestamp Few shot CF Jaccard GPT & Amazon Beauty & title & 0.768000 & (0.7082, 0.8298) & 0.000600 & 0.353900 & (0.3224, 0.3868) & 0.000300 & 1h 52min 22s \\
+31 & Thu's Few shot CF WeightPCC GPT & Amazon Beauty & title & 0.707000 & (0.6399, 0.7741) & 0.000700 & 0.277200 & (0.2456, 0.3094) & 0.000300 & 1h 3min 19s \\
+32 & Thu's sorted timestamp Few shot CF WeightPCC GPT & Amazon Beauty & title & 0.763300 & (0.7013, 0.8249) & 0.000600 & 0.323800 & (0.2920, 0.3561) & 0.000300 & 1h 52min 22s \\
+33 & Thu's random popular Few shot CF PCC GPT & Amazon Beauty & title & 1.202800 & (1.2028, 1.2028) & 0.000000 & 0.718500 & (0.7185, 0.7185) & 0.000000 & 2min 16s \\
+34 & Thu's sequential popular Few shot CF PCC GPT & Amazon Beauty & title & 1.219400 & (1.2194, 1.2194) & 0.000000 & 0.735700 & (0.7357, 0.7357) & 0.000000 & 2min \\
+\end{tabular}
