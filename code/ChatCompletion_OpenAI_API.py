@@ -607,7 +607,12 @@ def predict_ratings_with_CF_item_and_save(data, user_pcc_matrix, item_pcc_matrix
 
                 # Find top-rated items by this similar user, sorted by item PCC
                 similar_items_indices = np.argsort(-item_pcc_matrix[random_movie_index, :])
+                # Filter similar_items_indices to stay within bounds of unique_items array
+                similar_items_indices = similar_items_indices[similar_items_indices < len(unique_items)]
+
+                # Now, you can safely use these indices to filter similar user data
                 top_rated_items = similar_user_data[similar_user_data[movie_id_column].isin(unique_items[similar_items_indices])]
+
 
                 # Extract top ratings from this user
                 top_ratings = top_rated_items.nlargest(num_ratings_per_user, rating_column_name)
@@ -636,7 +641,6 @@ def predict_ratings_with_CF_item_and_save(data, user_pcc_matrix, item_pcc_matrix
     print(f"Predictions saved to {save_path}")
 
     return results_df
-
 
     
 

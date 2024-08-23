@@ -68,6 +68,16 @@ USER_SIDE_AMAZON_BEAUTY = [
     "reviewerID", "reviewerName", "verified"
 ]
 
+# # Constants for column names
+# USER_COLUMN_NAME = 'reviewerID'
+# TITLE_COLUMN_NAME = 'title'
+# ITEM_ID_COLUMN = 'asin'
+# RATING_COLUMN_NAME = 'rating'
+# TIME_STAMP_COLUMN_NAME = 'unixReviewTime'
+
+
+# SYSTEM_CONTENT = AMAZON_CONTENT_SYSTEM
+
 # =============================================================================
 # Dataset Specific Constants for MovieLens dataset ml-1m
 # =============================================================================
@@ -79,6 +89,16 @@ INTERACTION_SIDE_MOVIELENS = ["Rating", "Timestamp"]
 
 # User-side attributes for training (not for prediction)
 USER_SIDE_MOVIELENS = ["UserID", "Gender", "Age", "Occupation", "Zip-code"]
+
+# # Constants for column names
+# USER_COLUMN_NAME = 'UserID'
+# TITLE_COLUMN_NAME = 'Title'
+# ITEM_ID_COLUMN = 'MovieID'
+# RATING_COLUMN_NAME = 'Rating'
+# TIME_STAMP_COLUMN_NAME = 'Timestamp'
+
+# SYSTEM_CONTENT = MOVIELENS_CONTENT_SYSTEM
+
 
 
 # =============================================================================

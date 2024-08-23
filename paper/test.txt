@@ -1,0 +1,218 @@
+Rsearch qustion: whether the collaborative information would be helpful in prompting for GPT models as recommender systems?
+
+sub-research questions: 
+1. helpful or not? 
+2, how helpful? by how much adding collaboraive infomration could imprve the accuracy of recommendation? 
+3, what would be the best way to add the collaborative information? 
+4. why it works? 
+
+Desgin: 
+
+Baseline: 
+Baseline1: "How will user rate this product_title: "SHANY Nail Art Set (24 Famous Colors Nail Art Polish, Nail Art Decoration)" , and
+product_category: Beauty? ( 1 being lowest and 5 being highest ) Attention! Just give me back the exact number a result , and you don't need
+a lot of text. 
+
+Here is user rating history:
+1. Bundle Monster 100 PC 3D Designs Nail Art Nailart Manicure Fimo Canes Sticks Rods Stickers Gel Tips, 5.0;
+2. Winstonia‘s Double Ended Nail Art Marbling Dotting Tool Pen Set w/ 10 Different Sizes 5 Colors - Manicure Pedicure, 5.0;
+3. Nail Art Jumbo Stamp Stamping Manicure Image Plate 2 Tropical Holiday by Cheeky&reg, 5.0 ;
+4.Nail Art Jumbo Stamp Stamping Manicure Image Plate 6 Happy Holidays by Cheeky&reg, 5.0;
+Based on above rating history, please predict user's rating for the product: "SHANY Nail Art Set (24 Famouse Colors Nail Art Polish, Nail
+Art Decoration)", (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)"
+
+
+Your current method: 
+
+Evaluation: done on the same set for both the baseline and your method. 
+train: the same
+test: the same 
+
+First Big version: 
+--------------------
+How will user rate this product_title: "SHANY Nail Art Set (24 Famous Colors Nail Art Polish, Nail Art Decoration)" , and
+product_category: Beauty? ( 1 being lowest and 5 being highest ) Attention! Just give me back the exact number a result , and you don't need
+a lot of text. 
+
+Here is user rating history:
+1. Bundle Monster 100 PC 3D Designs Nail Art Nailart Manicure Fimo Canes Sticks Rods Stickers Gel Tips, 5.0;
+2. Winstonia‘s Double Ended Nail Art Marbling Dotting Tool Pen Set w/ 10 Different Sizes 5 Colors - Manicure Pedicure, 5.0;
+3. Nail Art Jumbo Stamp Stamping Manicure Image Plate 2 Tropical Holiday by Cheeky&reg, 5.0 ;
+4.Nail Art Jumbo Stamp Stamping Manicure Image Plate 6 Happy Holidays by Cheeky&reg, 5.0;
+Based on above rating history, please predict user's rating for the product: "SHANY Nail Art Set (24 Famouse Colors Nail Art Polish, Nail
+Art Decoration)", (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)
+
+Here are the rating history from users who are similar to this user: 
+1. ""
+2. 
+
+...
+
+8. 
+-------------------------------
+
+======
+How to add the collaborative inforation? 
+
+Targe: rating on item i for user a
+
+from userside: 
+similar users to a:{n1, n2, n3, n4, ...}
+How to define similar users? using COS, PCC? 
+how many similar neighbours to consider? 
+for each similar users, how many ratings per user to be used? how to choose? (random,similar items to item i )
+
+try verion 1
+PCC to find nieghbours. 
+How many neighbours to try: 1 vs 3 vs 5 
+how many ragtings per neibhour: 1 vs 3, vs 5
+
+(random)
+#Neibhour, # ratings per neighb, MAE, RMSE
+1, 1, 
+1, 3, 
+1, 5, 
+
+3, 1, 
+3, 3, 
+3, 5, 
+
+5, 1, 
+5, 3, 
+5,5
+
+=======
+
+((similar to item i)))
+#Neibhour, # ratings per neighb, MAE, RMSE
+1, 1, 
+1, 3, 
+1, 5, 
+
+3, 1, 
+3, 3, 
+3, 5, 
+
+5, 1, 
+5, 3, 
+5,5
+
+=======
+
+2nd Big version: 
+--------------------
+How will user rate this product_title: "SHANY Nail Art Set (24 Famous Colors Nail Art Polish, Nail Art Decoration)" , and
+product_category: Beauty? ( 1 being lowest and 5 being highest ) Attention! Just give me back the exact number a result , and you don't need
+a lot of text. 
+
+Here is user rating history:
+1. Bundle Monster 100 PC 3D Designs Nail Art Nailart Manicure Fimo Canes Sticks Rods Stickers Gel Tips, 5.0;
+2. Winstonia‘s Double Ended Nail Art Marbling Dotting Tool Pen Set w/ 10 Different Sizes 5 Colors - Manicure Pedicure, 5.0;
+3. Nail Art Jumbo Stamp Stamping Manicure Image Plate 2 Tropical Holiday by Cheeky&reg, 5.0 ;
+4.Nail Art Jumbo Stamp Stamping Manicure Image Plate 6 Happy Holidays by Cheeky&reg, 5.0;
+Based on above rating history, please predict user's rating for the product: "SHANY Nail Art Set (24 Famouse Colors Nail Art Polish, Nail
+Art Decoration)", (1 being lowest and5 being highest,The output should be like: (x stars, xx%), do not explain the reason.)
+
+Here are the rating history from users who are similar to this user: 
+
++ User a: 
+1. ""
+2. 
+
+...
++ User b:
+1.
+2.
+
+Please note that: tsome similar neighbour gaive different ratings on XXXX with R1, and R2, and their similar to the current user is 0.8 and 0.9
+
+-------------------------------
+
+Results: 
+
+Method, RMSE, mae
+Baseline2(KNN-CF): 
+Baselin1, 0.9, 0.7
+Your method_v1, 0.89, 0.67
+Your method_v2 (5 rating per neightbor), 0.8, 0.6 
+v3(100 ratings per neithg), 1.0, 0.9
+2ndBig Version, 0.85, 0.65
+
+Table 2: 
+Method, ,# of cases ChatGP does not work
+Baleine 1 : 20
+baselin 2: 15
+V1: 2
+
+
+
+
+
+
+
+-------------
+
+CF:
+How will user rate this Title: Kordon Oasis (Novalek) Bell Bottle 8oz? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
+
+Here are the rating history from users who are similar to this user:
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+
+
+Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
+
+
+Few-shot+CF:
+
+How will user rate this Title: Pleasantville (1998)? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
+
+Here is user rating history:
+* Title: Pleasantville (1998), Rating: 3 stars
+* Title: Antz (1998), Rating: 4 stars
+* Title: Dead Poets Society (1989), Rating: 4 stars
+* Title: Sixth Sense, The (1999), Rating: 4 stars
+
+Here are the rating history from users who are similar to this user:
+* Title: Back to the Future (1985), Rating: 4 stars
+* Title: Badlands (1973), Rating: 3 stars
+* Title: Laura (1944), Rating: 5 stars
+* Title: Almost Famous (2000), Rating: 4 stars
+
+
+Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
+
+
+
+
+Few-shot:
+How will user rate this title: Braun Clean &amp; Renew Refill Cartridges CCR - 2 Count (Packaging May Vary)? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
+
+Here is user rating history:
+* title: Braun 8000 Activator Combi-Pack Foil and Cutterblock Replacement Parts for Braun's Activator Razor Models 8595 and 8585 - Rating: 1.0 stars
+* title: Braun 8000 Activator Combi-Pack Foil and Cutterblock Replacement Parts for Braun's Activator Razor Models 8595 and 8585 - Rating: 1.0 stars
+* title: Philips Norelco BG2020 BodyGroom - Rating: 4.0 stars
+* title: Norelco 6885XL Deluxe Quadra Action Cord/Cordless Rechargeable Men's Shaver - Rating: 5.0 stars
+
+Here are the rating history from users who are similar to this user:
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+* Title: Yardley By Yardley Of London Unisexs Lay It On Thick Hand &amp; Foot Cream 5.3 Oz, Rating: 5.0 stars
+
+Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
+
+
+Zero-shot:
+How will user rate this title: Norelco 6885XL Deluxe Quadra Action Cord/Cordless Rechargeable Men's Shaver? (1 being lowest and 5 being highest) Attention! Just give me back the exact number as a result, and you don't need a lot of text.
+
+Based on the above information, please predict user's rating for the product: (1 being lowest and 5 being highest, The output should be like: (x stars, xx%), do not explain the reason.)
+
+
+
+
+
+
+
