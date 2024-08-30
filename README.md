@@ -2,12 +2,11 @@
 
 A collection of performance comparisons on rating prediction for various recommender system methods.
 
-**Latest Update**: To enhance the predict_ratings_with_collaborative_filtering_and_save function so that it prioritizes items from similar users that are most correlated with the predicted item, we need to modify the approach of selecting historical ratings from similar users. Instead of randomly sampling their ratings, we should select ratings for items that are most similar (based on the Pearson Correlation Coefficient) to the item for which we are making the prediction.
+**Latest Update**: To enhance the `predict_ratings_with_collaborative_filtering_and_save` function so that it prioritizes items from similar users that are most correlated with the predicted item, we need to modify the approach of selecting historical ratings from similar users. Instead of randomly sampling their ratings, we should select ratings for items that are most similar (based on the Pearson Correlation Coefficient) to the item for which we are making the prediction.
 
 In this updated version, for each similar user, the function finds the item most correlated to the predicted item and uses its rating. This approach assumes that similar users' preferences for items highly correlated to the predicted item will be more indicative of their potential rating for the predicted item.
 
 The system's core functionality revolves around the `predict_rating_combined_ChatCompletion` function, which is equipped to handle different prediction strategies—'zero-shot', 'few-shot', and collaborative filtering (CF). Depending on the chosen strategy, the function dynamically requires user rating history or similar users' ratings. Critical to its operation, a tokenizer setup efficiently processes text to align with API input requirements, managing text length to fit within the API's token limitations. The system's ability to adapt prompts according to the prediction strategy enhances the accuracy and relevance of the API's output, ensuring the delivery of precise and contextually appropriate rating predictions.
-
 
 ![Postman test](media/images/postman.png)
 ![performance](code/notebook/images/comparison_plot.png)
@@ -19,10 +18,29 @@ The datasets & benchmarks for LLM-related RS topics should maintain the original
 
 ### 2.1 Datasets
 
-| **Dataset** | **RS Scenario** | **Link** |
-|:---:|:---:|:---:|
-| MovieLens | Movie | [[Link]](https://grouplens.org/datasets/movielens/1m/) |
-| Amazon | E-commerce | [[Link]](https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews) |
+| **Statistic** | **MovieLens 1M** | **Amazon Beauty** |
+|:---|:---:|:---:|
+| **RS Scenario** | Movie | E-commerce |
+| **Link** | [[Link]](https://grouplens.org/datasets/movielens/1m/) | [[Link]](https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews) |
+| **Number of Unique Users** | 6,040 | 1,607 |
+| **Number of Unique Items** | 3,706 | 1,879 |
+| **Total Number of Ratings** | 1,000,209 | 7,496 |
+| **Average Number of Ratings per User** | 165.60 | 4.66 |
+| **Sparsity of the Interaction Matrix** | 95.53% | 99.75% |
+
+### 2.2 Visualization of Dataset Statistics
+
+#### MovieLens 1M Dataset
+
+![Distribution of Ratings in MovieLens 1M Dataset](code/notebook/images/statistic/Distribution_Ratings_MovieLens1M.png)
+
+![Distribution of Ratings Per User in MovieLens 1M Dataset](code/notebook/images/statistic/Distribution_Ratings_Per_User_MovieLens1M.png)
+
+#### Amazon Beauty Dataset
+
+![Distribution of Ratings in Amazon Beauty Dataset](code/notebook/images/statistic/Distribution_Ratings_Amazon.png)
+![Distribution of Ratings Per User in Amazon Beauty Dataset](code/notebook/images/statistic/Distribution_Ratings_Per_User_Amazon.png)
+
 
     
 ### 2.2 Benchmarks
