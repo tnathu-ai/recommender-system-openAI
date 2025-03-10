@@ -100,7 +100,7 @@ pyarrow==16.0.0
 pycodestyle==2.10.0
 pycparser==2.21
 pydeck==0.9.1
-Pygments==2.13.0
+Pygments==2.15.0
 pyparsing==3.1.2
 pyproject_hooks==1.1.0
 pyrsistent==0.19.2
